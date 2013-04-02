@@ -1,0 +1,11 @@
+INSTUPpyServerMain
+/Users/tilltue/Git/Python/NakoWebServer/src/pyServerMain.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&1|5|2|0&&3|6|2|5&&2|7|2|5&&2|8|2|0
+__init__=3
+ThreadedHTTPServer=1
+process_request_thread=4
+setup=7
+pyServerMain=2
+TimeoutHTTPRequestHandler=5
+timeout=6
+main=8

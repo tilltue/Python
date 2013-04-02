@@ -1,0 +1,9 @@
+INSTUPDataBaseApi
+/Users/tilltue/Git/Python/NakoWebServer/src/DataBaseApi.py
+INFOS:&&3|1|2|0&&3|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0
+con=1
+DataBaseApi=2
+numberOfTable=6
+insertTable=5
+loadDB=4
+cur=3
