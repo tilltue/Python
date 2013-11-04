@@ -6,34 +6,34 @@ from bs4 import BeautifulSoup
 def detailRightContentParser(f,tables):
     for table in tables:
         ths = table.find_all('th')
-        print 'th num : %d' % len(ths)
+        #print 'th num : %d' % len(ths)
         tds = table.find_all('td')
-        print 'td num : %d' % len(tds)
+        #print 'td num : %d' % len(tds)
         n = len(ths)
         for i in range(0,n):
             f.write('"')
             if ths[i].string != None and tds[i].string != None:
                 f.write(ths[i].string)
-                print 'th : ' + ths[i].string
+                #print 'th : ' + ths[i].string
                 f.write('" : ')
                 f.write(tds[i].string)
-                print 'td : ' + tds[i].string
+                #print 'td : ' + tds[i].string
                 f.write('",\n')
-                print i
+                #print i
             else:
-                print '---'
+                #print '---'
                 f.write(ths[i].string)
-                print 'th : ' + ths[i].string
+                #print 'th : ' + ths[i].string
                 f.write('" : ')
-                print tds[i].contents
+                #print tds[i].contents
                 spans = tds[i].find_all('span')
                 if len(spans) > 0 :
                     f.write(" [\n {\n")
                 for j in range(0,len(spans)):
                     rel_name = spans[j]['rel'] 
                     rel_value = spans[j].string
-                    print rel_name
-                    print rel_value
+                    #print rel_name
+                    #print rel_value
                     f.write('"')
                     f.write(rel_name)
                     f.write('" : "')
@@ -58,16 +58,10 @@ def detailRightContentParser(f,tables):
                             #print text
                             f.write(text)
                             f.write('",\n')
-                
-    f.write('\n')
-    return 0;
+    return 0
 
-def main():
-    print "한글"
-    f = file('card.txt','w')
-    #start json
-    f.write('{')
-    data = urllib.urlopen('http://hs.inven.co.kr/dataninfo/card/detail.php?code=1117')
+def cardParser(f,urlString):
+    data = urllib.urlopen(urlString)
     soup = BeautifulSoup(data.read(),from_encoding="euc-kr")
     div = soup.find_all('div','hsDbCommonTitle')
     cardName = div[0]
@@ -80,28 +74,36 @@ def main():
     cost = div[0].find('div','cost')
     cost_val = cost.find('span')
     cost_val = cost_val['class'][0]
-    print cost_val
+    #print cost_val
     f.write('"cost" : "')
     f.write(cost_val)
     f.write('",\n')
     attack = div[0].find('div','attack')
     attack_val = attack.find('span')
     attack_val = attack_val['class'][0]
-    print attack_val
+    #print attack_val
     f.write('"attack" : "')
     f.write(attack_val)
     f.write('",\n')
     health = div[0].find('div','health')
     health_val = health.find('span')
     health_val = health_val['class'][0]
-    print health_val
+    #print health_val
     f.write('"health" : "')
     f.write(health_val)
     f.write('",\n')
     right = div[0].find('div','detail-right-content')
-    #print right
     tables = right.find_all('table')
     detailRightContentParser(f,tables)
+    return 0
+
+def main():
+    f = file('card.txt','w')
+    f.write('{')
+    codes = [1117,68,257,932,242,299]
+    for code in codes
+        cardParser(f,code)
+    f.write('\n')
 
 if __name__ == '__main__':
     main()
