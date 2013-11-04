@@ -102,12 +102,15 @@ def cardParser(f,urlString):
 def main():
     f = file('card.txt','w')
     f.write('{\n')
-    codes = ['1117']#,'68','257','932','242','299']
+    codes = ['1117','68','257','932','242','299']
+    f.write('\t"cards" : [\n')
     for code in codes:
-        f.write('\t"cards" : {')
+        f.write('\t\t\t{')
         urlString = 'http://hs.inven.co.kr/dataninfo/card/detail.php?code=%s' % code
         cardParser(f,urlString)
-    f.write('\t}\n}\n')
+        f.write('\t\t\t},\n')
+    f.write('\t]\n}\n')
+    f.close()
 
 if __name__ == '__main__':
     main()
