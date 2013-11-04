@@ -3,46 +3,8 @@
 import urllib
 from bs4 import BeautifulSoup
 
-def main():
-    print "한글"
-    f = file('card.txt','w')
-    #start json
-    f.write('{')
-    data = urllib.urlopen('http://hs.inven.co.kr/dataninfo/card/detail.php?code=1117')
-    soup = BeautifulSoup(data.read(),from_encoding="euc-kr")
-    div = soup.find_all('div','hsDbCommonTitle')
-    cardName = div[0]
-    text =  cardName.find('h2')
-    print text.string
-    f.write('\n"cardName" : "')
-    f.write(text.string)
-    f.write('",\n')
-    div = soup.find_all('div','hsDbCommonDetail')
-    cost = div[0].find('div','cost')
-    cost_val = cost.find('span')
-    cost_val = cost_val['class'][0]
-    print cost_val
-    f.write('"cost" : "')
-    f.write(cost_val)
-    f.write('",\n')
-    attack = div[0].find('div','attack')
-    attack_val = attack.find('span')
-    attack_val = attack_val['class'][0]
-    print attack_val
-    f.write('"attack" : "')
-    f.write(attack_val)
-    f.write('",\n')
-    health = div[0].find('div','health')
-    health_val = health.find('span')
-    health_val = health_val['class'][0]
-    print health_val
-    f.write('"health" : "')
-    f.write(health_val)
-    f.write('",\n')
-    right = div[0].find('div','detail-right-content')
-    #print right
-    tables = right.find_all('table')
-    for table in tables:    
+def detailRightContentParser(f,tables):
+    for table in tables:
         ths = table.find_all('th')
         print 'th num : %d' % len(ths)
         tds = table.find_all('td')
@@ -98,5 +60,48 @@ def main():
                             f.write('",\n')
                 
     f.write('\n')
+    return 0;
+
+def main():
+    print "한글"
+    f = file('card.txt','w')
+    #start json
+    f.write('{')
+    data = urllib.urlopen('http://hs.inven.co.kr/dataninfo/card/detail.php?code=1117')
+    soup = BeautifulSoup(data.read(),from_encoding="euc-kr")
+    div = soup.find_all('div','hsDbCommonTitle')
+    cardName = div[0]
+    text =  cardName.find('h2')
+    print text.string
+    f.write('\n"cardName" : "')
+    f.write(text.string)
+    f.write('",\n')
+    div = soup.find_all('div','hsDbCommonDetail')
+    cost = div[0].find('div','cost')
+    cost_val = cost.find('span')
+    cost_val = cost_val['class'][0]
+    print cost_val
+    f.write('"cost" : "')
+    f.write(cost_val)
+    f.write('",\n')
+    attack = div[0].find('div','attack')
+    attack_val = attack.find('span')
+    attack_val = attack_val['class'][0]
+    print attack_val
+    f.write('"attack" : "')
+    f.write(attack_val)
+    f.write('",\n')
+    health = div[0].find('div','health')
+    health_val = health.find('span')
+    health_val = health_val['class'][0]
+    print health_val
+    f.write('"health" : "')
+    f.write(health_val)
+    f.write('",\n')
+    right = div[0].find('div','detail-right-content')
+    #print right
+    tables = right.find_all('table')
+    detailRightContentParser(f,tables)
+
 if __name__ == '__main__':
     main()
