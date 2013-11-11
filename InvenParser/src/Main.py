@@ -27,7 +27,7 @@ def makeInfoParser(f,tds,ths,i):
     f.write('"\n\t\t\t\t} ],\n')
 
 def addTextParser(f,ths,tds,i):
-    f.write(stringRepace(ths[i].string))
+    f.write('comment')
     f.write('" : "')
     #print tds[i].contents[0]
     ival = tds[i].contents[0].contents[0]
