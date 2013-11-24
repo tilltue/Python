@@ -3,7 +3,7 @@
 import urllib
 from bs4 import BeautifulSoup
 
-def stringRepace(string):
+def stringReplace(string):
     if string != None:
         return string.replace('"','\'')
     else:
@@ -19,9 +19,9 @@ def makeInfoParser(f,tds,ths,i):
     for j in range(0,2):
         rel_name = spans[j]['rel'] 
         rel_value = spans[j].string
-        f.write(stringRepace(rel_name))
+        f.write(stringReplace(rel_name))
         f.write('" : "')
-        f.write(stringRepace(rel_value))
+        f.write(stringReplace(rel_value))
         if j != 1 :
             f.write('","')
     f.write('"\n\t\t\t\t} ],\n')
@@ -35,16 +35,16 @@ def addTextParser(f,ths,tds,i):
     #print len(ival.contents)
     for k in range(0,len(ival.contents)) :
         if ival.contents[k].string != None: 
-            f.write(stringRepace(ival.contents[k].string))
+            f.write(stringReplace(ival.contents[k].string))
     f.write('"\n')
 
 def effectTextParser(f,ths,tds,i):
-    f.write(stringRepace(ths[i].string))
+    f.write(stringReplace(ths[i].string))
     f.write('" : "')
     ival = tds[i].contents[0]
     for k in range(0,len(ival.contents)) :
-        print ival.contents[k].string
-        f.write(stringRepace(ival.contents[k].string))
+        #print ival.contents[k].string
+        f.write(stringReplace(ival.contents[k].string))
     f.write('",\n')
     
 def detailTableParser(f,table):
@@ -62,10 +62,10 @@ def detailTableParser(f,table):
             effectTextParser(f,ths,tds,i)
             continue
         if ths[i].string != None and tds[i].string != None:
-            f.write(stringRepace(ths[i].string))
+            f.write(stringReplace(ths[i].string))
             #print 'th : ' + ths[i].string
             f.write('" : "')
-            f.write(stringRepace(tds[i].string))
+            f.write(stringReplace(tds[i].string))
             #print 'td : ' + tds[i].string
             f.write('",\n')
         else:
@@ -77,7 +77,7 @@ def detailTableParser(f,table):
 def cardParser_mobile(f,urlString,code):
     
     f.write('\n\t\t"cardCode" : "')
-    f.write(stringRepace(code))
+    f.write(stringReplace(code))
     f.write('",')
     
     data = urllib.urlopen(urlString)
@@ -89,7 +89,7 @@ def cardParser_mobile(f,urlString,code):
     cardName = cardName[1:len(cardName)-1]
     print cardName
     f.write('\n\t\t"cardName" : "')
-    f.write(stringRepace(cardName))
+    f.write(stringReplace(cardName))
     f.write('",\n')
     
     cost = soup.find('div','cost')
@@ -97,7 +97,7 @@ def cardParser_mobile(f,urlString,code):
     cost_val = cost_val['class'][0][1:]
     #print cost_val
     f.write('\t\t"cost" : "')
-    f.write(stringRepace(cost_val))
+    f.write(stringReplace(cost_val))
     f.write('",\n')
     
     attack = soup.find('div','attack')
@@ -105,7 +105,7 @@ def cardParser_mobile(f,urlString,code):
     attack_val = attack_val['class'][0][1:]
     #print attack_val
     f.write('\t\t"attack" : "')
-    f.write(stringRepace(attack_val))
+    f.write(stringReplace(attack_val))
     f.write('",\n')
     
     health = soup.find('div','health')
@@ -113,16 +113,131 @@ def cardParser_mobile(f,urlString,code):
     health_val = health_val['class'][0][1:]
     #print health_val
     f.write('\t\t"health" : "')
-    f.write(stringRepace(health_val))
+    f.write(stringReplace(health_val))
     f.write('",\n')
     
     table = soup.find('table','cardInfo')
     detailTableParser(f,table)
     return 0
 
+def optionParse(f,lis):
+    for li in lis:
+        th = li.find('span','th')
+        if th != None and th.string == '직업 특화':
+            td = li.find('span','td')
+            if  td != None:
+                percent = td.string[:td.string.find('%')]
+                f.write('\n\t\t"직업 특화%" : "')
+                f.write(stringReplace(percent))
+                f.write('",')
+                job = td.string[td.string.find('(직업')+3:td.string.find('/')]
+                f.write('\n\t\t"직업" : "')
+                f.write(stringReplace(job))
+                f.write('",')
+                normal = td.string[td.string.find('/공용')+3:td.string.find(')')]
+                f.write('\n\t\t"공용" : "')
+                f.write(stringReplace(normal))
+                f.write('",')
+        elif th != None and th.string == '선호 옵션':
+            td = li.find('span','td')
+            if  td != None:
+                f.write('\n\t\t"선호옵션" : [\n\t\t\t{\n\t\t\t\t"')
+                ops = td.string.split(' / ')
+                for op in ops:
+                    opString = op[:op.find('(')]
+                    f.write(stringReplace(opString))
+                    f.write('" :"')
+                    valString = op[op.find('(')+1:op.find('%')]
+                    f.write(stringReplace(valString))
+                    f.write('",')
+                f.write('\n\t\t\t}],')
+        elif th != None and th.string == '평균 비용':
+            td = li.find('span','td')
+            if td != None:
+                f.write('\n\t\t"평균비용" : "')
+                f.write(stringReplace(td.string))
+                f.write('",')
+    return 0
+
+def deckParser_mobile(f,urlString,code):
+    f.write('\n\t\t"deckCode" : "')
+    f.write(stringReplace(code))
+    f.write('",')
+    
+    data = urllib.urlopen(urlString)
+    soup = BeautifulSoup(data.read(),from_encoding="euc-kr")
+    
+    article = soup.find_all('body')[0].find('div','article')
+    title = article.find('span','title')
+    titleString = title.string
+    #print title
+    if titleString == None: 
+        titleString = title.find('span').string
+    f.write('\n\t\t"title" : "')
+    f.write(stringReplace(titleString))
+    f.write('",')
+    
+    infoClass = soup.find_all('body')[0].find('ul','info')
+    #print infoClass
+    
+    jobClass = infoClass.find('li','name1 text-shadow')
+    jobName = jobClass.string[:jobClass.string.find(':')-1]
+    #print jobClass.string[:jobClass.string.find(':')-1]
+    f.write('\n\t\t"직업제한" : "')
+    f.write(stringReplace(jobName))
+    f.write('",')
+    
+    minionClass = infoClass.find('span','minion')
+    minionCount = minionClass.string
+    #print minionClass.string
+    f.write('\n\t\t"하수인" : "')
+    f.write(stringReplace(minionCount))
+    f.write('",')
+    
+    abilityClass = infoClass.find('span','ability')
+    abilityCount = abilityClass.string
+    f.write('\n\t\t"주문" : "')
+    f.write(stringReplace(abilityCount))
+    f.write('",')
+    
+    weaponClass = infoClass.find('span','weapon')
+    weaponCount = weaponClass.string
+    f.write('\n\t\t"무기" : "')
+    f.write(stringReplace(weaponCount))
+    f.write('",')
+    
+    lis = infoClass.find_all('li')
+    optionParse(f,lis)
+    
+    cardClass = soup.find_all('body')[0].find('div','deckCardListWrap contentWrap')
+    cardCodes = cardClass.find_all('div','card')
+    f.write('\n\t\t"카드구성" : [\n\t\t\t{')
+    for cardCode in cardCodes:
+        f.write('\n\t\t\t\t"'+stringReplace(cardCode['rel'])+'" : "')
+        f.write(stringReplace(cardCode.find('span','count').string[1:])+'",')
+    f.write('\n\t\t\t}],\n')
+    
+    ulClass = soup.find_all('body')[0].find('ul','graph-1')
+    liClass = ulClass.find_all('li')
+    f.write('\n\t\t"비용분포" : [\n\t\t\t{')
+    for li in liClass:
+        f.write('\n\t\t\t\t"'+stringReplace(li.find('span','th').string)+'" : "')
+        #print li
+        if li.find('span','text') != None :
+            text = li.find('span','text').string
+            text = text[text.find('(')+1:text.find('장')]
+            f.write(stringReplace(text)+'"')
+        else:
+            f.write('0"')
+    f.write('\n\t\t\t}],\n')
+    return 0
+
+
+
 def main():
-    f = file('card3.txt','w')
+    f = file('deck.txt','w')
     f.write('{\n')
+    """
     codes = ['1117','68','257','932','242','299','511','1243','195','654','351','348','311','858','1074','854','584','605','186','404','1659','1401','1019','878','48','1221',
             '1014','1108','985','962','768','140','777','443','1241','397','338','526','365','523','1657','75','1371','336','724','680','287','22','376','1147','430','512','971',
             '268','308','1658','411','457','1091','462','289','994','1073','467',
@@ -145,12 +260,20 @@ def main():
             #영웅 '893','31','274','930','413','1623'
             ]
     f.write('\t"cards" : [\n')
+    """
+
+    codes = ['3244','3243','3241','3236','3232','3231','3230','3228','3077','3076','2739','2737','2734','2714','2712','2710','2709'
+             ,'2707','2706','2705','2704','2586','2568','2567','2565','2259','2255','2252','2056','2055','2054','2050','1873','1872'
+             ,'1871','1860','1859','1856','1706','1704','1702','1211','1210','1209','1207','1182','1176','1175','1174','1173','1171'
+             ,'1170','1167','1164','1163','1160','1159','1158','574'];
+    f.write('\t"decks" : [\n')
     for code in codes:
         print code
         f.write('\t{')
-        #urlString = 'http://hs.inven.co.kr/dataninfo/card/detail.php?code=%s' % code
-        urlString = 'http://m.inven.co.kr/site/hs/card_detail.php?code=%s' % code
-        cardParser_mobile(f,urlString,code)
+        #urlString = 'http://m.inven.co.kr/site/hs/card_detail.php?code=%s' % code
+        #cardParser_mobile(f,urlString,code)
+        urlString = 'http://m.inven.co.kr/site/hs/deck_detail.php?idx=%s' % code
+        deckParser_mobile(f,urlString,code)
         f.write('\t},\n')
     print len(codes)
     f.write('\t]\n}\n')
