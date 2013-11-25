@@ -141,11 +141,11 @@ def optionParse(f,lis):
         elif th != None and th.string == '선호 옵션':
             td = li.find('span','td')
             if  td != None:
-                f.write('\n\t\t"선호옵션" : [\n\t\t\t{\n\t\t\t\t"')
+                f.write('\n\t\t"선호옵션" : [\n\t\t\t{\n\t\t\t\t')
                 ops = td.string.split(' / ')
                 for op in ops:
                     opString = op[:op.find('(')]
-                    f.write(stringReplace(opString))
+                    f.write('"'+stringReplace(opString))
                     f.write('" :"')
                     valString = op[op.find('(')+1:op.find('%')]
                     f.write(stringReplace(valString))
@@ -226,9 +226,9 @@ def deckParser_mobile(f,urlString,code):
         if li.find('span','text') != None :
             text = li.find('span','text').string
             text = text[text.find('(')+1:text.find('장')]
-            f.write(stringReplace(text)+'"')
+            f.write(stringReplace(text)+'",')
         else:
-            f.write('0"')
+            f.write('0",')
     f.write('\n\t\t\t}],\n')
     return 0
 
