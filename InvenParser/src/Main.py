@@ -83,6 +83,14 @@ def cardParser_mobile(f,urlString,code):
     data = urllib.urlopen(urlString)
     soup = BeautifulSoup(data.read(),from_encoding="euc-kr")
     
+    imageUrl = soup.find_all('body')[0].find('div','portrait')
+    imageUrl = imageUrl['style'] 
+    imageUrl = imageUrl[22:imageUrl.find('\');')]
+    
+    imgF = file('./image/'+code+'.png','w')
+    imgContent = urllib.urlopen(imageUrl).read()
+    imgF.write(imgContent)
+    
     navLine = soup.find_all('body')[0].find('div','navline')
     strong = navLine.find_all('strong')
     cardName = strong[1].string
@@ -233,11 +241,9 @@ def deckParser_mobile(f,urlString,code):
     return 0
 
 
-
-def main():
-    f = file('deck.txt','w')
+def card():
+    f = file('card.txt','w')
     f.write('{\n')
-    """
     codes = ['1117','68','257','932','242','299','511','1243','195','654','351','348','311','858','1074','854','584','605','186','404','1659','1401','1019','878','48','1221',
             '1014','1108','985','962','768','140','777','443','1241','397','338','526','365','523','1657','75','1371','336','724','680','287','22','376','1147','430','512','971',
             '268','308','1658','411','457','1091','462','289','994','1073','467',
@@ -260,24 +266,238 @@ def main():
             #영웅 '893','31','274','930','413','1623'
             ]
     f.write('\t"cards" : [\n')
-    """
 
-    codes = ['3244','3243','3241','3236','3232','3231','3230','3228','3077','3076','2739','2737','2734','2714','2712','2710','2709'
+    for code in codes:
+        print code
+        f.write('\t{')
+        urlString = 'http://m.inven.co.kr/site/hs/card_detail.php?code=%s' % code
+        cardParser_mobile(f,urlString,code)
+        f.write('\t},\n')
+    print len(codes)
+    f.write('\t]\n}\n')
+    f.close()
+
+def deck():
+    f = file('deck.txt','w')
+    f.write('{\n')
+    codes = ['4978','4983','4984','4985','4986',
+             '4115','4116','4117','4118','4120','4431','4432','4433','4587','4588','4589','4958','4960','4963','4964','4965','4977',
+             '3819','3821','3888','3889','3890','3891','3892','3893','3894','3895','3896','4107','4110','4111','4112','4113','4114',
+             '3244','3243','3241','3236','3232','3231','3230','3228','3077','3076','2739','2737','2734','2714','2712','2710','2709'
              ,'2707','2706','2705','2704','2586','2568','2567','2565','2259','2255','2252','2056','2055','2054','2050','1873','1872'
              ,'1871','1860','1859','1856','1706','1704','1702','1211','1210','1209','1207','1182','1176','1175','1174','1173','1171'
              ,'1170','1167','1164','1163','1160','1159','1158','574'];
     f.write('\t"decks" : [\n')
+
     for code in codes:
         print code
         f.write('\t{')
-        #urlString = 'http://m.inven.co.kr/site/hs/card_detail.php?code=%s' % code
-        #cardParser_mobile(f,urlString,code)
         urlString = 'http://m.inven.co.kr/site/hs/deck_detail.php?idx=%s' % code
         deckParser_mobile(f,urlString,code)
         f.write('\t},\n')
     print len(codes)
     f.write('\t]\n}\n')
     f.close()
+
+def engImageSave(url,code):
+    imgF = file('./image/'+code+'.png','w')
+    imgContent = urllib.urlopen(url).read()
+    imgF.write(imgContent)
+    
+def passCode(code):
+    return 1
+    if code == '53' or code == '359' or code == '541' or code == '102' or code == '582' or code == '645' or code == '689' or code == '321' or code == '451' or code == '243' or code == '517':
+        return 0
+    if code == '231' or code == '403' or code == '662' or code == '669' or code == '287' or code == '200' or code == '318' or code == '9' or code == '358':
+        return 0    
+    if code == '354' or code == '524' or code == '561' or code == '408' or code == '45' or code == '534' or code == '685' or code == '565' or code == '583':
+        return 0
+    if code == '121' or code == '116' or code == '204' or code == '430' or code == '133' or code == '111' or code == '334' or code == '58' or code == '485':
+        return 0
+    if code == '190' or code == '375' or code == '159' or code == '255' or code == '512' or code ==  '21' or code == '469' or code == '653' or code == '195':
+        return 0
+    if code == '219' or code == '272' or code == '337' or code == '181' or code == '262' or code == '63' or code == '527' or code == '230' or code == '234':
+        return 0
+    if code == '501' or code == '235' or code == '156' or code == '376' or code == '606' or code == '65' or code == '397' or code == '377' or code == '393':
+        return 0
+    if code == '599' or code == '622' or code == '455' or code == '115' or code == '381' or code == '387' or  code == '369' or code == '441':
+        return 0
+    if code == '32' or code == '443' or code == '137' or code == '680' or code == '592':
+        return 0
+    return 1
+
+def cardEngParser(f,urlString):
+    print urlString
+    
+    #visual-details-cell
+    data = urllib.urlopen(urlString)
+    soup = BeautifulSoup(data.read(),from_encoding="en-us")
+    
+    images = soup.find_all('td','visual-image-cell')
+   
+    for image in images :
+        a = image.find('a')
+        href = a['href']
+        cardCode = href[7:href.find('-')]
+        #print cardCode
+        img = image.find('img')
+        src = img['src']
+        #print src
+        engImageSave(src,cardCode)
+    
+    cards = soup.find_all('td','visual-details-cell')
+    for card in cards :
+        cardCode = ''
+        h3s = card.find_all('h3')
+        for h3 in h3s :
+            href = h3.find('a')['href']
+            cardCode = href[7:href.find('-')]
+            print cardCode
+            if passCode(cardCode) == 0 :
+                continue
+            f.write('\n\t{\n\t\t"cardCode" : "')
+            f.write(stringReplace(cardCode))
+            f.write('",') 
+            cardName = h3.find('a').string
+            f.write('\n\t\t"cardName" : "')
+            f.write(stringReplace(cardName))
+            f.write('",\n')
+            print cardName
+        if passCode(cardCode) == 0 :
+            continue
+        lis = card.find_all('li')
+        job_class =''
+        faction = ''
+        for li in lis :
+            #print li.contents[0].string
+            if li.contents[0].string == 'Type: ':
+                cardType = ''
+                if li.contents[1].string == 'Minion':
+                    cardType = '하수인'
+                elif li.contents[1].string == 'Ability':
+                    cardType = '주문'
+                elif li.contents[1].string == 'Weapon':
+                    cardType = '무기'
+                f.write('\t\t"종류" : "')
+                f.write(stringReplace(cardType))
+                f.write('",\n')
+            if li.contents[0].string == 'Class: ':
+                #print li.find('a').contents[1].string
+                if li.find('a').contents[1].string.find('Paladin') > 0 :
+                    job_class = '성기사'
+                elif li.find('a').contents[1].string.find('Warlock') > 0 :
+                    job_class = '흑마법사'
+                elif li.find('a').contents[1].string.find('Shaman') > 0 :
+                    job_class = '주술사'
+                elif li.find('a').contents[1].string.find('Priest') > 0 :
+                    job_class = '사제'
+                elif li.find('a').contents[1].string.find('Warrior') > 0 :
+                    job_class = '전사'
+                elif li.find('a').contents[1].string.find('Mage') > 0 :
+                    job_class = '마법사'
+                elif li.find('a').contents[1].string.find('Druid') > 0 :
+                    job_class = '드루이드'
+                elif li.find('a').contents[1].string.find('Druid') > 0 :
+                    job_class = '사냥꾼'
+                elif li.find('a').contents[1].string.find('Rogue') > 0 :
+                    job_class = '도적'
+            if li.contents[0].string == 'Rarity: ':
+                rarity = ''
+                #print li.find('a').string
+                if li.find('a').string == 'Free' :
+                    rarity = '무료'
+                elif li.find('a').string == 'Common' :
+                    rarity = '일반'
+                elif li.find('a').string == 'Rare' :
+                    rarity = '희귀'
+                elif li.find('a').string == 'Epic' :
+                    rarity = '영웅'
+                elif li.find('a').string == 'Legendary' :
+                    rarity = '전설'
+                f.write('\t\t"등급" : "')
+                f.write(stringReplace(rarity))
+                f.write('",\n')
+            if li.contents[0].string.find('Crafting') == 0 :
+                crafting = li.contents[0].string
+                normal = crafting[15:crafting.find(' / ')] 
+                golden = crafting[crafting.find(' / ')+3:crafting.find(' (Golden')]
+                f.write('\t\t"제작가격" : [\n\t\t\t{\n\t\t\t\t "normal" : "')
+                f.write(stringReplace(normal))
+                f.write('","golden" : "')
+                f.write(stringReplace(golden))
+                f.write('"\n\t\t\t} ],\n')
+            if li.contents[0].string.find('Arcane Dust Gained') == 0 :
+                crafting = li.contents[0].string
+                normal = crafting[20:crafting.find(' / ')] 
+                golden = crafting[crafting.find(' / ')+3:crafting.find(' (Golden')]
+                f.write('\t\t"추출가격" : [\n\t\t\t{\n\t\t\t\t "normal" : "')
+                f.write(stringReplace(normal))
+                f.write('","golden" : "')
+                f.write(stringReplace(golden))
+                f.write('"\n\t\t\t} ],\n')
+            if li.contents[0].string == 'Faction: ':
+                if li.find('span') != None :
+                    #print li.find('span').contents[0].string
+                    faction = li.find('span').contents[0].string
+                    if faction == 'Neutral' :
+                        faction = '중립'
+                    elif faction == 'Alliance':
+                        faction = '얼라이언스'
+                    elif faction == 'Horde':
+                        faction = '호드'
+            if li.contents[0].string.find('Artist: ') == 0 :
+                artist = li.contents[0].string[8:] 
+                f.write('\t\t"일러스트" : "')
+                f.write(stringReplace(artist))
+                f.write('",\n')
+        #print job_class
+        if len(job_class) == 0 : 
+            job_class = '공통'
+        f.write('\t\t"직업제한" : "')
+        f.write(stringReplace(job_class))
+        f.write('",\n')
+        f.write('\t\t"소속" : "')
+        f.write(stringReplace(faction))
+        f.write('",\n')
+        job_class = ''
+        faction = ''    
+        cardDesc = ''
+        desc = card.find('p')
+        if desc != None :
+            for i in range(0,len(desc.contents)) :
+                if desc.contents[i].string != None :
+                    cardDesc += desc.contents[i].string
+            #print cardDesc
+            f.write('\t\t"효과" : "')
+            f.write(stringReplace(cardDesc))
+            f.write('",\n')
+        comments = card.find('div','card-flavor-listing-text')
+        comment_val = ''
+        if comments == None:
+            comment_val = '-'
+        else :
+            for comment in comments.contents:
+                if comment != '\n':
+                    comment_val += comment.string
+        #print comment_val
+        f.write('\t\t"comment" : "')
+        f.write(stringReplace(comment_val))
+        f.write('",\n\t},')
+        
+def hearthdb():
+    f = file('card_eng.txt','w')
+    f.write('{\n')
+    f.write('\t"cards" : [')
+    for i in range(0,9):
+        urlString = 'http://www.hearthpwn.com/cards?page=%d' % i
+        #urlString = 'file:///Users/tilltue/Git/Python/InvenParser/src/test.html'
+        cardEngParser(f,urlString)
+        f.write('\t},\n')
+    f.write('\t]\n}\n')
+    f.close()
+    
+def main():
+    hearthdb()
 
 if __name__ == '__main__':
     main()
