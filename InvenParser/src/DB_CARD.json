@@ -72,7 +72,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "전투의 함성: 1/1 멧돼지를 소환합니다.",
+		"효과" : "전투의 함성: 1/1 멧돼지 1마리를 소환합니다.",
 		"comment" : "뿔엄니에게 정말 까분 사람이 한 명 있었습니다. 딱 한 명요.(Someone did mess with Tuskerr once. ONCE.)"
 	},
 	{
@@ -99,7 +99,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "내가 주문을 시전할 때마다 카드를 1장 뽑습니다.",
+		"효과" : "내가 주문을 한 번 시전할 때마다 카드를 1장 뽑습니다.",
 		"comment" : "암시장 경매장을 운영하던 때도 있었지만, 너무 폭력이 난무하는 바람에 옮길 수 밖에 없었답니다.(He used to run the black market auction house, but there was just too much violence and he had to move.)"
 	},
 	{
@@ -126,7 +126,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 이번 턴에 아군 하수인에게 공격력을 +2 부여합니다.",
+		"효과" : "전투의 함성: 이번 턴에 아군 하수인 하나에게 공격력을 +2 부여합니다.",
 		"comment" : "날 덱에 추가해라, 이 고문관 녀석아!(ADD ME TO YOUR DECK, MAGGOT!)"
 	},
 	{
@@ -153,7 +153,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "무작위 적 하수인 2마리에게 피해를 2 줍니다. 과부하: (2)",
+		"효과" : "무작위 적 하수인 둘에게 피해를 2 줍니다. 과부하: (2)",
 		"comment" : "올래 번개와 짝을 이루는 주문입니다. 무슨 말인지 모르겠다고요? 다행이네요.(If you combine it with Spooned Lightning and Knived Lightning, you have the full dining set.)"
 	},
 	{
@@ -186,15 +186,15 @@
 	{
 		"cardCode" : "1243",
 		"cardName" : "개들을 풀어라",
-		"cost" : "1",
-		"attack" : "4",
-		"health" : "4",
+		"cost" : "4",
+		"attack" : "1",
+		"health" : "1",
 		"종류" : "주문",
 		"등급" : "일반",
 		"직업제한" : "사냥꾼",
 		"종족" : "-",
 		"소속" : "중립",
-		"마나비용" : "1",
+		"마나비용" : "4",
 		"공격력" : "-",
 		"생명력" : "-",
 		"일러스트" : "Velvet Engine",
@@ -207,7 +207,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "내 야수들에게 공격력 +1과 돌진을 부여합니다.",
+		"효과" : "적 하수인 하나당 돌진 능력이 있는 1/1 사냥개를 1마리씩 소환합니다.",
 		"comment" : "이 카드를 낼 때마다 '물어!'라고 크게 외쳐야 합니다.(You must read the name of this card out loud each time you play it.)"
 	},
 	{
@@ -315,7 +315,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 하수인에게 공격력을 +2 부여합니다.",
+		"효과" : "전투의 함성: 하수인 하나에게 공격력을 +2 부여합니다.",
 		"comment" : "검은무쇠 주괴의 수호자들입니다. 이 주괴가 필요한 자들에게는 참으로 귀찮은 존재가 아닐 수 없습니다.(Guardians of Dark Iron Ore. Perhaps the most annoying ore, given where you have to forge it.)"
 	},
 	{
@@ -369,7 +369,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "전투의 함성: 끝내주는 발명품을 소환합니다.",
+		"효과" : "전투의 함성: 끝내주는 발명품을 1개 소환합니다.",
 		"comment" : "노움의 지도자이자 엄청난 발명가입니다. 게다가 실력도 조금씩 나아지고 있죠. 뭐든 닭으로 만들어버리는 빈도가 많이 줄었으니까요.(He's the leader of the gnomes, and an incredible inventor. He's getting better, too; He turns things into chickens WAY less than he used to.)"
 	},
 	{
@@ -396,7 +396,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "하수인에게 피해를 2 줍니다. 하수인이 생존하면, 카드를 1장 뽑습니다.",
+		"효과" : "하수인 하나에게 피해를 2 줍니다. 그 하수인이 생존하면, 카드를 1장 뽑습니다.",
 		"comment" : "난 딱 죽지 않을 만큼만 패지.('Dun da dun, dun da dun': if you've heard an ogre sing this, it's too late.)"
 	},
 	{
@@ -417,8 +417,8 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인의 공격력을 1로 만듭니다.",
-		"comment" : "이래서 겸손이 힘든 겁니다.(This card makes something really damp. Oh wait. That's 'Humidity'.)"
+		"효과" : "하수인 하나의 공격력을 1로 만듭니다.",
+		"comment" : "이래서 겸손이 힘든 겁니다.(This card makes something really damp. Oh wait. That's 'Humidity.')"
 	},
 	{
 		"cardCode" : "584",
@@ -444,8 +444,8 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "비밀: 적이 공격할 때, 대신 맞아주는 2/1 수호자를 소환합니다.",
-		"comment" : "아아, 못다핀 꽃 한 송이, 그대의 이름은 '수호자'!(We will always remember you, 'Defender'!)"
+		"효과" : "비밀: 적이 공격할 때, 대신 맞아주는 2/1 수호자를 1명 소환합니다.",
+		"comment" : "아아, 못다핀 꽃 한 송이, 그대의 이름은 '수호자'!(We will always remember you, 'Defender!')"
 	},
 	{
 		"cardCode" : "605",
@@ -471,7 +471,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "이 하수인은 공격할 수 없습니다.",
+		"효과" : "이 하수인은 적을 공격할 수 없습니다.",
 		"comment" : "왜 지날 때마다 눈이 날 따라 움직이는 것 같을까요?(Why do its eyes seem to follow you as you walk by?)"
 	},
 	{
@@ -498,7 +498,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 전장의 아군 하수인을 내 손으로 다시 가져옵니다.",
+		"효과" : "전투의 함성: 전장의 아군 하수인 하나를 내 손으로 다시 가져옵니다.",
 		"comment" : "대부분의 판다렌은 그의 맥주에서 야크 맛이 난다고 평합니다... 네, 칭찬입니다.(Most pandaren say his brew tastes like yak. But apparently that's a compliment.)"
 	},
 	{
@@ -525,7 +525,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "하수인을 선택합니다. 그 하수인이 죽으면 다시 전장으로 돌려보냅니다.",
+		"효과" : "하수인 하나를 선택합니다. 그 하수인이 죽으면 다시 전장으로 돌려보냅니다.",
 		"comment" : "네가 죽은 건 추진력을 얻기 위해서였다!(It was just a flesh wound.)"
 	},
 	{
@@ -574,7 +574,7 @@
 		"제작가격" : "-",
 		"추출가격" : "-",
 		"효과" : "내 다른 하수인들이 공격력을 +1 얻습니다.",
-		"comment" : "'바닥! 바닥을 피하라고!'('That's a 50 DKP minus!')"
+		"comment" : "'바닥! 바닥! 바닥 좀 피하라고!'('That's a 50 DKP minus!')"
 	},
 	{
 		"cardCode" : "1019",
@@ -723,7 +723,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "피해를 입은 하수인에게 +3/+3을 부여합니다.",
+		"효과" : "피해를 입은 하수인 하나에게 +3/+3을 부여합니다.",
 		"comment" : "하수인 화났다. 하수인 부순다!(Minion get ANGRY. Minion SMASH!)"
 	},
 	{
@@ -879,7 +879,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "전투의 함성: 멀록을 처치하고 +2/+2를 얻습니다.",
+		"효과" : "전투의 함성: 멀록 1마리를 처치하고 +2/+2를 얻습니다.",
 		"comment" : "멀록은 저녁 거리입니다.(Murloc. It's what's for dinner.)"
 	},
 	{
@@ -887,7 +887,7 @@
 		"cardName" : "굶주린 대머리수리",
 		"cost" : "2",
 		"attack" : "2",
-		"health" : "2",
+		"health" : "1",
 		"종류" : "하수인",
 		"등급" : "무료",
 		"직업제한" : "사냥꾼",
@@ -895,12 +895,12 @@
 		"소속" : "중립",
 		"마나비용" : "2",
 		"공격력" : "2",
-		"생명력" : "2",
+		"생명력" : "1",
 		"일러스트" : "Bernie Kang",
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "내가 야수를 소환할 때마다 카드를 1장 뽑습니다.",
+		"효과" : "내가 야수 1마리를 소환할 때마다 카드를 1장 뽑습니다.",
 		"comment" : "먹을 걸 주면 정체성에 혼란을 겪습니다.(If you feed him, he loses his whole identity.)"
 	},
 	{
@@ -955,7 +955,7 @@
 					"normal" : "400","golden" : "1600"
 				} ],
 		"효과" : "돌진. 격노: 공격력 +6",
-		"comment" : "그롬마쉬는 만노로스의 오염된 피를 마시고, 오크들에게 영원히 사라지지 않는 초록색 피부와 붉은 눈을 남겼습니다! 썩 좋은 생각은 아니었던 것 같네요.(Grommash drank the tainted blood of Mannoroth, dooming the orcs to green skin and red eyes! Maybe not his best decisision.)"
+		"comment" : "그롬마쉬는 만노로스의 오염된 피를 마시고, 오크들에게 영원히 사라지지 않는 초록색 피부와 붉은 눈을 남겼습니다! 썩 좋은 생각은 아니었던 것 같네요.(Grommash drank the tainted blood of Mannoroth, dooming the orcs to green skin and red eyes! Maybe not his best decision.)"
 	},
 	{
 		"cardCode" : "526",
@@ -981,7 +981,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "각 턴이 끝날 때마다 +1/+1을 얻습니다.",
+		"효과" : "각 플레이어의 턴이 끝날 때마다 +1/+1을 얻습니다.",
 		"comment" : "그룰은 '용학살자'입니다만, 사실 용들을 꼭 안아주고 싶었을 뿐입니다.(He's Gruul 'the Dragonkiller'. He just wanted to cuddle them… he never meant to…)"
 	},
 	{
@@ -1008,7 +1008,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "아군 하수인을 다시 내 손으로 가져옵니다. 그 하수인의 비용이 (2) 감소합니다.",
+		"효과" : "아군 하수인 하나를 다시 내 손으로 가져옵니다. 그 하수인은 비용이 (2) 감소합니다.",
 		"comment" : "도적 무용단은 가끔 공연의 마지막을 그림자 밟기로 장식하곤 합니다. 관객들의 호응이 엄청나거든요.(Rogue dance troops will sometimes Shadowstep away at the end of a performance. Crowds love it.)"
 	},
 	{
@@ -1029,7 +1029,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "전투의 함성: 2/1 소형 기계용을 소환합니다.",
+		"효과" : "전투의 함성: 2/1 소형 기계용을 1마리 소환합니다.",
 		"comment" : "앙앙이에게 로켓 발사기를 장착하려고 요즘 고민중입니다.(She is still working on installing the rocket launcher add-on for Mr. Bitey.)"
 	},
 	{
@@ -1056,7 +1056,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "전투의 함성: 공격력 7 이상인 하수인을 1마리 처치합니다.",
+		"효과" : "전투의 함성: 공격력 7 이상인 하수인을 하나 처치합니다.",
 		"comment" : "그에게 데빌사우루스 따윈 코웃음만 나옵니다. 조만간 크롤 칼 하나 들고 오닉시아를 잡으러 간다더군요.(Mere devilsaurs no longer excite him. Soon he'll be trying to catch Onyxia with only a dull Krol Blade.)"
 	},
 	{
@@ -1083,7 +1083,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "무작위로 선정된 하수인 1마리를 제외한 모든 하수인을 처치합니다.",
+		"효과" : "무작위로 선정된 하수인 하나를 제외한 모든 하수인을 처치합니다.",
 		"comment" : "싸움꾼 조합의 첫 번째 규칙이 뭐죠?(Do you know the first rule of Brawl Club?)"
 	},
 	{
@@ -1110,7 +1110,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "전투의 함성: 공격력이 2 이하인 무작위 적 하수인을 처치합니다.",
+		"효과" : "전투의 함성: 공격력이 2 이하인 무작위 적 하수인 하나를 처치합니다.",
 		"comment" : "이 코도가 미쳐 날뛰고 있습니다!(This Kodo is so big that he can stampede by himself.)"
 	},
 	{
@@ -1192,7 +1192,7 @@
 					"normal" : "100","golden" : "400"
 				} ],
 		"효과" : "나의 다른 해적들이 +1/+1을 얻습니다.",
-		"comment" : "그의 꿈은 해적 왕... 아니 어마어마하게 큰 해적 모자를 사는 겁니다. 좀 모자에 많이 집착하는 친구거든요.(When he saves enough plunder, he's going to comission an enormous captain's hat. He has hat envy.)"
+		"comment" : "그의 꿈은 해적 왕... 아니 어마어마하게 큰 해적 모자를 사는 겁니다. 좀 모자에 많이 집착하는 친구거든요.(When he saves enough plunder, he's going to commission an enormous captain's hat. He has hat envy.)"
 	},
 	{
 		"cardCode" : "287",
@@ -1218,7 +1218,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "연계: 하수인을 주인의 손으로 돌려보냅니다.",
+		"효과" : "연계: 하수인 하나를 주인의 손으로 돌려보냅니다.",
 		"comment" : "하수인을 돌려보낸 죄밖에 없습니다.(He just wants people to see his vacation photos.)"
 	},
 	{
@@ -1245,7 +1245,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "하수인에게 피해를 1 주고 공격력을 +2 증가시킵니다.",
+		"효과" : "하수인 하나에게 피해를 1 주고 공격력을 +2 증가시킵니다.",
 		"comment" : "이것으로 우리는 빛샘도, 소환의 문도 모두 감정이 있다는 걸 알 수 있습니다.(They're only smiling on the outside.)"
 	},
 	{
@@ -1272,7 +1272,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "하수인의 공격력을 생명력과 같은 수치로 바꿉니다.",
+		"효과" : "하수인 하나의 공격력을 생명력과 같은 수치로 바꿉니다.",
 		"comment" : "추천: 하수인 강화하기. 비추: 불모의 땅에서 대화 상대 찾기(Good idea: Buffing your minions. Bad idea: Starting a conversation in the Barrens.)"
 	},
 	{
@@ -1305,7 +1305,7 @@
 	{
 		"cardCode" : "430",
 		"cardName" : "냉기 돌풍",
-		"cost" : "3",
+		"cost" : "4",
 		"attack" : "4",
 		"health" : "4",
 		"종류" : "주문",
@@ -1313,7 +1313,7 @@
 		"직업제한" : "마법사",
 		"종족" : "-",
 		"소속" : "중립",
-		"마나비용" : "3",
+		"마나비용" : "4",
 		"공격력" : "-",
 		"생명력" : "-",
 		"일러스트" : "Concept Art House",
@@ -1326,7 +1326,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "하수인과 그 양옆의 하수인들을 빙결 상태로 만들고 피해를 1 줍니다.",
+		"효과" : "선택한 하수인과 그 양옆의 하수인들을 빙결 상태로 만들고 피해를 1 줍니다.",
 		"comment" : "키린 토 마법사들은 주문 시전의 최신 유행을 선도합니다. 90년 전 마법사들이 냉기 장풍을 쓰는 모습을 본다면, 분명 촌스럽다고 생각하실 겁니다.(Magi of the Kirin Tor were casting Cubes of Cold for many years before Cones came into fashion some 90 years ago.)"
 	},
 	{
@@ -1353,7 +1353,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 캐릭터를 빙결 상태로 만듭니다.",
+		"효과" : "전투의 함성: 캐릭터 하나를 빙결 상태로 만듭니다.",
 		"comment" : "물의 정령과 얼음의 정령이 사랑에 빠지면...(When a Water elemental and an Ice elemental love each other VERY much...)"
 	},
 	{
@@ -1374,7 +1374,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "적 캐릭터에게 피해를 1 주고 빙결 상태로 만듭니다.",
+		"효과" : "적 캐릭터 하나에게 피해를 1 주고 빙결 상태로 만듭니다.",
 		"comment" : "냉기 충격!(FROST SHOCK!)"
 	},
 	{
@@ -1401,8 +1401,8 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "하수인에게 공격력을 +2 부여합니다. 연계: 공격력을 +4 부여합니다.",
-		"comment" : "나는 차가운 도적 남자.('I'm cold blooded, check it and see!')"
+		"효과" : "하수인 하나에게 공격력을 +2 부여합니다. 연계: 공격력을 +4 부여합니다.",
+		"comment" : "나는야 차가운 도적 남자.('I'm cold blooded, check it and see!')"
 	},
 	{
 		"cardCode" : "308",
@@ -1449,7 +1449,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "내 턴이 시작될 때, 이 하수인이 내 손에 있는 다른 무작위 하수인과 교체됩니다.",
+		"효과" : "내 턴이 시작될 때, 이 하수인이 내 손에 있는 다른 무작위 하수인 하나와 교체됩니다.",
 		"comment" : "삐뽀. 삐뽀. 삐뽀.(WARNING. WARNING. WARNING.)"
 	},
 	{
@@ -1482,7 +1482,7 @@
 	{
 		"cardCode" : "457",
 		"cardName" : "눈보라",
-		"cost" : "5",
+		"cost" : "6",
 		"attack" : "4",
 		"health" : "4",
 		"종류" : "주문",
@@ -1490,7 +1490,7 @@
 		"직업제한" : "마법사",
 		"종족" : "-",
 		"소속" : "중립",
-		"마나비용" : "5",
+		"마나비용" : "6",
 		"공격력" : "-",
 		"생명력" : "-",
 		"일러스트" : "Chris Seaman",
@@ -1530,8 +1530,8 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "비밀: 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터를 공격하게 됩니다.",
-		"comment" : "가짜 수염을 달고 옆 사람을 가리키는 것 만으로도 잘 속아줄 때가 있죠.(Sometimes its as simple as putting on a fake mustache and pointing at someone else.)"
+		"효과" : "비밀: 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터 하나를 공격하게 됩니다.",
+		"comment" : "가짜 수염을 달고 옆 사람을 가리키는 것 만으로도 잘 속아줄 때가 있죠.(Sometimes it's as simple as putting on a fake mustache and pointing at someone else.)"
 	},
 	{
 		"cardCode" : "462",
@@ -1632,7 +1632,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "내 하수인이 소환될 때마다 무작위 적에게 피해를 1 줍니다.",
+		"효과" : "내 하수인이 소환될 때마다 무작위 적 하나에게 피해를 1 줍니다.",
 		"comment" : "야심찬 단검 곡예사가 자라면 폭탄 곡예사가 되기도 합니다. 하지만 카드로 만들어질 만큼 오래 살아남는 경우는 없습니다.(Ambitious Knife Jugglers sometimes graduate to Bomb Jugglers. They never last long enough to make it onto a card though.)"
 	},
 	{
@@ -1701,8 +1701,8 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "이번 턴에 아군 캐릭터에게 공격력을 +3 부여합니다.",
-		"comment" : "적이 돌로 만들어졌다면 매우 좋을 무기입니다.(This would be real handy if your enemy is made of rock.)"
+		"효과" : "이번 턴에 아군 캐릭터 하나에게 공격력을 +3 부여합니다.",
+		"comment" : "아아... 크고 아름답네요.(This would be real handy if your enemy is made of rock.)"
 	},
 	{
 		"cardCode" : "1080",
@@ -1728,8 +1728,8 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "내가 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다.",
-		"comment" : "안토니다스는 키린 토의 대학자이자 제이나의 스승이었습니다. 젤리 도넛의 대학자였던 그로선 장족의 발전이라할 수 있죠.(Antonidas was the Grand Magus of the Kirin Tor, and Jaina's mentor. This was a big step up from being Grand Magus of Jelly Donuts.)"
+		"효과" : "내가 주문을 시전할 때마다 '화염구' 카드 1장을 손으로 가져옵니다.",
+		"comment" : "안토니다스는 키린 토의 대학자이자 제이나의 스승이었습니다. 젤리 도넛의 대학자였던 그로선 장족의 발전이라 할 수 있죠.(Antonidas was the Grand Magus of the Kirin Tor, and Jaina's mentor. This was a big step up from being Grand Magus of Jelly Donuts.)"
 	},
 	{
 		"cardCode" : "1651",
@@ -1782,7 +1782,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "하수인을 침묵시키고, 피해를 1 줍니다.",
+		"효과" : "하수인 하나를 침묵시키고, 피해를 1 줍니다.",
 		"comment" : "돼지 충격이라고요? 이런, 아니군요. 배가 너무 고파서 그만.(Earth Shock? Shouldn't it be 'Azeroth Shock'?)"
 	},
 	{
@@ -1863,8 +1863,8 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "연계: 2/1 데피아즈단 무법자를 소환합니다.",
-		"comment" : "눈 깔아!(He stole the deed to town years ago, so technically the town is his. He just calls people Scrub to be mean.)"
+		"효과" : "연계: 2/1 데피아즈단 무법자를 1명 소환합니다.",
+		"comment" : "두목은 묵직해야 합니다.(He stole the deed to town years ago, so technically the town is his. He just calls people Scrub to be mean.)"
 	},
 	{
 		"cardCode" : "1662",
@@ -1952,8 +1952,8 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "아군 하수인에게 돌진을 부여합니다.",
-		"comment" : "다음 턴까지는 안전할 거라는 상대의 믿음을 박살냅니다.('Guys! Guys! Slow down!' - some kind of non-warrior minion)"
+		"효과" : "아군 하수인 하나에게 돌진을 부여합니다.",
+		"comment" : "다음 턴까지 안전하리라는 상대의 믿음을 박살냅니다.('Guys! Guys! Slow down!' - some kind of non-warrior minion)"
 	},
 	{
 		"cardCode" : "352",
@@ -2033,7 +2033,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "내 턴이 끝날 때, 도발 능력이 있는 2/2 놀을 소환합니다.",
+		"효과" : "내 턴이 끝날 때, 도발 능력이 있는 2/2 놀을 1마리 소환합니다.",
 		"comment" : "들창코는 정말 강력합니다. 만약 처치했다면, 그가 봐줬기 때문입니다.(Hogger is super powerful. If you kill him, it's because he let you.)"
 	},
 	{
@@ -2189,7 +2189,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "피해를 입은 적 하수인을 처치합니다.",
+		"효과" : "피해를 입은 적 하수인을 하나 처치합니다.",
 		"comment" : "마무리 일격이 가능해지면 전사들은 눈에 핏발을 세운다죠.(It's okay, he deserved it.)"
 	},
 	{
@@ -2244,7 +2244,7 @@
 					"normal" : "5","golden" : "50"
 				} ],
 		"효과" : "내가 쓰는 주문의 비용이 (1) 감소합니다.",
-		"comment" : "수습생들은 이래라 저래라 시키기 좋습니다. 마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!'(Apprentices are great for bossing around. 'Conjure me some mana buns! And a coffee! Make that a mana coffee!')"
+		"comment" : "수습생들은 이래라 저래라 시키기 좋습니다. '마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!'(Apprentices are great for bossing around. 'Conjure me some mana buns! And a coffee! Make that a mana coffee!')"
 	},
 	{
 		"cardCode" : "1158",
@@ -2360,7 +2360,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "전투의 함성: 1/1 멀록 정찰병을 소환합니다.",
+		"효과" : "전투의 함성: 1/1 멀록 정찰병을 1마리 소환합니다.",
 		"comment" : "'파도를 헤치고 죽음이 나타나리니!'('Death will rise, from the tides!')"
 	},
 	{
@@ -2434,7 +2434,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "멀록이 소환될 때마다 공격력을 +1 얻습니다.",
+		"효과" : "멀록이 1마리 소환될 때마다 공격력을 +1 얻습니다.",
 		"comment" : "함께 있으면, 우린 아무 것도 두려울 게 없었다!(This guy gets crazy strong at family reunions.)"
 	},
 	{
@@ -2490,7 +2490,7 @@
 		"cardName" : "무너진 태양 성직자",
 		"cost" : "3",
 		"attack" : "3",
-		"health" : "3",
+		"health" : "2",
 		"종류" : "하수인",
 		"등급" : "무료",
 		"직업제한" : "공통",
@@ -2498,12 +2498,12 @@
 		"소속" : "중립",
 		"마나비용" : "3",
 		"공격력" : "3",
-		"생명력" : "3",
+		"생명력" : "2",
 		"일러스트" : "Doug Alexander",
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "전투의 함성: 아군 하수인에게 +1/+1을 부여합니다.",
+		"효과" : "전투의 함성: 아군 하수인 하나에게 +1/+1을 부여합니다.",
 		"comment" : "비결이 뭐냐고요? 태양샘 에너지 드링크라고 하네요.(They always have a spare flask of Sunwell Energy Drink™!)"
 	},
 	{
@@ -2546,7 +2546,7 @@
 		"제작가격" : "-",
 		"추출가격" : "-",
 		"효과" : "도발",
-		"comment" : "이름만 들어도 부드러워 보이네요.('Bear Carcass 1/10')"
+		"comment" : "'불곰 가죽 1/10'('Bear Carcass 1/10')"
 	},
 	{
 		"cardCode" : "205",
@@ -2593,7 +2593,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 하수인을 침묵시킵니다.",
+		"효과" : "전투의 함성: 하수인을 하나 침묵시킵니다.",
 		"comment" : "그들의 날갯짓은 조용하지만 울음소리는... 일단 조용함과는 거리가 멉니다.(Their wings are silent but their screech is... whatever the opposite of silent is.)"
 	},
 	{
@@ -2621,7 +2621,7 @@
 					"normal" : "20","golden" : "100"
 				} ],
 		"효과" : "내 영웅에게 방어도를 +4 부여하고, 이번 턴에만 공격력을 +4 부여합니다.",
-		"comment" : "꼭꼭 씹으세요!(Chew your food!)"
+		"comment" : "꼭꼭 씹어드세요!(Chew your food!)"
 	},
 	{
 		"cardCode" : "395",
@@ -2642,7 +2642,7 @@
 		"제작가격" : "-",
 		"추출가격" : "-",
 		"효과" : "이 하수인에게 피해를 입은 캐릭터는 빙결 상태가 됩니다.",
-		"comment" : "물의 정령을 파티에 초대하면, 찬물 같은 걸 끼얹나?(Don't summon a water elemental at a party. It'll dampen the mood.)"
+		"comment" : "물의 정령을 파티에 초대하면... 찬물 같은 걸 끼얹나?(Don't summon a water elemental at a party. It'll dampen the mood.)"
 	},
 	{
 		"cardCode" : "1369",
@@ -2662,7 +2662,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"comment" : "'왼손잡이' 에드워드 스미스는 민물악어로 가방 만들기를 시도한 적 있습니다.(Edward 'Lefty' Smith tried to make luggage out of a river crocolisk once.)"
+		"comment" : "'왼손잡이' 에드워드 스미스에 의해 명품 가방이 될 뻔한 적이 있다는군요.(Edward 'Lefty' Smith tried to make luggage out of a river crocolisk once.)"
 	},
 	{
 		"cardCode" : "921",
@@ -2743,7 +2743,7 @@
 					"normal" : "400","golden" : "1600"
 				} ],
 		"효과" : "전투의 함성: 다음 턴에 적이 쓰는 주문의 비용이 (0)이 됩니다.",
-		"comment" : "'내가 재미있게 해 줄게, 친구!'('I'm gonna light you up, sweetcheeks!')"
+		"comment" : "'위대한 밀하우스 마나스톰 님을 비웃고도 살아남을 수 있는 자는 없다!'('I'm gonna light you up, sweetcheeks!')"
 	},
 	{
 		"cardCode" : "211",
@@ -2769,7 +2769,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "전장의 하수인 1마리당 비용이 (1)씩 감소합니다.",
+		"효과" : "전장의 하수인 하나당 비용이 (1)씩 감소합니다.",
 		"comment" : "거인과 바다(See? Giant.)"
 	},
 	{
@@ -2790,7 +2790,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "전투의 함성: 아군 하수인에게 질풍을 부여합니다.",
+		"효과" : "전투의 함성: 아군 하수인 하나에게 질풍을 부여합니다.",
 		"comment" : "입 냄새 심한 바람예언자보다 끔찍한 게 있을까요?(Is there anything worse than a Windspeaker with halitosis?)"
 	},
 	{
@@ -2844,7 +2844,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "아군 하수인이 피해를 입을 때마다 방어도를 +1 얻습니다.",
+		"효과" : "아군 하수인 하나가 피해를 입을 때마다 방어도를 +1 얻습니다.",
 		"comment" : "길드 자금 환영!(She accepts guild funds for repairs!)"
 	},
 	{
@@ -2892,7 +2892,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "내가 가진 방어도만큼 하수인에게 피해를 줍니다.",
+		"효과" : "내가 가진 방어도만큼 하수인 하나에게 피해를 줍니다.",
 		"comment" : "'좋은 무기란 무엇일까? 날카롭지만 상대가 예상할 수 있는 것? 아니면 무디지만 상대가 예상치 못하는 것?' - 전사의 정석, 제 9 장('What is a better weapon? The sharp one your enemies expect, or the blunt one they ignore?' - The Art of Warrior, Chapter 9)"
 	},
 	{
@@ -2919,7 +2919,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "비밀: 내 하수인이 공격받으면 1/1 뱀을 3마리 소환합니다.",
+		"효과" : "비밀: 내 하수인이 공격받으면 1/1 뱀을 셋 소환합니다.",
 		"comment" : "왜 하필 뱀이야?(Why did it have to be snakes?)"
 	},
 	{
@@ -2994,7 +2994,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인을 1/1 양으로 변신시킵니다.",
+		"효과" : "하수인 하나를 1/1 양으로 변신시킵니다.",
 		"comment" : "이 카드로 '말'장난을 만들어 보려고 했는데... '양'장난이 되었네요. 길어져서 죄송합니다. 재미가 없으면 '양'으로라도 승부해야죠.(There was going to be a pun in this flavor text, but it just came out baa-d.)"
 	},
 	{
@@ -3021,7 +3021,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "선택 - 적에게 피해를 5 줍니다. 또는 모든 적에게 피해를 2 줍니다.",
+		"효과" : "선택 - 하수인 하나에게 피해를 5 줍니다. 또는 모든 적 하수인에게 피해를 2 줍니다.",
 		"comment" : "하늘이 무너지는 거냐고요? 네, 네, 그렇다고 해 둡시다.(Is the sky falling? Yes. Yes it is.)"
 	},
 	{
@@ -3063,7 +3063,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인에게 천상의 보호막을 부여합니다.",
+		"효과" : "하수인 하나에게 천상의 보호막을 부여합니다.",
 		"comment" : "이 주문은 이름이 하도 많이 바뀌어서, 성기사들도 이걸 뭐라고 불러야 하는지 잘 모를 때가 많습니다.(This spell has been renamed so many times, even paladins don’t know what it should be called anymore.)"
 	},
 	{
@@ -3132,7 +3132,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "적 하수인을 선택합니다. 내 턴이 시작될 때, 그 하수인을 처치합니다.",
+		"효과" : "적 하수인을 하나 선택합니다. 내 턴이 시작될 때, 그 하수인을 처치합니다.",
 		"comment" : "이 주문이 무서운 진짜 이유는 냄새 때문이라는 말이 있습니다.(It starts with stealing a pen from work, and before you know it, BOOM! Corrupted!)"
 	},
 	{
@@ -3228,7 +3228,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "이 하수인은 공격할 수 없습니다. 내 턴이 끝날 때 무작위 적에게 피해를 8 줍니다.",
+		"효과" : "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때 무작위 적에게 피해를 8 줍니다.",
 		"comment" : "라그나로스를 소환한 것은 검은무쇠 드워프였지만, 이들은 결국 불의 군주를 섬기는 노예가 되고 말았습니다. 이렇게 라그나로스를 소환하는 일은 원치 않는 결과를 불러오는 일이 많습니다.(Ragnaros was summoned by the Dark Iron dwarves, who were eventually enslaved by the Firelord. Summoning Ragnaros often doesn’t work out the way you want it to.)"
 	},
 	{
@@ -3324,7 +3324,7 @@
 					"normal" : "20","golden" : "100"
 				} ],
 		"효과" : "전투의 함성: 상대편의 무기 내구도를 1 감소시킵니다.",
-		"comment" : "'해적 수칙'에 따르면, 해적들은 자동 금화 인출기의 비밀 번호로 모두 똑같은 네 자리 숫자를 사용해야 합니다.(Every pirate uses the same four digits to access Automated Gold Dispensers. It's called the 'Pirate's Code'.)"
+		"comment" : "'해적 수칙'에 따르면, 해적들은 자동 금화 인출기의 비밀번호로 모두 똑같은 네 자리 숫자를 사용해야 합니다.(Every pirate uses the same four digits to access Automated Gold Dispensers. It's called the 'Pirate's Code'.)"
 	},
 	{
 		"cardCode" : "999",
@@ -3351,7 +3351,7 @@
 					"normal" : "5","golden" : "50"
 				} ],
 		"효과" : "전투의 함성: 내 무기의 공격력만큼 공격력을 얻습니다.",
-		"comment" : "'난 숫자 '1'이 포함된 날짜에만 약탈을 하지.'('I only plunder on days that end in 'y'.')"
+		"comment" : "'난 '요'가 포함된 요일에만 약탈을 하지.'('I only plunder on days that end in 'y'.')"
 	},
 	{
 		"cardCode" : "158",
@@ -3431,7 +3431,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "비밀: 적 하수인이 공격하면, 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다.",
+		"효과" : "비밀: 적 하수인이 공격하면, 그 하수인을 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다.",
 		"comment" : "'우와, 시원하겠다.' - 빙결의 덫에 대한 적절한 반응. 또는 도발.('Dang, that's cold.' - appropriate response to Freezing Trap, or a mean joke.)"
 	},
 	{
@@ -3458,7 +3458,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "내 턴이 시작될 때, 피해를 입은 아군 캐릭터의 생명력을 3 회복시킵니다.",
+		"효과" : "내 턴이 시작될 때, 피해를 입은 아군 캐릭터 하나의 생명력을 3 회복시킵니다.",
 		"comment" : "사람들이 빛샘을 무시하는 걸까요, 아니면 안 보이는 걸까요.(It isn't clear if people ignore the Lightwell, or if it is just invisible.)"
 	},
 	{
@@ -3485,7 +3485,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "캐릭터가 치유될 때마다 공격력을 +2 얻습니다.",
+		"효과" : "캐릭터가 하나 치유될 때마다 공격력을 +2 얻습니다.",
 		"comment" : "빛의 감시자의 폭력성을 알아보기 위해 캐릭터를 치유해보겠습니다.(She’s smaller than her sisters Mediumwarden and Heavywarden.)"
 	},
 	{
@@ -3513,7 +3513,7 @@
 					"normal" : "5","golden" : "50"
 				} ],
 		"효과" : "이 하수인의 공격력은 항상 생명력과 같습니다.",
-		"comment" : "'난 누구지? 또 여긴 어디야!!!'(Spawn of the Light? Or Pawn of the Lights?)"
+		"comment" : "빛의 대정령이 될 것이냐? 빛의 피조물이 될 것이냐?(Spawn of the Light? Or Pawn of the Lights?)"
 	},
 	{
 		"cardCode" : "383",
@@ -3553,7 +3553,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "전투의 함성: 아군 야수에게 +2/+2와 도발을 부여합니다.",
+		"효과" : "전투의 함성: 아군 야수 1마리에게 +2/+2와 도발을 부여합니다.",
 		"comment" : "'누가 개들을 풀었어?'라고 묻네요. 몰라서 물으십니까?('Who let the dogs out?' he asks. It's rhetorical.)"
 	},
 	{
@@ -3574,7 +3574,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인의 생명력을 1로 바꿉니다.",
+		"효과" : "하수인 하나의 생명력을 1로 바꿉니다.",
 		"comment" : "절대 사냥꾼과 숨바꼭질하지 마십시오.(Never play 'Hide and Go Seek' with a Hunter.)"
 	},
 	{
@@ -3622,8 +3622,8 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인을 도발 능력이 있는 0/1 개구리로 변신시킵니다.",
-		"comment" : "멀록에게 사술을 써보셨나요?... 네, 외관 상 큰 변화는 없을 겁니다.(If you Hex a Murloc... it really isn't much of a change, is it?)"
+		"효과" : "하수인 하나를 도발 능력이 있는 0/1 개구리로 변신시킵니다.",
+		"comment" : "멀록에게 사술을 써보셨나요? 네, 외관 상 큰 변화는 없을 겁니다.(If you Hex a Murloc... it really isn't much of a change, is it?)"
 	},
 	{
 		"cardCode" : "906",
@@ -3692,7 +3692,7 @@
 		"제작가격" : "-",
 		"추출가격" : "-",
 		"효과" : "피해를 3 줍니다. 전장에 내 야수가 있다면 피해를 5 줍니다.",
-		"comment" : "야수 없이 명령 만으로 피해를 줄 수 있다니!('Kill!', he commanded.)"
+		"comment" : "야수 없이 명령만으로도 피해를 줄 수 있다니!('Kill!', he commanded.)"
 	},
 	{
 		"cardCode" : "919",
@@ -3754,7 +3754,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "전투의 함성: 전장의 다른 아군 하수인 1마리당 +1/+1을 얻습니다.",
+		"효과" : "전투의 함성: 전장의 다른 아군 하수인 하나당 +1/+1을 얻습니다.",
 		"comment" : "서리늑대 부족은 알터랙 계곡에서 스톰파이크 원정대와 수많은 전투를 치렀습니다. 평화 협정을 체결하러 올 때마다 부대장 갈반가르가 사절을 죽였다는군요.(The Frostwolves are locked in combat with the Stormpike Expedition over control of Alterac Valley. Every attempt at peace-talks has ended with Captain Galvangar killing the mediator.)"
 	},
 	{
@@ -3816,7 +3816,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인의 생명력을 모두 회복시키고 도발을 부여합니다.",
+		"효과" : "하수인 하나의 생명력을 모두 회복시키고 도발을 부여합니다.",
 		"comment" : "이래서 조상을 잘 만나야 합니다.(I personally prefer some non-ancestral right-the-heck-now healing, but maybe that is just me.)"
 	},
 	{
@@ -3870,7 +3870,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "전투의 함성: 덱에 있는 무작위 해적을 내 손으로 가져옵니다.",
+		"효과" : "전투의 함성: 덱에 있는 무작위 해적 카드 1장을 내 손으로 가져옵니다.",
 		"comment" : "해적과 앵무새는 토깽과 당근의 관계와도 같죠.(Pirates and Parrots go together like Virmen and Carrots.)"
 	},
 	{
@@ -4041,7 +4041,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "선택 - 내 다른 하수인들에게 +2/+2를 부여합니다. 또는 도발 능력이 있는 2/2 나무정령을 2마리 소환합니다.",
+		"효과" : "선택 - 내 다른 하수인들에게 +2/+2를 부여합니다. 또는 도발 능력이 있는 2/2 나무정령을 둘 소환합니다.",
 		"comment" : "반신반의하시나요? 네, 이 친구 반신반인 맞습니다. 그래서인지 반신욕을 싫어한다더군요.(Yes, he's a demigod. No, he doesn't need to wear a shirt.)"
 	},
 	{
@@ -4137,7 +4137,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "내가 과부하 카드를 낼 때마다 +1/+1을 얻습니다.",
+		"효과" : "내가 과부하 카드를 1장 낼 때마다 +1/+1을 얻습니다.",
 		"comment" : "구속된 정령과 달리, 속박 풀린 정령은 뜨거운 밤을 즐길 줄 압니다.(Unlike bound elementals, Unbound ones really enjoy a night on the town.)"
 	},
 	{
@@ -4165,7 +4165,7 @@
 					"normal" : "5","golden" : "50"
 				} ],
 		"효과" : "도발",
-		"comment" : "원래 이름은 수렁야수였지만, 실제로는 야수가 아니라서 헷깔려하는 분들이 많았습니다. 그래서 더 예쁜 이름을 붙여줬죠.(He used to be called Bog Beast, but it confused people because he wasn't an actual beast. Boom, New Name!)"
+		"comment" : "원래 이름은 수렁야수였지만, 실제로는 야수가 아니라서 헷갈려하는 분들이 많았습니다. 그래서 더 예쁜 이름을 붙여줬죠.(He used to be called Bog Beast, but it confused people because he wasn't an actual beast. Boom, New Name!)"
 	},
 	{
 		"cardCode" : "601",
@@ -4191,7 +4191,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "선택 - 피해를 2 줍니다. 또는 하수인을 침묵시킵니다.",
+		"효과" : "선택 - 피해를 2 줍니다. 또는 하수인 하나를 침묵시킵니다.",
 		"comment" : "숲의 수호자라면서 왜 여태까지 나무정령을 일으키며 숲을 파괴했을까요?(These guys just show up and start Keeping your Groves without even asking.)"
 	},
 	{
@@ -4218,8 +4218,8 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "내 하수인들에게 '죽음의 메아리: 2/2 나무정령 소환' 능력을 부여합니다.",
-		"comment" : "식목일에 쓰면 더 좋습니다.('Reforestation' is a suddenly a terrifying word.)"
+		"효과" : "내 하수인들에게 '죽음의 메아리: 2/2 나무정령 하나 소환' 능력을 부여합니다.",
+		"comment" : "식목일에 쓰면 더 좋습니다.('Reforestation' is suddenly a terrifying word.)"
 	},
 	{
 		"cardCode" : "765",
@@ -4452,7 +4452,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "카드를 뽑고 그 카드의 비용과 같은 수치의 피해를 줍니다.",
+		"효과" : "카드를 1장 뽑고 그 카드의 비용만큼 피해를 줍니다.",
 		"comment" : "제발, 용암거인아 나와라!(C'mon Molten Giant!!)"
 	},
 	{
@@ -4480,7 +4480,7 @@
 					"normal" : "20","golden" : "100"
 				} ],
 		"효과" : "상대편 손에 있는 카드와 같은 수가 될 때까지 카드를 뽑습니다.",
-		"comment" : "그냥 은총이 아니라 신의 은총입니다! 누군가 침대 밑에 숨겨 놓은 비상금을 찾아내 주는 것 같은 일이죠!(This is not just a favor, but a divine one, like a helping someone move a couch with a fold out bed!)"
+		"comment" : "그냥 은총이 아니라 신의 은총입니다! 누군가 침대 밑에 숨겨 놓은 비상금을 찾아내 주는 것 같은 일이죠!(This is not just a favor, but a divine one, like helping someone move a couch with a fold out bed!)"
 	},
 	{
 		"cardCode" : "594",
@@ -4702,7 +4702,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "덱에 있는 무작위 악마 2마리를 내 손으로 가져옵니다.",
+		"효과" : "덱에 있는 무작위 악마 둘을 내 손으로 가져옵니다.",
 		"comment" : "일반적으로 악마들은 굉장히 눈에 띄는 존재여서, 굳이 주문까지 사용하지 않아도 감지할 수 있습니다.(Generally demons are pretty obvious and you don’t need a spell to sense them.)"
 	},
 	{
@@ -4729,7 +4729,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "하수인에게 피해를 2 줍니다. 대상이 아군 악마면 +2/+2를 부여합니다.",
+		"효과" : "하수인 하나에게 피해를 2 줍니다. 대상이 아군 악마면 +2/+2를 부여합니다.",
 		"comment" : "악마의 불꽃은 절대 꺼지지 않는다는 점만 빼면 일반 불꽃과 똑같습니다. 그러니까 이 불 좀 꺼주세요!!!!!!!(Demonfire is like regular fire except for IT NEVER STOPS BURNING HELLLPPP)"
 	},
 	{
@@ -4756,7 +4756,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "전투의 함성: 적 하수인의 공격력을 1로 바꿉니다.",
+		"효과" : "전투의 함성: 적 하수인 하나의 공격력을 1로 바꿉니다.",
 		"comment" : "알도르는 딱 두 가지를 싫어합니다. 점술가 길드와 점술가 길드원이죠.(The Aldor hate two things: the Scryers and smooth jazz.)"
 	},
 	{
@@ -4784,7 +4784,7 @@
 					"normal" : "400","golden" : "1600"
 				} ],
 		"효과" : "전투의 함성: 선택한 영웅의 남은 생명력을 15로 만듭니다.",
-		"comment" : "생명의 어머니 알렉스트라자는 모두에게 삶과 희망을 줍니다. 데스윙, 말리고스, 네크로스만 빼고요.(Alexstraza the Life-Binder brings life and hope to everyone. Except Deathwing. And Malygos. And Nekros.)"
+		"comment" : "생명의 어머니 알렉스트라자는 모두에게 삶과 희망을 줍니다. 데스윙만 빼고요. 아, 말리고스, 네크로스도 빼고요.(Alexstrasza the Life-Binder brings life and hope to everyone. Except Deathwing. And Malygos. And Nekros.)"
 	},
 	{
 		"cardCode" : "421",
@@ -4830,7 +4830,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "아군 하수인을 처치하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다.",
+		"효과" : "아군 하수인 하나를 처치하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다.",
 		"comment" : "강력한 하수인에 암흑불길을 살짝 섞어 주면, 행복한 시간을 보낼 수 있습니다!(Start with a powerful minion and stir in Shadowflame and you have a good time!)"
 	},
 	{
@@ -4857,7 +4857,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "턴이 끝날 때까지 아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 하수인은 죽습니다. 처참하게.",
+		"효과" : "아군 하수인 하나에게 +4/+4를 부여합니다. 턴이 끝나면 그 하수인은 죽습니다. 처참하게.",
 		"comment" : "얼마나 처참하게 죽는지 차마 말로 표현할 수 없을 정도입니다. 너무 끔찍합니다! 아니, 끔찍 그 이상입니다. 그냥 상상하지 마십시오.(We cannot even describe how horrible the death is. It's CRAZY bad! Maybe worse than that. Just don't do it.)"
 	},
 	{
@@ -4884,7 +4884,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "내 영웅의 공격력만큼 하수인에게 피해를 줍니다.",
+		"효과" : "하수인 하나에게 내 영웅의 공격력만큼 피해를 줍니다.",
 		"comment" : "일부 드루이드들이 야생성을 보이는 건 사실이나, 대부분은 조용한 곳에서 차 한잔하는 것을 즐긴답니다.(It is true that some druids are savage, but others still enjoy a quiet moment and a spot of tea.)"
 	},
 	{
@@ -4905,7 +4905,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "무작위 동료 야수를 소환합니다.",
+		"효과" : "무작위 동료 야수를 1마리 소환합니다.",
 		"comment" : "미샤나 레오크, 혹은 킁킁이를 소환할 수 있습니다! 근데 킁킁이는 좀 말썽꾸러기라는 거.(You could summon Misha, Leokk, or Huffer! Huffer is more trouble than he's worth.)"
 	},
 	{
@@ -4926,7 +4926,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인에게 도발과 +2/+2를 부여합니다.",
+		"효과" : "하수인 하나에게 도발과 +2/+2를 부여합니다.",
 		"comment" : "드루이드가 아닌 사람들은 그냥 다 '발바닥'이라고 부르더군요.(Not to be confused with Jim of the Wild.)"
 	},
 	{
@@ -4974,8 +4974,8 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "도발 능력이 있는 2/3 늑대 정령을 두 마리 소환합니다. 과부하: (2)",
-		"comment" : "늑대 정령들은 일반 늑대와 유사하지만 발바닥이 더 부드럽다고 합니다.(Spirit wolves are like regular wolves with pom-poms.)"
+		"효과" : "도발 능력이 있는 2/3 늑대 정령을 둘 소환합니다. 과부하: (2)",
+		"comment" : "늑대 정령들은 일반 늑대와 유사하지만 발바닥이 더 보들보들하다고 합니다.(Spirit wolves are like regular wolves with pom-poms.)"
 	},
 	{
 		"cardCode" : "903",
@@ -5001,7 +5001,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "이번 턴에 야수에게 공격력 +2와 피해 면역을 부여합니다.",
+		"효과" : "이번 턴에 야수 1마리에게 공격력 +2와 피해 면역을 부여합니다.",
 		"comment" : "표면적으론 그냥 분노한 걸로 보이겠지만, 사실은 다이어트와 오랜 방치가 원인입니다.(The seething wrath is just beneath the surface. Beneath that is wild abandon, followed by slight annoyance.)"
 	},
 	{
@@ -5043,7 +5043,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인에게 피해를 4 줍니다.",
+		"효과" : "하수인 하나에게 피해를 4 줍니다.",
 		"comment" : "화살인데 어둠의 힘으로 만들어졌답니다. 설명이 더 필요한가요?(It’s a Bolt. Its made out of Shadow. What more do you need to know!)"
 	},
 	{
@@ -5071,7 +5071,7 @@
 					"normal" : "5","golden" : "50"
 				} ],
 		"효과" : "질풍",
-		"comment" : "벌처럼 날아서 나비같이 쏩니다. 그 반대던가요? 어쨌든 위협적이진 않습니다.(They were the inspiration for the championship Taurenball team: The Dragonhawks.)"
+		"comment" : "벌처럼 날아 나비처럼 쏩니다.(They were the inspiration for the championship Taurenball team: The Dragonhawks.)"
 	},
 	{
 		"cardCode" : "192",
@@ -5145,13 +5145,13 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "캐릭터에게 피해를 3 주고 빙결 상태로 만듭니다.",
+		"효과" : "캐릭터 하나에게 피해를 3 주고 빙결 상태로 만듭니다.",
 		"comment" : "이 카드를 낼 때는 '열 좀 식히세요!', '얼음!', 또는 '손이 시려워, 꽁!'라고 외치는 게 관례입니다.(It is customary to yell 'Chill out!' or 'Freeze!' or 'Ice ice, baby!' when you play this card.)"
 	},
 	{
 		"cardCode" : "587",
 		"cardName" : "얼음 회오리",
-		"cost" : "2",
+		"cost" : "3",
 		"attack" : "4",
 		"health" : "4",
 		"종류" : "주문",
@@ -5159,7 +5159,7 @@
 		"직업제한" : "마법사",
 		"종족" : "-",
 		"소속" : "중립",
-		"마나비용" : "2",
+		"마나비용" : "3",
 		"공격력" : "-",
 		"생명력" : "-",
 		"일러스트" : "Josh Tallman",
@@ -5193,8 +5193,8 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "캐릭터를 빙결 상태로 만듭니다. 이미 빙결 상태라면 피해를 4 줍니다.",
-		"comment" : "창이 부서지지 않는 게 중요합니다. 부서지면 성능이 꽝인 '얼음 조각'이 나가니까요.(The trick is not to break the lance. Otherwise, you have 'Ice Pieces'. Ice Pieces aren't as effective.)"
+		"효과" : "캐릭터 하나를 빙결 상태로 만듭니다. 이미 빙결 상태라면 피해를 4 줍니다.",
+		"comment" : "창이 부서지지 않는 게 중요합니다. 부서지면 성능이 꽝인 '얼음 조각'이 나가니까요.(The trick is not to break the lance. Otherwise, you have 'Ice Pieces.' Ice Pieces aren't as effective.)"
 	},
 	{
 		"cardCode" : "306",
@@ -5275,7 +5275,7 @@
 					"normal" : "5","golden" : "50"
 				} ],
 		"효과" : "전투의 함성: 내 영웅이 생명력을 4 회복합니다.",
-		"comment" : "탐스럽고 이쁜 저 달이 좋아.(If she threatens to 'moon' you, it's not what you think.)"
+		"comment" : "탐스럽고 예쁜 저 달이 좋아.(If she threatens to 'moon' you, it's not what you think.)"
 	},
 	{
 		"cardCode" : "389",
@@ -5322,7 +5322,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 아군 하수인에게 천상의 보호막을 부여합니다.",
+		"효과" : "전투의 함성: 아군 하수인 하나에게 천상의 보호막을 부여합니다.",
 		"comment" : "'화염구를 피할 수 있다고 말하는 게 아닙니다. 이 보호막이 있으면 피할 필요가 없다는 거지요.'('I'm not saying you can dodge fireballs. I'm saying with this shield, you won't have to.')"
 	},
 	{
@@ -5370,7 +5370,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "하수인을 처치합니다. 내 영웅이 생명력을 3 회복합니다.",
+		"효과" : "하수인을 하나 처치합니다. 내 영웅이 생명력을 3 회복합니다.",
 		"comment" : "자신의 영혼은 착취하지 마세요. 기묘한 무한 순환 고리에 빠질 수도 있으니까요.(You probably should avoid siphoning your own soul. You might create some kind of weird infinite loop.)"
 	},
 	{
@@ -5514,7 +5514,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인에게 +4/+4를 부여합니다. (공격력 +4/생명력 +4)",
+		"효과" : "하수인 하나에게 +4/+4를 부여합니다.",
 		"comment" : "여태까지 암살당한 왕이 몇 명인데, 정말 그들의 축복을 받고 싶으세요?(Given the number of kings who have been assassinated, are you sure you want their blessing?)"
 	},
 	{
@@ -5663,7 +5663,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "캐릭터에게 피해를 2 줍니다. 캐릭터가 죽으면 무작위 악마를 소환합니다.",
+		"효과" : "캐릭터 하나에게 피해를 2 줍니다. 그 캐릭터가 죽으면 무작위 악마 하나를 소환합니다.",
 		"comment" : "임프도 악마입니다. 현명하게 선택하세요.(My advice to you is to avoid Doom, if possible.)"
 	},
 	{
@@ -5744,7 +5744,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 2/2 종자를 소환합니다.",
+		"효과" : "전투의 함성: 2/2 종자를 1명 소환합니다.",
 		"comment" : "기사가 되는 건 좋습니다. 종자가 되는 건 안 좋습니다.(It's good to be a knight. Less so to be one's squire.)"
 	},
 	{
@@ -5752,7 +5752,7 @@
 		"cardName" : "은빛십자군 부대장",
 		"cost" : "6",
 		"attack" : "4",
-		"health" : "3",
+		"health" : "2",
 		"종류" : "하수인",
 		"등급" : "희귀",
 		"직업제한" : "공통",
@@ -5760,7 +5760,7 @@
 		"소속" : "중립",
 		"마나비용" : "6",
 		"공격력" : "4",
-		"생명력" : "3",
+		"생명력" : "2",
 		"일러스트" : "James Ryman",
 		"세트" : "고급",
 		"제작가격" :  [
@@ -5772,7 +5772,7 @@
 					"normal" : "20","golden" : "100"
 				} ],
 		"효과" : "돌진, 천상의 보호막",
-		"comment" : "은빛십자군 부대장은 스컬지의 동태를 주시합니다. 커피 가게에서 새치기하는 사람도 주시합니다.(The Argent Dawn stands vigilant against the Scourge, as well as people who cut in line at coffee shops.)"
+		"comment" : "은빛십자군 부대장은 스컬지의 동태를 주시합니다. 버스 정류장에서 새치기하는 사람도 주시합니다.(The Argent Dawn stands vigilant against the Scourge, as well as people who cut in line at coffee shops.)"
 	},
 	{
 		"cardCode" : "757",
@@ -5873,7 +5873,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "나의 다른 하수인 1마리가 죽을 때마다 카드를 1장 뽑습니다.",
+		"효과" : "나의 다른 하수인 하나가 죽을 때마다 카드를 1장 뽑습니다.",
 		"comment" : "사악한 이교도 지도자지만 일주일에 한 번은 꼭 부모님께 전화하는 '효녀'랍니다.(She may be an evil cult master, but she still calls her parents once a week.)"
 	},
 	{
@@ -5920,7 +5920,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다.",
+		"효과" : "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 하나 소환합니다.",
 		"comment" : "일리단의 형, 말퓨리온은 일리단을 하이잘 지하에 10,000년 동안이나 가둬두었습니다. 스톰레이지 형제들, 참 뒤끝 작렬이네요.(Illidan's brother, Malfurion, imprisoned him beneath Hyjal for 10,000 years. Stormrages are not good at letting go of grudges.)"
 	},
 	{
@@ -5941,7 +5941,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "무작위 적 하수인 2마리에게 피해를 3 줍니다.",
+		"효과" : "무작위 적 하수인 둘에게 피해를 3 줍니다.",
 		"comment" : "나올 때가 되면 항상 나오는 카드 중 하나죠.(You see, it's all about throughput.)"
 	},
 	{
@@ -5968,8 +5968,8 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "내 턴이 끝날 때, 피해를 1 입고 1/1 임프 1마리를 소환합니다.",
-		"comment" : "임프들이 소환사를 자꾸 깨물지만 않는다면, 아마 이 일이 훨씬 더 즐거울 겁니다.(She would enjoy the job a lot more if she just could get the imps to QUIT BITING HER.)"
+		"효과" : "내 턴이 끝날 때, 피해를 1 입고 1/1 임프를 하나 소환합니다.",
+		"comment" : "'임프들이 자꾸 깨물지만 않는다면, 아마 이 일이 훨씬 더 즐거울 거야.'(She would enjoy the job a lot more if she just could get the imps to QUIT BITING HER.)"
 	},
 	{
 		"cardCode" : "37",
@@ -6022,7 +6022,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "돌진 능력이 있는 2/2 나무정령을 3마리 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다.",
+		"효과" : "돌진 능력이 있는 2/2 나무정령을 셋 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다.",
 		"comment" : "'이 나무들 밑에서 한숨 자야겠어. 잠깐... 으아아아아악!' - 운 나쁜 노움, 블링크피즈('I think I'll just nap under these trees. Wait... AAAAAHHH!' - Blinkfizz, the Unfortunate Gnome)"
 	},
 	{
@@ -6049,7 +6049,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "하수인을 처치합니다. 상대편이 카드를 2장 뽑습니다.",
+		"효과" : "하수인 하나를 처치합니다. 상대편이 카드를 2장 뽑습니다.",
 		"comment" : "자연으로 돌아가거라.(Another one bites the dust.)"
 	},
 	{
@@ -6076,7 +6076,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 하수인에게 피해를 1 주고 공격력을 +2 부여합니다.",
+		"효과" : "전투의 함성: 하수인 하나에게 피해를 1 주고 공격력을 +2 부여합니다.",
 		"comment" : "'자네, 아무래도 이번 일요일에 출근해야 할 것 같은데.' - 잔인한 감독관('I'm going to need you to come in on Sunday.' - Cruel Taskmaster)"
 	},
 	{
@@ -6184,7 +6184,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "각 플레이어가 주문을 시전할 때마다 동일한 주문 카드를 상대편의 손에 널습니다.",
+		"효과" : "각 플레이어가 주문을 시전할 때마다 동일한 주문을 상대편의 손에 넣습니다.",
 		"comment" : "전승지기 초는 판다리아의 이야기들을 수집하고 기록합니다. 최근에는 판다리아의 야한 연애 소설을 모으는 중이라는군요.(Lorewalker Cho archives and shares tales from the land of Pandaria, but his favorite story is the one where Joey and Phoebe go on a road trip.)"
 	},
 	{
@@ -6252,7 +6252,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "선택 - 전쟁의 고대정령이 생명력 +5와 도발 능력을 얻습니다. 또는 공격력을 +5 얻습니다.",
+		"효과" : "선택 - 도발 능력과 생명력 +5를 얻습니다. 또는 공격력을 +5 얻습니다.",
 		"comment" : "젊은 나이트 엘프들은 '전쟁의 고대정령 뿌리 들게 만들기' 놀이를 즐깁니다. 정령에 깔려 죽는 엘프가 지는 겁니다.(Young Night Elves love to play 'Who can get the Ancient of War to Uproot?' You lose if you get crushed to death.)"
 	},
 	{
@@ -6279,7 +6279,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "피해를 입은 캐릭터의 수만큼 카드를 뽑습니다.",
+		"효과" : "피해를 입은 아군 캐릭터의 수만큼 카드를 뽑습니다.",
 		"comment" : "'날 화나게 하지마. 분명 후회할걸?'('You won't like me when I'm angry.')"
 	},
 	{
@@ -6333,7 +6333,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 전장의 아군 하수인을 내 손으로 다시 가져옵니다.",
+		"효과" : "전투의 함성: 전장의 아군 하수인 하나를 내 손으로 다시 가져옵니다.",
 		"comment" : "젊음의 패기가 꼭 맥주의 맛으로 이어지는 건 아닙니다.(His youthful enthusiasm doesn’t always equal excellence in his brews. Don’t drink the Mogu Stout!)"
 	},
 	{
@@ -6456,7 +6456,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "비밀: 적이 하수인에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인을 소환합니다.",
+		"효과" : "비밀: 적이 하수인 하나에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인 하나를 소환합니다.",
 		"comment" : "적의 번개 화살을 훔치는 건 즐거운 일이지만, 주문왜곡사들은 오히려 야생의 징표를 훔치는 걸 훨씬 좋아합니다. 그게 더 재미있거든요. 블러드 엘프들이 원래 좀... 야비하잖아요.(While it's fun to intercept enemy lightning bolts, a spellbender much prefers to intercept opposing Marks of the Wild. It just feels meaner. And blood elves... well, they're a little mean.)"
 	},
 	{
@@ -6483,7 +6483,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 하수인을 침묵시킵니다.",
+		"효과" : "전투의 함성: 하수인 하나를 침묵시킵니다.",
 		"comment" : "이로운 마법은 물론 해로운 마법도 제거해드립니다. 외래 진료도 가능하지만, 보험 처리는 불가합니다.(Spellbreakers can rip enchantments from magic-wielders. The process is painless and can be performed on an outpatient basis.)"
 	},
 	{
@@ -6504,7 +6504,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인에게 피해를 1 줍니다. 이때 해당 하수인이 죽으면 카드를 1장 뽑습니다.",
+		"효과" : "하수인 하나에게 피해를 1 줍니다. 이때 그 하수인이 죽으면 카드를 1장 뽑습니다.",
 		"comment" : "굳이 마나를 해골 모양으로 변형시킨 노력이 가상하지 않습니까? 상으로 카드 1장은 줍시다.(If your spells look like horrifying skulls, let's be honest, you should get to draw some cards.)"
 	},
 	{
@@ -6606,7 +6606,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "하수인을 선택합니다. 그 하수인이 공격할 때마다 카드를 1장 뽑습니다.",
+		"효과" : "하수인 하나를 선택합니다. 그 하수인이 공격할 때마다 카드를 1장 뽑습니다.",
 		"comment" : "이게 어떤 지혜인지는 모르겠지만, 일단 매 턴마다 한 번씩 공격해야 할 것 같군요.(Apparently with wisdom comes the knowledge that you should probably be attacking every turn.)"
 	},
 	{
@@ -6654,7 +6654,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인에게 질풍을 부여합니다.",
+		"효과" : "하수인 하나에게 질풍을 부여합니다.",
 		"comment" : "질풍노도의 시기가 옵니다. 두 번 옵니다.(Windfury is like Earthfury and Firefury, but more light and airy.)"
 	},
 	{
@@ -6709,7 +6709,7 @@
 					"normal" : "100","golden" : "400"
 				} ],
 		"효과" : "카드를 1장 뽑습니다. 그 카드의 비용이 (3) 감소합니다.",
-		"comment" : "조삼모사라고요? 뭐, 꼭 그렇지만은 않습니다.(Drek'thar can't see, but he can see. You know what I mean? It's ok if you don't.)"
+		"comment" : "드렉타르는 앞을 볼 수 없습니다. 하지만 잘 보인다고 하는군요. 뭔 소리냐고요? 글쎄요.(Drek'thar can't see, but he can see. You know what I mean? It's ok if you don't.)"
 	},
 	{
 		"cardCode" : "836",
@@ -6735,7 +6735,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "선택 - 피해를 3 줍니다. 또는 피해를 1 주고 카드를 1장 뽑습니다.",
+		"효과" : "선택 - 하수인 하나에게 피해를 3 줍니다. 또는 피해를 1 주고 카드를 1장 뽑습니다.",
 		"comment" : "톱니항 여관에서 들리는 말에 의하면 이 카드가 너무 좋고, 전설급이 아닌 게 이상하다는군요.(The talk around the Ratchet Inn is that this card is too good and should be a Legendary.)"
 	},
 	{
@@ -6757,6 +6757,7 @@
 		"제작가격" : "-",
 		"추출가격" : "-",
 		"효과" : "피해를 3 줍니다. 카드를 1장 뽑습니다.",
+		"comment" : "훌륭한 성기사는 다양한 도구를 소지하고 다닙니다. 천벌의 망치, 복수의 집게, 정의의 쇠톱 등등...(A good paladin has many tools. Hammer of Wrath, Pliers of Vengeance, Hacksaw of Justice, etc.)"
 	},
 	{
 		"cardCode" : "1361",
@@ -6776,7 +6777,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인의 생명력을 2배 증가시킵니다.",
+		"효과" : "하수인 하나의 생명력을 2배 증가시킵니다.",
 		"comment" : "골칫거리 2배, 재미도 2배!(Double the trouble. Double the fun!)"
 	},
 	{
@@ -6803,8 +6804,8 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "아군 야수가 죽을 때마다 +2/+1을 얻습니다.",
-		"comment" : "하이에나는 코도나 천둥매의 뼈를 선호하긴 하지만, 뭐든 가리지 않고 먹습니다. 심지어 싹양배추까지...(Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything. Even brussel sprouts.)"
+		"효과" : "아군 야수 1마리가 죽을 때마다 +2/+1을 얻습니다.",
+		"comment" : "하이에나는 코도나 천둥매의 뼈를 선호하긴 하지만, 뭐든 가리지 않고 먹습니다. 심지어 싹양배추까지...(Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything. Even Brussels sprouts.)"
 	},
 	{
 		"cardCode" : "1047",
@@ -6851,7 +6852,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "하수인의 공격력을 2배 증가시킵니다.",
+		"효과" : "하수인 하나의 공격력을 2배 증가시킵니다.",
 		"comment" : "맞는 사람에게는 2배의 고통을! 공격하는 사람에게는 2배의 행복을!(This card causes double the trouble AND double the fun.)"
 	},
 	{
@@ -6878,7 +6879,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "무작위 적 하수인을 처치합니다.",
+		"효과" : "무작위 적 하수인을 하나 처치합니다.",
 		"comment" : "모크나탈에게 정확성은 별로 중요한 덕목이 아닙니다. 다만, 살상력은 꽤 중요하다고 할 수 있죠.(Accuracy is not a highly valued trait among the mok'nathal. Deadliness is near the top, though.)"
 	},
 	{
@@ -6953,7 +6954,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "하수인을 침묵시킵니다.",
+		"효과" : "하수인 하나를 침묵시킵니다.",
 		"comment" : "적대적인 주문 시전자나 사악한 리치를 상대할 때, 그리고 험상궂은 주정뱅이 술집에서 아제로스 노래자랑이 열렸을 때 유용합니다.(Reserved for enemy spellcasters, evil liches from beyond the grave, and karaoke nights at the Grim Guzzler.)"
 	},
 	{
@@ -7071,7 +7072,7 @@
 		"제작가격" : "-",
 		"추출가격" : "-",
 		"효과" : "주문 공격력 +1",
-		"comment" : "오래 전, 코볼트는 육지에서 가장 질 좋은 초를 판매하는 상인들이었습니다만, 지금은 어쩌다... 휴...(In the old days, Kobolds were the finest candle merchants in the land. Then they got pushed too far...)"
+		"comment" : "오래 전, 코볼트는 누가 뭐래도 가장 질 좋은 초를 판매하는 상인들이었습니다만, 지금은...(In the old days, Kobolds were the finest candle merchants in the land. Then they got pushed too far...)"
 	},
 	{
 		"cardCode" : "791",
@@ -7124,8 +7125,8 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "전투의 함성: 이번 턴에 내는 내 다음 비밀 비용이 (0)이 됩니다.",
-		"comment" : "키린 토는 하늘에 떠 있는 도시, 달라란에 거주합니다. 어떻게 달라란을 하늘로 띄우냐고요? 아이스크림 두 스푼, 달라란 한 스푼이면 된다는군요.(The Kirin Tor reside in the floating city of Dalaran. How do you make a Dalaran float? Two scoops of ice cream, one scoop of Dalaran.)"
+		"효과" : "전투의 함성: 이번 턴에 내는 나의 다음 비밀 비용이 (0)이 됩니다.",
+		"comment" : "누구에게도 말할 수 없는 비밀이 있다면 키린 토 마법사를 찾아가세요. 공짜로 들어준답니다. 단, 선착순 1명만이랍니다.(The Kirin Tor reside in the floating city of Dalaran. How do you make a Dalaran float? Two scoops of ice cream, one scoop of Dalaran.)"
 	},
 	{
 		"cardCode" : "45",
@@ -7179,7 +7180,7 @@
 					"normal" : "20","golden" : "100"
 				} ],
 		"효과" : "도발. 천상의 보호막",
-		"comment" : "태양길잡이라고 태양을 인도하거나 하는 건 아닙니다. 그냥 이름만 이런 거니까 걱정 마세요!(She doesn’t ACTUALLY walk on the Sun. It's just a name. Don’t worry!)"
+		"comment" : "태양길잡이라고 정말로 태양의 길잡이 노릇을 하는 건 아닙니다. 그냥 이름만 이런 거예요!(She doesn’t ACTUALLY walk on the Sun. It's just a name. Don’t worry!)"
 	},
 	{
 		"cardCode" : "830",
@@ -7200,7 +7201,7 @@
 		"제작가격" : "-",
 		"추출가격" : "-",
 		"효과" : "내 토템들에게 생명력을 +2 부여합니다.",
-		"comment" : "이 정도면 이제 밟아 꺼트릴 수준이 아닙니다.(Totem-stomping is no longer recommended.)"
+		"comment" : "자, 이제 제 토템 한 번 밟아 보시죠. (사악한 미소)(Totem-stomping is no longer recommended.)"
 	},
 	{
 		"cardCode" : "157",
@@ -7377,7 +7378,7 @@
 					"normal" : "20","golden" : "100"
 				} ],
 		"효과" : "모든 하수인의 생명력을 1로 바꿉니다.",
-		"comment" : "우리 모두는 각각 고유한 눈송이랍니다... 생명력이 1밖에 안 되는 눈송이.(We are all special unique snowflakes... with 1 Health.)"
+		"comment" : "우리는 모두 세상 하나뿐인 눈송이랍니다... 생명력이 1밖에 안 되는 눈송이요.(We are all special unique snowflakes... with 1 Health.)"
 	},
 	{
 		"cardCode" : "394",
@@ -7403,7 +7404,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "하수인에게 피해를 5 주고 양옆의 하수인들에게 피해를 2 줍니다.",
+		"효과" : "하수인 하나에게 피해를 5 주고 그 양옆의 하수인들에게 피해를 2 줍니다.",
 		"comment" : "안전핀을 제거하고 속으로 5까지 센 다음 쏘세요! 그리고 엎드리세요.(Pull the pin, count to 5, then shoot. Then duck.)"
 	},
 	{
@@ -7574,7 +7575,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "하수인을 공격하면 내구도 대신 공격력이 1 감소합니다.",
+		"효과" : "이 무기는 하수인을 공격할 때 내구도 대신 공격력이 1 감소합니다.",
 		"comment" : "그롬마쉬 헬스크림이 다루던 유서 깊은 도끼입니다. 어떻게 공작 말체자르의 손에 들어갔는지는 아직도 알 수 없네요.(Grommash Hellscream's famous axe. Somehow this ended up in Prince Malchezaar's possession. Quite the mystery!)"
 	},
 	{
@@ -7602,7 +7603,7 @@
 					"normal" : "5","golden" : "50"
 				} ],
 		"효과" : "은신. 내 다른 하수인들이 생명력을 +1 얻습니다.",
-		"comment" : "임프는 숨어서 주위의 모두를 도발하는 행위를 즐깁니다.(Imps are content to hide and viscously taunt everyone nearby.)"
+		"comment" : "임프들은 숨어서 주위의 모두를 격하게 도발하는 행위를 즐깁니다. 그냥 즐깁니다.(Imps are content to hide and viciously taunt everyone nearby.)"
 	},
 	{
 		"cardCode" : "804",
@@ -7629,7 +7630,7 @@
 					"normal" : "20","golden" : "100"
 				} ],
 		"효과" : "피해를 4 줍니다. 내 영웅의 생명력이 12 이하라면 피해를 6 줍니다.",
-		"comment" : "'기술을 하나밖에 쓸 수 없다면, 필사의 일격을 쓰라.' - 전사의 십계명, 6번째 줄('If you only use one ability, use Mortal Strike.' - The Warrior Code, Line 6)"
+		"comment" : "'기술을 하나밖에 쓸 수 없다면, 필사의 일격을 쓰라.' - 전사의 십계명, 여섯 번째 줄('If you only use one ability, use Mortal Strike.' - The Warrior Code, Line 6)"
 	},
 	{
 		"cardCode" : "825",
@@ -7730,7 +7731,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "죽음의 메아리: 2/1 손상된 골렘을 소환합니다.",
+		"효과" : "죽음의 메아리: 2/1 손상된 골렘을 하나 소환합니다.",
 		"comment" : "'내부 온도 과열됨. 정상 작동 불가. 2번 배출구에 보리 걸림. 가동 중단.'('Overheat threshold exceeded. System failure. Wheat clog in port two. Shutting down.')"
 	},
 	{
@@ -7757,7 +7758,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "전투의 함성: 모든 하수인이 천상의 보호막을 잃고, 잃은 보호막 1개당 +3/+3을 얻습니다.",
+		"효과" : "전투의 함성: 모든 하수인의 천상의 보호막을 흡수하여, 보호막 1개당 +3/+3을 얻습니다.",
 		"comment" : "혈기사는 신성한 힘의 원천으로 태양샘을 사용합니다. 태양샘에서 물놀이를 할 생각은 꿈도 꾸지 마세요.(The Blood Knights get their holy powers from the Sunwell, which you should NOT bathe in.)"
 	},
 	{
@@ -7805,8 +7806,8 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "적 하수인을 주인의 손으로 돌려보냅니다.",
-		"comment" : "도적은 적을 혼절시키는 걸 좋아하지요.(Rogues love sappy movies.)"
+		"효과" : "적 하수인 하나를 상대편의 손으로 돌려보냅니다.",
+		"comment" : "주사가 심한 친구를 집에 데려다 줄 때 유용합니다.(Rogues love sappy movies.)"
 	},
 	{
 		"cardCode" : "1688",
@@ -7859,7 +7860,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성: 내 영웅에게 피해를 2 줍니다.",
+		"효과" : "전투의 함성: 내 영웅에게 피해를 3 줍니다.",
 		"comment" : "임프들은 불타는 걸 좋아합니다. 그냥 좋아합니다.(Imps like being on fire. They just do.)"
 	},
 	{
@@ -7901,7 +7902,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "도발 능력이 있는 0/2 하수인을 2마리 소환합니다.",
+		"효과" : "도발 능력이 있는 0/2 하수인을 둘 소환합니다.",
 		"comment" : "와 환영 복제다! !다제복 영환 와(Oh hey it's Mirror Image! !egamI rorriM s'ti yeh hO)"
 	},
 	{
@@ -7950,7 +7951,7 @@
 					"normal" : "20","golden" : "100"
 				} ],
 		"효과" : "이 하수인에게 피해를 입은 하수인은 무조건 죽습니다.",
-		"comment" : "숄라자르 분지는 정말 위험한 곳입니다. 그래도 갈 생각이 있다면 제충제를 꼭 바르세요. 아, 판금 갑옷도 준비하시고요.(The Scholozar Basin is home to a lot of really horrible things. If you're going to visit, wear bug spray. And plate armor.)"
+		"comment" : "숄라자르 분지는 정말 위험한 곳입니다. 그래도 갈 생각이 있다면 제충제를 꼭 바르세요. 아, 판금 갑옷도 준비하시고요.(The Sholazar Basin is home to a lot of really horrible things. If you're going to visit, wear bug spray. And plate armor.)"
 	},
 	{
 		"cardCode" : "1037",
@@ -8018,7 +8019,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "무작위 적 하수인 2마리에게 피해를 2 줍니다.",
+		"효과" : "무작위 적 하수인 둘에게 피해를 2 줍니다.",
 		"comment" : "거기 둘... 잠깐만 가까이 붙어 줄래?(Hey you two…could you stand next to each other for a second…)"
 	},
 	{
@@ -8039,8 +8040,8 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "적에게 피해를 4 주고 다른 모든 적에게 피해를 1 줍니다.",
-		"comment" : "곰이 팔을 뒤로 젖히면 당신을 확 휘둘러치거나! 꼭 안아주려는 겁니다.(When a bear rears back and extends his arms, he's about to Swipe! ... or hug.)"
+		"효과" : "선택한 적 하나에게 피해를 4 주고 다른 모든 적에게 피해를 1 줍니다.",
+		"comment" : "곰이 팔을 뒤로 젖히면 당신을 확 휘둘러치거나! ...꼭 안아주려는 겁니다.(When a bear rears back and extends his arms, he's about to Swipe! ... or hug.)"
 	},
 	{
 		"cardCode" : "1155",
@@ -8093,8 +8094,8 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "전투의 함성: 도발 능력이 있는 하수인을 1마리 처치합니다.",
-		"comment" : "은빛십자군 마상시합을 방해하라고 리치 왕이 보낸 심복입니만, 우리는 모두 그를 귀여운 아이템 배달부로 기억합니다.(He was sent by the Lich King to disrupt the Argent Tournament. We can pretty much mark that a failure.)"
+		"효과" : "전투의 함성: 도발 능력이 있는 적 하수인을 하나 처치합니다.",
+		"comment" : "은빛십자군 마상시합을 방해하라고 리치 왕이 보낸 심복이지만, 우린 모두 그를 아이템 셔틀로 기억하고 있죠.(He was sent by the Lich King to disrupt the Argent Tournament. We can pretty much mark that a failure.)"
 	},
 	{
 		"cardCode" : "163",
@@ -8114,7 +8115,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "악마를 처치합니다. 내 영웅이 생명력을 5 회복합니다.",
+		"효과" : "악마를 하나 처치합니다. 내 영웅이 생명력을 5 회복합니다.",
 		"comment" : "악마와 흑마법사 사이의 미묘한 긴장감은 이 주문에서 비롯됐다고 봐도 과언이 아닙니다.(This is the reason that Demons never really become friends with Warlocks.)"
 	},
 	{
@@ -8135,7 +8136,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인에게 공격력을 +3 부여합니다.",
+		"효과" : "하수인 하나에게 공격력을 +3 부여합니다.",
 		"comment" : "'이런 내가 힘까지 세지면 어떨 것 같아?' - 토드 매클, 최근에 상향된 징벌 성기사('As in, you MIGHT want to get out of my way.' - Toad Mackle, recently buffed.)"
 	},
 	{
@@ -8189,8 +8190,8 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "전투의 함성: 하수인의 공격력과 생명력을 바꿉니다.",
-		"comment" : "'새 물약이 마음에 들 겁니다.' 라는군요. 당신이 가진 팔다리의 갯수가 마음에 안 든다면 뭐... 맞는 말이겠네요.('You'll love my new recipe!' he says... especially if you're not happy with your current number of limbs.)"
+		"효과" : "전투의 함성: 하수인 하나의 공격력과 생명력을 바꿉니다.",
+		"comment" : "'새 물약이 마음에 들 겁니다.'라는군요. 당신이 가진 팔다리의 개수가 마음에 안 든다면 뭐... 맞는 말이겠네요.('You'll love my new recipe!' he says... especially if you're not happy with your current number of limbs.)"
 	},
 	{
 		"cardCode" : "1124",
@@ -8210,7 +8211,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "빈 마나 수정을 획득합니다.",
+		"효과" : "빈 마나 수정을 1개 획득합니다.",
 		"comment" : "마나 수정 재배기로 자신만의 마나 수정을 키우세요! 믿을 수 없는 가격! 39,900 골드!(Grow your own mana crystals with this Mana Crystal Growth Kit, only 39.99!)"
 	},
 	{
@@ -8231,7 +8232,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "피해를 입지 않은 하수인에게 피해를 2 줍니다.",
+		"효과" : "피해를 입지 않은 하수인 하나에게 피해를 2 줍니다.",
 		"comment" : "사실 이 기술은 '저게 뭐지?!' 라는 말을 듣고 등을 보인 적에게 사용하는 기술입니다.(It's funny how often yelling 'Look over there!' gets your opponent to turn around.)"
 	},
 	{
@@ -8258,7 +8259,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "돌진. 전장의 다른 멀록 1마리당 공격력 +1을 얻습니다.",
+		"효과" : "돌진. 전장의 다른 멀록 하나당 공격력 +1을 얻습니다.",
 		"comment" : "그는 멀록들 사이에선 전설입니다. 그들 말로는 '아옳옳옳옳옳옳옳!'이라는군요.(He's a legend among murlocs. 'Mrghllghghllghg!', they say.)"
 	},
 	{
@@ -8301,7 +8302,7 @@
 		"제작가격" : "-",
 		"추출가격" : "-",
 		"효과" : "주문 공격력 +1",
-		"comment" : "대마법사라는 칭호를 어떻게 얻냐고요? 마법으로 대마법사를 쓰러뜨리면 됩니다.(You earn the title of Archmage when you can destroy anyone who calls you on it.)"
+		"comment" : "대마법사 칭호를 어떻게 얻냐고요? 마법으로 대마법사를 쓰러뜨리면 됩니다.(You earn the title of Archmage when you can destroy anyone who calls you on it.)"
 	},
 	{
 		"cardCode" : "573",
@@ -8322,7 +8323,7 @@
 		"제작가격" : "-",
 		"추출가격" : "-",
 		"효과" : "피해를 1 줍니다. 카드를 1장 뽑습니다.",
-		"comment" : "비전 작렬은 당신에게 추가 피로 손상을 입히는데 특히 더 효과적입니다.(Rogues are experts at SHIV-al-ry.)"
+		"comment" : "알라깔라독칼라미독칼라미띠!(Rogues are experts at SHIV-al-ry.)"
 	},
 	{
 		"cardCode" : "559",
@@ -8348,8 +8349,8 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "돌진. 전투의 함성: 상대편에게 1/1 새끼용 2마리를 소환해 줍니다.",
-		"comment" : "닭고기와 맥주는 역시 진리죠.(At least he has Angry Chicken.)"
+		"효과" : "돌진. 전투의 함성: 상대편에게 1/1 새끼용을 둘 소환해 줍니다.",
+		"comment" : "'때가 왔다! 가자! 리로이이이이이이이이 젠킨스으으으으으으!'(At least he has Angry Chicken.)"
 	},
 	{
 		"cardCode" : "436",
@@ -8457,7 +8458,7 @@
 					"normal" : "5","golden" : "50"
 				} ],
 		"효과" : "적 하수인이 자신의 공격력만큼 양옆의 하수인들에게 피해를 줍니다.",
-		"comment" : "모든 배신에는 대가가 필요합니다. 예를 들어 노움을 배신시키려면 동물 인형과 약간의 초콜릿이 필요하죠.(Everyone has a price. Gnomes, for example, can be persuaded by stuffed animals and small amounts of chocolate.)"
+		"comment" : "배신을 시키려면 그에 상응하는 값을 치러야 합니다. 예를 들어 노움을 배신시키려면 동물 인형과 약간의 초콜릿이 필요하죠.(Everyone has a price. Gnomes, for example, can be persuaded by stuffed animals and small amounts of chocolate.)"
 	},
 	{
 		"cardCode" : "1029",
@@ -8483,7 +8484,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다.",
+		"효과" : "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 1명 소환합니다.",
 		"comment" : "수업에 집중하지 않으면 당신을 돼지로 만들어 버릴지도 모릅니다. 그리고 당신의 이름이 칠판에 적히겠죠.(If you don't pay attention, you may be turned into a pig. And then you get your name on the board.)"
 	},
 	{
@@ -8504,7 +8505,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인이 치유될 때마다 카드를 1장 뽑습니다.",
+		"효과" : "하수인이 하나 치유될 때마다 카드를 1장 뽑습니다.",
 		"comment" : "탄압받고 괴로워하는 자들을 돕습니다. 쿠키도 팝니다.(They help the downtrodden and distressed. Also they sell cookies.)"
 	},
 	{
@@ -8531,7 +8532,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "전투의 함성: 공격력 2 이하인 적 하수인 1마리를 우리편으로 만듭니다.",
+		"효과" : "전투의 함성: 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다.",
 		"comment" : "누가 비밀결사단을 위해 일하고 있는지 여러분은 상상조차 못할 겁니다...(You never know who may be secretly working for the Cabal....)"
 	},
 	{
@@ -8579,8 +8580,8 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "전투의 함성:아군 하수인에게 생명력을 +3 부여합니다.",
-		"comment" : "목요일 밤에는 돼지와 휘파람 선술집 앞에서 손님 관리도 합니다.(He also moonlights Thursday nights as a bouncer at the Pig and Whistle Tavern.)"
+		"효과" : "전투의 함성:아군 하수인 하나에게 생명력을 +3 부여합니다.",
+		"comment" : "'집행'이라는 이름의 검을 강탈당하고 속세를 떠나 사원으로 들어왔기에 사원 집행자라는 이름을 갖게 되었답니다.(He also moonlights Thursday nights as a bouncer at the Pig and Whistle Tavern.)"
 	},
 	{
 		"cardCode" : "531",
@@ -8660,7 +8661,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "전투의 함성: 하수인을 무작위로 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.",
+		"효과" : "전투의 함성: 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.",
 		"comment" : "데빌사우루스 대신 리치 왕으로 변신시킬 가능성이 조오오오오금 있습니다. 아주 조오오오오오금.(Tinkmaster Overspark nearly lost his Tinker's license after the Great Ironforge Squirrel Stampede of '09.)"
 	},
 	{
@@ -8682,7 +8683,7 @@
 		"제작가격" : "-",
 		"추출가격" : "-",
 		"효과" : "돌진",
-		"comment" : "'스톰윈드 파괴 사건'은 그에게 모욕감을 주었습니다.(They're still embarassed about 'The Deathwing Incident'.)"
+		"comment" : "이렇게 된 이상 오그리마로 간다!(They're still embarassed about 'The Deathwing Incident'.)"
 	},
 	{
 		"cardCode" : "1365",
@@ -8750,7 +8751,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "하수인에게 생명력을 +2 부여합니다.카드를 1장 뽑습니다.",
+		"효과" : "하수인 하나에게 생명력을 +2 부여합니다.카드를 1장 뽑습니다.",
 		"comment" : "생명력이 조금 올라가는 건 좋지만 하수인이 흐릿해지는 건 좀 아쉽네요.(Sure the extra protection is nice, but the shield really reduces visibility.)"
 	},
 	{
@@ -8777,7 +8778,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "죽음의 메아리: 무작위 적 하수인을 우리편으로 만듭니다.",
+		"효과" : "죽음의 메아리: 무작위 적 하수인 하나를 우리편으로 만듭니다.",
 		"comment" : "실바나스는 '아서스에 의해' 밴시 여왕으로 되살아났으나, 그냥 놔두는 게 나았을지도 모릅니다. 그 사실이 실바나스를 열 받게 했으니까요.(Sylvanas was turned into the Banshee Queen by Arthas, but he probably should have just killed her because it just pissed her off.)"
 	},
 	{
@@ -8804,7 +8805,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "상대편의 덱에서 무작위 하수인을 복사하여 내 전장에 놓습니다.",
+		"효과" : "상대편의 덱에서 무작위 하수인 하나를 복사하여 내 전장에 놓습니다.",
 		"comment" : "인생은 한 방입니다.(Sometimes it feels like this is all a game.)"
 	},
 	{
@@ -8852,7 +8853,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "적 하수인을 처치합니다.",
+		"효과" : "적 하수인 하나를 처치합니다.",
 		"comment" : "암살당하기 싫다고요? 이름을 바꾸고 불모의 땅으로 가세요. 행운을 빕니다!(If you don't want to be assassinated, move to the Barrens and change your name. Good luck!)"
 	},
 	{
@@ -8879,7 +8880,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "공격력 3 이하인 적 하수인 1마리를 이번 턴에만 조종합니다.",
+		"효과" : "공격력 3 이하인 적 하수인 하나를 이번 턴에만 조종합니다.",
 		"comment" : "당신이 뭐라고 변명하든, 상대편 입장에선 짜증납니다.(You can rationalize it all you want, it's still a mean thing to do.)"
 	},
 	{
@@ -8927,8 +8928,8 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "선택 - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
-		"comment" : "표범을 만났을 땐 표범과 눈을 마주치지 마십시오. 아니, '계속 표범의 눈을 보십시오'였던가? 뭐 둘 중 하나였던 것 같습니다.(Never look a panther in the eye. Or is it 'Always look a panther in the eye'? Well, its one of those.)"
+		"효과" : "선택 - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다.",
+		"comment" : "표범을 만났을 땐 표범과 눈을 마주치지 마십시오. 아니, '계속 표범의 눈을 보십시오'였던가? 뭐 둘 중 하나였던 것 같습니다.(Never look a panther in the eye. Or is it 'Always look a panther in the eye'? Well, it's one of those.)"
 	},
 	{
 		"cardCode" : "1367",
@@ -8948,7 +8949,7 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "공격력 3 이하인 하수인을 1마리 처치합니다.",
+		"효과" : "공격력 3 이하인 하수인을 하나 처치합니다.",
 		"comment" : "초급 수행사제들이 배우는 '어둠의 권능: 성가심'보다 한 단계 높은 등급의 주문입니다.(A step up from a spell cast by many beginning acolytes: 'Shadow Word: Annoy'.)"
 	},
 	{
@@ -8969,8 +8970,8 @@
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "공격력 5 이상인 하수인을 1마리 처치합니다.",
-		"comment" : "'그놈 어디 갔지?' '그냥 잊어버리고 이 멀록 처치나 도와줘!'(If you miss, it leaves a lightning-bolt-shaped scar on your target.)"
+		"효과" : "공격력 5 이상인 하수인을 하나 처치합니다.",
+		"comment" : "빗맞히면 대상의 이마에 번개 모양의 흉터를 남깁니다.(If you miss, it leaves a lightning-bolt-shaped scar on your target.)"
 	},
 	{
 		"cardCode" : "1368",
@@ -8996,7 +8997,7 @@
 				{
 					"normal" : "100","golden" : "400"
 				} ],
-		"효과" : "내 영웅 능력이 '피해를 2 줍니다.'가 됩니다. 이미 어둠의 형상이었다면 피해를 3 줍니다.",
+		"효과" : "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. (이미 어둠의 형상이었다면 피해 3)",
 		"comment" : "빛을 어둠으로 돌리는 건 쉽지만, 어둠을 빛으로 돌리는 건 어렵다는 걸 보여주는 좋은 예라고 할 수 있죠.(If a bright light shines on a priest in Shadowform… do they cast a shadow?)"
 	},
 	{
@@ -9091,7 +9092,7 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"comment" : "충분한 수가 뭉쳐서 에레다르 군주를 때리면 폭발합니다. 도대체 왜?(If you hit an Eredar Lord with enough Wisps, it will explode. But why?)"
+		"comment" : "충분한 수가 뭉쳐서 에레다르 군주를 공격하면 폭발합니다. 도대체 왜?(If you hit an Eredar Lord with enough Wisps, it will explode. But why?)"
 	},
 	{
 		"cardCode" : "887",
@@ -9117,7 +9118,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "전투의 함성: 아군 하수인에게 은신을 부여합니다.",
+		"효과" : "전투의 함성: 아군 하수인 하나에게 은신을 부여합니다.",
 		"comment" : "이 여성은 사실 남자 타우렌입니다. 사람들이 괜히 '위장의 대가'라고 부르는 게 아니지요.(She's actually a male tauren. People don't call him 'Master of Disguise' for nothing.)"
 	},
 	{
@@ -9171,7 +9172,7 @@
 				{
 					"normal" : "400","golden" : "1600"
 				} ],
-		"효과" : "내 턴이 끝날 때,꿈 카드를 뽑습니다.",
+		"효과" : "내 턴이 끝날 때,꿈 카드를 1장 뽑습니다.",
 		"comment" : "이세라는 에메랄드의 꿈을 지배합니다. 에메랄드의 꿈이 어떻냐고요? 실제 세상의 녹색 버전이랄까요?(Ysera rules the Emerald Dream. Which is some kind of green-mirror-version of the real world, or something?)"
 	},
 	{
@@ -9198,8 +9199,8 @@
 				{
 					"normal" : "5","golden" : "50"
 				} ],
-		"효과" : "선택 - 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 도발을 부여합니다.",
-		"comment" : "드루이드들은 '자연의 징표'라고 합니다. 다른 사람들은 좀 씻고 다니라고 합니다.(Druids call it the 'Mark of Nature'. Everyone else calls it 'needing a bath'.)"
+		"효과" : "선택 - 하수인 하나에게 공격력을 +4 부여합니다. 또는 생명력 +4와 도발을 부여합니다.",
+		"comment" : "드루이드들은 '자연의 징표'라고 합니다. 다른 사람들은 좀 씻고 다니라고 합니다.(Druids call it the 'Mark of Nature.' Everyone else calls it 'needing a bath.')"
 	},
 	{
 		"cardCode" : "630",
@@ -9252,7 +9253,7 @@
 	{
 		"cardCode" : "8",
 		"cardName" : "정신 지배",
-		"cost" : "8",
+		"cost" : "1",
 		"attack" : "4",
 		"health" : "4",
 		"종류" : "주문",
@@ -9260,15 +9261,15 @@
 		"직업제한" : "사제",
 		"종족" : "-",
 		"소속" : "중립",
-		"마나비용" : "8",
+		"마나비용" : "10",
 		"공격력" : "-",
 		"생명력" : "-",
 		"일러스트" : "Sean O’Daniels",
 		"세트" : "기본",
 		"제작가격" : "-",
 		"추출가격" : "-",
-		"효과" : "적 하수인 1마리를 우리편으로 만듭니다.",
-		"comment" : "'당하면 멘탈이 붕괴되는 기술' 1위 후보에 오른 영광스런 주문입니다.(Nominated as 'Spell Most Likely to Make Your Opponent Punch the Wall.')"
+		"효과" : "적 하수인 하나를 우리편으로 만듭니다.",
+		"comment" : "'당하면 멘탈이 붕괴되는 기술' 1위 후보에 오른 영광스러운 주문입니다.(Nominated as 'Spell Most Likely to Make Your Opponent Punch the Wall.')"
 	},
 	{
 		"cardCode" : "734",
@@ -9294,7 +9295,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "전투의 함성: 전장에 상대편 하수인이 4마리 이상 있으면, 무작위 적 하수인 1마리를 우리편으로 만듭니다.",
+		"효과" : "전투의 함성: 전장에 상대편 하수인이 넷 이상 있으면, 무작위 적 하수인 하나를 우리편으로 만듭니다.",
 		"comment" : "정신 지배 기술은 점점 더 발전하고 있지만, 사실 별로 대단할 건 없습니다.(Mind Control technology is getting better, but that's not saying much.)"
 	},
 	{
@@ -9375,7 +9376,7 @@
 				{
 					"normal" : "20","golden" : "100"
 				} ],
-		"효과" : "내 턴이 시작될 때, 무작위 적에게 피해를 2 줍니다.",
+		"효과" : "내 턴이 시작될 때, 무작위 적 하나에게 피해를 2 줍니다.",
 		"comment" : "모두 나는 탈것을 타고 다니는 지금은 설 곳을 잃은 녀석입니다.(Laying siege isn't fun for anyone. It's not even all that effective, now that everyone has a flying mount.)"
 	},
 	{
