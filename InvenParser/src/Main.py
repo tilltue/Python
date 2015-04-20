@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import urllib
+import json        
 from bs4 import BeautifulSoup
 
 def stringReplace(string):
@@ -9,14 +10,21 @@ def stringReplace(string):
     else:
         return ""
 
+def stringReplace2(string):
+    if string != None:
+        return string.replace('\\','')
+    else:
+        return ""
+
 def makeInfoParser(f,tds,ths,i):
+    print ths[i].string
     if ths[i].string == None:
         f.write('None');
         f.write(str(i));
         f.write('" : "None",\n');
         return
     else: 
-        f.write(ths[i].string)
+        f.write(ths[i].string.encode("utf-8"))
     f.write('" : ')
     spans = tds[i].find_all('span')
     if len(spans) > 0 :
@@ -25,9 +33,9 @@ def makeInfoParser(f,tds,ths,i):
     for j in range(0,2):
         rel_name = spans[j]['rel'] 
         rel_value = spans[j].string
-        f.write(stringReplace(rel_name))
+        f.write(stringReplace(rel_name).encode("utf-8"))
         f.write('" : "')
-        f.write(stringReplace(rel_value))
+        f.write(stringReplace(rel_value).encode("utf-8"))
         if j != 1 :
             f.write('","')
     f.write('"\n\t\t\t\t} ],\n')
@@ -61,6 +69,7 @@ def detailTableParser(f,table):
     rel_count = 0
     for i in range(0,len(ths)):
         f.write('\t\t"')
+        #print ths[i].string
         if ths[i].string == '추가 텍스트':
             addTextParser(f,ths,tds,i)
             continue
@@ -68,14 +77,15 @@ def detailTableParser(f,table):
             effectTextParser(f,ths,tds,i)
             continue
         if ths[i].string != None and tds[i].string != None:
-            f.write(stringReplace(ths[i].string))
+            f.write(stringReplace(ths[i].string).encode("utf-8"))
             #print 'th : ' + ths[i].string
             f.write('" : "')
-            f.write(stringReplace(tds[i].string))
+            f.write(stringReplace(tds[i].string).encode("utf-8"))
             #print 'td : ' + tds[i].string
             f.write('",\n')
         else:
             #print 'makeInfoParser'
+            #print tds
             makeInfoParser(f,tds,ths,i)
             rel_count+=2
     return 0
@@ -102,7 +112,7 @@ def cardParser_mobile(f,urlString,code):
     cardName = cardName[1:len(cardName)-1]
     print cardName
     f.write('\n\t\t"cardName" : "')
-    f.write(stringReplace(cardName))
+    f.write(stringReplace(cardName).encode("utf-8"))
     f.write('",\n')
     
     cost = soup.find('div','cost')
@@ -110,7 +120,7 @@ def cardParser_mobile(f,urlString,code):
     cost_val = cost_val['class'][0][1:]
     #print cost_val
     f.write('\t\t"cost" : "')
-    f.write(stringReplace(cost_val))
+    f.write(stringReplace(cost_val).encode("utf-8"))
     f.write('",\n')
     
     attack = soup.find('div','attack')
@@ -118,7 +128,7 @@ def cardParser_mobile(f,urlString,code):
     attack_val = attack_val['class'][0][1:]
     #print attack_val
     f.write('\t\t"attack" : "')
-    f.write(stringReplace(attack_val))
+    f.write(stringReplace(attack_val).encode("utf-8"))
     f.write('",\n')
     
     health = soup.find('div','health')
@@ -141,15 +151,15 @@ def optionParse(f,lis):
             if  td != None:
                 percent = td.string[:td.string.find('%')]
                 f.write('\n\t\t"직업 특화%" : "')
-                f.write(stringReplace(percent))
+                f.write(stringReplace(percent).encode("utf-8"))
                 f.write('",')
                 job = td.string[td.string.find('(직업')+3:td.string.find('/')]
                 f.write('\n\t\t"직업" : "')
-                f.write(stringReplace(job))
+                f.write(stringReplace(job).encode("utf-8"))
                 f.write('",')
                 normal = td.string[td.string.find('/공용')+3:td.string.find(')')]
                 f.write('\n\t\t"공용" : "')
-                f.write(stringReplace(normal))
+                f.write(stringReplace(normal).encode("utf-8"))
                 f.write('",')
         elif th != None and th.string == '선호 옵션':
             td = li.find('span','td')
@@ -158,17 +168,17 @@ def optionParse(f,lis):
                 ops = td.string.split(' / ')
                 for op in ops:
                     opString = op[:op.find('(')]
-                    f.write('"'+stringReplace(opString))
+                    f.write('"'+stringReplace(opString).encode("utf-8"))
                     f.write('" :"')
                     valString = op[op.find('(')+1:op.find('%')]
-                    f.write(stringReplace(valString))
+                    f.write(stringReplace(valString).encode("utf-8"))
                     f.write('",')
                 f.write('\n\t\t\t}],')
         elif th != None and th.string == '평균 비용':
             td = li.find('span','td')
             if td != None:
                 f.write('\n\t\t"평균비용" : "')
-                f.write(stringReplace(td.string))
+                f.write(stringReplace(td.string).encode("utf-8"))
                 f.write('",')
     return 0
 
@@ -299,9 +309,14 @@ def card():
             #'915','801','1124','180','736','175','525','573','559','436','692','866','282','1029','1650','272','710','1364','531',
             #'30','570','622','1365','841','613','1721','145','237','345','220','670','503','1367','1363','1368','9','1370','995','179','887','990','1186',
             #'151','630','762','8','734','920','517','979','196','440','708',
-            '1753','1858','1806','1860','1784','1915','1786','1800','1802','1861','1914','1791','1783','1801','1808','1796',
-            '1793','1810','1804','1807','1799','1789','1781','1809','1910','1790','1805','1913','1794','1797',
-            
+            #'1753','1858','1806','1860','1784','1915','1786','1800','1802','1861','1914','1791','1783','1801','1808','1796',
+            #'1793','1810','1804','1807','1799','1789','1781','1809','1910','1790','1805','1913','1794','1797',
+            '2035','2085','2017','1992','2016','2024','2004','2075','1939','2012','2233','2093','2063','1988','1934','2074','2172','2054','2057','2040','1937','2249',
+            '2084','2046','1940','2002','2039','2049','2023','2077','2065','1928','1933','2018','2037','2010','2038','2060','2050','2066','2064','2073','2086','2070',
+            '2095','2068','2045','2047','1986','2003','1941','2080','2034','1993','2079','2078','2072','2021','2014','1935','2029','2028','2026','2031','1931','1929',
+            '2069','2087','2052','2025','1938','2001','1998','2048','2011','2225','2082','2055','1985','2053','2094','2044','2096','2009','2051','2056','2022','2033',
+            '2058','1990','2032','2076','2020','2013','2059','2234','1995','2019','2081','1991','2062','1997','1982','2008','2071','1936','2042','2030','2041','2083',
+            '2027','1932','1989','2015','2006','2067','2061','2043','2088','1927','2007','2005','2036'
             #영웅 '893','31','274','930','413','1623'
             ]
     f.write('\t"cards" : [\n')
@@ -541,7 +556,7 @@ def cardEngParser(f,urlString):
             if li.contents[0].string.find('Artist: ') == 0 :
                 artist = li.contents[0].string[8:] 
                 f.write('\t\t"일러스트" : "')
-                f.write(stringReplace(artist))
+                f.write(stringReplace(artist).encode("utf-8"))
                 f.write('",\n')
         #print job_class
         if len(job_class) == 0 : 
@@ -560,9 +575,9 @@ def cardEngParser(f,urlString):
             for i in range(0,len(desc.contents)) :
                 if desc.contents[i].string != None :
                     cardDesc += desc.contents[i].string
-            #print cardDesc
+            print cardDesc
             f.write('\t\t"효과" : "')
-            f.write(stringReplace(cardDesc))
+            f.write(stringReplace(cardDesc).encode("utf-8"))
             f.write('",\n')
         comments = card.find('div','card-flavor-listing-text')
         comment_val = ''
@@ -574,7 +589,7 @@ def cardEngParser(f,urlString):
                     comment_val += comment.string
         #print comment_val
         f.write('\t\t"comment" : "')
-        f.write(stringReplace(comment_val))
+        f.write(stringReplace(comment_val).encode("utf-8"))
         
         f.write('",\n\t\t"patch" : "')
         f.write('1.1')
@@ -663,12 +678,15 @@ def hearthdb():
     f = file('card_eng.txt','w')
     f.write('{\n')
     f.write('\t"cards" : [')
+    urlString = 'http://www.hearthpwn.com/cards?display=2&filter-set=101&filter-unreleased=1'
+    cardEngParser(f,urlString)
+    """
     for i in range(0,9):
         urlString = 'http://www.hearthpwn.com/cards?page=%d' % i
         cardEngParser(f,urlString)
     #urlString = 'http://www.hearthpwn.com/cards?filter-set=100'
         #urlString = 'file:///Users/tilltue/Git/Python/InvenParser/src/test.html'
-    
+    """
     f.write('\t]\n}\n')
     f.close()
     
@@ -696,9 +714,101 @@ def naxx():
         
 def main():
     #card()
-    deck()
+    #deck()
     #hearthdb()
     #franchParser()
+    hearthhead()
+    
+def getCardComment(code):
+    print code
+    urlString = 'http://fr.hearthhead.com/card=%d' % code
+    data = urllib.urlopen(urlString)
+    soup = BeautifulSoup(data.read(),from_encoding="en-us")
+    script = soup.find_all('script')
+    #print script[30]
+    start_span = script[32].string.find('<span class="q">')
+    if start_span > 0: 
+        check =  script[32].string[start_span+16:start_span+script[32].string[start_span:].find('</span>')]
+    else:
+        start_span = script[33].string.find('<span class="q">')
+        if start_span > 0:
+            check =  script[33].string[start_span+16:start_span+script[33].string[start_span:].find('</span>')]
+        else:
+            return None
+    check = remove_html_markup(check)
+    check = stringReplace(check)
+    check = stringReplace2(check)
+    print check
+    print '-----\n'
+    return check
+
+def remove_html_markup(s):
+    tag = False
+    quote = False
+    out = ""
+
+    for c in s:
+            if c == '<' and not quote:
+                tag = True
+            elif c == '>' and not quote:
+                tag = False
+            elif (c == '"' or c == "'") and tag:
+                quote = not quote
+            elif not tag:
+                out = out + c
+
+    return out
+
+def hearthhead():
+    urlString = 'http://fr.hearthhead.com/cards'
+    data = urllib.urlopen(urlString)
+    soup = BeautifulSoup(data.read(),from_encoding="en-us")
+    script = soup.find_all('script')
+    print 'aaa'
+    #print script[30]
+    #return
+    check =  script[31].string[script[31].string.find('var hearthstoneCards = ')+23:script[31].string.find('}];')+2]
+    while 1:
+        popularity = check.find(',popularity:')
+        end_popularity = check[popularity:].find('}')+popularity
+        if popularity > 0:
+            check = check[:check.find(',popularity:')] + check[end_popularity:]
+        else:
+            break;
+    data3 = json.loads(check)
+    f = file('card_fr.json','w')
+    f.write('{\n\t"cards" : [\n')
+    count = 0
+    for item in data3:
+        count+=1
+        print count 
+        #print item['name']
+        value = item['id']
+        if int(value) < 1916 :
+            continue
+        f.write('\t\t{\n')
+        f.write('\t\t"cardCode" : "')
+        #print str(value)
+        f.write(str(value))
+        f.write('",\n')
+        f.write('\t\t"cardName" : "')
+        name = item['name']
+        f.write(name.encode('utf-8'))
+        f.write('",\n')
+        comment = getCardComment(value)
+        if comment != None :
+            f.write('\t\t"comment" : "')
+            f.write(comment.encode('utf-8'))
+            f.write('",\n')
+        if 'description' in item:
+            f.write('\t\t"cardDesc" : "')
+            desc = item['description']
+            f.write(desc.encode('utf-8'))
+            f.write('",\n')
+        f.write('\t\t},\n')
+    f.write('\t]\n')
+    f.write('}')
+    f.close()
     
 if __name__ == '__main__':
     main()
