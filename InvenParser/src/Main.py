@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import urllib
+import json
 from datetime import date
 from bs4 import BeautifulSoup
 
@@ -264,6 +265,17 @@ def deckParser_mobile(f,urlString,code):
     f.write('\n\t\t\t}],\n')
     return 0
 
+def checkHearthPwn(check_code):
+    f_json = open('./DB_MATCH.json','r')
+    data = json.loads(f_json.read())
+    f_json.close()
+    print 'check code'+check_code
+    for key, value in data.items():
+        if key == check_code:
+            print value
+            return value
+    return check_code
+
 def checkNaxxCard(check_code):
     naxx_codes = ['nack_29','nack_17','nack_12','nack_14','nack_4','nack_6','nack_3','nack_22','nack_7','nack_26','nack_15','nack_30','nack_21'
                   ,'nack_11','nack_27','nack_25','nack_23','nack_1','nack_8','nack_13','nack_28','nack_24','nack_19','nack_9','nack_5','nack_16'
@@ -274,10 +286,10 @@ def checkNaxxCard(check_code):
             ]
     for i in range(0,len(codes)) :
         if codes[i] == check_code:
-            print str(check_code);
-            print naxx_codes[i];
-            return naxx_codes[i];
-    return check_code;
+            print str(check_code)
+            print naxx_codes[i]
+            return naxx_codes[i]
+    return check_code
 
 def card():
     f = file('card.txt','w')
@@ -782,7 +794,7 @@ def parseDeck(f,src):
             count = '2'
         href = a['href']
         cardCode = href[href.rfind('/')+1:href.find('-')]
-        cardCode = checkNaxxCard(cardCode)
+        cardCode = checkHearthPwn(cardCode)
         cards.append(cardCode)
         counts.append(count)
     trs = neutralTbody.find_all('tr')
@@ -794,7 +806,7 @@ def parseDeck(f,src):
             count = '2'
         href = a['href']
         cardCode = href[href.rfind('/')+1:href.find('-')]
-        cardCode = checkNaxxCard(cardCode)
+        cardCode = checkHearthPwn(cardCode)
         cards.append(cardCode)
         counts.append(count)
     if len(cards) > 0 :
