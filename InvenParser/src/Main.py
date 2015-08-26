@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import urllib
-import json        
+from datetime import date
 from bs4 import BeautifulSoup
 
 def stringReplace(string):
@@ -10,21 +10,14 @@ def stringReplace(string):
     else:
         return ""
 
-def stringReplace2(string):
-    if string != None:
-        return string.replace('\\','')
-    else:
-        return ""
-
 def makeInfoParser(f,tds,ths,i):
-    print ths[i].string
     if ths[i].string == None:
         f.write('None');
         f.write(str(i));
         f.write('" : "None",\n');
         return
     else: 
-        f.write(ths[i].string.encode("utf-8"))
+        f.write(ths[i].string)
     f.write('" : ')
     spans = tds[i].find_all('span')
     if len(spans) > 0 :
@@ -33,9 +26,9 @@ def makeInfoParser(f,tds,ths,i):
     for j in range(0,2):
         rel_name = spans[j]['rel'] 
         rel_value = spans[j].string
-        f.write(stringReplace(rel_name).encode("utf-8"))
+        f.write(stringReplace(rel_name))
         f.write('" : "')
-        f.write(stringReplace(rel_value).encode("utf-8"))
+        f.write(stringReplace(rel_value))
         if j != 1 :
             f.write('","')
     f.write('"\n\t\t\t\t} ],\n')
@@ -69,7 +62,6 @@ def detailTableParser(f,table):
     rel_count = 0
     for i in range(0,len(ths)):
         f.write('\t\t"')
-        #print ths[i].string
         if ths[i].string == '추가 텍스트':
             addTextParser(f,ths,tds,i)
             continue
@@ -77,15 +69,14 @@ def detailTableParser(f,table):
             effectTextParser(f,ths,tds,i)
             continue
         if ths[i].string != None and tds[i].string != None:
-            f.write(stringReplace(ths[i].string).encode("utf-8"))
+            f.write(stringReplace(ths[i].string))
             #print 'th : ' + ths[i].string
             f.write('" : "')
-            f.write(stringReplace(tds[i].string).encode("utf-8"))
+            f.write(stringReplace(tds[i].string))
             #print 'td : ' + tds[i].string
             f.write('",\n')
         else:
             #print 'makeInfoParser'
-            #print tds
             makeInfoParser(f,tds,ths,i)
             rel_count+=2
     return 0
@@ -112,7 +103,7 @@ def cardParser_mobile(f,urlString,code):
     cardName = cardName[1:len(cardName)-1]
     print cardName
     f.write('\n\t\t"cardName" : "')
-    f.write(stringReplace(cardName).encode("utf-8"))
+    f.write(stringReplace(cardName))
     f.write('",\n')
     
     cost = soup.find('div','cost')
@@ -120,7 +111,7 @@ def cardParser_mobile(f,urlString,code):
     cost_val = cost_val['class'][0][1:]
     #print cost_val
     f.write('\t\t"cost" : "')
-    f.write(stringReplace(cost_val).encode("utf-8"))
+    f.write(stringReplace(cost_val))
     f.write('",\n')
     
     attack = soup.find('div','attack')
@@ -128,7 +119,7 @@ def cardParser_mobile(f,urlString,code):
     attack_val = attack_val['class'][0][1:]
     #print attack_val
     f.write('\t\t"attack" : "')
-    f.write(stringReplace(attack_val).encode("utf-8"))
+    f.write(stringReplace(attack_val))
     f.write('",\n')
     
     health = soup.find('div','health')
@@ -144,41 +135,41 @@ def cardParser_mobile(f,urlString,code):
     return 0
 
 def optionParse(f,lis):
-    for li in lis:
-        th = li.find('span','th')
+    for tr in lis:
+        th = tr.find('th')
         if th != None and th.string == '직업 특화':
-            td = li.find('span','td')
+            td = tr.find('td')
             if  td != None:
                 percent = td.string[:td.string.find('%')]
                 f.write('\n\t\t"직업 특화%" : "')
-                f.write(stringReplace(percent).encode("utf-8"))
+                f.write(stringReplace(percent))
                 f.write('",')
                 job = td.string[td.string.find('(직업')+3:td.string.find('/')]
                 f.write('\n\t\t"직업" : "')
-                f.write(stringReplace(job).encode("utf-8"))
+                f.write(stringReplace(job))
                 f.write('",')
                 normal = td.string[td.string.find('/공용')+3:td.string.find(')')]
                 f.write('\n\t\t"공용" : "')
-                f.write(stringReplace(normal).encode("utf-8"))
+                f.write(stringReplace(normal))
                 f.write('",')
         elif th != None and th.string == '선호 옵션':
-            td = li.find('span','td')
+            td = tr.find('td')
             if  td != None:
                 f.write('\n\t\t"선호옵션" : [\n\t\t\t{\n\t\t\t\t')
                 ops = td.string.split(' / ')
                 for op in ops:
                     opString = op[:op.find('(')]
-                    f.write('"'+stringReplace(opString).encode("utf-8"))
+                    f.write('"'+stringReplace(opString))
                     f.write('" :"')
                     valString = op[op.find('(')+1:op.find('%')]
-                    f.write(stringReplace(valString).encode("utf-8"))
+                    f.write(stringReplace(valString))
                     f.write('",')
                 f.write('\n\t\t\t}],')
         elif th != None and th.string == '평균 비용':
-            td = li.find('span','td')
+            td = tr.find('td')
             if td != None:
                 f.write('\n\t\t"평균비용" : "')
-                f.write(stringReplace(td.string).encode("utf-8"))
+                f.write(stringReplace(td.string))
                 f.write('",')
     return 0
 
@@ -206,21 +197,21 @@ def deckParser_mobile(f,urlString,code):
     
     articleSpan = article.find('span','article')
     deckDate = articleSpan.string[articleSpan.string.find('갱신일 : ')+6:articleSpan.string.find('갱신일 : ')+11]
-    
+    #print deckDate
     f.write('\n\t\t"date" : "')
-    if int(code) > 7059 :
-        f.write('2014-')
+    if int(code) > 40101 :
+        f.write('2015-')
     else :
-        f.write('2013-')
+        f.write('2014-')
     f.write(stringReplace(deckDate))
-    #f.write(stringReplace('08-07'))
+    #f.write(stringReplace('05-11'))
     f.write('",')
     
-    infoClass = soup.find_all('body')[0].find('ul','info')
+    infoClass = soup.find_all('body')[0].find('div','infoContent')
     #print infoClass
-    
-    jobClass = infoClass.find('li','name1 text-shadow')
-    jobName = jobClass.string[:jobClass.string.find(':')-1]
+    jobClass = infoClass.find('th','name1 text-shadow')
+    string = jobClass.contents[0]
+    jobName = string[:string.find(':')-1]
     #print jobClass.string[:jobClass.string.find(':')-1]
     f.write('\n\t\t"직업제한" : "')
     f.write(stringReplace(jobName))
@@ -245,7 +236,7 @@ def deckParser_mobile(f,urlString,code):
     f.write(stringReplace(weaponCount))
     f.write('",')
     
-    lis = infoClass.find_all('li')
+    lis = infoClass.find_all('tr')
     optionParse(f,lis)
     
     cardClass = soup.find_all('body')[0].find('div','deckCardListWrap contentWrap')
@@ -311,12 +302,14 @@ def card():
             #'151','630','762','8','734','920','517','979','196','440','708',
             #'1753','1858','1806','1860','1784','1915','1786','1800','1802','1861','1914','1791','1783','1801','1808','1796',
             #'1793','1810','1804','1807','1799','1789','1781','1809','1910','1790','1805','1913','1794','1797',
-            '2035','2085','2017','1992','2016','2024','2004','2075','1939','2012','2233','2093','2063','1988','1934','2074','2172','2054','2057','2040','1937','2249',
-            '2084','2046','1940','2002','2039','2049','2023','2077','2065','1928','1933','2018','2037','2010','2038','2060','2050','2066','2064','2073','2086','2070',
-            '2095','2068','2045','2047','1986','2003','1941','2080','2034','1993','2079','2078','2072','2021','2014','1935','2029','2028','2026','2031','1931','1929',
-            '2069','2087','2052','2025','1938','2001','1998','2048','2011','2225','2082','2055','1985','2053','2094','2044','2096','2009','2051','2056','2022','2033',
-            '2058','1990','2032','2076','2020','2013','2059','2234','1995','2019','2081','1991','2062','1997','1982','2008','2071','1936','2042','2030','2041','2083',
-            '2027','1932','1989','2015','2006','2067','2061','2043','2088','1927','2007','2005','2036'
+            #'2035','2085','2017','1992','2016','2024','2004','2075','1939','2012','2233','2093','2063','1988','1934','2074','2172','2054','2057','2040','1937','2249',
+            #'2084','2046','1940','2002','2039','2049','2023','2077','2065','1928','1933','2018','2037','2010','2038','2060','2050','2066','2064','2073','2086','2070',
+            #'2095','2068','2045','2047','1986','2003','1941','2080','2034','1993','2079','2078','2072','2021','2014','1935','2029','2028','2026','2031','1931','1929',
+            #'2069','2087','2052','2025','1938','2001','1998','2048','2011','2225','2082','2055','1985','2053','2094','2044','2096','2009','2051','2056','2022','2033',
+            #'2058','1990','2032','2076','2020','2013','2059','2234','1995','2019','2081','1991','2062','1997','1982','2008','2071','1936','2042','2030','2041','2083',
+            #'2027','1932','1989','2015','2006','2067','2061','2043','2088','1927','2007','2005','2036'
+            '2408','2409','2291','2283','2261','2297','2308','2296','2298','2275','2260','2301','2274','2257','2289','2299','2284','2278','2306','2288','2262',
+            '2281','2280','2290','2304','2279','2258','2295','2292','2286','2263'
             #영웅 '893','31','274','930','413','1623'
             ]
     f.write('\t"cards" : [\n')
@@ -369,8 +362,36 @@ def deck():
              #'29970','29969','29968','29967','29966','29965','29964','29963','29962','29961','29959','29958','29956','29955',
              #'29952','29951','29950','29949','29948','29947','29946','29945','29943','29942','29941','29940'
              #,'29939','29938','29937','29936','29935','29934'
-             '31828','31827','31826','31825','31824','31823','31821','31820','31819','31818','31817','31816','31815','31814','31813'
-             ,'31812','31811','31810','31809'
+             #'31828','31827','31826','31825','31824','31823','31821','31820','31819','31818','31817','31816','31815','31814','31813'
+             #,'31812','31811','31810','31809'
+             #'32428','32427','32426','32425','32424','32423','32422','32421','32420','32419','32418','32415','32413','32412','32410'
+             #,'32409','32408','32407','32406'
+             #'33703','33702','33701','33699','33698','33696','33695','33694','33692','33691','33690','33689','33687','33686','33685',
+             #'33684','33683','33529','33528','33527','33526','33525','33524','33523','33521','33519','33518','33516','33515','33514',
+             #'33513','33512',
+             #'34359','34357','34356','34355','34354','34353','34352','34351','34350','34349','34347','34346','34345','34344','34062',
+             #'34061','34060','34055','34054','34053','34051','34050','34049','34048','34047','34046','34044','34043','34042','34041',
+             #'34040','34038',
+             #'36861','36860','36859','36858','36857','36856','36855','36854','36853','36852','36851','36850','36849','36848','36847','36846',
+             #'46753','46752','46751','46750','46749','46748','46747','46746','46745','46744','46743','46742','46741','46740','46739','46738',
+             #'46737','46736','46735','46734','46733','46732','46731','46730','45130','45129','45128','45127','45126','45125','45124','45123',
+             #'45122','45121','45120','45119','45118','45117','45115','45114'
+             #'42870','42868','42867','42866','42865','42864','42863','42862','42861','42859','42857','42856','42854','42853','42852','42851',
+             #'42561','42560','42559','42558','42557','42556','42555','42554','42553','42552','42550','42549','41899','41898','41897','41896',
+             #'41893','41892','41891','41890','41889','41888','41885','41884','40101','40099','40098','40097','40096','40095','39799','39798','39797',
+             #'39796','39795','39794','39793','39789','39786','39784','39782','39725','39724','39723','39720','39719','39718','39717','39715',
+             #'35719','35718','35717','35716','35715','35714','35713','35712','35711','35710','35709','35708','35707','35706','35704','35703',
+             #'34397','34396','34395','34394','34393','34392','34391','34390','34389','34388',
+             #'34222','34220','34219','34218','34217','34216',
+             #'34214','34213','34212','34211','34209','34208','34207','34206','34205','34203','34202','34200','34199','34198','34197',
+             #'34196','34195','34194','34193','34192','34190','34189','34187','34186','34185','34184','34110','34109','34108','34107',
+             #'34106','34105','34104','34103','34102',
+             #'55383','55382','55381','55378','55376','55374','55373','55372','55370','55369','55368','55367','55366','55364','55363','55362'
+             #'56096','56094','56093','56092','56091','56090','56087','56085','56084','56081','56080','56078','56076','56075','56074','56073',
+             #'56072','56071','56070','56069','56068','56066','55799','55797','55795','55792','55785','55784','55782','55780','55779','55778',
+             #'55777','55775','55772','55770','55769','55768','55767','55766','55764','55762','55761','55759','55758'
+             #'57033','57032','57031','57030','57028','57025','57024','57023','57022'
+             '71516','71515','71512','71511','71510','71509','71508','71506','71505','71504','71503','71502','71501','71499','71498',
              #'26440','26439','26438','26437','26436','26435','26434','26433','26431','26430','26429','26427','26426',
              #'26287','26286','26285','26284','26283','26282','26281','26279','26278','26277','26276','26274','26273',
              #'26271','26268','26267','26266','26265','26263','25677','25676','25675','25674','25673','25672','25671',
@@ -403,6 +424,7 @@ def engImageSave(url,code):
     imgF = file('./image/'+code+'.png','w')
     imgContent = urllib.urlopen(url).read()
     imgF.write(imgContent)
+    """
     imgG = file('./gold_image/'+code+'_gold.png','w')
     print url[:len(url)-4]+'_gold.png'
     gold = url[:url.rfind('/')]
@@ -411,6 +433,7 @@ def engImageSave(url,code):
     print preurl+str(int(gold)+1)+'/'+code+'_gold.png'
     imgContent = urllib.urlopen(preurl+str(int(gold)+1)+'/'+code+'_gold.png').read()
     imgG.write(imgContent)
+    """
     
 def passCode(code):
     return 1
@@ -440,7 +463,6 @@ def cardEngParser(f,urlString):
     #visual-details-cell
     data = urllib.urlopen(urlString)
     soup = BeautifulSoup(data.read(),from_encoding="en-us")
-    
     images = soup.find_all('td','visual-image-cell')
     
     for image in images :
@@ -460,7 +482,7 @@ def cardEngParser(f,urlString):
         for h3 in h3s :
             href = h3.find('a')['href']
             cardCode = href[7:href.find('-')]
-            print cardCode
+            print '"'+cardCode+'":"'+cardCode+'",'
             if passCode(cardCode) == 0 :
                 continue
             f.write('\n\t{\n\t\t"cardCode" : "')
@@ -470,7 +492,7 @@ def cardEngParser(f,urlString):
             f.write('\n\t\t"cardName" : "')
             f.write(stringReplace(cardName))
             f.write('",\n')
-            print cardName
+            #print cardName
         if passCode(cardCode) == 0 :
             continue
         lis = card.find_all('li')
@@ -505,7 +527,7 @@ def cardEngParser(f,urlString):
                     job_class = '마법사'
                 elif li.find('a').contents[1].string.find('Druid') > 0 :
                     job_class = '드루이드'
-                elif li.find('a').contents[1].string.find('Druid') > 0 :
+                elif li.find('a').contents[1].string.find('Hunter') > 0 :
                     job_class = '사냥꾼'
                 elif li.find('a').contents[1].string.find('Rogue') > 0 :
                     job_class = '도적'
@@ -556,7 +578,7 @@ def cardEngParser(f,urlString):
             if li.contents[0].string.find('Artist: ') == 0 :
                 artist = li.contents[0].string[8:] 
                 f.write('\t\t"일러스트" : "')
-                f.write(stringReplace(artist).encode("utf-8"))
+                f.write(stringReplace(artist))
                 f.write('",\n')
         #print job_class
         if len(job_class) == 0 : 
@@ -575,9 +597,9 @@ def cardEngParser(f,urlString):
             for i in range(0,len(desc.contents)) :
                 if desc.contents[i].string != None :
                     cardDesc += desc.contents[i].string
-            print cardDesc
+            #print cardDesc
             f.write('\t\t"효과" : "')
-            f.write(stringReplace(cardDesc).encode("utf-8"))
+            f.write(stringReplace(cardDesc))
             f.write('",\n')
         comments = card.find('div','card-flavor-listing-text')
         comment_val = ''
@@ -589,10 +611,10 @@ def cardEngParser(f,urlString):
                     comment_val += comment.string
         #print comment_val
         f.write('\t\t"comment" : "')
-        f.write(stringReplace(comment_val).encode("utf-8"))
+        f.write(stringReplace(comment_val))
         
         f.write('",\n\t\t"patch" : "')
-        f.write('1.1')
+        f.write('1.3')
         f.write('",\n\t},')
 
 def baseEngParser(f,urlString,engUrl):
@@ -678,11 +700,13 @@ def hearthdb():
     f = file('card_eng.txt','w')
     f.write('{\n')
     f.write('\t"cards" : [')
-    urlString = 'http://www.hearthpwn.com/cards?display=2&filter-set=101&filter-unreleased=1'
+    #urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=103&filter-unreleased=1&page=2'
+    urlString = 'http://www.hearthpwn.com/cards?display=2&filter-set=102&fillter-token=1'
     cardEngParser(f,urlString)
     """
-    for i in range(0,9):
-        urlString = 'http://www.hearthpwn.com/cards?page=%d' % i
+    for i in range(1,3):
+        #urlString = 'http://www.hearthpwn.com/cards?page=%d' % i
+        urlString = 'http://www.hearthpwn.com/cards?display=2&filter-set=102&filter-unreleased=1&page=%d' % i
         cardEngParser(f,urlString)
     #urlString = 'http://www.hearthpwn.com/cards?filter-set=100'
         #urlString = 'file:///Users/tilltue/Git/Python/InvenParser/src/test.html'
@@ -711,104 +735,144 @@ def naxx():
         img_url = card_div.find('img')
         print img_url['src']
         engImageSave(img_url['src'],code)
+
+def getJob(job):
+    if job.find('Priest') != -1 :
+        return '사제'
+    elif job.find('Warrior') != -1 :
+        return '전사'
+    elif job.find('Warlock') != -1 :
+        return '흑마법사'
+    elif job.find('Rogue') != -1 :
+        return '도적'
+    elif job.find('Shaman') != -1 :
+        return '주술사'
+    elif job.find('Mage') != -1 :
+        return '마법사'
+    elif job.find('Druid') != -1 :
+        return '드루이드'
+    elif job.find('Hunter') != -1 :
+        return '사냥꾼'
+    elif job.find('Paladin') != -1 :
+        return '성기사'
+    
+def parseDeck(f,src):
+    print src
+    data = urllib.urlopen(src)
+    soup = BeautifulSoup(data.read(),from_encoding="euc-kr")
+    classCards = soup.find_all('body')[0].find('section','t-deck-details-card-list class-listing')
+    neutralCards = soup.find_all('body')[0].find('section','t-deck-details-card-list neutral-listing')
+    h4 = classCards.find('h4')
+    #print classCards
+    job =  h4.contents[0].string
+    job = getJob(job)
+    f.write('\n\t\t"job_class" : "')
+    f.write(str(job))
+    f.write('",')
+    classTbody = classCards.find('table').find('tbody')
+    neutralTbody = neutralCards.find('table').find('tbody')
+    cards = []
+    counts = []
+    trs = classTbody.find_all('tr')
+    for tr in trs:
+        a = tr.find('td').find('a')
+        td = tr.find('td','col-name')
+        count = '1'
+        if td.contents[2].string.find('2') > -1:
+            count = '2'
+        href = a['href']
+        cardCode = href[href.rfind('/')+1:href.find('-')]
+        cardCode = checkNaxxCard(cardCode)
+        cards.append(cardCode)
+        counts.append(count)
+    trs = neutralTbody.find_all('tr')
+    for tr in trs:
+        a = tr.find('td').find('a')
+        td = tr.find('td','col-name')
+        count = '1'
+        if td.contents[2].string.find('2') > -1:
+            count = '2'
+        href = a['href']
+        cardCode = href[href.rfind('/')+1:href.find('-')]
+        cardCode = checkNaxxCard(cardCode)
+        cards.append(cardCode)
+        counts.append(count)
+    if len(cards) > 0 :
+        f.write('\n\t\t"cards" : [{')
+        for i in range(0,len(cards)) :
+            f.write('\n\t\t\t"')
+            f.write(cards[i])
+            f.write('" : "')
+            f.write(counts[i])
+            f.write('"')
+            if i < len(cards)-1:
+                f.write(',')    
+        f.write('\n\t\t}]')
+        
+def popularRank():
+    f = file('popular.txt','w')
+    f.write('{\n')
+    f.write('\t"news_id" : "1",\n')
+    f.write('\t"type" : "1",\n')
+    f.write('\t"title" : "popular deck",\n')
+    f.write('\t"title_kor" : "인기 덱 리스트",\n')
+    today = date.today();
+    f.write('\t"date" : "'+today.isoformat()+'",\n')
+    f.write('\t"from" : "HearthPwn",\n')
+    f.write('\t"type" : "1",\n')
+    f.write('\t"desc" : "",\n')
+    f.write('\t"desc_kor" : "",\n')
+    f.write('\t"ranks" : [')
+    urlString = 'http://www.hearthpwn.com'
+    data = urllib.urlopen(urlString)
+    soup = BeautifulSoup(data.read(),from_encoding="euc-kr")
+    article = soup.find_all('body')[0].find('tbody','listing-decks')
+    trs = article.find_all('tr')
+    code = 0
+    for i in range(0,len(trs)) :
+        tr = trs[i]
+        code+=1
+        f.write('\n\t{')
+        f.write('\n\t\t"rankcode" : "')
+        f.write(str(code))
+        f.write('",')
+        tds = tr.find_all('td')
+        for j in  range(0,len(tds)):
+            td = tds[j]
+            a = td.find('a')
+            if a == None :
+                continue
+            href = a['href']
+            img = td.find('img')
+            if img != None:
+                rankName = a.contents[1].string
+                #print a.contents[1].string
+                print rankName
+                f.write('\n\t\t"title" : "')
+                f.write(stringReplace(rankName[1:]))
+                f.write('",')
+            strong = td.find('strong')
+            if strong != None:
+                dust = strong.string
+                f.write('\n\t\t"dust" : "')
+                f.write(stringReplace(dust))
+                f.write('",')
+            if href.find('decks') > -1 :
+                parseDeck(f,href)
+        if i < len(trs)-1 :
+            f.write('\n\t},')
+        else:
+            f.write('\n\t}')
+    #print trs
+    f.write(']\n}\n')
+    f.close()
         
 def main():
     #card()
     #deck()
     #hearthdb()
     #franchParser()
-    hearthhead()
-    
-def getCardComment(code):
-    print code
-    urlString = 'http://fr.hearthhead.com/card=%d' % code
-    data = urllib.urlopen(urlString)
-    soup = BeautifulSoup(data.read(),from_encoding="en-us")
-    script = soup.find_all('script')
-    #print script[30]
-    start_span = script[32].string.find('<span class="q">')
-    if start_span > 0: 
-        check =  script[32].string[start_span+16:start_span+script[32].string[start_span:].find('</span>')]
-    else:
-        start_span = script[33].string.find('<span class="q">')
-        if start_span > 0:
-            check =  script[33].string[start_span+16:start_span+script[33].string[start_span:].find('</span>')]
-        else:
-            return None
-    check = remove_html_markup(check)
-    check = stringReplace(check)
-    check = stringReplace2(check)
-    print check
-    print '-----\n'
-    return check
-
-def remove_html_markup(s):
-    tag = False
-    quote = False
-    out = ""
-
-    for c in s:
-            if c == '<' and not quote:
-                tag = True
-            elif c == '>' and not quote:
-                tag = False
-            elif (c == '"' or c == "'") and tag:
-                quote = not quote
-            elif not tag:
-                out = out + c
-
-    return out
-
-def hearthhead():
-    urlString = 'http://fr.hearthhead.com/cards'
-    data = urllib.urlopen(urlString)
-    soup = BeautifulSoup(data.read(),from_encoding="en-us")
-    script = soup.find_all('script')
-    print 'aaa'
-    #print script[30]
-    #return
-    check =  script[31].string[script[31].string.find('var hearthstoneCards = ')+23:script[31].string.find('}];')+2]
-    while 1:
-        popularity = check.find(',popularity:')
-        end_popularity = check[popularity:].find('}')+popularity
-        if popularity > 0:
-            check = check[:check.find(',popularity:')] + check[end_popularity:]
-        else:
-            break;
-    data3 = json.loads(check)
-    f = file('card_fr.json','w')
-    f.write('{\n\t"cards" : [\n')
-    count = 0
-    for item in data3:
-        count+=1
-        print count 
-        #print item['name']
-        value = item['id']
-        if int(value) < 1916 :
-            continue
-        f.write('\t\t{\n')
-        f.write('\t\t"cardCode" : "')
-        #print str(value)
-        f.write(str(value))
-        f.write('",\n')
-        f.write('\t\t"cardName" : "')
-        name = item['name']
-        f.write(name.encode('utf-8'))
-        f.write('",\n')
-        comment = getCardComment(value)
-        if comment != None :
-            f.write('\t\t"comment" : "')
-            f.write(comment.encode('utf-8'))
-            f.write('",\n')
-        if 'description' in item:
-            f.write('\t\t"cardDesc" : "')
-            desc = item['description']
-            f.write(desc.encode('utf-8'))
-            f.write('",\n')
-        f.write('\t\t},\n')
-    f.write('\t]\n')
-    f.write('}')
-    f.close()
-    
+    popularRank()
+        
 if __name__ == '__main__':
     main()
