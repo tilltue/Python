@@ -269,10 +269,10 @@ def checkHearthPwn(check_code):
     f_json = open('./DB_MATCH.json','r')
     data = json.loads(f_json.read())
     f_json.close()
-    print 'check code'+check_code
+    #print 'check code'+check_code
     for key, value in data.items():
         if key == check_code:
-            print value
+            #print value
             return value
     return check_code
 
@@ -819,7 +819,7 @@ def parseDeck(f,src):
             f.write('"')
             if i < len(cards)-1:
                 f.write(',')    
-        f.write('\n\t\t}]')
+        f.write('\n\t\t}],')
         
 def popularRank():
     f = file('popular.txt','w')
@@ -851,24 +851,31 @@ def popularRank():
         tds = tr.find_all('td')
         for j in  range(0,len(tds)):
             td = tds[j]
+            #print td
             a = td.find('a')
-            if a == None :
-                continue
-            href = a['href']
-            img = td.find('img')
-            if img != None:
-                rankName = a.contents[1].string
-                #print a.contents[1].string
-                print rankName
-                f.write('\n\t\t"title" : "')
-                f.write(stringReplace(rankName[1:]))
-                f.write('",')
+            if a != None :
+                href = a['href']
+                img = td.find('img')
+                if img != None:
+                    rankName = a.contents[1].string
+                    #print a.contents[1].string
+                    print rankName
+                    f.write('\n\t\t"title" : "')
+                    f.write(stringReplace(rankName[1:]))
+                    f.write('",')
+                if href.find('member') > 0 :
+                    member = a.contents[0].string
+                    print member
+                    f.write('\n\t\t"author" : "')
+                    f.write(stringReplace(member))
+                    f.write('",')
             strong = td.find('strong')
+            print strong
             if strong != None:
                 dust = strong.string
                 f.write('\n\t\t"dust" : "')
                 f.write(stringReplace(dust))
-                f.write('",')
+                f.write('"')
             if href.find('decks') > -1 :
                 parseDeck(f,href)
         if i < len(trs)-1 :
