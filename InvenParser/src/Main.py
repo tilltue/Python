@@ -1,9 +1,11 @@
 # -*- coding:utf-8 -*-
+from xml.etree.ElementTree import Element, dump
 
 import urllib
 import json
 from datetime import date
 from bs4 import BeautifulSoup
+import sys
 
 def stringReplace(string):
     if string != None:
@@ -476,7 +478,7 @@ def cardEngParser(f,urlString):
     data = urllib.urlopen(urlString)
     soup = BeautifulSoup(data.read(),from_encoding="en-us")
     images = soup.find_all('td','visual-image-cell')
-    
+    '''
     for image in images :
         a = image.find('a')
         href = a['href']
@@ -486,7 +488,7 @@ def cardEngParser(f,urlString):
         src = img['src']
         print src
         engImageSave(src,cardCode)
-    
+    '''
     cards = soup.find_all('td','visual-details-cell')
     for card in cards :
         cardCode = ''
@@ -625,9 +627,10 @@ def cardEngParser(f,urlString):
         f.write('\t\t"comment" : "')
         f.write(stringReplace(comment_val))
         
-        f.write('",\n\t\t"patch" : "')
-        f.write('1.3')
-        f.write('",\n\t},')
+        f.write('",\n\t\t"확장팩" : "')
+        #f.write('클래식')
+        f.write('한여름밤의 카라잔')
+        f.write('"\n\t},')
 
 def baseEngParser(f,urlString,engUrl):
     print urlString
@@ -713,7 +716,12 @@ def hearthdb():
     f.write('{\n')
     f.write('\t"cards" : [')
     #urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=103&filter-unreleased=1&page=2'
-    urlString = 'http://www.hearthpwn.com/cards?display=2&filter-set=102&fillter-token=1'
+    #크툰
+    #urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=105&filter-unreleased=1&page=2'
+    #카라잔
+    urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=106&filter-unreleased=1&page=2'
+    #클래식
+    #urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=3&filter-unreleased=1&page=2'
     cardEngParser(f,urlString)
     """
     for i in range(1,3):
@@ -835,9 +843,9 @@ def popularRank():
     f.write('\t"desc" : "",\n')
     f.write('\t"desc_kor" : "",\n')
     f.write('\t"ranks" : [')
-    urlString = 'http://www.hearthpwn.com'
+    urlString = 'http://www.hearthpwn.com/news/1654-popular-decks-of-the-week-for-august-14'
     data = urllib.urlopen(urlString)
-    soup = BeautifulSoup(data.read(),from_encoding="euc-kr")
+    soup = BeautifulSoup(data.read(),from_encoding="utf-8")
     article = soup.find_all('body')[0].find('tbody','listing-decks')
     trs = article.find_all('tr')
     code = 0
@@ -887,11 +895,13 @@ def popularRank():
     f.close()
         
 def main():
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
     #card()
     #deck()
-    #hearthdb()
+    hearthdb()
     #franchParser()
-    popularRank()
+    #popularRank()
         
 if __name__ == '__main__':
     main()
