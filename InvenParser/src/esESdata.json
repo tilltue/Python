@@ -1,0 +1,272 @@
+[
+    {
+        "comment":"Dice que lo que le atrae de Karazhan son las l\u00edneas Ley, pero todos sabemos que lo que le chifla es la cocina de Moroes.",
+        "description":"Cuesta (1) menos por cada hechizo que hayas lanzado durante esta partida.",
+        "id":"KAR_711",
+        "name":"Gigante Arcano"
+    },
+    {
+        "comment":"\u00a1Si la fiesta te parece buena ahora, espera a que invite a los orcos!",
+        "description":"Grito de batalla: Te equipas con Atiesh, gran b\u00e1culo del Guardi\u00e1n.",
+        "id":"KAR_097",
+        "name":"Medivh, el Guardi\u00e1n"
+    },
+    {
+        "comment":"Tierras de Fuego, ciudad de vacaciones.",
+        "description":"Inflige 5 p. de da\u00f1o. Invoca a un esbirro aleatorio de coste 5.",
+        "id":"KAR_076",
+        "name":"Portal de las Tierras de Fuego"
+    },
+    {
+        "comment":"El Curator custodia las criaturas m\u00e1s letales de Azeroth, pero lo que nadie sabe es que las ardillas lo aterrorizan.",
+        "description":"Provocar\nGrito de batalla: Roba una bestia, un drag\u00f3n y un m\u00farloc de tu mazo.",
+        "id":"KAR_061",
+        "name":"El Curator"
+    },
+    {
+        "comment":"Lo suele utilizar el hijo de la Luna para ir a ver a sus padres cuando necesita comida o que le planchen la ropa.",
+        "description":"Restaura 6 p. de salud. Invoca a un esbirro aleatorio de coste 6.",
+        "id":"KAR_075",
+        "name":"Portal de Claro de la Luna"
+    },
+    {
+        "comment":"Sus tragedias cl\u00e1sicas favoritas son El Hobbit y Grendel.",
+        "description":"Grito de batalla: Destruye a un esbirro enemigo con 3 p. de ataque o menos si hay un drag\u00f3n en tu mano.",
+        "id":"KAR_033",
+        "name":"Vermis de biblioteca"
+    },
+    {
+        "comment":"NO, los caballos tampoco pueden saltarse las reglas.",
+        "description":"Grito de batalla:\n Descubre un hechizo.\nRestaura a tu h\u00e9roe una salud equivalente a su coste.",
+        "id":"KAR_057",
+        "name":"Caballo de marfil"
+    },
+    {
+        "comment":"Por favor, \u00bfpuedo qued\u00e1rmelo? Prometo limpiarle la jaula todos los d\u00edas.",
+        "description":"Grito de batalla: Elige una bestia amistosa. Invoca una copia de esa bestia.",
+        "id":"KAR_065",
+        "name":"Celadora de la Sala de las Fieras"
+    },
+    {
+        "comment":"Es un... \"algo\" que sale del agua con cara de ir a merodear.",
+        "description":"Grito de batalla:\nDestruye a un esbirro.\n\u00daltimo aliento: Vuelve a invocar a ese esbirro.",
+        "id":"KAR_041",
+        "name":"Merodeador del foso"
+    },
+    {
+        "comment":"Parece un trabajo cruel, pero tiene sus motivos.",
+        "description":"Ataques ilimitados en cada turno. No puede atacar a h\u00e9roes.",
+        "id":"KAR_028",
+        "name":"Aterralelos"
+    },
+    {
+        "comment":"Una vez, los enanos colocaron acero fundido justo debajo del portal. La gente no acab\u00f3 de pillar la broma.",
+        "description":"Obtienes 4 p. de armadura.\nInvoca a un esbirro aleatorio de coste 4.",
+        "id":"KAR_091",
+        "name":"Portal de Forjaz"
+    },
+    {
+        "comment":"Esto es lo que pasa cuando le pides a Khadgar que ponga la mesa.",
+        "description":"Invoca una vela 1/1, una escoba 2/2 y una tetera 3/3.",
+        "id":"KAR_025",
+        "name":"\u00a1Kara kazham!"
+    },
+    {
+        "comment":"Lo que m\u00e1s vigila es no coger la gripe... La \u00faltima vez se lio parda.",
+        "description":"Grito de batalla: Si controlas un secreto, obtiene +1/+1\ny Provocar.",
+        "id":"KAR_037",
+        "name":"Vig\u00eda aviaria"
+    },
+    {
+        "comment":"Ya, claro. A ese Ragnaros \"lo encontraste por ah\u00ed\".",
+        "description":"Grito de batalla: Las cartas de otras clases en tu mano cuestan (2) cristales menos.",
+        "id":"KAR_070",
+        "name":"Vendedora et\u00e9rea"
+    },
+    {
+        "comment":"Porque sacar conejitos de la chistera est\u00e1 pasado de moda.",
+        "description":"Grito de batalla: Otorga +2/+2 a una bestia, a un drag\u00f3n y a un m\u00farloc amistosos aleatorios.",
+        "id":"KAR_702",
+        "name":"Mago de la Sala de las Fieras"
+    },
+    {
+        "comment":"Le encanta visitar B4, pero no es una zona agradable donde asentarse.",
+        "description":"Grito de batalla: Invoca a un esbirro aleatorio que haya muerto durante esta partida.",
+        "id":"KAR_204",
+        "name":"Alfil \u00f3nice"
+    },
+    {
+        "comment":"Se emocion\u00f3 much\u00edsimo al ver que vend\u00edan a Aullav\u00edsceras en el mercadillo. \u00a1Imagina su decepci\u00f3n cuando descubri\u00f3 que era una r\u00e9plica de gomaespuma!",
+        "description":"Cuando empieza la partida,\na\u00f1ade 5 esbirros legendarios\nextras a tu mazo.",
+        "id":"KAR_096",
+        "name":"Pr\u00edncipe Malchezaar"
+    },
+    {
+        "comment":"\u00bfQu\u00e9 hace Molino Tormenta de Man\u00e1 en Lunargenta?",
+        "description":"Otorga a un esbirro +2/+2. Invoca a un esbirro aleatorio\n de coste 2.",
+        "id":"KAR_077",
+        "name":"Portal de Lunargenta"
+    },
+    {
+        "comment":"En realidad es un herrero corriente, pero pens\u00f3 que el t\u00edtulo sofisticado le conseguir\u00eda m\u00e1s trabajo. ",
+        "description":"Grito de batalla: Invoca a un esbirro 0/5 con Provocar.",
+        "id":"KAR_710",
+        "name":"Herrero Arcano"
+    },
+    {
+        "comment":"Sol\u00eda representar todos los papeles hasta que Moroes le confisc\u00f3 el Orbe de enga\u00f1o.",
+        "description":"Grito de batalla: Invoca una copia 1/1 de un esbirro aleatorio de tu mazo.",
+        "id":"KAR_114",
+        "name":"Barnes"
+    },
+    {
+        "comment":"\u00a1Esa tarta de queso merece un premio!",
+        "description":"Cada vez que lanzas un hechizo, restaura 3 p. de salud a tu h\u00e9roe.",
+        "id":"KAR_035",
+        "name":"Sacerdote del fest\u00edn"
+    },
+    {
+        "comment":"\"\u00bfSabeh por d\u00f3nde se va a Karazhan...?\".\n\"\u00a1No, colega, yo eh que paso de la muerte!\".",
+        "description":"Cada vez que lanzas un hechizo, invoca un t\u00f3tem b\u00e1sico aleatorio.",
+        "id":"KAR_021",
+        "name":"Malvada m\u00e9dica bruja"
+    },
+    {
+        "comment":"\u00a1Formad filas! \u00a1Defensa colmillarr, al frente!",
+        "description":"Invoca un pe\u00f3n 1/1 con Provocar por cada esbirro enemigo.",
+        "id":"KAR_026",
+        "name":"\u00a1Proteged al Rey!"
+    },
+    {
+        "comment":"Tus secretos no tienen secretos para ella.",
+        "description":"Tus secretos cuestan (0).",
+        "id":"KAR_006",
+        "name":"Cazadora con capa"
+    },
+    {
+        "comment":"En la disposici\u00f3n correcta, el tenedor letal va a la izquierda del tenedor de ensalada, pero a la derecha del tenedor de mesa.",
+        "description":"\u00daltimo aliento: A\u00f1ade un arma 3/2 a tu mano.",
+        "id":"KAR_094",
+        "name":"Tenedor letal"
+    },
+    {
+        "comment":"Moroes dirige un ej\u00e9rcito de criados... pero acaba inflando los globos \u00e9l mismo.",
+        "description":"Sigilo\nAl final de tu turno, invoca a un criado 1/1.",
+        "id":"KAR_044",
+        "name":"Moroes"
+    },
+    {
+        "comment":"En un principio lleg\u00f3 para ser templaria de Arcanagos, pero debe admitir que pedir pizza es muuucho m\u00e1s f\u00e1cil.",
+        "description":"Grito de batalla: Si hay un drag\u00f3n en tu mano, invoca dos cr\u00edas 1/1.",
+        "id":"KAR_010",
+        "name":"Templaria Penumbr\u00eda"
+    },
+    {
+        "comment":"Hay que admitir que hacen una bonita pareja.",
+        "description":"Grito de batalla: Invoca una ara\u00f1a 1/3.",
+        "id":"KAR_030a",
+        "name":"Ara\u00f1a de despensa"
+    },
+    {
+        "comment":"\u00a1Qu\u00e9 fest\u00edn, qu\u00e9 fest\u00edn! \u00a1Es un ser de lo m\u00e1s ruin! Solo dice cuchufletas, su maldad no tiene fin.",
+        "description":"Si descartas a este esbirro, lo invocas.",
+        "id":"KAR_205",
+        "name":"G\u00f3lem de la vajilla"
+    },
+    {
+        "comment":"El alma de la fiesta.",
+        "description":"Durante tu turno, tu h\u00e9roe es Inmune.",
+        "id":"KAR_712",
+        "name":"Ilusionista Violeta"
+    },
+    {
+        "comment":"El m\u00farloc saca la foto.",
+        "description":"Grito de batalla: Otorga +1/+1 a una bestia, a un drag\u00f3n y a un m\u00farloc amistosos aleatorios.",
+        "id":"KAR_095",
+        "name":"Zoobot"
+    },
+    {
+        "comment":"\"Tambi\u00e9n s\u00e9 nuevos trucos; muchos trucos muy buenos que te voy a ense\u00f1ar... Y s\u00e9 que Medivh no se va a disgustar\".",
+        "description":"Secreto: Cuando tu oponente lanza un hechizo, invoca una pantera 4/2 con Sigilo.",
+        "id":"KAR_004",
+        "name":"Truco de gato"
+    },
+    {
+        "comment":"Lo anuncian como una famosa atracci\u00f3n tur\u00edstica, pero intentan que pagues por adelantado.",
+        "description":"Inflige 1 p. de da\u00f1o a todos los esbirros enemigos. Invoca a un esbirro aleatorio de coste 1.",
+        "id":"KAR_073",
+        "name":"Portal de La Vor\u00e1gine"
+    },
+    {
+        "comment":"\u00a1A\u00fan m\u00e1s efectiva que una ducha con mucho frote!",
+        "description":"Silencia a un esbirro amistoso. Roba una carta.",
+        "id":"KAR_013",
+        "name":"Purificar"
+    },
+    {
+        "comment":"\"Qu\u00e9 babas tan grandes tienes\".",
+        "description":"\u00daltimo aliento: Invoca un lobo feroz 3/2.",
+        "id":"KAR_005",
+        "name":"Dulce abuelita"
+    },
+    {
+        "comment":"\"Mago Medivh, le he tra\u00eddo los globos en llamas, como me pidi\u00f3\".",
+        "description":"Grito de batalla: Si controlas un secreto, inflige 3 p. de da\u00f1o.",
+        "id":"KAR_092",
+        "name":"Ayuda de c\u00e1mara de Medivh"
+    },
+    {
+        "comment":"\u00a1Te puede contar historias sobre la gente que NO SE QUEDABA DENTRO DEL HAZ VERDE!",
+        "description":"Grito de batalla:\n Descubre un drag\u00f3n\nsi hay un drag\u00f3n en tu mano.",
+        "id":"KAR_062",
+        "name":"Historiadora Rencor Abisal"
+    },
+    {
+        "comment":"\u00a1Ay! \u00a1Pobre Plastatr\u00f3n! Un hombre sumamente gracioso de la m\u00e1s fecunda imaginaci\u00f3n.",
+        "description":"Provocar",
+        "id":"KAR_011",
+        "name":"Actor pomposo"
+    },
+    {
+        "comment":"Ser\u00e1n mucho m\u00e1s f\u00e1ciles de usar cuando a\u00f1adan el pulgar espiritual.",
+        "description":"Tiene +2 p. de ataque mientras tengas da\u00f1o con hechizos.",
+        "id":"KAR_063",
+        "name":"Garras espirituales"
+    },
+    {
+        "comment":"Sol\u00eda trabajar como anomal\u00eda espacial, pero se hart\u00f3 de estar todo el d\u00eda con la polaridad invertida.",
+        "description":"Cada vez que lanzas un hechizo, este esbirro obtiene\n+1 p. de salud.",
+        "id":"KAR_036",
+        "name":"Anomal\u00eda Arcana"
+    },
+    {
+        "comment":"Su \u00eddolo es Las verdes colinas de Tuercespina, y no deja de repetirlo.",
+        "description":"Grito de batalla: A\u00f1ade un hechizo de mago aleatorio a tu mano.",
+        "id":"KAR_009",
+        "name":"Libro balbuciente"
+    },
+    {
+        "comment":"Una vez, en la alegre medianoche, Medivh festejaba, sin reproches...",
+        "description":"",
+        "id":"KAR_300",
+        "name":"Cuervo encantado"
+    },
+    {
+        "comment":"Malchezaar ten\u00eda un diablillo llamado Dobby a su servicio, pero sufri\u00f3 un tr\u00e1gico accidente.",
+        "description":"Cada vez que descartes una carta, roba una carta.",
+        "id":"KAR_089",
+        "name":"Diablillo de Malchezaar"
+    },
+    {
+        "comment":"Tortillas r\u00fanicas: \u00bfcon o sin cebolla?",
+        "description":"\u00daltimo aliento: Roba una carta.",
+        "id":"KAR_029",
+        "name":"Huevo r\u00fanico"
+    },
+    {
+        "comment":"Es un rufi\u00e1n, es un se\u00f1or.",
+        "description":"Grito de batalla: A\u00f1ade a tu mano una carta aleatoria (de la clase de tu oponente).",
+        "id":"KAR_069",
+        "name":"Rufi\u00e1n pretencioso"
+    }
+]

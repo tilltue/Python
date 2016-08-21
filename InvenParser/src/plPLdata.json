@@ -1,0 +1,272 @@
+[
+    {
+        "comment":"Twierdzi, \u017ce Karazhan przyci\u0105gn\u0105\u0142 go moc\u0105 swych czakram\u00f3w. Ale tak naprawd\u0119 uwielbia kuchni\u0119 Moriosa.",
+        "description":"Kosztuje (1) mniej za ka\u017cde zakl\u0119cie rzucone przez ciebie w tej grze.",
+        "id":"KAR_711",
+        "name":"Tajemny olbrzym"
+    },
+    {
+        "comment":"Je\u015bli s\u0105dzisz, \u017ce teraz przyj\u0119cie jest wspania\u0142e, poczekaj a\u017c zaprosi ork\u00f3w!",
+        "description":"Okrzyk bojowy: Wyposa\u017c bohatera w Atiesz, Wielki Kostur Stra\u017cnika.",
+        "id":"KAR_097",
+        "name":"Stra\u017cnik Medivh"
+    },
+    {
+        "comment":"Odwied\u017acie wspania\u0142\u0105 Krain\u0119 Ognia! Reklamy nie k\u0142ami\u0105! Jest tam \u201eznacznie pi\u0119kniej ni\u017c w Rozpadlinie Otch\u0142ani\u201d.",
+        "description":"Zadaj 5 pkt. obra\u017ce\u0144. Przyzwij losowego stronnika o koszcie 5.",
+        "id":"KAR_076",
+        "name":"Portal Krainy Ognia"
+    },
+    {
+        "comment":"Dzie\u0144 bez awarii to dla niego prawdziwe osi\u0105gni\u0119cie!",
+        "description":"Prowokacja\nOkrzyk bojowy: Dobierz Besti\u0119, Smoka i Murloka z twojej talii.",
+        "id":"KAR_061",
+        "name":"Kustosz"
+    },
+    {
+        "comment":"Najlepsze imprezy s\u0105 w Gaju Luny, bo tam zawsze jest pe\u0142no \u017cubr\u00f3w.",
+        "description":"Przywr\u00f3\u0107 6 pkt. zdrowia. Przyzwij losowego stronnika o koszcie 6.",
+        "id":"KAR_075",
+        "name":"Portal Gaju Luny"
+    },
+    {
+        "comment":"Lubuje si\u0119 w klasycznych tragediach, takich jak \u201eHobbit\u201d czy \u201eGrendel\u201d.",
+        "description":"Okrzyk bojowy: Zniszcz wrogiego stronnika z atakiem 3 lub mniejszym, je\u017celi masz w r\u0119ce Smoka.",
+        "id":"KAR_033",
+        "name":"\u017bmij ksi\u0105\u017ckowy"
+    },
+    {
+        "comment":"Pod \u017cadnym pozorem NIE nazywajcie go \u201ekoniem\u201d.",
+        "description":"Okrzyk bojowy: Odkryj zakl\u0119cie.\nPrzywr\u00f3\u0107 twojemu bohaterowi zdrowie r\u00f3wne jego kosztowi.",
+        "id":"KAR_057",
+        "name":"Skoczek z ko\u015bci s\u0142oniowej"
+    },
+    {
+        "comment":"Prosz\u0119! Mog\u0119 go zatrzyma\u0107? Obiecuj\u0119, \u017ce b\u0119d\u0119 mu codziennie czy\u015bci\u0107 klatk\u0119!",
+        "description":"Okrzyk bojowy: Wybierz_przyjazn\u0105 Besti\u0119. Przyzwij_jej kopi\u0119.",
+        "id":"KAR_065",
+        "name":"Opiekunka Mena\u017cerii"
+    },
+    {
+        "comment":"Nie zapraszaj tego, kt\u00f3ry czai si\u0119 w fosie!",
+        "description":"Okrzyk bojowy:\nZniszcz stronnika.\nAgonia: Przyzwij go ponownie.",
+        "id":"KAR_041",
+        "name":"Czyhaj\u0105cy w fosie"
+    },
+    {
+        "comment":"G\u0142upiec to i kl\u0105tw\u0119 zgubi.",
+        "description":"Nielimitowane ataki w_ka\u017cdej turze. Nie mo\u017ce atakowa\u0107 bohater\u00f3w.",
+        "id":"KAR_028",
+        "name":"Zguba g\u0142upca"
+    },
+    {
+        "comment":"Przybywajcie do \u017belaznej Ku\u017ani! Gdzie kuje si\u0119 \u017celazo, a ku\u017anie s\u0105 \u017celazne!",
+        "description":"Otrzymujesz 4 pkt. pancerza. Przyzwij losowego stronnika o_koszcie 4.",
+        "id":"KAR_091",
+        "name":"Portal \u017belaznej Ku\u017ani"
+    },
+    {
+        "comment":"Tak to jest, jak ka\u017cesz Khadgarowi nakry\u0107 do sto\u0142u.",
+        "description":"Przyzwij \u015awiec\u0119 1/1, Miot\u0142\u0119 2/2 oraz Imbryk 3/3.",
+        "id":"KAR_025",
+        "name":"Abra kazham!"
+    },
+    {
+        "comment":"Zwykle ogl\u0105da komedie romantyczne.",
+        "description":"Okrzyk bojowy:\nOtrzymuje +1/+1 oraz_Prowokacj\u0119, je\u015bli kontrolujesz Sekret.",
+        "id":"KAR_037",
+        "name":"Ptasi obserwator"
+    },
+    {
+        "comment":"No pewnie, ten Ragnaros \u201espad\u0142 z wozu na Rubie\u017cach\u201d.",
+        "description":"Okrzyk bojowy: Zmniejsz o_(2) koszt kart innych klas, kt\u00f3re masz w r\u0119ce.",
+        "id":"KAR_070",
+        "name":"Eteryczny handlarz"
+    },
+    {
+        "comment":"Tak mi\u0119dzy nami m\u00f3wi\u0105c, jak co\u015b si\u0119 skaszani, to pierwszy poleci Magik z Mena\u017cerii.",
+        "description":"Okrzyk bojowy: Daj losowej przyjaznej Bestii, Smokowi i_Murlokowi +2/+2.",
+        "id":"KAR_702",
+        "name":"Magik z Mena\u017cerii"
+    },
+    {
+        "comment":"B4 to \u0142adne miejsce na wycieczk\u0119, ale nie chcia\u0142by tam mieszka\u0107.",
+        "description":"Okrzyk bojowy: Przyzwij przyjaznego stronnika, kt\u00f3ry zgin\u0105\u0142 w tej grze.",
+        "id":"KAR_204",
+        "name":"Onyksowy goniec"
+    },
+    {
+        "comment":"Strasznie si\u0119 podjara\u0142, gdy uda\u0142o mu si\u0119 dorwa\u0107 Rzezimiota na wyprzeda\u017cy! Strasznie si\u0119 wkurzy\u0142, gdy wysz\u0142o, \u017ce jest to jedynie g\u0105bkowa replika.",
+        "description":"Na pocz\u0105tku gry dodaj\n5 dodatkowych legendarnych\nstronnik\u00f3w do twojej talii.",
+        "id":"KAR_096",
+        "name":"Ksi\u0105\u017c\u0119 Malkezar"
+    },
+    {
+        "comment":"Co Me\u0142ko Gromi\u0142\u0142o robi w Srebrnej Lunie?",
+        "description":"Daj stronnikowi +2/+2. Przyzwij losowego stronnika o koszcie 2.",
+        "id":"KAR_077",
+        "name":"Portal Srebrnej Luny"
+    },
+    {
+        "comment":"Jest zwyk\u0142ym zbrojmistrzem, ale uzna\u0142, \u017ce podnios\u0142y tytu\u0142 przysporzy mu klient\u00f3w.",
+        "description":"Okrzyk bojowy: Przyzwij stronnika 0/5 z_Prowokacj\u0105.",
+        "id":"KAR_710",
+        "name":"Tajemnistrz"
+    },
+    {
+        "comment":"Zwyk\u0142 wyst\u0119powa\u0107 we wszystkich rolach, a\u017c Morios skonfiskowa\u0142 jego Kul\u0119 Zmieniul\u0119.",
+        "description":"Okrzyk bojowy:\nPrzyzwij kopi\u0119 1/1 losowego stronnika\nz twojej talii.",
+        "id":"KAR_114",
+        "name":"Barnes"
+    },
+    {
+        "comment":"Dwunastokrotny mistrz Wichrogrodu w jedzeniu fawork\u00f3w na czas. I na ilo\u015b\u0107 te\u017c.",
+        "description":"Za ka\u017cdym razem gdy rzucisz zakl\u0119cie, przywr\u00f3\u0107 3 pkt. zdrowia twojemu bohaterowi.",
+        "id":"KAR_035",
+        "name":"Kap\u0142an uczty"
+    },
+    {
+        "comment":"Mo\u017cna j\u0105 \u0142atwo pokona\u0107 \u2013 zadaj 4 punkty obra\u017ce\u0144 lub zrzu\u0107 jej na g\u0142ow\u0119 dom.",
+        "description":"Za ka\u017cdym razem gdy rzucisz zakl\u0119cie, przyzwij losowy podstawowy Totem.",
+        "id":"KAR_021",
+        "name":"Nikczemna znachorka"
+    },
+    {
+        "comment":"Formuj szereg! Klasyczna obrona kie\u0142zarska!",
+        "description":"Przyzwij Pionka 1/1 z Prowokacj\u0105 za ka\u017cdego wrogiego stronnika.",
+        "id":"KAR_026",
+        "name":"Obrona kr\u00f3la"
+    },
+    {
+        "comment":"Z ni\u0105 \u017bADEN sekret nie jest bezpieczny!",
+        "description":"Twoje Sekrety kosztuj\u0105 (0).",
+        "id":"KAR_006",
+        "name":"Zamaskowana \u0142owczyni"
+    },
+    {
+        "comment":"Aby nakrycie by\u0142o nienaganne, umie\u015b\u0107 zab\u00f3jczy widelec za widelczykiem do sa\u0142aty, ale przed widelcem obiadowym.",
+        "description":"Agonia: Dodaj bro\u0144 3/2 do_twojej r\u0119ki.",
+        "id":"KAR_094",
+        "name":"Zab\u00f3jczy widelec"
+    },
+    {
+        "comment":"Morios zarz\u0105dza armi\u0105 s\u0142u\u017c\u0105cych, ale balony lubi dmucha\u0107 sam.",
+        "description":"Ukrycie\nNa koniec twojej tury przyzwij Kelnera 1/1.",
+        "id":"KAR_044",
+        "name":"Morios"
+    },
+    {
+        "comment":"Niewidzialna ona jest, a moc jej jest wielka niczym sanktuarium!",
+        "description":"Okrzyk bojowy: Przyzwij dwa Piskl\u0119ta 1/1, je\u015bli masz w_r\u0119ce Smoka.",
+        "id":"KAR_010",
+        "name":"Templariusz Po\u017ceracza Nocy"
+    },
+    {
+        "comment":"Musicie przyzna\u0107 \u2013 \u0142adna z nich para.",
+        "description":"Okrzyk bojowy: Przyzwij Paj\u0105ka 1/3.",
+        "id":"KAR_030a",
+        "name":"Spi\u017carniany paj\u0105k"
+    },
+    {
+        "comment":"Prosto z tajnych laboratori\u00f3w badawczych armii gnom\u00f3w.",
+        "description":"Je\u015bli odrzucisz tego stronnika, przyzwij go.",
+        "id":"KAR_205",
+        "name":"Sztu\u0107cowy Golem"
+    },
+    {
+        "comment":"\u201eO kurcz\u0119, chyba przebi\u0142am ci r\u0119k\u0119...\u201d \u2013 Iluzjonistka Purpurowych po jednym ze swoich wyst\u0119p\u00f3w.",
+        "description":"Podczas twojej tury tw\u00f3j_bohater posiada Niewra\u017cliwo\u015b\u0107.",
+        "id":"KAR_712",
+        "name":"Iluzjonistka Purpurowych"
+    },
+    {
+        "comment":"Murlok robi zdj\u0119cie.",
+        "description":"Okrzyk bojowy: Daj losowej przyjaznej Bestii, Smokowi i_Murlokowi +1/+1.",
+        "id":"KAR_095",
+        "name":"Zoo-bot"
+    },
+    {
+        "comment":"Znam kilka znakomitych sztuczek, zaraz je zademonstruj\u0119. Medivh na pewno nie mia\u0142by nic przeciwko.",
+        "description":"Sekret: Po_rzuceniu zakl\u0119cia przez przeciwnika przyzwij Panter\u0119 4/2 z_Ukryciem.",
+        "id":"KAR_004",
+        "name":"Kocia sztuczka"
+    },
+    {
+        "comment":"Reklamuj\u0105 to miejsce jako popularny kurort, ale zawsze chc\u0105 pieni\u0105dze z g\u00f3ry.",
+        "description":"Zadaj 1 pkt. obra\u017ce\u0144 wszystkim wrogim stronnikom. Przyzwij losowego stronnika o_koszcie 1.",
+        "id":"KAR_073",
+        "name":"Portal Malstromu"
+    },
+    {
+        "comment":"Cisza \u0142agodzi obyczaje. Wypr\u00f3buj na Ragnarosie, a sam si\u0119 przekonasz...",
+        "description":"Wycisz przyjaznego stronnika. Dobierz kart\u0119.",
+        "id":"KAR_013",
+        "name":"Oczyszczenie"
+    },
+    {
+        "comment":"\u201eO rety! Ale\u017c... masz du\u017co \u015bliny!\u201d",
+        "description":"Agonia: Przyzwij Wielkiego Z\u0142ego Wilka 3/2.",
+        "id":"KAR_005",
+        "name":"Mi\u0142a babunia"
+    },
+    {
+        "comment":"\u201ePanie Medivhie, przynie\u015bli\u015bmy p\u0142on\u0105ce balony, wedle \u017cyczenia\u201d.",
+        "description":"Okrzyk bojowy:\nZadaj 3 pkt. obra\u017ce\u0144, je\u015bli kontrolujesz Sekret.",
+        "id":"KAR_092",
+        "name":"Lokaj Medivha"
+    },
+    {
+        "comment":"Mo\u017ce ci opowiedzie\u0107, co dzieje si\u0119 z lud\u017ami, kt\u00f3rzy NIE STOJ\u0104 W ZIELONYM PROMIENIU!",
+        "description":"Okrzyk bojowy:\nOdkryj Smoka, je\u015bli\nmasz w r\u0119ce Smoka.",
+        "id":"KAR_062",
+        "name":"Historyczka Otch\u0142ariona"
+    },
+    {
+        "comment":"Biedny Wkurzotron! Niewyczerpany w \u017cartach, o niezr\u00f3wnanej fantazji!",
+        "description":"Prowokacja",
+        "id":"KAR_011",
+        "name":"Nad\u0119ty gwiazdor"
+    },
+    {
+        "comment":"B\u0119d\u0105 znacznie \u0142atwiejsze w u\u017cyciu po dodaniu widmowego kciuka.",
+        "description":"Ma +2 do ataku, je\u015bli posiadasz Obra\u017cenia zakl\u0119\u0107.",
+        "id":"KAR_063",
+        "name":"Widmowe pazury"
+    },
+    {
+        "comment":"Kiedy\u015b pracowa\u0142 jako Anomalia Przestrzenna, ale wkurza\u0142a go nieustanna zmiana biegun\u00f3w.",
+        "description":"Za ka\u017cdym razem\ngdy rzucisz zakl\u0119cie,\ndaj temu stronnikowi\n+1 do zdrowia.",
+        "id":"KAR_036",
+        "name":"Tajemna anomalia"
+    },
+    {
+        "comment":"Jej idolem s\u0105 Zielone Wzg\u00f3rza Cierniod\u0142aw\u00f3w, i gada o nich bez ustanku.",
+        "description":"Okrzyk bojowy: Dodaj losowe zakl\u0119cie maga do_twojej r\u0119ki.",
+        "id":"KAR_009",
+        "name":"Be\u0142kocz\u0105ca ksi\u0119ga"
+    },
+    {
+        "comment":"W g\u0142uch\u0105 p\u00f3\u0142noc, w sn\u00f3w tumanie, Medivh o przyj\u0119ciu zamarzy\u0142 niespodzianie!",
+        "description":"",
+        "id":"KAR_300",
+        "name":"Zakl\u0119ty kruk"
+    },
+    {
+        "comment":"Malkezar mia\u0142 kiedy\u015b chochlika o imieniu Zgredek, ale dosz\u0142o do tragicznego w skutkach wypadku.",
+        "description":"Dobierz kart\u0119 za ka\u017cdym razem, gdy odrzucasz kart\u0119.",
+        "id":"KAR_089",
+        "name":"Chochlik Malkezara"
+    },
+    {
+        "comment":"Podobno w wolnym czasie zajmuje si\u0119 jajcowaniem. Ma nawet do tego specjalne studio.",
+        "description":"Agonia: Dobierz kart\u0119.",
+        "id":"KAR_029",
+        "name":"Runiczne jajo"
+    },
+    {
+        "comment":"Nieomal zosta\u0142 ochrzczony \u201e\u0141ojejciutrzykiem\u201d.",
+        "description":"Okrzyk bojowy: Dodaj losow\u0105 kart\u0119 klasow\u0105 do twojej r\u0119ki (z klasy przeciwnika).",
+        "id":"KAR_069",
+        "name":"\u0141omotrzyk"
+    }
+]

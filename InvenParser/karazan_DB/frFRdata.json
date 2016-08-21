@@ -1,0 +1,1297 @@
+{
+    "cards":[
+        {
+            "artist":"Dan Scott",
+            "attack":"8",
+            "cardCode":"42049",
+            "cardName":"G\u00e9ant arcanique",
+            "comment":"Il affirme que ce sont les lignes telluriques qui l\u2019ont attir\u00e9 \u00e0 Karazhan. Mais en r\u00e9alit\u00e9, il raffole de la cuisine de Moroes.",
+            "cost":"12",
+            "desc":"Co\u00fbte (1) |4(cristal,cristaux) de moins pour chaque sort que vous lancez pendant cette partie.",
+            "health":"8",
+            "originalCode":"KAR_711",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"800"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"James Ryman",
+            "attack":"7",
+            "cardCode":"42036",
+            "cardName":"Medivh, le Gardien",
+            "comment":"Attendez qu\u2019il invite les orcs \u00e0 la f\u00eate, \u00e7a, \u00e7a va vraiment mettre une ambiance de fou_!",
+            "cost":"8",
+            "desc":"Cri de guerre_: vous \u00e9quipe d\u2019Atiesh, grand b\u00e2ton du Gardien.",
+            "health":"7",
+            "originalCode":"KAR_097",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Gustav Schmidt",
+            "attack":"",
+            "cardCode":"42025",
+            "cardName":"Portail des terres de Feu",
+            "comment":"Venez visiter les terres de Feu_! O\u00f9 tout est \u00ab_Beaucoup plus beau que la gueule des Abysses_!_\u00bb",
+            "cost":"7",
+            "desc":"Inflige 5 |4(point,points) de d\u00e9g\u00e2ts. Invoque un serviteur al\u00e9atoire co\u00fbtant 5_cristaux.",
+            "health":"",
+            "originalCode":"KAR_076",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"20"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Wei Wang",
+            "attack":"4",
+            "cardCode":"42022",
+            "cardName":"Le conservateur",
+            "comment":"Le conservateur garde les cr\u00e9atures les plus effrayantes que compte Azeroth, mais il est secr\u00e8tement terrifi\u00e9 par les \u00e9cureuils.",
+            "cost":"7",
+            "desc":"Provocation. Cri de guerre_: vous piochez une B\u00eate, un Dragon et un Murloc dans votre deck.",
+            "health":"6",
+            "originalCode":"KAR_061",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Evgeniy Zaqumyenny",
+            "attack":"",
+            "cardCode":"42040",
+            "cardName":"Portail de Reflet-de-Lune",
+            "comment":"\u00c0 Reflet-de-Lune, une f\u00eate sans ours n\u2019est pas vraiment une f\u00eate.",
+            "cost":"6",
+            "desc":"Rend 6 PV. Invoque un serviteur al\u00e9atoire co\u00fbtant 6_cristaux.",
+            "health":"",
+            "originalCode":"KAR_075",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Dave Allsop",
+            "attack":"3",
+            "cardCode":"42029",
+            "cardName":"Wyrm de biblioth\u00e8que",
+            "comment":"Ses livres pr\u00e9f\u00e9r\u00e9s sont des trag\u00e9dies classiques telles que \u00ab_Le Hobbit_\u00bb et \u00ab_Grendel_\u00bb.",
+            "cost":"6",
+            "desc":"Cri de guerre_: d\u00e9truit un serviteur adverse avec 3_ATQ ou moins si vous avez un Dragon en main.",
+            "health":"6",
+            "originalCode":"KAR_033",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"4",
+            "cardCode":"42019",
+            "cardName":"Cavalier en ivoire",
+            "comment":"Ne le traitez surtout PAS de \u00ab_cheval_\u00bb.",
+            "cost":"6",
+            "desc":"Cri de guerre_: d\u00e9couvre un sort. Rend un montant de PV \u00e9quivalent \u00e0 son co\u00fbt \u00e0 votre h\u00e9ros.",
+            "health":"4",
+            "originalCode":"KAR_057",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Alex Horley Orlandelli",
+            "attack":"5",
+            "cardCode":"42059",
+            "cardName":"Gardienne de la M\u00e9nagerie",
+            "comment":"S\u2019il vous pla\u00eet, je peux le garder_? Allez_! Je promets de nettoyer sa cage tous les jours.",
+            "cost":"6",
+            "desc":"Cri de guerre_: choisit une B\u00eate alli\u00e9e et en invoque une copie.",
+            "health":"5",
+            "originalCode":"KAR_065",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jerry Mascho",
+            "attack":"3",
+            "cardCode":"42063",
+            "cardName":"R\u00f4deur des douves",
+            "comment":"Comme il adore r\u00f4der, son travail lui apporte beaucoup de satisfaction.",
+            "cost":"6",
+            "desc":"Cri de guerre_: d\u00e9truit un serviteur. R\u00e2le d\u2019agonie_: r\u00e9invoque ce serviteur.",
+            "health":"3",
+            "originalCode":"KAR_041",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Anton Zemskov",
+            "attack":"3",
+            "cardCode":"42041",
+            "cardName":"\u00c9crase-patate",
+            "comment":"Aux idiots, les serviteurs br\u00fblent les doigts.",
+            "cost":"5",
+            "desc":"Pas de limite d\u2019attaques par tour. Ne peut pas attaquer les h\u00e9ros.",
+            "health":"4",
+            "originalCode":"KAR_028",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ubb34\uae30",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Nate Bowden",
+            "attack":"",
+            "cardCode":"42064",
+            "cardName":"Portail de Forgefer",
+            "comment":"Entrez dans la fabuleuse Forgefer_! O\u00f9 le fer est forg\u00e9 et les forges de fer_!",
+            "cost":"5",
+            "desc":"Gagne 4 points d\u2019Armure. Invoque un serviteur al\u00e9atoire co\u00fbtant 4_cristaux de mana.",
+            "health":"",
+            "originalCode":"KAR_091",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jakub Kasper",
+            "attack":"",
+            "cardCode":"42033",
+            "cardName":"Kara Kazham !",
+            "comment":"Voil\u00e0 ce qui se passe quand on demande \u00e0 Khadgar de mettre la table.",
+            "cost":"5",
+            "desc":"Invoque une bougie 1/1, un balai 2/2 et une th\u00e9i\u00e8re 3/3.",
+            "health":"",
+            "originalCode":"KAR_025",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jim Nelson",
+            "attack":"3",
+            "cardCode":"42044",
+            "cardName":"Gardien aviaire",
+            "comment":"Les gardiens nous surveillent, mais qui surveille les gardiens_?",
+            "cost":"5",
+            "desc":"Cri de guerre_: si vous contr\u00f4lez un Secret, gagne_+1/+1 et Provocation.",
+            "health":"6",
+            "originalCode":"KAR_037",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Alex Horley Orlandelli",
+            "attack":"5",
+            "cardCode":"42023",
+            "cardName":"Colporteur \u00e9th\u00e9rien",
+            "comment":"Ouais, bien s\u00fbr. Ce Ragnaros est \u00ab_tomb\u00e9 du camion_\u00bb.",
+            "cost":"5",
+            "desc":"Cri de guerre_: r\u00e9duit de (2) cristaux le co\u00fbt des cartes d\u2019autres classes dans votre main.",
+            "health":"6",
+            "originalCode":"KAR_070",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Garrett Hanna",
+            "attack":"4",
+            "cardCode":"42055",
+            "cardName":"Magicien de la M\u00e9nagerie",
+            "comment":"Entre vous et moi, si la situation devient tendue, le poste de magicien de la M\u00e9nagerie sera s\u00fbrement le premier \u00e0 sauter.",
+            "cost":"5",
+            "desc":"Cri de guerre_: donne +2/+2 \u00e0 une B\u00eate, un Dragon et un Murloc alli\u00e9s al\u00e9atoires.",
+            "health":"4",
+            "originalCode":"KAR_702",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Arthur Gimaldinov",
+            "attack":"3",
+            "cardCode":"42058",
+            "cardName":"Fou en onyx",
+            "comment":"La case B4 est un endroit sympa \u00e0 visiter, mais de l\u00e0 \u00e0 vouloir y vivre\u2026",
+            "cost":"5",
+            "desc":"Cri de guerre_: invoque un serviteur al\u00e9atoire mort pendant cette partie.",
+            "health":"4",
+            "originalCode":"KAR_204",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Joe Madureira & Grace Liu",
+            "attack":"5",
+            "cardCode":"42031",
+            "cardName":"Prince Malchezaar",
+            "comment":"Il \u00e9tait super content quand il a trouv\u00e9 Hurlesang dans un vide-grenier_! Mais quelle ne fut pas sa d\u00e9ception de d\u00e9couvrir que c'\u00e9tait une reproduction en mousse.",
+            "cost":"5",
+            "desc":"Quand la partie commence, ajoute 5 serviteurs l\u00e9gendaires dans votre deck.",
+            "health":"6",
+            "originalCode":"KAR_096",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jimmy Lo",
+            "attack":"",
+            "cardCode":"42054",
+            "cardName":"Portail de Lune-d\u2019Argent",
+            "comment":"Mais que fait Millhouse Temp\u00eate-de-Mana \u00e0 Lune-d\u2019Argent_?",
+            "cost":"4",
+            "desc":"Donne +2/+2 \u00e0 un serviteur. Invoque un serviteur al\u00e9atoire co\u00fbtant 2_cristaux.",
+            "health":"",
+            "originalCode":"KAR_077",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Anton Zemskov",
+            "attack":"3",
+            "cardCode":"42062",
+            "cardName":"Forge-Arcanes",
+            "comment":"Ce n\u2019est qu\u2019un simple forgeron, mais il s\u2019est dit qu\u2019un titre sophistiqu\u00e9 lui apporterait plus de clients.",
+            "cost":"4",
+            "desc":"Cri de guerre_: invoque un serviteur 0/5 avec Provocation.",
+            "health":"2",
+            "originalCode":"KAR_710",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Garrett Hanna",
+            "attack":"3",
+            "cardCode":"42021",
+            "cardName":"Barnes",
+            "comment":"Avant, il jouait tous les r\u00f4les, jusqu\u2019\u00e0 ce que Moroes lui confisque son orbe de tromperie.",
+            "cost":"4",
+            "desc":"Cri de guerre_: invoque une copie 1/1 d\u2019un serviteur al\u00e9atoire dans votre deck.",
+            "health":"4",
+            "originalCode":"KAR_114",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Paul Mafayon",
+            "attack":"3",
+            "cardCode":"42056",
+            "cardName":"Pr\u00eatre du festin",
+            "comment":"C\u2019est le champion du monde des concours du plus gros mangeur de cheesecake_!",
+            "cost":"4",
+            "desc":"Chaque fois que vous lancez un sort, rend 3_PV \u00e0 votre h\u00e9ros.",
+            "health":"6",
+            "originalCode":"KAR_035",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Rafael Zanchetin",
+            "attack":"3",
+            "cardCode":"42047",
+            "cardName":"M\u00e9chante sorci\u00e8re",
+            "comment":"Vous pouvez la vaincre facilement en lui infligeant 4 points de d\u00e9g\u00e2ts ou en lui faisant tomber une maison dessus.",
+            "cost":"4",
+            "desc":"Chaque fois que vous lancez un sort, invoque un totem basique al\u00e9atoire.",
+            "health":"4",
+            "originalCode":"KAR_021",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jim Nelson",
+            "attack":"",
+            "cardCode":"42032",
+            "cardName":"Prot\u00e9gez le roi !",
+            "comment":"Serrez les rangs_! En formation de d\u00e9fense est-rohartienne_!",
+            "cost":"3",
+            "desc":"Invoque un pion 1/1 avec Provocation pour chaque serviteur adverse.",
+            "health":"",
+            "originalCode":"KAR_026",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Arthur Bozonnet",
+            "attack":"3",
+            "cardCode":"42050",
+            "cardName":"Chasseresse capuchonn\u00e9e",
+            "comment":"Elle est incapable de garder un secret pour elle_!",
+            "cost":"3",
+            "desc":"Vos Secrets co\u00fbtent (0) |4(cristal,cristaux).",
+            "health":"4",
+            "originalCode":"KAR_006",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Konstantin Turovec",
+            "attack":"3",
+            "cardCode":"42057",
+            "cardName":"Fourchette mortelle",
+            "comment":"Pour une table bien dress\u00e9e, placez la Fourchette mortelle apr\u00e8s la fourchette \u00e0 salade mais avant la fourchette de table.",
+            "cost":"3",
+            "desc":"R\u00e2le d\u2019agonie_: ajoute une arme 3/2 dans votre main.",
+            "health":"2",
+            "originalCode":"KAR_094",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Sean McNally",
+            "attack":"1",
+            "cardCode":"42030",
+            "cardName":"Moroes",
+            "comment":"Moroes dirige une arm\u00e9e de serveurs, mais finit toujours par devoir gonfler les ballons lui-m\u00eame.",
+            "cost":"3",
+            "desc":"Camouflage\n\u00c0 la fin de votre tour, invoque un serveur_1/1.",
+            "health":"1",
+            "originalCode":"KAR_044",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Luke Mancini",
+            "attack":"2",
+            "cardCode":"42052",
+            "cardName":"Templier Plaie-de-nuit",
+            "comment":"Attention \u00e0 la fureur du dragon_!",
+            "cost":"3",
+            "desc":"Cri de guerre_: si vous avez un Dragon en main,\ninvoque deux dragonnets 1/1.",
+            "health":"3",
+            "originalCode":"KAR_010",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Dave Allsop",
+            "attack":"1",
+            "cardCode":"42053",
+            "cardName":"Araign\u00e9e du garde-manger",
+            "comment":"Il faut bien admettre qu\u2019elles forment un joli couple.",
+            "cost":"3",
+            "desc":"Cri de guerre_: invoque une araign\u00e9e 1/3.",
+            "health":"3",
+            "originalCode":"KAR_030a",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Daren Bader",
+            "attack":"3",
+            "cardCode":"42037",
+            "cardName":"Golem d\u2019argenterie",
+            "comment":"Il provient des laboratoires de recherche secrets de l\u2019arm\u00e9e suisse.",
+            "cost":"3",
+            "desc":"Si vous vous d\u00e9faussez de ce serviteur, l\u2019invoque.",
+            "health":"3",
+            "originalCode":"KAR_205",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Eric Braddock",
+            "attack":"4",
+            "cardCode":"42060",
+            "cardName":"Illusioniste pourpre",
+            "comment":"Ses derni\u00e8res paroles_? Abracadabra_!",
+            "cost":"3",
+            "desc":"Pendant votre tour, votre h\u00e9ros est Insensible.",
+            "health":"3",
+            "originalCode":"KAR_712",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"3",
+            "cardCode":"42035",
+            "cardName":"Zoobot",
+            "comment":"C\u2019est le murloc qui prend la photo.",
+            "cost":"3",
+            "desc":"Cri de guerre_: donne +1/+1 \u00e0 une B\u00eate, un Dragon et un Murloc alli\u00e9s al\u00e9atoires.",
+            "health":"3",
+            "originalCode":"KAR_095",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Mike Sass",
+            "attack":"",
+            "cardCode":"42051",
+            "cardName":"Surprise du chef",
+            "comment":"Incroyable_! On dirait de la magie_!",
+            "cost":"2",
+            "desc":"Secret_: apr\u00e8s que votre adversaire a lanc\u00e9 un sort, invoque une panth\u00e8re 4/2_avec Camouflage.",
+            "health":"",
+            "originalCode":"KAR_004",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Daria Tuzova",
+            "attack":"",
+            "cardCode":"42045",
+            "cardName":"Portail du Maelstr\u00f6m",
+            "comment":"C\u2019est une attraction touristique tr\u00e8s populaire, mais on vous demande toujours de payer votre billet \u00e0 l\u2019avance, allez savoir pourquoi. ",
+            "cost":"2",
+            "desc":"Inflige 1 |4(point,points) de d\u00e9g\u00e2ts \u00e0 tous les serviteurs adverses. Invoque un serviteur al\u00e9atoire co\u00fbtant 1_cristal.",
+            "health":"",
+            "originalCode":"KAR_073",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Rafael Zanchetin",
+            "attack":"",
+            "cardCode":"42061",
+            "cardName":"Purification",
+            "comment":"Moi, le matin, je casse la Furie-des-vents, je d\u00e9truis les Provocations des gens, \u00e7a me purifie, c\u2019est important.",
+            "cost":"2",
+            "desc":"R\u00e9duit au Silence un serviteur alli\u00e9. Vous piochez une carte.",
+            "health":"",
+            "originalCode":"KAR_013",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"1",
+            "cardCode":"42020",
+            "cardName":"Gentille grand-m\u00e8re",
+            "comment":"\u00ab_Oh_! Que vous avez\u2026 une salive abondante._\u00bb",
+            "cost":"2",
+            "desc":"R\u00e2le d\u2019agonie_: invoque un\nGrand M\u00e9chant Loup_3/2.",
+            "health":"1",
+            "originalCode":"KAR_005",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Sean McNally",
+            "attack":"2",
+            "cardCode":"42048",
+            "cardName":"Valet de Medivh",
+            "comment":"\u00ab_Magus Medivh, voici les ballons enflamm\u00e9s que vous avez command\u00e9s._\u00bb",
+            "cost":"2",
+            "desc":"Cri de guerre_: si vous contr\u00f4lez un Secret, inflige 3_points de d\u00e9g\u00e2ts.",
+            "health":"3",
+            "originalCode":"KAR_092",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Raplph Horsley",
+            "attack":"1",
+            "cardCode":"42039",
+            "cardName":"Biographe de D\u00e9dain-du-N\u00e9ant",
+            "comment":"Elle peut vous raconter la vie de toutes les personnes qui ne sont pas REST\u00c9ES DANS LE RAYON VERT_!",
+            "cost":"2",
+            "desc":"Cri de guerre_: d\u00e9couvre un Dragon si vous en avez d\u00e9j\u00e0 un en main.",
+            "health":"3",
+            "originalCode":"KAR_062",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"3",
+            "cardCode":"42034",
+            "cardName":"Com\u00e9dien pompeux",
+            "comment":"H\u00e9las, pauvre Ennuy-o-tron_! C\u2019\u00e9tait un compagnon d\u2019une verve infinie, d\u2019une exquise fantaisie_!",
+            "cost":"2",
+            "desc":"Provocation",
+            "health":"2",
+            "originalCode":"KAR_011",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Raplph Horsley",
+            "attack":"1",
+            "cardCode":"42042",
+            "cardName":"Griffes spectrales",
+            "comment":"Elles seront BEAUCOUP plus faciles \u00e0 utiliser d\u00e8s qu\u2019ils auront rajout\u00e9 le pouce opposable spectral.",
+            "cost":"1",
+            "desc":"A +2 ATQ tant que vous avez D\u00e9g\u00e2ts des sorts.",
+            "health":"3",
+            "originalCode":"KAR_063",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ubb34\uae30",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Alex Aleksandrov",
+            "attack":"2",
+            "cardCode":"42043",
+            "cardName":"Anomalie arcanique",
+            "comment":"Avant, c\u2019\u00e9tait une anomalie spatiale, mais elle en a eu assez que tout le monde inverse sa polarit\u00e9.",
+            "cost":"1",
+            "desc":"Chaque fois que vous lancez un sort, donne +1_PV \u00e0 ce serviteur.",
+            "health":"1",
+            "originalCode":"KAR_036",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"A.J. Nazzaro",
+            "attack":"1",
+            "cardCode":"42028",
+            "cardName":"Grimoire bavard",
+            "comment":"Il adore Les vertes collines de Strangleronce, et passe son temps \u00e0 le r\u00e9citer en boucle_!",
+            "cost":"1",
+            "desc":"Cri de guerre_: ajoute un sort de mage al\u00e9atoire dans votre main.",
+            "health":"1",
+            "originalCode":"KAR_009",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Daria Tuzova",
+            "attack":"2",
+            "cardCode":"42024",
+            "cardName":"Corbeau enchant\u00e9",
+            "comment":"Il y a longtemps, les gens croyaient que quand quelqu\u2019un meurt, un corbeau emporte son \u00e2me jusqu\u2019au pays des morts. ",
+            "cost":"1",
+            "desc":"",
+            "health":"2",
+            "originalCode":"KAR_300",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Peter Stapleton",
+            "attack":"1",
+            "cardCode":"42027",
+            "cardName":"Diablotin de Malchezaar",
+            "comment":"L\u2019ancien diablotin qui travaillait pour Malchezaar s\u2019appelait Dobby, mais il a subi un \u00ab_malencontreux accident_\u00bb.",
+            "cost":"1",
+            "desc":"Chaque fois que vous vous d\u00e9faussez d\u2019une carte, vous en piochez une.",
+            "health":"3",
+            "originalCode":"KAR_089",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"A.J. Nazzaro",
+            "attack":"0",
+            "cardCode":"42065",
+            "cardName":"\u0152uf runique",
+            "comment":"J\u2019adore les omelettes runiques_!",
+            "cost":"1",
+            "desc":"R\u00e2le d\u2019agonie\u00a0: vous piochez une carte.",
+            "health":"2",
+            "originalCode":"KAR_029",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"1",
+            "cardCode":"42046",
+            "cardName":"Fieff\u00e9 forban",
+            "comment":"\u00ab_J\u2019ai l\u2019intention de r\u00e9quisitionner un navire, de trouver des matelots et de piller, voler et saccager comme un pirate sans \u00e2me et sans c\u0153ur._\u00bb",
+            "cost":"1",
+            "desc":"Cri de guerre_: ajoute une carte de classe al\u00e9atoire dans votre main (de la classe de votre adversaire).",
+            "health":"1",
+            "originalCode":"KAR_069",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        }
+    ]
+}

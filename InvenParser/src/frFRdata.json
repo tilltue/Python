@@ -1,0 +1,272 @@
+[
+    {
+        "comment":"Il affirme que ce sont les lignes telluriques qui l\u2019ont attir\u00e9 \u00e0 Karazhan. Mais en r\u00e9alit\u00e9, il raffole de la cuisine de Moroes.",
+        "description":"Co\u00fbte (1) |4(cristal,cristaux) de moins pour chaque sort que vous lancez pendant cette partie.",
+        "id":"KAR_711",
+        "name":"G\u00e9ant arcanique"
+    },
+    {
+        "comment":"Attendez qu\u2019il invite les orcs \u00e0 la f\u00eate, \u00e7a, \u00e7a va vraiment mettre une ambiance de fou_!",
+        "description":"Cri de guerre_: vous \u00e9quipe d\u2019Atiesh, grand b\u00e2ton du Gardien.",
+        "id":"KAR_097",
+        "name":"Medivh, le Gardien"
+    },
+    {
+        "comment":"Venez visiter les terres de Feu_! O\u00f9 tout est \u00ab_Beaucoup plus beau que la gueule des Abysses_!_\u00bb",
+        "description":"Inflige 5 |4(point,points) de d\u00e9g\u00e2ts. Invoque un serviteur al\u00e9atoire co\u00fbtant 5_cristaux.",
+        "id":"KAR_076",
+        "name":"Portail des terres de Feu"
+    },
+    {
+        "comment":"Le conservateur garde les cr\u00e9atures les plus effrayantes que compte Azeroth, mais il est secr\u00e8tement terrifi\u00e9 par les \u00e9cureuils.",
+        "description":"Provocation. Cri de guerre_: vous piochez une B\u00eate, un Dragon et un Murloc dans votre deck.",
+        "id":"KAR_061",
+        "name":"Le conservateur"
+    },
+    {
+        "comment":"\u00c0 Reflet-de-Lune, une f\u00eate sans ours n\u2019est pas vraiment une f\u00eate.",
+        "description":"Rend 6 PV. Invoque un serviteur al\u00e9atoire co\u00fbtant 6_cristaux.",
+        "id":"KAR_075",
+        "name":"Portail de Reflet-de-Lune"
+    },
+    {
+        "comment":"Ses livres pr\u00e9f\u00e9r\u00e9s sont des trag\u00e9dies classiques telles que \u00ab_Le Hobbit_\u00bb et \u00ab_Grendel_\u00bb.",
+        "description":"Cri de guerre_: d\u00e9truit un serviteur adverse avec 3_ATQ ou moins si vous avez un Dragon en main.",
+        "id":"KAR_033",
+        "name":"Wyrm de biblioth\u00e8que"
+    },
+    {
+        "comment":"Ne le traitez surtout PAS de \u00ab_cheval_\u00bb.",
+        "description":"Cri de guerre_: d\u00e9couvre un sort. Rend un montant de PV \u00e9quivalent \u00e0 son co\u00fbt \u00e0 votre h\u00e9ros.",
+        "id":"KAR_057",
+        "name":"Cavalier en ivoire"
+    },
+    {
+        "comment":"S\u2019il vous pla\u00eet, je peux le garder_? Allez_! Je promets de nettoyer sa cage tous les jours.",
+        "description":"Cri de guerre_: choisit une B\u00eate alli\u00e9e et en invoque une copie.",
+        "id":"KAR_065",
+        "name":"Gardienne de la M\u00e9nagerie"
+    },
+    {
+        "comment":"Comme il adore r\u00f4der, son travail lui apporte beaucoup de satisfaction.",
+        "description":"Cri de guerre_: d\u00e9truit un serviteur. R\u00e2le d\u2019agonie_: r\u00e9invoque ce serviteur.",
+        "id":"KAR_041",
+        "name":"R\u00f4deur des douves"
+    },
+    {
+        "comment":"Aux idiots, les serviteurs br\u00fblent les doigts.",
+        "description":"Pas de limite d\u2019attaques par tour. Ne peut pas attaquer les h\u00e9ros.",
+        "id":"KAR_028",
+        "name":"\u00c9crase-patate"
+    },
+    {
+        "comment":"Entrez dans la fabuleuse Forgefer_! O\u00f9 le fer est forg\u00e9 et les forges de fer_!",
+        "description":"Gagne 4 points d\u2019Armure. Invoque un serviteur al\u00e9atoire co\u00fbtant 4_cristaux de mana.",
+        "id":"KAR_091",
+        "name":"Portail de Forgefer"
+    },
+    {
+        "comment":"Voil\u00e0 ce qui se passe quand on demande \u00e0 Khadgar de mettre la table.",
+        "description":"Invoque une bougie 1/1, un balai 2/2 et une th\u00e9i\u00e8re 3/3.",
+        "id":"KAR_025",
+        "name":"Kara Kazham !"
+    },
+    {
+        "comment":"Les gardiens nous surveillent, mais qui surveille les gardiens_?",
+        "description":"Cri de guerre_: si vous contr\u00f4lez un Secret, gagne_+1/+1 et Provocation.",
+        "id":"KAR_037",
+        "name":"Gardien aviaire"
+    },
+    {
+        "comment":"Ouais, bien s\u00fbr. Ce Ragnaros est \u00ab_tomb\u00e9 du camion_\u00bb.",
+        "description":"Cri de guerre_: r\u00e9duit de (2) cristaux le co\u00fbt des cartes d\u2019autres classes dans votre main.",
+        "id":"KAR_070",
+        "name":"Colporteur \u00e9th\u00e9rien"
+    },
+    {
+        "comment":"Entre vous et moi, si la situation devient tendue, le poste de magicien de la M\u00e9nagerie sera s\u00fbrement le premier \u00e0 sauter.",
+        "description":"Cri de guerre_: donne +2/+2 \u00e0 une B\u00eate, un Dragon et un Murloc alli\u00e9s al\u00e9atoires.",
+        "id":"KAR_702",
+        "name":"Magicien de la M\u00e9nagerie"
+    },
+    {
+        "comment":"La case B4 est un endroit sympa \u00e0 visiter, mais de l\u00e0 \u00e0 vouloir y vivre\u2026",
+        "description":"Cri de guerre_: invoque un serviteur al\u00e9atoire mort pendant cette partie.",
+        "id":"KAR_204",
+        "name":"Fou en onyx"
+    },
+    {
+        "comment":"Il \u00e9tait super content quand il a trouv\u00e9 Hurlesang dans un vide-grenier_! Mais quelle ne fut pas sa d\u00e9ception de d\u00e9couvrir que c'\u00e9tait une reproduction en mousse.",
+        "description":"Quand la partie commence, ajoute 5 serviteurs l\u00e9gendaires dans votre deck.",
+        "id":"KAR_096",
+        "name":"Prince Malchezaar"
+    },
+    {
+        "comment":"Mais que fait Millhouse Temp\u00eate-de-Mana \u00e0 Lune-d\u2019Argent_?",
+        "description":"Donne +2/+2 \u00e0 un serviteur. Invoque un serviteur al\u00e9atoire co\u00fbtant 2_cristaux.",
+        "id":"KAR_077",
+        "name":"Portail de Lune-d\u2019Argent"
+    },
+    {
+        "comment":"Ce n\u2019est qu\u2019un simple forgeron, mais il s\u2019est dit qu\u2019un titre sophistiqu\u00e9 lui apporterait plus de clients.",
+        "description":"Cri de guerre_: invoque un serviteur 0/5 avec Provocation.",
+        "id":"KAR_710",
+        "name":"Forge-Arcanes"
+    },
+    {
+        "comment":"Avant, il jouait tous les r\u00f4les, jusqu\u2019\u00e0 ce que Moroes lui confisque son orbe de tromperie.",
+        "description":"Cri de guerre_: invoque une copie 1/1 d\u2019un serviteur al\u00e9atoire dans votre deck.",
+        "id":"KAR_114",
+        "name":"Barnes"
+    },
+    {
+        "comment":"C\u2019est le champion du monde des concours du plus gros mangeur de cheesecake_!",
+        "description":"Chaque fois que vous lancez un sort, rend 3_PV \u00e0 votre h\u00e9ros.",
+        "id":"KAR_035",
+        "name":"Pr\u00eatre du festin"
+    },
+    {
+        "comment":"Vous pouvez la vaincre facilement en lui infligeant 4 points de d\u00e9g\u00e2ts ou en lui faisant tomber une maison dessus.",
+        "description":"Chaque fois que vous lancez un sort, invoque un totem basique al\u00e9atoire.",
+        "id":"KAR_021",
+        "name":"M\u00e9chante sorci\u00e8re"
+    },
+    {
+        "comment":"Serrez les rangs_! En formation de d\u00e9fense est-rohartienne_!",
+        "description":"Invoque un pion 1/1 avec Provocation pour chaque serviteur adverse.",
+        "id":"KAR_026",
+        "name":"Prot\u00e9gez le roi !"
+    },
+    {
+        "comment":"Elle est incapable de garder un secret pour elle_!",
+        "description":"Vos Secrets co\u00fbtent (0) |4(cristal,cristaux).",
+        "id":"KAR_006",
+        "name":"Chasseresse capuchonn\u00e9e"
+    },
+    {
+        "comment":"Pour une table bien dress\u00e9e, placez la Fourchette mortelle apr\u00e8s la fourchette \u00e0 salade mais avant la fourchette de table.",
+        "description":"R\u00e2le d\u2019agonie_: ajoute une arme 3/2 dans votre main.",
+        "id":"KAR_094",
+        "name":"Fourchette mortelle"
+    },
+    {
+        "comment":"Moroes dirige une arm\u00e9e de serveurs, mais finit toujours par devoir gonfler les ballons lui-m\u00eame.",
+        "description":"Camouflage\n\u00c0 la fin de votre tour, invoque un serveur_1/1.",
+        "id":"KAR_044",
+        "name":"Moroes"
+    },
+    {
+        "comment":"Attention \u00e0 la fureur du dragon_!",
+        "description":"Cri de guerre_: si vous avez un Dragon en main,\ninvoque deux dragonnets 1/1.",
+        "id":"KAR_010",
+        "name":"Templier Plaie-de-nuit"
+    },
+    {
+        "comment":"Il faut bien admettre qu\u2019elles forment un joli couple.",
+        "description":"Cri de guerre_: invoque une araign\u00e9e 1/3.",
+        "id":"KAR_030a",
+        "name":"Araign\u00e9e du garde-manger"
+    },
+    {
+        "comment":"Il provient des laboratoires de recherche secrets de l\u2019arm\u00e9e suisse.",
+        "description":"Si vous vous d\u00e9faussez de ce serviteur, l\u2019invoque.",
+        "id":"KAR_205",
+        "name":"Golem d\u2019argenterie"
+    },
+    {
+        "comment":"Ses derni\u00e8res paroles_? Abracadabra_!",
+        "description":"Pendant votre tour, votre h\u00e9ros est Insensible.",
+        "id":"KAR_712",
+        "name":"Illusioniste pourpre"
+    },
+    {
+        "comment":"C\u2019est le murloc qui prend la photo.",
+        "description":"Cri de guerre_: donne +1/+1 \u00e0 une B\u00eate, un Dragon et un Murloc alli\u00e9s al\u00e9atoires.",
+        "id":"KAR_095",
+        "name":"Zoobot"
+    },
+    {
+        "comment":"Incroyable_! On dirait de la magie_!",
+        "description":"Secret_: apr\u00e8s que votre adversaire a lanc\u00e9 un sort, invoque une panth\u00e8re 4/2_avec Camouflage.",
+        "id":"KAR_004",
+        "name":"Surprise du chef"
+    },
+    {
+        "comment":"C\u2019est une attraction touristique tr\u00e8s populaire, mais on vous demande toujours de payer votre billet \u00e0 l\u2019avance, allez savoir pourquoi. ",
+        "description":"Inflige 1 |4(point,points) de d\u00e9g\u00e2ts \u00e0 tous les serviteurs adverses. Invoque un serviteur al\u00e9atoire co\u00fbtant 1_cristal.",
+        "id":"KAR_073",
+        "name":"Portail du Maelstr\u00f6m"
+    },
+    {
+        "comment":"Moi, le matin, je casse la Furie-des-vents, je d\u00e9truis les Provocations des gens, \u00e7a me purifie, c\u2019est important.",
+        "description":"R\u00e9duit au Silence un serviteur alli\u00e9. Vous piochez une carte.",
+        "id":"KAR_013",
+        "name":"Purification"
+    },
+    {
+        "comment":"\u00ab_Oh_! Que vous avez\u2026 une salive abondante._\u00bb",
+        "description":"R\u00e2le d\u2019agonie_: invoque un\nGrand M\u00e9chant Loup_3/2.",
+        "id":"KAR_005",
+        "name":"Gentille grand-m\u00e8re"
+    },
+    {
+        "comment":"\u00ab_Magus Medivh, voici les ballons enflamm\u00e9s que vous avez command\u00e9s._\u00bb",
+        "description":"Cri de guerre_: si vous contr\u00f4lez un Secret, inflige 3_points de d\u00e9g\u00e2ts.",
+        "id":"KAR_092",
+        "name":"Valet de Medivh"
+    },
+    {
+        "comment":"Elle peut vous raconter la vie de toutes les personnes qui ne sont pas REST\u00c9ES DANS LE RAYON VERT_!",
+        "description":"Cri de guerre_: d\u00e9couvre un Dragon si vous en avez d\u00e9j\u00e0 un en main.",
+        "id":"KAR_062",
+        "name":"Biographe de D\u00e9dain-du-N\u00e9ant"
+    },
+    {
+        "comment":"H\u00e9las, pauvre Ennuy-o-tron_! C\u2019\u00e9tait un compagnon d\u2019une verve infinie, d\u2019une exquise fantaisie_!",
+        "description":"Provocation",
+        "id":"KAR_011",
+        "name":"Com\u00e9dien pompeux"
+    },
+    {
+        "comment":"Elles seront BEAUCOUP plus faciles \u00e0 utiliser d\u00e8s qu\u2019ils auront rajout\u00e9 le pouce opposable spectral.",
+        "description":"A +2 ATQ tant que vous avez D\u00e9g\u00e2ts des sorts.",
+        "id":"KAR_063",
+        "name":"Griffes spectrales"
+    },
+    {
+        "comment":"Avant, c\u2019\u00e9tait une anomalie spatiale, mais elle en a eu assez que tout le monde inverse sa polarit\u00e9.",
+        "description":"Chaque fois que vous lancez un sort, donne +1_PV \u00e0 ce serviteur.",
+        "id":"KAR_036",
+        "name":"Anomalie arcanique"
+    },
+    {
+        "comment":"Il adore Les vertes collines de Strangleronce, et passe son temps \u00e0 le r\u00e9citer en boucle_!",
+        "description":"Cri de guerre_: ajoute un sort de mage al\u00e9atoire dans votre main.",
+        "id":"KAR_009",
+        "name":"Grimoire bavard"
+    },
+    {
+        "comment":"Il y a longtemps, les gens croyaient que quand quelqu\u2019un meurt, un corbeau emporte son \u00e2me jusqu\u2019au pays des morts. ",
+        "description":"",
+        "id":"KAR_300",
+        "name":"Corbeau enchant\u00e9"
+    },
+    {
+        "comment":"L\u2019ancien diablotin qui travaillait pour Malchezaar s\u2019appelait Dobby, mais il a subi un \u00ab_malencontreux accident_\u00bb.",
+        "description":"Chaque fois que vous vous d\u00e9faussez d\u2019une carte, vous en piochez une.",
+        "id":"KAR_089",
+        "name":"Diablotin de Malchezaar"
+    },
+    {
+        "comment":"J\u2019adore les omelettes runiques_!",
+        "description":"R\u00e2le d\u2019agonie\u00a0: vous piochez une carte.",
+        "id":"KAR_029",
+        "name":"\u0152uf runique"
+    },
+    {
+        "comment":"\u00ab_J\u2019ai l\u2019intention de r\u00e9quisitionner un navire, de trouver des matelots et de piller, voler et saccager comme un pirate sans \u00e2me et sans c\u0153ur._\u00bb",
+        "description":"Cri de guerre_: ajoute une carte de classe al\u00e9atoire dans votre main (de la classe de votre adversaire).",
+        "id":"KAR_069",
+        "name":"Fieff\u00e9 forban"
+    }
+]

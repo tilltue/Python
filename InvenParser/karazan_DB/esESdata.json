@@ -1,0 +1,1297 @@
+{
+    "cards":[
+        {
+            "artist":"Dan Scott",
+            "attack":"8",
+            "cardCode":"42049",
+            "cardName":"Gigante Arcano",
+            "comment":"Dice que lo que le atrae de Karazhan son las l\u00edneas Ley, pero todos sabemos que lo que le chifla es la cocina de Moroes.",
+            "cost":"12",
+            "desc":"Cuesta (1) menos por cada hechizo que hayas lanzado durante esta partida.",
+            "health":"8",
+            "originalCode":"KAR_711",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"800"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"James Ryman",
+            "attack":"7",
+            "cardCode":"42036",
+            "cardName":"Medivh, el Guardi\u00e1n",
+            "comment":"\u00a1Si la fiesta te parece buena ahora, espera a que invite a los orcos!",
+            "cost":"8",
+            "desc":"Grito de batalla: Te equipas con Atiesh, gran b\u00e1culo del Guardi\u00e1n.",
+            "health":"7",
+            "originalCode":"KAR_097",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Gustav Schmidt",
+            "attack":"",
+            "cardCode":"42025",
+            "cardName":"Portal de las Tierras de Fuego",
+            "comment":"Tierras de Fuego, ciudad de vacaciones.",
+            "cost":"7",
+            "desc":"Inflige 5 p. de da\u00f1o. Invoca a un esbirro aleatorio de coste 5.",
+            "health":"",
+            "originalCode":"KAR_076",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"20"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Wei Wang",
+            "attack":"4",
+            "cardCode":"42022",
+            "cardName":"El Curator",
+            "comment":"El Curator custodia las criaturas m\u00e1s letales de Azeroth, pero lo que nadie sabe es que las ardillas lo aterrorizan.",
+            "cost":"7",
+            "desc":"Provocar\nGrito de batalla: Roba una bestia, un drag\u00f3n y un m\u00farloc de tu mazo.",
+            "health":"6",
+            "originalCode":"KAR_061",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Evgeniy Zaqumyenny",
+            "attack":"",
+            "cardCode":"42040",
+            "cardName":"Portal de Claro de la Luna",
+            "comment":"Lo suele utilizar el hijo de la Luna para ir a ver a sus padres cuando necesita comida o que le planchen la ropa.",
+            "cost":"6",
+            "desc":"Restaura 6 p. de salud. Invoca a un esbirro aleatorio de coste 6.",
+            "health":"",
+            "originalCode":"KAR_075",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Dave Allsop",
+            "attack":"3",
+            "cardCode":"42029",
+            "cardName":"Vermis de biblioteca",
+            "comment":"Sus tragedias cl\u00e1sicas favoritas son El Hobbit y Grendel.",
+            "cost":"6",
+            "desc":"Grito de batalla: Destruye a un esbirro enemigo con 3 p. de ataque o menos si hay un drag\u00f3n en tu mano.",
+            "health":"6",
+            "originalCode":"KAR_033",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"4",
+            "cardCode":"42019",
+            "cardName":"Caballo de marfil",
+            "comment":"NO, los caballos tampoco pueden saltarse las reglas.",
+            "cost":"6",
+            "desc":"Grito de batalla:\n Descubre un hechizo.\nRestaura a tu h\u00e9roe una salud equivalente a su coste.",
+            "health":"4",
+            "originalCode":"KAR_057",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Alex Horley Orlandelli",
+            "attack":"5",
+            "cardCode":"42059",
+            "cardName":"Celadora de la Sala de las Fieras",
+            "comment":"Por favor, \u00bfpuedo qued\u00e1rmelo? Prometo limpiarle la jaula todos los d\u00edas.",
+            "cost":"6",
+            "desc":"Grito de batalla: Elige una bestia amistosa. Invoca una copia de esa bestia.",
+            "health":"5",
+            "originalCode":"KAR_065",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jerry Mascho",
+            "attack":"3",
+            "cardCode":"42063",
+            "cardName":"Merodeador del foso",
+            "comment":"Es un... \"algo\" que sale del agua con cara de ir a merodear.",
+            "cost":"6",
+            "desc":"Grito de batalla:\nDestruye a un esbirro.\n\u00daltimo aliento: Vuelve a invocar a ese esbirro.",
+            "health":"3",
+            "originalCode":"KAR_041",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Anton Zemskov",
+            "attack":"3",
+            "cardCode":"42041",
+            "cardName":"Aterralelos",
+            "comment":"Parece un trabajo cruel, pero tiene sus motivos.",
+            "cost":"5",
+            "desc":"Ataques ilimitados en cada turno. No puede atacar a h\u00e9roes.",
+            "health":"4",
+            "originalCode":"KAR_028",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ubb34\uae30",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Nate Bowden",
+            "attack":"",
+            "cardCode":"42064",
+            "cardName":"Portal de Forjaz",
+            "comment":"Una vez, los enanos colocaron acero fundido justo debajo del portal. La gente no acab\u00f3 de pillar la broma.",
+            "cost":"5",
+            "desc":"Obtienes 4 p. de armadura.\nInvoca a un esbirro aleatorio de coste 4.",
+            "health":"",
+            "originalCode":"KAR_091",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jakub Kasper",
+            "attack":"",
+            "cardCode":"42033",
+            "cardName":"\u00a1Kara kazham!",
+            "comment":"Esto es lo que pasa cuando le pides a Khadgar que ponga la mesa.",
+            "cost":"5",
+            "desc":"Invoca una vela 1/1, una escoba 2/2 y una tetera 3/3.",
+            "health":"",
+            "originalCode":"KAR_025",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jim Nelson",
+            "attack":"3",
+            "cardCode":"42044",
+            "cardName":"Vig\u00eda aviaria",
+            "comment":"Lo que m\u00e1s vigila es no coger la gripe... La \u00faltima vez se lio parda.",
+            "cost":"5",
+            "desc":"Grito de batalla: Si controlas un secreto, obtiene +1/+1\ny Provocar.",
+            "health":"6",
+            "originalCode":"KAR_037",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Alex Horley Orlandelli",
+            "attack":"5",
+            "cardCode":"42023",
+            "cardName":"Vendedora et\u00e9rea",
+            "comment":"Ya, claro. A ese Ragnaros \"lo encontraste por ah\u00ed\".",
+            "cost":"5",
+            "desc":"Grito de batalla: Las cartas de otras clases en tu mano cuestan (2) cristales menos.",
+            "health":"6",
+            "originalCode":"KAR_070",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Garrett Hanna",
+            "attack":"4",
+            "cardCode":"42055",
+            "cardName":"Mago de la Sala de las Fieras",
+            "comment":"Porque sacar conejitos de la chistera est\u00e1 pasado de moda.",
+            "cost":"5",
+            "desc":"Grito de batalla: Otorga +2/+2 a una bestia, a un drag\u00f3n y a un m\u00farloc amistosos aleatorios.",
+            "health":"4",
+            "originalCode":"KAR_702",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Arthur Gimaldinov",
+            "attack":"3",
+            "cardCode":"42058",
+            "cardName":"Alfil \u00f3nice",
+            "comment":"Le encanta visitar B4, pero no es una zona agradable donde asentarse.",
+            "cost":"5",
+            "desc":"Grito de batalla: Invoca a un esbirro aleatorio que haya muerto durante esta partida.",
+            "health":"4",
+            "originalCode":"KAR_204",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Joe Madureira & Grace Liu",
+            "attack":"5",
+            "cardCode":"42031",
+            "cardName":"Pr\u00edncipe Malchezaar",
+            "comment":"Se emocion\u00f3 much\u00edsimo al ver que vend\u00edan a Aullav\u00edsceras en el mercadillo. \u00a1Imagina su decepci\u00f3n cuando descubri\u00f3 que era una r\u00e9plica de gomaespuma!",
+            "cost":"5",
+            "desc":"Cuando empieza la partida,\na\u00f1ade 5 esbirros legendarios\nextras a tu mazo.",
+            "health":"6",
+            "originalCode":"KAR_096",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jimmy Lo",
+            "attack":"",
+            "cardCode":"42054",
+            "cardName":"Portal de Lunargenta",
+            "comment":"\u00bfQu\u00e9 hace Molino Tormenta de Man\u00e1 en Lunargenta?",
+            "cost":"4",
+            "desc":"Otorga a un esbirro +2/+2. Invoca a un esbirro aleatorio\n de coste 2.",
+            "health":"",
+            "originalCode":"KAR_077",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Anton Zemskov",
+            "attack":"3",
+            "cardCode":"42062",
+            "cardName":"Herrero Arcano",
+            "comment":"En realidad es un herrero corriente, pero pens\u00f3 que el t\u00edtulo sofisticado le conseguir\u00eda m\u00e1s trabajo. ",
+            "cost":"4",
+            "desc":"Grito de batalla: Invoca a un esbirro 0/5 con Provocar.",
+            "health":"2",
+            "originalCode":"KAR_710",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Garrett Hanna",
+            "attack":"3",
+            "cardCode":"42021",
+            "cardName":"Barnes",
+            "comment":"Sol\u00eda representar todos los papeles hasta que Moroes le confisc\u00f3 el Orbe de enga\u00f1o.",
+            "cost":"4",
+            "desc":"Grito de batalla: Invoca una copia 1/1 de un esbirro aleatorio de tu mazo.",
+            "health":"4",
+            "originalCode":"KAR_114",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Paul Mafayon",
+            "attack":"3",
+            "cardCode":"42056",
+            "cardName":"Sacerdote del fest\u00edn",
+            "comment":"\u00a1Esa tarta de queso merece un premio!",
+            "cost":"4",
+            "desc":"Cada vez que lanzas un hechizo, restaura 3 p. de salud a tu h\u00e9roe.",
+            "health":"6",
+            "originalCode":"KAR_035",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Rafael Zanchetin",
+            "attack":"3",
+            "cardCode":"42047",
+            "cardName":"Malvada m\u00e9dica bruja",
+            "comment":"\"\u00bfSabeh por d\u00f3nde se va a Karazhan...?\".\n\"\u00a1No, colega, yo eh que paso de la muerte!\".",
+            "cost":"4",
+            "desc":"Cada vez que lanzas un hechizo, invoca un t\u00f3tem b\u00e1sico aleatorio.",
+            "health":"4",
+            "originalCode":"KAR_021",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jim Nelson",
+            "attack":"",
+            "cardCode":"42032",
+            "cardName":"\u00a1Proteged al Rey!",
+            "comment":"\u00a1Formad filas! \u00a1Defensa colmillarr, al frente!",
+            "cost":"3",
+            "desc":"Invoca un pe\u00f3n 1/1 con Provocar por cada esbirro enemigo.",
+            "health":"",
+            "originalCode":"KAR_026",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Arthur Bozonnet",
+            "attack":"3",
+            "cardCode":"42050",
+            "cardName":"Cazadora con capa",
+            "comment":"Tus secretos no tienen secretos para ella.",
+            "cost":"3",
+            "desc":"Tus secretos cuestan (0).",
+            "health":"4",
+            "originalCode":"KAR_006",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Konstantin Turovec",
+            "attack":"3",
+            "cardCode":"42057",
+            "cardName":"Tenedor letal",
+            "comment":"En la disposici\u00f3n correcta, el tenedor letal va a la izquierda del tenedor de ensalada, pero a la derecha del tenedor de mesa.",
+            "cost":"3",
+            "desc":"\u00daltimo aliento: A\u00f1ade un arma 3/2 a tu mano.",
+            "health":"2",
+            "originalCode":"KAR_094",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Sean McNally",
+            "attack":"1",
+            "cardCode":"42030",
+            "cardName":"Moroes",
+            "comment":"Moroes dirige un ej\u00e9rcito de criados... pero acaba inflando los globos \u00e9l mismo.",
+            "cost":"3",
+            "desc":"Sigilo\nAl final de tu turno, invoca a un criado 1/1.",
+            "health":"1",
+            "originalCode":"KAR_044",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Luke Mancini",
+            "attack":"2",
+            "cardCode":"42052",
+            "cardName":"Templaria Penumbr\u00eda",
+            "comment":"En un principio lleg\u00f3 para ser templaria de Arcanagos, pero debe admitir que pedir pizza es muuucho m\u00e1s f\u00e1cil.",
+            "cost":"3",
+            "desc":"Grito de batalla: Si hay un drag\u00f3n en tu mano, invoca dos cr\u00edas 1/1.",
+            "health":"3",
+            "originalCode":"KAR_010",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Dave Allsop",
+            "attack":"1",
+            "cardCode":"42053",
+            "cardName":"Ara\u00f1a de despensa",
+            "comment":"Hay que admitir que hacen una bonita pareja.",
+            "cost":"3",
+            "desc":"Grito de batalla: Invoca una ara\u00f1a 1/3.",
+            "health":"3",
+            "originalCode":"KAR_030a",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Daren Bader",
+            "attack":"3",
+            "cardCode":"42037",
+            "cardName":"G\u00f3lem de la vajilla",
+            "comment":"\u00a1Qu\u00e9 fest\u00edn, qu\u00e9 fest\u00edn! \u00a1Es un ser de lo m\u00e1s ruin! Solo dice cuchufletas, su maldad no tiene fin.",
+            "cost":"3",
+            "desc":"Si descartas a este esbirro, lo invocas.",
+            "health":"3",
+            "originalCode":"KAR_205",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Eric Braddock",
+            "attack":"4",
+            "cardCode":"42060",
+            "cardName":"Ilusionista Violeta",
+            "comment":"El alma de la fiesta.",
+            "cost":"3",
+            "desc":"Durante tu turno, tu h\u00e9roe es Inmune.",
+            "health":"3",
+            "originalCode":"KAR_712",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"3",
+            "cardCode":"42035",
+            "cardName":"Zoobot",
+            "comment":"El m\u00farloc saca la foto.",
+            "cost":"3",
+            "desc":"Grito de batalla: Otorga +1/+1 a una bestia, a un drag\u00f3n y a un m\u00farloc amistosos aleatorios.",
+            "health":"3",
+            "originalCode":"KAR_095",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Mike Sass",
+            "attack":"",
+            "cardCode":"42051",
+            "cardName":"Truco de gato",
+            "comment":"\"Tambi\u00e9n s\u00e9 nuevos trucos; muchos trucos muy buenos que te voy a ense\u00f1ar... Y s\u00e9 que Medivh no se va a disgustar\".",
+            "cost":"2",
+            "desc":"Secreto: Cuando tu oponente lanza un hechizo, invoca una pantera 4/2 con Sigilo.",
+            "health":"",
+            "originalCode":"KAR_004",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Daria Tuzova",
+            "attack":"",
+            "cardCode":"42045",
+            "cardName":"Portal de La Vor\u00e1gine",
+            "comment":"Lo anuncian como una famosa atracci\u00f3n tur\u00edstica, pero intentan que pagues por adelantado.",
+            "cost":"2",
+            "desc":"Inflige 1 p. de da\u00f1o a todos los esbirros enemigos. Invoca a un esbirro aleatorio de coste 1.",
+            "health":"",
+            "originalCode":"KAR_073",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Rafael Zanchetin",
+            "attack":"",
+            "cardCode":"42061",
+            "cardName":"Purificar",
+            "comment":"\u00a1A\u00fan m\u00e1s efectiva que una ducha con mucho frote!",
+            "cost":"2",
+            "desc":"Silencia a un esbirro amistoso. Roba una carta.",
+            "health":"",
+            "originalCode":"KAR_013",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"1",
+            "cardCode":"42020",
+            "cardName":"Dulce abuelita",
+            "comment":"\"Qu\u00e9 babas tan grandes tienes\".",
+            "cost":"2",
+            "desc":"\u00daltimo aliento: Invoca un lobo feroz 3/2.",
+            "health":"1",
+            "originalCode":"KAR_005",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Sean McNally",
+            "attack":"2",
+            "cardCode":"42048",
+            "cardName":"Ayuda de c\u00e1mara de Medivh",
+            "comment":"\"Mago Medivh, le he tra\u00eddo los globos en llamas, como me pidi\u00f3\".",
+            "cost":"2",
+            "desc":"Grito de batalla: Si controlas un secreto, inflige 3 p. de da\u00f1o.",
+            "health":"3",
+            "originalCode":"KAR_092",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Raplph Horsley",
+            "attack":"1",
+            "cardCode":"42039",
+            "cardName":"Historiadora Rencor Abisal",
+            "comment":"\u00a1Te puede contar historias sobre la gente que NO SE QUEDABA DENTRO DEL HAZ VERDE!",
+            "cost":"2",
+            "desc":"Grito de batalla:\n Descubre un drag\u00f3n\nsi hay un drag\u00f3n en tu mano.",
+            "health":"3",
+            "originalCode":"KAR_062",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"3",
+            "cardCode":"42034",
+            "cardName":"Actor pomposo",
+            "comment":"\u00a1Ay! \u00a1Pobre Plastatr\u00f3n! Un hombre sumamente gracioso de la m\u00e1s fecunda imaginaci\u00f3n.",
+            "cost":"2",
+            "desc":"Provocar",
+            "health":"2",
+            "originalCode":"KAR_011",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Raplph Horsley",
+            "attack":"1",
+            "cardCode":"42042",
+            "cardName":"Garras espirituales",
+            "comment":"Ser\u00e1n mucho m\u00e1s f\u00e1ciles de usar cuando a\u00f1adan el pulgar espiritual.",
+            "cost":"1",
+            "desc":"Tiene +2 p. de ataque mientras tengas da\u00f1o con hechizos.",
+            "health":"3",
+            "originalCode":"KAR_063",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ubb34\uae30",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Alex Aleksandrov",
+            "attack":"2",
+            "cardCode":"42043",
+            "cardName":"Anomal\u00eda Arcana",
+            "comment":"Sol\u00eda trabajar como anomal\u00eda espacial, pero se hart\u00f3 de estar todo el d\u00eda con la polaridad invertida.",
+            "cost":"1",
+            "desc":"Cada vez que lanzas un hechizo, este esbirro obtiene\n+1 p. de salud.",
+            "health":"1",
+            "originalCode":"KAR_036",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"A.J. Nazzaro",
+            "attack":"1",
+            "cardCode":"42028",
+            "cardName":"Libro balbuciente",
+            "comment":"Su \u00eddolo es Las verdes colinas de Tuercespina, y no deja de repetirlo.",
+            "cost":"1",
+            "desc":"Grito de batalla: A\u00f1ade un hechizo de mago aleatorio a tu mano.",
+            "health":"1",
+            "originalCode":"KAR_009",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Daria Tuzova",
+            "attack":"2",
+            "cardCode":"42024",
+            "cardName":"Cuervo encantado",
+            "comment":"Una vez, en la alegre medianoche, Medivh festejaba, sin reproches...",
+            "cost":"1",
+            "desc":"",
+            "health":"2",
+            "originalCode":"KAR_300",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Peter Stapleton",
+            "attack":"1",
+            "cardCode":"42027",
+            "cardName":"Diablillo de Malchezaar",
+            "comment":"Malchezaar ten\u00eda un diablillo llamado Dobby a su servicio, pero sufri\u00f3 un tr\u00e1gico accidente.",
+            "cost":"1",
+            "desc":"Cada vez que descartes una carta, roba una carta.",
+            "health":"3",
+            "originalCode":"KAR_089",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"A.J. Nazzaro",
+            "attack":"0",
+            "cardCode":"42065",
+            "cardName":"Huevo r\u00fanico",
+            "comment":"Tortillas r\u00fanicas: \u00bfcon o sin cebolla?",
+            "cost":"1",
+            "desc":"\u00daltimo aliento: Roba una carta.",
+            "health":"2",
+            "originalCode":"KAR_029",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"1",
+            "cardCode":"42046",
+            "cardName":"Rufi\u00e1n pretencioso",
+            "comment":"Es un rufi\u00e1n, es un se\u00f1or.",
+            "cost":"1",
+            "desc":"Grito de batalla: A\u00f1ade a tu mano una carta aleatoria (de la clase de tu oponente).",
+            "health":"1",
+            "originalCode":"KAR_069",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        }
+    ]
+}

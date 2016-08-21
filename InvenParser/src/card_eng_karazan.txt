@@ -1,0 +1,895 @@
+{
+	"cards" : [
+	{
+		"cardCode" : "42049",
+		"cardName" : "Arcane Giant",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "800","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "800"
+			} ],
+		"일러스트" : "Dan Scott",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Costs (1) less for each spell you've played this game.",
+		"comment" : "Claims to be drawn to Karazhan because of the ley lines. Actually, just loves Moroes’ cooking.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42036",
+		"cardName" : "Medivh, the Guardian",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "James Ryman",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Equip Atiesh, Greatstaff of the Guardian.",
+		"comment" : "If you think the party's great now, just wait 'til he invites the orcs over!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42025",
+		"cardName" : "Firelands Portal",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "20","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Gustav Schmidt",
+		"직업제한" : "마법사",
+		"소속" : "",
+		"효과" : "Deal 5 damage. Summon a random5-Cost minion.",
+		"comment" : "Come to beautiful Firelands! Where it's <i>'Way nicer than the Abyssal Maw!'</i>",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42022",
+		"cardName" : "The Curator",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Wei Wang",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Taunt. Battlecry: Draw a Beast, Dragon and Murloc from your deck.",
+		"comment" : "The Curator guards Azeroth’s deadliest creatures, but it’s secretly terrified of squirrels.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42040",
+		"cardName" : "Moonglade Portal",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Evgeniy Zaqumyenny",
+		"직업제한" : "드루이드",
+		"소속" : "",
+		"효과" : "Restore 6 health. Summon a Random 6-cost minion.",
+		"comment" : "Ain't no party like a Moonglade party ‘cause a Moonglade party got bears.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42029",
+		"cardName" : "Book Wyrm",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "Dave Allsop",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: If you're holding a Dragon, destroy an enemy minion with 3 Attack or less.",
+		"comment" : "His favorites are classic tragedies like 'The Hobbit' and 'Grendel'.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42019",
+		"cardName" : "Ivory Knight",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Zoltan Boros",
+		"직업제한" : "성기사",
+		"소속" : "",
+		"효과" : "[x]Battlecry: Discover a spell.Restore Health to your heroequal to its Cost.",
+		"comment" : "Do <i>NOT</i> call it a 'horse'.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42059",
+		"cardName" : "Menagerie Warden",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Alex Horley Orlandelli",
+		"직업제한" : "드루이드",
+		"소속" : "",
+		"효과" : "Battlecry: Choose a friendly Beast. Summon a copy of it.",
+		"comment" : "Please? Can I keep him? I promise to clean his cage <i>every day</i>.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42063",
+		"cardName" : "Moat Lurker",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "Jerry Mascho",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Destroy a minion. Deathrattle: Resummon it.",
+		"comment" : "He really enjoys lurking and gets a lot of job satisfaction out of it.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42041",
+		"cardName" : "Fool's Bane",
+		"종류" : "무기",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Anton Zemskov",
+		"직업제한" : "전사",
+		"소속" : "",
+		"효과" : "Unlimited number of attacks each turn. Can't attack Heroes.",
+		"comment" : "A fool and his bane are soon parted.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42064",
+		"cardName" : "Ironforge Portal",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Nate Bowden",
+		"직업제한" : "전사",
+		"소속" : "",
+		"효과" : "Gain 4 Armor. Summon a random 4-cost minion.",
+		"comment" : "Come to beautiful Ironforge! Where irons are forged and the forges are iron!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42033",
+		"cardName" : "Kara Kazham!",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Jakub Kasper",
+		"직업제한" : "흑마법사",
+		"소속" : "",
+		"효과" : "Summon a 1/1 Candle, 2/2 Broom and 3/3 Teapot",
+		"comment" : "This is what happens when you tell Khadgar to set the table.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42044",
+		"cardName" : "Avian Watcher",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Jim Nelson",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: If you control a Secret, gain+1/+1 and Taunt.",
+		"comment" : "He mostly watches light romantic comedies.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42023",
+		"cardName" : "Ethereal Peddler",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Alex Horley Orlandelli",
+		"직업제한" : "도적",
+		"소속" : "",
+		"효과" : "Battlecry: Reduce the Cost of cards in your hand from other classes by (2).",
+		"comment" : "Yeah, sure. That Ragnaros 'fell off the back of a truck'.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42055",
+		"cardName" : "Menagerie Magician",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Garrett Hanna",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Battlecry: Give a random Beast, Dragon and Murloc +2/+2.",
+		"comment" : "Just between us, if things get tight the Menagerie Magician position will probably be the first to go.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42058",
+		"cardName" : "Onyx Bishop",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Arthur Gimaldinov",
+		"직업제한" : "사제",
+		"소속" : "",
+		"효과" : "Battlecry: Summon a friendly minion that died this game.",
+		"comment" : "B4 is a nice place to visit, but he wouldn't want to live there.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42031",
+		"cardName" : "Prince Malchezaar",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "Joe Madureira & Grace Liu",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "At the start if your turn, shuffle 5 random Legendary minions into your deck.",
+		"comment" : "He was super excited to acquire Gorehowl at a garage sale!  Then super disappointed to find out it was a foam reproduction.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42054",
+		"cardName" : "Silvermoon Portal",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Jimmy Lo",
+		"직업제한" : "성기사",
+		"소속" : "",
+		"효과" : "Give a minion +2/+2. Summon a random 2-cost minion.",
+		"comment" : "What's Millhouse Manastorm doing in Silvermoon?",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42062",
+		"cardName" : "Arcanosmith",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "Anton Zemskov",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Summon a 0/5 minion with Taunt.",
+		"comment" : "He’s really just a Blacksmith, but he thought the fancy title would bring in more business.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42021",
+		"cardName" : "Barnes",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Garrett Hanna",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Summon a 1/1 copy of a random minion in your deck.",
+		"comment" : "He used to play every part, until Moroes confiscated his Orb of Deception.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42056",
+		"cardName" : "Priest of the Feast",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Paul Mafayon",
+		"직업제한" : "사제",
+		"소속" : "중립",
+		"효과" : "Whenever you cast a spell, restore 3 Health toyour hero.",
+		"comment" : "Now that's a world champion cheesecake!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42047",
+		"cardName" : "Wicked Witchdoctor",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Rafael Zanchetin",
+		"직업제한" : "주술사",
+		"소속" : "",
+		"효과" : "Whenever you cast a spell, summon a random basic Totem.",
+		"comment" : "You can easily defeat her by either dealing 4 damage, or dropping a house on her.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42032",
+		"cardName" : "Protect the King!",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "Jim Nelson",
+		"직업제한" : "전사",
+		"소속" : "",
+		"효과" : "For each enemy minion, summon a 1/1 Pawn with Taunt.",
+		"comment" : "Form ranks! Everyone into the King's Tuskarr Defense!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42050",
+		"cardName" : "Cloaked Huntress",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Arthur Bozonnet",
+		"직업제한" : "사냥꾼",
+		"소속" : "",
+		"효과" : "Your Secrets cost (0).",
+		"comment" : "She's practically GIVING your secrets away!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42057",
+		"cardName" : "Deadly Fork",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Konstantin Turovec",
+		"직업제한" : "도적",
+		"소속" : "",
+		"효과" : "Deathrattle: Add a 3/2 weapon to your hand.",
+		"comment" : "For a proper setting, place the deadly fork <i>after</i> the salad fork, but <i>before</i> the dinner fork.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42030",
+		"cardName" : "Moroes",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"일러스트" : "Sean McNally",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "StealthAt the end of your turn, summon a 1/1 Steward.",
+		"comment" : "Moroes runs an army of stewards, but still ends up inflating the balloons himself.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42052",
+		"cardName" : "Nightbane Templar",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Luke Mancini",
+		"직업제한" : "성기사",
+		"소속" : "",
+		"효과" : "Battlecry: If you're holding a Dragon, summon two 1/1 Whelps.",
+		"comment" : "Originally joined to be Arcanagos’ Templar, but has to admit that ordering pizza has become waaaay easier.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42053",
+		"cardName" : "Pantry Spider",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Dave Allsop",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Summon a1/3 Spider.",
+		"comment" : "You have to admit, they make a cute couple.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42037",
+		"cardName" : "Silverware Golem",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "Daren Bader",
+		"직업제한" : "흑마법사",
+		"소속" : "",
+		"효과" : "If you discard this minion, summon it.",
+		"comment" : "From the secret research labs of the Swiss Army.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42060",
+		"cardName" : "Violet Illusionist",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "Eric Braddock",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "During your turn, your hero is Immune.",
+		"comment" : "She’s much more cheerful after losing the ‘n’ in her name.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42035",
+		"cardName" : "Zoobot",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Matt Dixon",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Give a random friendly Beast, Dragon and Murloc +1/+1.",
+		"comment" : "The Murloc is taking the picture.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42051",
+		"cardName" : "Cat Trick",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Mike Sass",
+		"직업제한" : "사냥꾼",
+		"소속" : "",
+		"효과" : "Secret: After your opponent casts a spell, summon a 4/2 panther with Stealth.",
+		"comment" : "'I know some new tricks, a lot of good tricks. I will show them to you. Medivh will not mind at all if I do.'",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42045",
+		"cardName" : "Maelstrom Portal",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Daria Tuzova",
+		"직업제한" : "주술사",
+		"소속" : "",
+		"효과" : "Deal_1_damage to_all_enemy_minions. Summon_a_random1-Cost minion.",
+		"comment" : "They bill this as a popular resort attraction, but they try and get your money up front.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42061",
+		"cardName" : "Purify",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Rafael Zanchetin",
+		"직업제한" : "사제",
+		"소속" : "",
+		"효과" : "Silence a friendly minion. Draw a card.",
+		"comment" : "Even better than a hot shower with vigorous scrubbing!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42020",
+		"cardName" : "Kindly Grandmother",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Matt Dixon",
+		"직업제한" : "사냥꾼",
+		"소속" : "",
+		"효과" : "Deathrattle: summon a 3/2 Big Bad Wolf.",
+		"comment" : "'Goodness! What… abundant drool you have.'",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42048",
+		"cardName" : "Medivh's Valet",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Sean McNally",
+		"직업제한" : "마법사",
+		"소속" : "",
+		"효과" : "Battlecry: If you control a secret, deal 3 damage.",
+		"comment" : "'Magus Medivh sir, I've brought the flaming balloons, as you requested.'",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42039",
+		"cardName" : "Netherspite Historian",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Raplph Horsley",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: If you are holding a Dragon, Discover a Dragon.",
+		"comment" : "She can tell you all about the history of people not STANDING IN THE GREEN BEAM!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42034",
+		"cardName" : "Pompous Thespian",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Matt Dixon",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Taunt",
+		"comment" : "Alas poor Annoy-o-Tron! A fellow of infinite jest, of most excellent fancy!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42042",
+		"cardName" : "Spirit Claws",
+		"종류" : "무기",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Raplph Horsley",
+		"직업제한" : "주술사",
+		"소속" : "",
+		"효과" : "Has +2 attack while you have spell damage.",
+		"comment" : "They'll be MUCH easier to use once they add the spirit<i>thumb</i>.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42043",
+		"cardName" : "Arcane Anomaly",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Alex Aleksandrov",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Whenever you cast a spell, give this minion+1 Health.",
+		"comment" : "He used to get work as a Spacial Anomaly, but he got tired of having his polarity reversed.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42028",
+		"cardName" : "Babbling Book",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "A.J. Nazzaro",
+		"직업제한" : "마법사",
+		"소속" : "",
+		"효과" : "Battlecry: Add a random Mage spell to your hand.",
+		"comment" : "His idol is the Green Hills of Stranglethorn, and he won't shut up about it.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42024",
+		"cardName" : "Enchanted Raven",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Daria Tuzova",
+		"직업제한" : "드루이드",
+		"소속" : "",
+		"효과" : "Once upon a midnight restive, Medivh pondered, feeling festive!",
+		"comment" : "Once upon a midnight restive, Medivh pondered, feeling festive!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42027",
+		"cardName" : "Malchezaar's Imp",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "Peter Stapleton",
+		"직업제한" : "흑마법사",
+		"소속" : "",
+		"효과" : "Whenever you discard a card, draw a card.",
+		"comment" : "Malchezaar used to have an imp named Dobby working for him, but there was a tragic accident.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42065",
+		"cardName" : "Runic Egg",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "0"
+			} ],
+		"일러스트" : "A.J. Nazzaro",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Deathrattle: Draw a card.",
+		"comment" : "Oh man! Runic omelettes are the best!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "42046",
+		"cardName" : "Swashburglar",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Zoltan Boros",
+		"직업제한" : "도적",
+		"소속" : "중립",
+		"효과" : "Battlecry: Add a random class card to yrou hand. (from your opponent's class)",
+		"comment" : "Was almost named 'Swashb-AAAARRHHH-gler'",
+		"확장팩" : "한여름밤의 카라잔"
+	}	]
+}

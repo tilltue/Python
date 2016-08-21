@@ -1,0 +1,2003 @@
+{
+	"cards" : [
+	{
+		"cardCode" : "94",
+		"cardName" : "Molten Giant",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Glenn Rane",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Costs (1) less for each damage your hero has taken.",
+		"comment" : "He gets terrible heartburn.  BECAUSE HE IS FULL OF LAVA.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "264",
+		"cardName" : "Mountain Giant",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Samwise",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Costs (1) less for each other card in your hand.",
+		"comment" : "His mother said that he was just big boned.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "496",
+		"cardName" : "Pyroblast",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Luca Zontini",
+		"직업제한" : "마법사",
+		"소속" : "중립",
+		"효과" : "Deal 10 damage.",
+		"comment" : "Take the time for an evil laugh after you draw this card.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "474",
+		"cardName" : "Deathwing",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Bernie Kang",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Destroy all other minions and discard your hand.",
+		"comment" : "Once a noble dragon known as Neltharion, Deathwing lost his mind and shattered Azeroth before finally being defeated.  Daddy issues?",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "614",
+		"cardName" : "Sea Giant",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Svetlin Velinov",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Costs (1) less for each other minion on the battlefield.",
+		"comment" : "See?  Giant.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "303",
+		"cardName" : "Alexstrasza",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Raymond Swanland",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Battlecry: Set a hero's remaining Health to 15.",
+		"comment" : "Alexstrasza the Life-Binder brings life and hope to everyone.  Except Deathwing.  And Malygos.  And Nekros.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "605",
+		"cardName" : "Cenarius",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Alex Horley Orlandelli",
+		"직업제한" : "드루이드",
+		"소속" : "중립",
+		"효과" : "Choose One - Give your other minions +2/+2; or Summon two 2/2 Treants with Taunt.",
+		"comment" : "Yes, he's a demigod. No, he doesn't need to wear a shirt.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "194",
+		"cardName" : "King Krush",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Alex Horley Orlandelli",
+		"직업제한" : "사냥꾼",
+		"소속" : "중립",
+		"효과" : "Charge",
+		"comment" : "The best defense against King Krush is to have someone you don’t like standing in front of you.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "482",
+		"cardName" : "Lord Jaraxxus",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Alex Horley Orlandelli",
+		"직업제한" : "흑마법사",
+		"소속" : "",
+		"효과" : "Battlecry: Destroy your hero and replace it with Lord Jaraxxus.",
+		"comment" : "'TRIFLING GNOME! YOUR ARROGANCE WILL BE YOUR UNDOING!!!!'",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "241",
+		"cardName" : "Malygos",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Michael Komarck",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Spell Damage +5",
+		"comment" : "Malygos hates it when mortals use magic.  He gets so mad!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "285",
+		"cardName" : "Nozdormu",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "James Ryman",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Players only have 15 seconds to take their turns.",
+		"comment" : "Time to write some flavor text.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "432",
+		"cardName" : "Onyxia",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Dany Orizio",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Battlecry: Summon 1/1 Whelps until your side of the battlefield is full.",
+		"comment" : "Onyxia long manipulated the Stormwind Court by disguising herself as Lady Katrana Prestor.   You would have thought that the giant wings and scales would have been a giveaway.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "495",
+		"cardName" : "Ysera",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Gabor Szikszai",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "At the end of your turn, add a Dream Card to your hand.",
+		"comment" : "Ysera rules the Emerald Dream.  Which is some kind of green-mirror-version of the real world, or something?",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "506",
+		"cardName" : "Lay on Hands",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Raymond Swanland",
+		"직업제한" : "성기사",
+		"소속" : "중립",
+		"효과" : "Restore #8 Health. Draw 3 cards.",
+		"comment" : "A grammatically awkward life saver.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "398",
+		"cardName" : "Twisting Nether",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Dave Allsop",
+		"직업제한" : "흑마법사",
+		"소속" : "중립",
+		"효과" : "Destroy all minions.",
+		"comment" : "The Twisting Nether is a formless place of magic and illusion and destroyed minions.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "335",
+		"cardName" : "Al'Akir the Windlord",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Raymond Swanland",
+		"직업제한" : "주술사",
+		"소속" : "",
+		"효과" : "Windfury, Charge, Divine Shield, Taunt",
+		"comment" : "He is the weakest of the four Elemental Lords.  And the other three don't let him forget it.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "643",
+		"cardName" : "Grommash Hellscream",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Glenn Rane",
+		"직업제한" : "전사",
+		"소속" : "중립",
+		"효과" : "ChargeEnrage: +6 Attack",
+		"comment" : "Grommash drank the tainted blood of Mannoroth, dooming the orcs to green skin and red eyes!  Maybe not his best decision.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "18",
+		"cardName" : "Gruul",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Kev Walker",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "At the end of each turn, gain +1/+1 .",
+		"comment" : "He's Gruul 'the Dragonkiller'.  He just wanted to cuddle them… he never meant to… ",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "503",
+		"cardName" : "Ragnaros the Firelord",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Greg Staples",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Can't attack. At the end of your turn, deal 8 damage to a random enemy.",
+		"comment" : "Ragnaros was summoned by the Dark Iron dwarves, who were eventually enslaved by the Firelord.  Summoning Ragnaros often doesn’t work out the way you want it to.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "391",
+		"cardName" : "Tirion Fordring",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Brom",
+		"직업제한" : "성기사",
+		"소속" : "중립",
+		"효과" : "Divine Shield. Taunt. Deathrattle: Equip a 5/3 Ashbringer.",
+		"comment" : "If you haven't heard the Tirion Fordring theme song, it's because it doesn't exist.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "278",
+		"cardName" : "Gladiator's Longbow",
+		"종류" : "무기",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Peter C. Lee",
+		"직업제한" : "사냥꾼",
+		"소속" : "중립",
+		"효과" : "Your hero is Immune while attacking.",
+		"comment" : "The longbow allows shots to be fired from farther away and is useful for firing on particularly odorous targets.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "96",
+		"cardName" : "Gorehowl",
+		"종류" : "무기",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Zoltan & Gabor",
+		"직업제한" : "전사",
+		"소속" : "중립",
+		"효과" : "Attacking a minion costs 1 Attack instead of 1 Durability.",
+		"comment" : "Grommash Hellscream's famous axe.  Somehow this ended up in Prince Malchezaar's possession.  Quite the mystery!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "34",
+		"cardName" : "Ancient of Lore",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Patrik Hjelm",
+		"직업제한" : "드루이드",
+		"소속" : "",
+		"효과" : "Choose One - Draw a card; or Restore 5 Health.",
+		"comment" : "Go ahead, carve your initials in him.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "242",
+		"cardName" : "Ancient of War",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Sean O’Daniels",
+		"직업제한" : "드루이드",
+		"소속" : "중립",
+		"효과" : "Choose One -+5 Attack; or +5 Health and Taunt.",
+		"comment" : "Young Night Elves love to play 'Who can get the Ancient of War to Uproot?'  You lose if you get crushed to death.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "220",
+		"cardName" : "Archmage Antonidas",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Wayne Reynolds",
+		"직업제한" : "마법사",
+		"소속" : "중립",
+		"효과" : "Whenever you cast a spell, add a 'Fireball' spell to your hand.",
+		"comment" : "Antonidas was the Grand Magus of the Kirin Tor, and Jaina's mentor.  This was a big step up from being Grand Magus of Jelly Donuts.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "539",
+		"cardName" : "Baron Geddon",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Ian Ameling",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "At the end of your turn, deal 2 damage to ALL other characters.",
+		"comment" : "Baron Geddon was Ragnaros's foremost lieutenant, until he got FIRED.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "228",
+		"cardName" : "Prophet Velen",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Wei Wang",
+		"직업제한" : "사제",
+		"소속" : "중립",
+		"효과" : "Double the damage and healing of your spells and Hero Power.",
+		"comment" : "He's been exiled from his home, and all his brothers turned evil, but otherwise he doesn't have a lot to complain about.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "518",
+		"cardName" : "Ravenholdt Assassin",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Ralph Horsley",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "Stealth",
+		"comment" : "Just mail him a package with a name and 10,000 gold.  He'll take care of the rest.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "142",
+		"cardName" : "Avenging Wrath",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Alex Garner",
+		"직업제한" : "성기사",
+		"소속" : "중립",
+		"효과" : "Deal 8 damage randomly split among all enemies.",
+		"comment" : "Wham! Wham! Wham! Wham! Wham! Wham! Wham! Wham!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "276",
+		"cardName" : "Blizzard",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Chris Seaman",
+		"직업제한" : "마법사",
+		"소속" : "중립",
+		"효과" : "Deal 2 damage to all enemy minions and Freeze them.",
+		"comment" : "This spell can be very Entertaining.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "457",
+		"cardName" : "Holy Fire",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Miguel Coimbra",
+		"직업제한" : "사제",
+		"소속" : "",
+		"효과" : "Deal 5 damage. Restore #5 Health to your hero.",
+		"comment" : "Often followed by Holy Smokes!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "573",
+		"cardName" : "Siphon Soul",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Tyler Walpole",
+		"직업제한" : "흑마법사",
+		"소속" : "중립",
+		"효과" : "Destroy a minion. Restore #3 Health to your hero.",
+		"comment" : "You probably should avoid siphoning your own soul.  You might create some kind of weird infinite loop.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "463",
+		"cardName" : "Argent Commander",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "James Ryman",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "ChargeDivine Shield",
+		"comment" : "The Argent Dawn stands vigilant against the Scourge, as well as people who cut in line at coffee shops.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "147",
+		"cardName" : "Cabal Shadow Priest",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Chippy",
+		"직업제한" : "사제",
+		"소속" : "중립",
+		"효과" : "Battlecry: Take control of an enemy minion that has 2 or less Attack.",
+		"comment" : "You never know who may be secretly working for the Cabal....",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "498",
+		"cardName" : "Cairne Bloodhoof",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Wayne Reynolds",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "Deathrattle: Summon a 4/5 Baine Bloodhoof.",
+		"comment" : "Cairne was killed by Garrosh, so... don't put this guy in a Warrior deck.  It's pretty insensitive.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "598",
+		"cardName" : "Frost Elemental",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Dan Scott",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Battlecry: Freeze a character.",
+		"comment" : "When a Water elemental and an Ice elemental love each other VERY much...",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "131",
+		"cardName" : "Gadgetzan Auctioneer",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Matt Dixon",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Whenever you cast a spell, draw a card.",
+		"comment" : "He used to run the black market auction house, but there was just too much violence and he had to move.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "39",
+		"cardName" : "Hogger",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Laurel D. Austin",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "At the end of your turn, summon a 2/2 Gnoll with Taunt.",
+		"comment" : "Hogger is super powerful. If you kill him, it's because he <i>let</i> you.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "203",
+		"cardName" : "Illidan Stormrage",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Alex Horley Orlandelli",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Whenever you play a card, summon a 2/1 Flame of Azzinoth.",
+		"comment" : "Illidan's brother, Malfurion, imprisoned him beneath Hyjal for 10,000 years.  Stormrages are not good at letting go of grudges.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "562",
+		"cardName" : "Kidnapper",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Dave Allsop",
+		"직업제한" : "도적",
+		"소속" : "",
+		"효과" : "Combo: Return a minion to its owner's hand.",
+		"comment" : "He just wants people to see his vacation photos.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "138",
+		"cardName" : "Priestess of Elune",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Dan Scott",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Battlecry: Restore 4 Health to your hero.",
+		"comment" : "If she threatens to 'moon' you, it's not what you think.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "8",
+		"cardName" : "Savannah Highmane",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Milivoj Ceran",
+		"직업제한" : "사냥꾼",
+		"소속" : "",
+		"효과" : "Deathrattle: Summon two 2/2 Hyenas.",
+		"comment" : "In the jungle, the mighty jungle, the lion gets slowly consumed by hyenas.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "221",
+		"cardName" : "Sunwalker",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Andrea Uderzo",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "TauntDivine Shield",
+		"comment" : "She doesn’t ACTUALLY walk on the Sun.  It's just a name.  Don’t worry!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "33",
+		"cardName" : "Sylvanas Windrunner",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Glenn Rane",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Deathrattle: Take control of a random enemy minion.",
+		"comment" : "Sylvanas was turned into the Banshee Queen by Arthas, but he probably should have just killed her because it just pissed her off.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "232",
+		"cardName" : "Temple Enforcer",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Daren Bader",
+		"직업제한" : "사제",
+		"소속" : "",
+		"효과" : "Battlecry: Give a friendly minion +3 Health.",
+		"comment" : "He also moonlights Thursday nights as a bouncer at the Pig and Whistle Tavern.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "179",
+		"cardName" : "The Beast",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Glenn Rane",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Deathrattle: Summon a 3/3 Finkle Einhorn for your opponent.",
+		"comment" : "He lives in Blackrock Mountain.  He eats Gnomes.  That's pretty much it.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "396",
+		"cardName" : "The Black Knight",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Alex Horley Orlandelli",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Destroy an enemy minion with Taunt.",
+		"comment" : "He was sent by the Lich King to disrupt the Argent Tournament.   We can pretty much mark that a failure.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "675",
+		"cardName" : "Windfury Harpy",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Luke Mancini",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "Windfury",
+		"comment" : "Harpies are not pleasant sounding.  That's the nicest I can put it.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "172",
+		"cardName" : "Doomhammer",
+		"종류" : "무기",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "John Polidora",
+		"직업제한" : "주술사",
+		"소속" : "중립",
+		"효과" : "Windfury, Overload: (2)",
+		"comment" : "Orgrim Doomhammer gave this legendary weapon to Thrall.  His name is a total coincidence.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "670",
+		"cardName" : "Bane of Doom",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Raymond Swanland",
+		"직업제한" : "흑마법사",
+		"소속" : "중립",
+		"효과" : "Deal 2 damage to a character. If that kills it, summon a random Demon.",
+		"comment" : "My advice to you is to avoid Doom, if possible.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "7",
+		"cardName" : "Blessed Champion",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Tyler Walpole",
+		"직업제한" : "성기사",
+		"소속" : "",
+		"효과" : "Double a minion's Attack.",
+		"comment" : "This card causes double the trouble AND double the fun.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "297",
+		"cardName" : "Brawl",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Wayne Reynolds",
+		"직업제한" : "전사",
+		"소속" : "중립",
+		"효과" : "Destroy all minions except one. (chosen randomly)",
+		"comment" : "Do you know the first rule of Brawl Club?",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "114",
+		"cardName" : "Explosive Shot",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Tom Baxa",
+		"직업제한" : "사냥꾼",
+		"소속" : "중립",
+		"효과" : "Deal 5 damage to a minion and 2 damage to adjacent ones.",
+		"comment" : "Pull the pin, count to 5, then shoot.  Then duck.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "237",
+		"cardName" : "Force of Nature",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Trevor Jacobs",
+		"직업제한" : "드루이드",
+		"소속" : "중립",
+		"효과" : "Summon three 2/2 Treants.",
+		"comment" : "'I think I'll just nap under these trees. Wait... AAAAAHHH!' - Blinkfizz, the Unfortunate Gnome",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "355",
+		"cardName" : "Holy Wrath",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Justin Sweet",
+		"직업제한" : "성기사",
+		"소속" : "중립",
+		"효과" : "Draw a card and deal damage equal to its cost.",
+		"comment" : "C'mon Molten Giant!!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "120",
+		"cardName" : "Nourish",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Terese Nielsen",
+		"직업제한" : "드루이드",
+		"소속" : "중립",
+		"효과" : "Choose One - Gain 2 Mana Crystals; or Draw 3 cards.",
+		"comment" : "Druids take nourishment from many things: the power of nature, the songbird's chirp, a chocolate cake.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "464",
+		"cardName" : "Starfall",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Richard Wright",
+		"직업제한" : "드루이드",
+		"소속" : "",
+		"효과" : "Choose One - Deal 5 damage to a minion; or 2 damage to all enemy minions.",
+		"comment" : "Is the sky falling?  Yes.  Yes it is.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "597",
+		"cardName" : "Abomination",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Alex Horley Orlandelli",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Taunt. Deathrattle: Deal 2 damage to ALL characters.",
+		"comment" : "Abominations enjoy Fresh Meat and long walks on the beach.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "280",
+		"cardName" : "Azure Drake",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Ben Zhang",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Spell Damage +1. Battlecry: Draw a card.",
+		"comment" : "They initially planned to be the Beryl or Cerulean drakes, but those felt a tad too pretentious.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "73",
+		"cardName" : "Big Game Hunter",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Chris Seaman",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Destroy a minion with an Attack of 7 or more.",
+		"comment" : "Mere devilsaurs no longer excite him.  Soon he'll be trying to catch Onyxia with only a dull Krol Blade.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "267",
+		"cardName" : "Captain Greenskin",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Dan Scott",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Give your weapon +1/+1.",
+		"comment" : "He was <i>this close</i> to piloting a massive juggernaut into Stormwind Harbor. If it weren't for those pesky kids!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "507",
+		"cardName" : "Doomguard",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Lucas Graciano",
+		"직업제한" : "흑마법사",
+		"소속" : "중립",
+		"효과" : "Charge. Battlecry: Discard two random cards.",
+		"comment" : "Summoning a doomguard is risky. <i>Someone</i> is going to die.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "587",
+		"cardName" : "Druid of the Claw",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Luca Zontini",
+		"직업제한" : "드루이드",
+		"소속" : "중립",
+		"효과" : "Choose One - Charge; or +2 Health and Taunt.",
+		"comment" : "Cat or Bear?  Cat or Bear?!  I just cannot CHOOSE!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "124",
+		"cardName" : "Earth Elemental",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Dan Scott",
+		"직업제한" : "주술사",
+		"소속" : "중립",
+		"효과" : "Taunt. Overload: (3)",
+		"comment" : "Nothing beats rock.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "450",
+		"cardName" : "Faceless Manipulator",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Raymond Swanland",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Battlecry: Choose a minion and become a copy of it.",
+		"comment" : "The Faceless Ones are servants of Yogg-Saron, and they feed on fear. Right now they are feeding on your fear of accidentally disenchanting all your good cards.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "476",
+		"cardName" : "Fen Creeper",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Monica Langlois",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "Taunt",
+		"comment" : "He used to be called Bog Beast, but it confused people because he wasn't an actual beast.   Boom, New Name!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "602",
+		"cardName" : "Harrison Jones",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Matt Dixon",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Battlecry: Destroy your opponent's weapon and draw cards equal to its Durability.",
+		"comment" : "“That belongs in the Hall of Explorers!”",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "674",
+		"cardName" : "Leeroy Jenkins",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Gabe from Penny Arcade",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "Charge. Battlecry: Summon two 1/1 Whelps for your opponent.",
+		"comment" : "At least he has Angry Chicken.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "648",
+		"cardName" : "Silver Hand Knight",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Matt Starbuck",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "Battlecry: Summon a 2/2 Squire.",
+		"comment" : "It's good to be a knight.   Less so to be one's squire.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "627",
+		"cardName" : "Spiteful Smith",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Justin Sweet",
+		"직업제한" : "공통",
+		"소속" : "호드",
+		"효과" : "Enrage: Your weapon has +2 Attack.",
+		"comment" : "She'll craft you a sword, but you'll need to bring her 5 Steel Ingots, 3 Motes of Earth, and the scalp of her last customer.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "389",
+		"cardName" : "Stampeding Kodo",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Daren Bader",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Destroy a random enemy minion with 2 or less Attack.",
+		"comment" : "This Kodo is so big that he can stampede by <i>himself</i>.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "338",
+		"cardName" : "Stranglethorn Tiger",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Alex Horley Orlandelli",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "Stealth",
+		"comment" : "The wonderful thing about tigers is tigers are wonderful things!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "509",
+		"cardName" : "Venture Co. Mercenary",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "John Polidora",
+		"직업제한" : "공통",
+		"소속" : "호드",
+		"효과" : "Your minions cost (3) more.",
+		"comment" : "No Job is too big.  No fee is too big.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "266",
+		"cardName" : "Bite",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Tom Baxa",
+		"직업제한" : "드루이드",
+		"소속" : "중립",
+		"효과" : "Give your hero +4 Attack this turn and 4 Armor.",
+		"comment" : "Chew your food!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "244",
+		"cardName" : "Blade Flurry",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Hideaki Takamura",
+		"직업제한" : "도적",
+		"소속" : "중립",
+		"효과" : "Destroy your weapon and deal its damage to all enemy minions.",
+		"comment" : "'Look, it's not just about waving daggers around really fast.  It's a lot more complicated than that.' - Shan, Rogue Trainer",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "26",
+		"cardName" : "Cone of Cold",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Leo Che",
+		"직업제한" : "마법사",
+		"소속" : "중립",
+		"효과" : "Freeze a minion and the minions next to it, and deal 1 damage to them.",
+		"comment" : "Magi of the Kirin Tor were casting Cubes of Cold for many years before Cones came into fashion some 90 years ago.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "249",
+		"cardName" : "Mass Dispel",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Sean O'Daniels",
+		"직업제한" : "사제",
+		"소속" : "",
+		"효과" : "Silence all enemy minions. Draw a card.",
+		"comment" : "It dispels buffs, powers, hopes, and dreams.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "301",
+		"cardName" : "Mindgames",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Zoltan & Gabor",
+		"직업제한" : "사제",
+		"소속" : "중립",
+		"효과" : "Put a copy of a random minion from your opponent's deck into the battlefield.",
+		"comment" : "Sometimes it feels like this is all a game.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "345",
+		"cardName" : "Mortal Strike",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Zoltan & Gabor",
+		"직업제한" : "전사",
+		"소속" : "중립",
+		"효과" : "Deal 4 damage. If you have 12 or less Health, deal 6 instead.",
+		"comment" : "'If you only use one ability, use Mortal Strike.' - The Warrior Code, Line 6",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "442",
+		"cardName" : "Shadow Madness",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Mark Gibbons",
+		"직업제한" : "사제",
+		"소속" : "중립",
+		"효과" : "Gain control of an enemy minion with 3 or less Attack until end of turn.",
+		"comment" : "You can rationalize it all you want, it's still a mean thing to do.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "673",
+		"cardName" : "Shadowflame",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Dave Kendall",
+		"직업제한" : "흑마법사",
+		"소속" : "중립",
+		"효과" : "Destroy a friendly minion and deal its Attack damage to all enemy minions.",
+		"comment" : "Start with a powerful minion and stir in Shadowflame and you have a good time!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "311",
+		"cardName" : "Soul of the Forest",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Markus Erdt",
+		"직업제한" : "드루이드",
+		"소속" : "중립",
+		"효과" : "Give your minions 'Deathrattle: Summon a 2/2 Treant.'",
+		"comment" : "'Reforestation' is suddenly a terrifying word.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "572",
+		"cardName" : "Ancient Brewmaster",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Bernie Kang",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "Battlecry: Return a friendly minion from the battlefield to your hand.",
+		"comment" : "Most pandaren say his brew tastes like yak.  But apparently that's a compliment.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "176",
+		"cardName" : "Ancient Mage",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Howard Lyon",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Battlecry: Give adjacent minions Spell Damage +1.",
+		"comment" : "Sometimes he forgets and just wanders into someone else's game.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "504",
+		"cardName" : "Arathi Weaponsmith",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Samwise",
+		"직업제한" : "전사",
+		"소속" : "중립",
+		"효과" : "Battlecry: Equip a 2/2 weapon.",
+		"comment" : "50% off fist weapons, limited time only!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "656",
+		"cardName" : "Auchenai Soulpriest",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Doug Alexander",
+		"직업제한" : "사제",
+		"소속" : "중립",
+		"효과" : "Your cards and powers that restore Health now deal damage instead.",
+		"comment" : "The Auchenai know the end is coming, but they're not sure when.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "140",
+		"cardName" : "Cult Master",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Raymond Swanland",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Whenever one of your other minions dies, draw a card.",
+		"comment" : "She may be an evil cult master, but she still calls her parents once a week.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "128",
+		"cardName" : "Dark Iron Dwarf",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Scott Hampton",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "Battlecry: Give a minion +2 Attack this turn.",
+		"comment" : "Guardians of Dark Iron Ore.  Perhaps the most annoying ore, given where you have to forge it.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "542",
+		"cardName" : "Defender of Argus",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Alex Horley Orlandelli",
+		"직업제한" : "공통",
+		"소속" : "얼라이언스",
+		"효과" : "Battlecry: Give adjacent minions +1/+1 and Taunt.",
+		"comment" : "You wouldn’t think that Argus would need this much defending.  But it does.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "261",
+		"cardName" : "Dread Corsair",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Trent Kaniuga",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Taunt. Costs (1) less per Attack of your weapon.",
+		"comment" : "'Yarrrr' is a pirate word that means 'Greetings, milord.'",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "125",
+		"cardName" : "Ethereal Arcanist",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Michael Komarck",
+		"직업제한" : "마법사",
+		"소속" : "",
+		"효과" : "If you control a Secret at the end of your turn, gain +2/+2.",
+		"comment" : "The ethereals are wrapped in cloth to give form to their non-corporeal bodies. Also because it's nice and soft.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "459",
+		"cardName" : "Keeper of the Grove",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Gabor Szikszai",
+		"직업제한" : "드루이드",
+		"소속" : "중립",
+		"효과" : "Choose One - Deal 2 damage; or Silence a minion.",
+		"comment" : "These guys just show up and start Keeping your Groves without even asking.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "192",
+		"cardName" : "Lightspawn",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Daarken",
+		"직업제한" : "사제",
+		"소속" : "중립",
+		"효과" : "This minion's Attack is always equal to its Health.",
+		"comment" : "Spawn of the Light? Or Pawn of the Lights?",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "127",
+		"cardName" : "Master of Disguise",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Ron Spencer",
+		"직업제한" : "도적",
+		"소속" : "",
+		"효과" : "Battlecry: Give a friendly minion Stealth until your next turn.",
+		"comment" : "She's actually a male tauren.  People don't call him 'Master of Disguise' for nothing.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "346",
+		"cardName" : "Mogu'shan Warden",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Cole Eastburn",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Taunt",
+		"comment" : "All these guys ever do is talk about the Thunder King.   BOOOORRRINNG!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "402",
+		"cardName" : "Pit Lord",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Glenn Rane",
+		"직업제한" : "흑마법사",
+		"소속" : "중립",
+		"효과" : "Battlecry: Deal 5 damage to your hero.",
+		"comment" : "Mannoroth, Magtheridon, and Brutallus may be dead, but it turns out there are a LOT of pit lords.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "634",
+		"cardName" : "Silvermoon Guardian",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Phroilan Gardner",
+		"직업제한" : "공통",
+		"소속" : "호드",
+		"효과" : "Divine Shield",
+		"comment" : "The first time they tried to guard Silvermoon against the scourge, it didn’t go so well…",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "42",
+		"cardName" : "Spellbreaker",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Matt Cavotta",
+		"직업제한" : "공통",
+		"소속" : "호드",
+		"효과" : "Battlecry: Silence a minion.",
+		"comment" : "Spellbreakers can rip enchantments from magic-wielders.  The process is painless and can be performed on an outpatient basis.",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "566",
+		"cardName" : "Summoning Portal",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Tyler Walpole",
+		"직업제한" : "흑마법사",
+		"소속" : "중립",
+		"효과" : "Your minions cost (2) less, but not less than (1).",
+		"comment" : "NOT LESS THAN 1!  Don't get any ideas!",
+		"확장팩" : "클래식"
+	},
+	{
+		"cardCode" : "360",
+		"cardName" : "Twilight Drake",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Jaemin Kim",
+		"직업제한" : "공통",
+		"소속" : "중립",
+		"효과" : "Battlecry: Gain +1 Health for each card in your hand.",
+		"comment" : "Twilight drakes feed on Mystical Energy.  And Tacos.",
+		"확장팩" : "클래식"
+	},	]
+}

@@ -1,0 +1,320 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 555.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation'"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/wade.hawk/Project/Agit_Dev/Podfile",
+		"/Users/Shared/Unity/2D_FlappySeal/Assets/scripts/SealController.cs",
+		"/Users/wade.hawk/Project/Agit_Tab/Podfile",
+		"/Users/Shared/Unity/RunRun/Assets/Scripts/NejikoController.cs",
+		"/Users/Shared/Unity/2D_FlappySeal/Assets/scripts/Block.cs",
+		"/Users/Shared/Unity/CandyDozer/Assets/Script/Pusher.cs",
+		"/Users/wade.hawk/Project/누락문자열",
+		"/Users/wade.hawk/Project/PersonalGit/HearthStone/HeartStoneApp/HeartStoneApp/DB_FILES/DB_MATCH.json",
+		"/Users/wade.hawk/Project/PersonalGit/HearthStone/HeartStoneApp/HeartStoneApp/DB_FILES/HEAD_koKR.json",
+		"/Users/wade.hawk/Project/PersonalGit/HearthStone/HeartStoneApp/HeartStoneApp/DB_FILES/HEAD_en.json",
+		"/Users/wade.hawk/Project/PersonalGit/HearthGuide/HearthGuide/Podfile",
+		"/Users/wade.hawk/Project/PersonalGit/HearthStone/HeartStoneApp/HeartStoneApp/DB_FILES/DB_CARD_ENG.json",
+		"/Users/wade.hawk/Library/Developer/CoreSimulator/Devices/B18FCB06-0DC6-43E5-B98D-125D1F06DAB1/data/Containers/Data/Application/D84A3F49-221F-4CCF-8DEB-6C7FC741EE3E/Documents/output.json",
+		"/Users/wade.hawk/Project/PersonalGit/HearthStone/HeartStoneApp/HeartStoneApp/DB_FILES/DB_CARD.json",
+		"/Users/wade.hawk/Project/PersonalGit/firebase/firebaseTEST/platform :ios, '8.0'",
+		"/Users/wade.hawk/Project/PersonalGit/HearthGuide/Podfile",
+		"/Users/Shared/Unity/RunRun/Assets/Scripts/EnemyPoint.cs",
+		"/Users/Shared/Unity/RunRun/Assets/Scripts/StageGenerator.cs",
+		"/Users/wade.hawk/Project/RxSwiftExample/PodFile",
+		"/Users/wade.hawk/Project/번역 필요 문구 정리.txt",
+		"/Users/wade.hawk/Project/번역 필요 문구 정리"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"moveDirection",
+			"accelerationZ",
+			"accelerationZ\n",
+			"isGrounded",
+			"카카",
+			"카카오",
+			"카카",
+			"카카오",
+			"animator",
+			"group_id",
+			"hasMention",
+			"modified_at",
+			"modified",
+			"score",
+			"OnScrollEnd",
+			"OnScrollEnd\n",
+			"OnScrollEnd",
+			"SceneManager",
+			"Reload",
+			"GameOver",
+			"leonard",
+			"lonnie",
+			"assign",
+			"leo",
+			"leona",
+			"profile",
+			"profile_url",
+			"user",
+			"IncreaseScore",
+			"wall_message",
+			"wall_messages",
+			"camera",
+			"300001019",
+			"teo.",
+			"animator",
+			"gravity",
+			"targetLane",
+			"OnControllerColliderHit",
+			"IsStan",
+			"OnControllerColliderHit",
+			"uncomment",
+			"parseLocalizable",
+			"골레마그",
+			"\"소멸\"",
+			"\"648\"",
+			"\"76\"",
+			"76",
+			"300019954",
+			"text_not_supported_movie",
+			"inviter",
+			"300038477",
+			"planet",
+			"confirm_invitation",
+			"confirm",
+			"2869",
+			"678e04378da88f34ca0aaa5e34bded10",
+			"planet_invitations",
+			"678e04378da88f34ca0aaa5e34bded10",
+			"1461041107",
+			"visitedDate",
+			"wade",
+			"\"ina.oh\"",
+			"\"아이나\"",
+			"members",
+			"\"changed\"",
+			"\"changed",
+			"changed",
+			"last_",
+			"modi",
+			"modifyed",
+			"user_type",
+			"\"오인영\"",
+			"오인",
+			"오인영",
+			"visited",
+			"user_type\" : 1",
+			"\"user_type\" : 2",
+			"\"user_type\" : 1",
+			"\"user_type\" : 0",
+			"\"user_type\" : 1",
+			"permission_id",
+			"admin",
+			"master",
+			"permission_id",
+			"dispatch",
+			"time",
+			"rx_itemsWithDataSource",
+			"group",
+			"department",
+			"user_detail",
+			"department",
+			"position",
+			"notification_type",
+			"accepted",
+			"is_joined",
+			"is_member",
+			"0x61a00006fc80",
+			"0x61a000001e80",
+			"0x000061a00003ea80",
+			"0x000060400002a5d0",
+			"0x000061a00003ea80",
+			"0x000060e000043560",
+			"switch",
+			"wade",
+			"party",
+			"title_push_alarm_setting_viewcontroller",
+			"title_party_mention_alarm_setting_viewcontroller",
+			"text_section_header_party_mention_alarm_setting",
+			"text_section_footer_etiquette_time",
+			"text_section_footer_alarm_mode",
+			"cell_title_alarm_etiquette_time",
+			"cell_title_alarm_mode",
+			"cell_title_alarm_group_setting",
+			"cell_title_alarm_comment_on_my_post",
+			"cell_title_alarm_feedback_on_my_post",
+			"cell_title_alarm_party_mention",
+			"cell_title_alarm_private_mention",
+			"text_section_footer_push_notification_on",
+			"text_section_footer_push_notification_off",
+			"title_menu_alarm_setting",
+			"cell_description_push_on",
+			"cell_description_push_off",
+			"text_section_footer_push_notification_off",
+			"cell_title_alarm_private_mention",
+			"title_party_mention_alarm_setting_viewcontroller",
+			"text_section_footer_etiquette_time",
+			"cell_title_alarm_etiquette_time",
+			"title_menu_alarm_setting"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Main.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,272 @@
+[
+    {
+        "comment":"Afferma di essere stato attratto a Karazhan dalle linee di faglia, ma in realt\u00e0 \u00e8 perch\u00e9 adora i tortini di mana di Moroes.",
+        "description":"Costa (1) in meno per ogni Magia che hai lanciato in questa partita.",
+        "id":"KAR_711",
+        "name":"Gigante Arcano"
+    },
+    {
+        "comment":"Se credi che la festa sia uno spettacolo, aspetta di vedere cosa succede quando arrivano gli Orchi!",
+        "description":"Grido di Battaglia: equipaggia Atiesh, Granbastone del Guardiano.",
+        "id":"KAR_097",
+        "name":"Medivh il Guardiano"
+    },
+    {
+        "comment":"Venite nelle Terre del Fuoco! Un luogo \"molto pi\u00f9 piacevole delle Fauci dell'Abisso\"!",
+        "description":"Infligge 5 danni. Evoca un servitore casuale da 5 Mana.",
+        "id":"KAR_076",
+        "name":"Portale: Terre del Fuoco"
+    },
+    {
+        "comment":"Il Curatore fa la guardia alle creature pi\u00f9 letali di Azeroth, ma \u00e8 segretamente terrorizzato dagli scoiattoli...",
+        "description":"Provocazione. Grido di Battaglia: pesca una Bestia, un Drago e un Murloc dal tuo mazzo.",
+        "id":"KAR_061",
+        "name":"Curatore"
+    },
+    {
+        "comment":"Le feste di Radaluna sono rinomate per essere davvero bestiali.",
+        "description":"Rigenera 6 Salute. Evoca un servitore casuale da 6 Mana.",
+        "id":"KAR_075",
+        "name":"Portale: Radaluna"
+    },
+    {
+        "comment":"I suoi libri preferiti sono classici come \"Lo Hobbit\" e \"Grendel\".",
+        "description":"Grido di Battaglia: distrugge un servitore nemico con Attacco pari a 3 o inferiore se hai un Drago in mano.",
+        "id":"KAR_033",
+        "name":"Dragone di Biblioteca"
+    },
+    {
+        "comment":"Mio cugino \u00e8 vegetariano. Ha smesso di giocare a scacchi per non dover mangiare il cavallo.",
+        "description":"Grido di Battaglia: Rinvieni una Magia. Rigenera Salute al tuo eroe pari al suo costo.",
+        "id":"KAR_057",
+        "name":"Cavallo d'Avorio"
+    },
+    {
+        "comment":"\"Ti prego, posso tenerlo? Prometto che pulir\u00f2 la sua gabbia tutti i giorni.\"",
+        "description":"Grido di Battaglia: seleziona una tua Bestia. Ne evoca una copia.",
+        "id":"KAR_065",
+        "name":"Custode del Serraglio"
+    },
+    {
+        "comment":"\u00c8 caduto nel fossato da piccolo e non \u00e8 pi\u00f9 riuscito a uscire.",
+        "description":"Grido di Battaglia: distrugge un servitore. Rantolo di Morte: rievoca quel servitore.",
+        "id":"KAR_041",
+        "name":"Mostro del Fossato"
+    },
+    {
+        "comment":"Mai dividere uno stolto dalla sua passione.",
+        "description":"Permette attacchi illimitati. Non pu\u00f2 attaccare gli eroi.",
+        "id":"KAR_028",
+        "name":"Flagello dello Stolto"
+    },
+    {
+        "comment":"I Nani lavorano sodo e si divertono sodo!",
+        "description":"Fornisce 4 Armatura. Evoca un servitore casuale da 4 Mana.",
+        "id":"KAR_091",
+        "name":"Portale: Forgiardente"
+    },
+    {
+        "comment":"Ecco cosa succede se si chiede a Khadgar di apparecchiare la tavola.",
+        "description":"Evoca una Candela 1/1, una Scopa 2/2 e una Teiera 3/3.",
+        "id":"KAR_025",
+        "name":"Abra Cadabra!"
+    },
+    {
+        "comment":"Non \u00e8 un segreto che sia un ottimo guardiano.",
+        "description":"Grido di Battaglia: ottiene +1/+1 e Provocazione se controlli un Segreto.",
+        "id":"KAR_037",
+        "name":"Rapace Guardiano"
+    },
+    {
+        "comment":"S\u00ec, certo. Hai trovato quel Tirion \"in una busta\".",
+        "description":"Grido di Battaglia: riduce di (2) il costo delle carte di altre classi nella tua mano.",
+        "id":"KAR_070",
+        "name":"Venditrice Eterea"
+    },
+    {
+        "comment":"Detto tra noi, se le cose non dovessero andare bene, la posizione del Mago del Serraglio sarebbe la prima a saltare.",
+        "description":"Grido di Battaglia: +2/+2 a una tua Bestia, Drago e Murloc casuali.",
+        "id":"KAR_702",
+        "name":"Mago del Serraglio"
+    },
+    {
+        "comment":"Sono un alfiere, giusto? E allora dove sono le mie bandiere?",
+        "description":"Grido di Battaglia: evoca un tuo servitore casuale morto in questa partita.",
+        "id":"KAR_204",
+        "name":"Alfiere d'Ebano"
+    },
+    {
+        "comment":"Una volta acquist\u00f2 Urloatroce in una svendita dal robivecchi. Rimase davvero deluso quando si accorse che era una riproduzione in gommapiuma.",
+        "description":"All'inizio della partita, mette 5 servitori Leggendari casuali nel tuo mazzo.",
+        "id":"KAR_096",
+        "name":"Principe Malchezaar"
+    },
+    {
+        "comment":"Le politiche di immigrazione di Lunargenta sono piuttosto permissive.",
+        "description":"+2/+2 a un servitore. Evoca un servitore casuale da 2 Mana.",
+        "id":"KAR_077",
+        "name":"Portale: Lunargenta"
+    },
+    {
+        "comment":"In realt\u00e0 \u00e8 un fabbro normalissimo, ma il suo commercialista gli ha consigliato un nome pi\u00f9 esotico per aumentare gli affari.",
+        "description":"Grido di Battaglia: evoca uno Scudo Animato 0/5 con Provocazione.",
+        "id":"KAR_710",
+        "name":"Fabbro Arcano"
+    },
+    {
+        "comment":"Avrebbe voluto inscenare una versione tragica de \"Gli aristocani\", ma Medivh non ne ha mai voluto sapere niente.",
+        "description":"Grido di Battaglia: evoca una copia 1/1 di un servitore casuale nel tuo mazzo.",
+        "id":"KAR_114",
+        "name":"Barnes"
+    },
+    {
+        "comment":"Pluripremiato a tutte le fiere di paese per la sua torta alla crema!",
+        "description":"Quando lanci una Magia, rigenera 3 Salute al tuo eroe.",
+        "id":"KAR_035",
+        "name":"Sacerdote del Banchetto"
+    },
+    {
+        "comment":"Puoi facilmente sconfiggerla infliggendole 4 danni o facendole cadere una casa in testa.",
+        "description":"Quando lanci una Magia, evoca un Totem base casuale.",
+        "id":"KAR_021",
+        "name":"Taumaturga Malvagia"
+    },
+    {
+        "comment":"Serrate i ranghi! Pi\u00f9 siete, meglio \u00e8!",
+        "description":"Evoca un Pedone 1/1 con Provocazione per ogni servitore nemico sul campo.",
+        "id":"KAR_026",
+        "name":"Proteggete il Re!"
+    },
+    {
+        "comment":"Non si perde mai una puntata de \"Il segreto\".",
+        "description":"I tuoi Segreti costano (0).",
+        "id":"KAR_006",
+        "name":"Cacciatrice Mascherata"
+    },
+    {
+        "comment":"La posizione corretta della Forchetta Mortale \u00e8 a destra della forchetta per la pasta ma a sinistra della forchetta per il dolce.",
+        "description":"Rantolo di Morte: mette nella tua mano un'Arma 3/2.",
+        "id":"KAR_094",
+        "name":"Forchetta Mortale"
+    },
+    {
+        "comment":"Quanti maggiordomi ci vogliono per gonfiare un palloncino? Nessuno, tanto alla fine lo fa sempre Moroes.",
+        "description":"Furtivit\u00e0. Alla fine del tuo turno, evoca un Maggiordomo 1/1.",
+        "id":"KAR_044",
+        "name":"Moroes"
+    },
+    {
+        "comment":"Nessuno vuole mai accudire i suoi draghetti quando va in vacanza.",
+        "description":"Grido di Battaglia: evoca due Draghetti 1/1 se hai un Drago in mano.",
+        "id":"KAR_010",
+        "name":"Templare di Noctumor"
+    },
+    {
+        "comment":"Sono la coppia pi\u00f9 bella del mondo.",
+        "description":"Grido di Battaglia: evoca un Ragno 1/3.",
+        "id":"KAR_030a",
+        "name":"Ragno delle Dispense"
+    },
+    {
+        "comment":"Direttamente dai laboratori di ricerca segreti dell'esercito svizzero!",
+        "description":"Se scarti questo servitore, viene evocato sul campo.",
+        "id":"KAR_205",
+        "name":"Golem dell'Argenteria"
+    },
+    {
+        "comment":"Nessuno voleva invitarla alla festa perch\u00e9 si sa, il viola porta sfortuna.",
+        "description":"Il tuo eroe \u00e8 Immune nel tuo turno.",
+        "id":"KAR_712",
+        "name":"Illusionista Violacea"
+    },
+    {
+        "comment":"La foto l'ha scattata il Murloc.",
+        "description":"Grido di Battaglia: +1/+1 a una tua Bestia, Drago e Murloc casuali.",
+        "id":"KAR_095",
+        "name":"Zoobot"
+    },
+    {
+        "comment":"\"Conosco dei trucchetti, ottimi trucchetti. Te li mostrer\u00f2, a Medivh di sicuro non dispiacer\u00e0.\"",
+        "description":"Segreto: dopo che l'avversario ha lanciato una Magia, evoca un Felino 4/2 con Furtivit\u00e0.",
+        "id":"KAR_004",
+        "name":"Trucco Felino"
+    },
+    {
+        "comment":"Cercano di far passare il Maelstrom per un'attrazione da non perdere, ma accettano solo prenotazioni con pagamento anticipato.",
+        "description":"Infligge 1 |4(danno,danni) ai servitori nemici. Evoca un servitore casuale da 1 Mana.",
+        "id":"KAR_073",
+        "name":"Portale: Maelstrom"
+    },
+    {
+        "comment":"Il metodo di pulizia pi\u00f9 usato dalle massaie di Roccavento.",
+        "description":"Silenzia un tuo servitore. Pesca una carta.",
+        "id":"KAR_013",
+        "name":"Purificazione"
+    },
+    {
+        "comment":"\"Accidenti! Che... bava grande che hai.\"",
+        "description":"Rantolo di Morte: evoca un Lupo Cattivo 3/2.",
+        "id":"KAR_005",
+        "name":"Tenera Nonnina"
+    },
+    {
+        "comment":"Mago Medivh, le ho portato i palloncini esplosivi, come da sua richiesta.",
+        "description":"Grido di Battaglia: infligge 3 danni se controlli un Segreto.",
+        "id":"KAR_092",
+        "name":"Valletto di Medivh"
+    },
+    {
+        "comment":"Pu\u00f2 raccontarti la storia della gente che NON SI \u00c8 FATTA COLPIRE DAL RAGGIO VERDE!",
+        "description":"Grido di Battaglia: Rinvieni un Drago se hai un Drago in mano.",
+        "id":"KAR_062",
+        "name":"Storica di Scagliafatua"
+    },
+    {
+        "comment":"\"Ahim\u00e8, povero Fastidiobot! Un robot d'arguzia infinita e d'una fantasia impareggiabile.\"",
+        "description":"Provocazione",
+        "id":"KAR_011",
+        "name":"Attore Spocchioso"
+    },
+    {
+        "comment":"Sono molto pi\u00f9 facili da utilizzare da quando hanno aggiunto il pollice arcano.",
+        "description":"Ha +2 Attacco finch\u00e9 hai un bonus ai Danni Magici.",
+        "id":"KAR_063",
+        "name":"Artigli Spiritici"
+    },
+    {
+        "comment":"Un tempo lavorava come Anomalia Spaziale, ma si era annoiato di subire costantemente cambi di polarit\u00e0.",
+        "description":"Ottiene +1 Salute quando lanci una Magia.",
+        "id":"KAR_036",
+        "name":"Anomalia Arcana"
+    },
+    {
+        "comment":"Il suo idolo \u00e8 \"Verdi Colline di Rovotorto\" e ne parla in continuazione.",
+        "description":"Grido di Battaglia: mette nella tua mano una Magia casuale del Mago.",
+        "id":"KAR_009",
+        "name":"Libro Chiacchierone"
+    },
+    {
+        "comment":"Una volta, a mezzanotte, un Medivh ilare e raggiante meditava pensieroso su una festa elettrizzante!",
+        "description":"",
+        "id":"KAR_300",
+        "name":"Corvo Incantato"
+    },
+    {
+        "comment":"Un tempo Malchezaar aveva un Imp a suo servizio chiamato Dobby... ma poi avvenne un tragico incidente.",
+        "description":"Quando scarti una carta, pesca una carta.",
+        "id":"KAR_089",
+        "name":"Imp di Malchezaar"
+    },
+    {
+        "comment":"Non ci sono dubbi: le Omelette Runiche sono le migliori!",
+        "description":"Rantolo di Morte: pesca una carta.",
+        "id":"KAR_029",
+        "name":"Uovo Runico"
+    },
+    {
+        "comment":"Essere l'anima della festa \u00e8 uno sporco lavoro, ma qualcuno deve pur farlo.",
+        "description":"Grido di Battaglia: mette nella tua mano una carta casuale della classe dell'avversario.",
+        "id":"KAR_069",
+        "name":"Pirata Festaiolo"
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "comment":"Claims to be drawn to Karazhan because of the ley lines. Actually, just loves Moroes\u2019 cooking.",
+        "description":"Costs (1) less for each spell\nyou've cast this game.",
+        "id":"KAR_711",
+        "name":"Arcane Giant"
+    },
+    {
+        "comment":"If you think the party's great now, just wait 'til he invites the orcs over!",
+        "description":"Battlecry: Equip Atiesh, Greatstaff of the Guardian.",
+        "id":"KAR_097",
+        "name":"Medivh, the Guardian"
+    },
+    {
+        "comment":"Come to beautiful Firelands! Where it's \"Way nicer than the Abyssal Maw!\"",
+        "description":"Deal 5 damage. Summon a random\n5-Cost minion.",
+        "id":"KAR_076",
+        "name":"Firelands Portal"
+    },
+    {
+        "comment":"The Curator guards Azeroth\u2019s deadliest creatures, but it\u2019s secretly terrified of squirrels.",
+        "description":"Taunt\nBattlecry: Draw a Beast, Dragon, and Murloc from your deck.",
+        "id":"KAR_061",
+        "name":"The Curator"
+    },
+    {
+        "comment":"Ain't no party like a Moonglade party \u2018cause a Moonglade party got bears.",
+        "description":"Restore 6 Health. Summon a random\n6-Cost minion.",
+        "id":"KAR_075",
+        "name":"Moonglade Portal"
+    },
+    {
+        "comment":"His favorites are classic tragedies like \"The Hobbit\" and \"Grendel\".",
+        "description":"Battlecry: If you're holding a Dragon, destroy an enemy minion with 3 or less Attack.",
+        "id":"KAR_033",
+        "name":"Book Wyrm"
+    },
+    {
+        "comment":"Do NOT call it a \"horse\".",
+        "description":"Battlecry: Discover a spell.\nRestore Health to your hero\nequal to its Cost.",
+        "id":"KAR_057",
+        "name":"Ivory Knight"
+    },
+    {
+        "comment":"Please? Can I keep him? I promise to clean his cage every day.",
+        "description":"Battlecry: Choose a friendly Beast. Summon a_copy of it.",
+        "id":"KAR_065",
+        "name":"Menagerie Warden"
+    },
+    {
+        "comment":"He really enjoys lurking and gets a lot of job satisfaction out of it.",
+        "description":"Battlecry: Destroy a minion. Deathrattle: Resummon it.",
+        "id":"KAR_041",
+        "name":"Moat Lurker"
+    },
+    {
+        "comment":"A fool and his bane are soon parted.",
+        "description":"Unlimited attacks each turn. Can't attack heroes.",
+        "id":"KAR_028",
+        "name":"Fool's Bane"
+    },
+    {
+        "comment":"Come to beautiful Ironforge! Where irons are forged and the forges are iron!",
+        "description":"Gain 4 Armor.\nSummon a random\n4-Cost minion.",
+        "id":"KAR_091",
+        "name":"Ironforge Portal"
+    },
+    {
+        "comment":"This is what happens when you tell Khadgar to set the table.",
+        "description":"Summon a 1/1 Candle, 2/2 Broom, and 3/3 Teapot.",
+        "id":"KAR_025",
+        "name":"Kara Kazham!"
+    },
+    {
+        "comment":"He mostly watches light romantic comedies.",
+        "description":"Battlecry: If you control a Secret, gain +1/+1\nand Taunt.",
+        "id":"KAR_037",
+        "name":"Avian Watcher"
+    },
+    {
+        "comment":"Yeah, sure. That Ragnaros \"fell off the back of a truck\".",
+        "description":"Battlecry: Reduce the Cost\nof cards in your hand from\nother classes by (2).",
+        "id":"KAR_070",
+        "name":"Ethereal Peddler"
+    },
+    {
+        "comment":"Just between us, if things get tight the Menagerie Magician position will probably be the first to go.",
+        "description":"Battlecry: Give a random friendly Beast, Dragon, and Murloc +2/+2.",
+        "id":"KAR_702",
+        "name":"Menagerie Magician"
+    },
+    {
+        "comment":"B4 is a nice place to visit, but he wouldn't want to live there.",
+        "description":"Battlecry: Summon a friendly minion that died this game.",
+        "id":"KAR_204",
+        "name":"Onyx Bishop"
+    },
+    {
+        "comment":"He was super excited to acquire Gorehowl at a garage sale!\u00a0 Then super disappointed to find out it was a foam reproduction.",
+        "description":"When the game starts,\nadd 5 extra Legendary\nminions to your deck.",
+        "id":"KAR_096",
+        "name":"Prince Malchezaar"
+    },
+    {
+        "comment":"What's Millhouse Manastorm doing in Silvermoon?",
+        "description":"Give a minion +2/+2. Summon a random\n2-Cost minion.",
+        "id":"KAR_077",
+        "name":"Silvermoon Portal"
+    },
+    {
+        "comment":"He\u2019s really just a Blacksmith, but he thought the fancy title would bring in more business.",
+        "description":"Battlecry: Summon a 0/5 minion with Taunt.",
+        "id":"KAR_710",
+        "name":"Arcanosmith"
+    },
+    {
+        "comment":"He used to play every part, until Moroes confiscated his Orb of Deception.",
+        "description":"Battlecry: Summon a 1/1 copy of a random minion in your deck.",
+        "id":"KAR_114",
+        "name":"Barnes"
+    },
+    {
+        "comment":"Now that's a world champion cheesecake!",
+        "description":"Whenever you cast a spell, restore 3 Health to\nyour hero.",
+        "id":"KAR_035",
+        "name":"Priest of the Feast"
+    },
+    {
+        "comment":"You can easily defeat her by either dealing 4 damage, or dropping a house on her.",
+        "description":"Whenever you cast a spell, summon a random basic_Totem.",
+        "id":"KAR_021",
+        "name":"Wicked Witchdoctor"
+    },
+    {
+        "comment":"Form ranks! Everyone into the King's Tuskarr Defense!",
+        "description":"For each enemy minion, summon a 1/1 Pawn with Taunt.",
+        "id":"KAR_026",
+        "name":"Protect the King!"
+    },
+    {
+        "comment":"She's practically GIVING your secrets away!",
+        "description":"Your Secrets cost (0).",
+        "id":"KAR_006",
+        "name":"Cloaked Huntress"
+    },
+    {
+        "comment":"For a proper setting, place the deadly fork after the salad fork, but before the dinner fork.",
+        "description":"Deathrattle: Add a 3/2 weapon to your hand.",
+        "id":"KAR_094",
+        "name":"Deadly Fork"
+    },
+    {
+        "comment":"Moroes runs an army of stewards, but still ends up inflating the balloons himself.",
+        "description":"Stealth\nAt the end of your turn, summon a 1/1 Steward.",
+        "id":"KAR_044",
+        "name":"Moroes"
+    },
+    {
+        "comment":"Originally joined to be Arcanagos\u2019 Templar, but has to admit that ordering pizza has become waaaay easier.",
+        "description":"Battlecry: If you're holding a Dragon, summon two 1/1 Whelps.",
+        "id":"KAR_010",
+        "name":"Nightbane Templar"
+    },
+    {
+        "comment":"You have to admit, they make a cute couple.",
+        "description":"Battlecry: Summon a\n1/3 Spider.",
+        "id":"KAR_030a",
+        "name":"Pantry Spider"
+    },
+    {
+        "comment":"From the secret research labs of the Swiss Army.",
+        "description":"If you discard this minion, summon it.",
+        "id":"KAR_205",
+        "name":"Silverware Golem"
+    },
+    {
+        "comment":"She\u2019s much more cheerful after losing the \u2018n\u2019 in her name.",
+        "description":"During your turn, your hero is Immune.",
+        "id":"KAR_712",
+        "name":"Violet Illusionist"
+    },
+    {
+        "comment":"The Murloc is taking the picture.",
+        "description":"Battlecry: Give a random friendly Beast, Dragon, and Murloc +1/+1.",
+        "id":"KAR_095",
+        "name":"Zoobot"
+    },
+    {
+        "comment":"\"I know some new tricks, a lot of good tricks. I will show them to you. Medivh will not mind at all if I do.\"",
+        "description":"Secret: After your opponent casts a spell, summon a 4/2 Panther with Stealth.",
+        "id":"KAR_004",
+        "name":"Cat Trick"
+    },
+    {
+        "comment":"They bill this as a popular resort attraction, but they try and get your money up front.",
+        "description":"Deal_1_damage to_all_enemy_minions. Summon_a_random\n1-Cost minion.",
+        "id":"KAR_073",
+        "name":"Maelstrom Portal"
+    },
+    {
+        "comment":"Even better than a hot shower with vigorous scrubbing!",
+        "description":"Silence a friendly minion. Draw a card.",
+        "id":"KAR_013",
+        "name":"Purify"
+    },
+    {
+        "comment":"\"Goodness! What\u2026 abundant drool you have.\"",
+        "description":"Deathrattle: Summon a 3/2 Big Bad Wolf.",
+        "id":"KAR_005",
+        "name":"Kindly Grandmother"
+    },
+    {
+        "comment":"\"Magus Medivh sir, I've brought the flaming balloons, as you requested.\"",
+        "description":"Battlecry: If you control a Secret, deal 3 damage.",
+        "id":"KAR_092",
+        "name":"Medivh's Valet"
+    },
+    {
+        "comment":"She can tell you all about the history of people not STANDING IN THE GREEN BEAM!",
+        "description":"Battlecry: If you're holding a Dragon, Discover\na Dragon.",
+        "id":"KAR_062",
+        "name":"Netherspite Historian"
+    },
+    {
+        "comment":"Alas poor Annoy-o-Tron! A fellow of infinite jest, of most excellent fancy!",
+        "description":"Taunt",
+        "id":"KAR_011",
+        "name":"Pompous Thespian"
+    },
+    {
+        "comment":"They'll be MUCH easier to use once they add the spiritthumb.",
+        "description":"Has +2 Attack while you\nhave Spell Damage.",
+        "id":"KAR_063",
+        "name":"Spirit Claws"
+    },
+    {
+        "comment":"He used to get work as a Spacial Anomaly, but he got tired of having his polarity reversed.",
+        "description":"Whenever you cast a spell, give this minion\n+1 Health.",
+        "id":"KAR_036",
+        "name":"Arcane Anomaly"
+    },
+    {
+        "comment":"His idol is the Green Hills of Stranglethorn, and he won't shut up about it.",
+        "description":"Battlecry: Add a random Mage spell to your hand.",
+        "id":"KAR_009",
+        "name":"Babbling Book"
+    },
+    {
+        "comment":"Once upon a midnight restive, Medivh pondered, feeling festive!",
+        "description":"",
+        "id":"KAR_300",
+        "name":"Enchanted Raven"
+    },
+    {
+        "comment":"Malchezaar used to have an imp named Dobby working for him, but there was a tragic accident.",
+        "description":"Whenever you discard a card, draw a card.",
+        "id":"KAR_089",
+        "name":"Malchezaar's Imp"
+    },
+    {
+        "comment":"Oh man! Runic omelettes are the best!",
+        "description":"Deathrattle: Draw a card.",
+        "id":"KAR_029",
+        "name":"Runic Egg"
+    },
+    {
+        "comment":"Was almost named \"Swashb-AAAARRHHH-gler\"",
+        "description":"Battlecry: Add a random class card to your hand (from your opponent's class).",
+        "id":"KAR_069",
+        "name":"Swashburglar"
+    }
+]

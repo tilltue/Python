@@ -1,0 +1,1297 @@
+{
+    "cards":[
+        {
+            "artist":"Dan Scott",
+            "attack":"8",
+            "cardCode":"42049",
+            "cardName":"Tajemny olbrzym",
+            "comment":"Twierdzi, \u017ce Karazhan przyci\u0105gn\u0105\u0142 go moc\u0105 swych czakram\u00f3w. Ale tak naprawd\u0119 uwielbia kuchni\u0119 Moriosa.",
+            "cost":"12",
+            "desc":"Kosztuje (1) mniej za ka\u017cde zakl\u0119cie rzucone przez ciebie w tej grze.",
+            "health":"8",
+            "originalCode":"KAR_711",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"800"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"James Ryman",
+            "attack":"7",
+            "cardCode":"42036",
+            "cardName":"Stra\u017cnik Medivh",
+            "comment":"Je\u015bli s\u0105dzisz, \u017ce teraz przyj\u0119cie jest wspania\u0142e, poczekaj a\u017c zaprosi ork\u00f3w!",
+            "cost":"8",
+            "desc":"Okrzyk bojowy: Wyposa\u017c bohatera w Atiesz, Wielki Kostur Stra\u017cnika.",
+            "health":"7",
+            "originalCode":"KAR_097",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Gustav Schmidt",
+            "attack":"",
+            "cardCode":"42025",
+            "cardName":"Portal Krainy Ognia",
+            "comment":"Odwied\u017acie wspania\u0142\u0105 Krain\u0119 Ognia! Reklamy nie k\u0142ami\u0105! Jest tam \u201eznacznie pi\u0119kniej ni\u017c w Rozpadlinie Otch\u0142ani\u201d.",
+            "cost":"7",
+            "desc":"Zadaj 5 pkt. obra\u017ce\u0144. Przyzwij losowego stronnika o koszcie 5.",
+            "health":"",
+            "originalCode":"KAR_076",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"20"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Wei Wang",
+            "attack":"4",
+            "cardCode":"42022",
+            "cardName":"Kustosz",
+            "comment":"Dzie\u0144 bez awarii to dla niego prawdziwe osi\u0105gni\u0119cie!",
+            "cost":"7",
+            "desc":"Prowokacja\nOkrzyk bojowy: Dobierz Besti\u0119, Smoka i Murloka z twojej talii.",
+            "health":"6",
+            "originalCode":"KAR_061",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Evgeniy Zaqumyenny",
+            "attack":"",
+            "cardCode":"42040",
+            "cardName":"Portal Gaju Luny",
+            "comment":"Najlepsze imprezy s\u0105 w Gaju Luny, bo tam zawsze jest pe\u0142no \u017cubr\u00f3w.",
+            "cost":"6",
+            "desc":"Przywr\u00f3\u0107 6 pkt. zdrowia. Przyzwij losowego stronnika o koszcie 6.",
+            "health":"",
+            "originalCode":"KAR_075",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Dave Allsop",
+            "attack":"3",
+            "cardCode":"42029",
+            "cardName":"\u017bmij ksi\u0105\u017ckowy",
+            "comment":"Lubuje si\u0119 w klasycznych tragediach, takich jak \u201eHobbit\u201d czy \u201eGrendel\u201d.",
+            "cost":"6",
+            "desc":"Okrzyk bojowy: Zniszcz wrogiego stronnika z atakiem 3 lub mniejszym, je\u017celi masz w r\u0119ce Smoka.",
+            "health":"6",
+            "originalCode":"KAR_033",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"4",
+            "cardCode":"42019",
+            "cardName":"Skoczek z ko\u015bci s\u0142oniowej",
+            "comment":"Pod \u017cadnym pozorem NIE nazywajcie go \u201ekoniem\u201d.",
+            "cost":"6",
+            "desc":"Okrzyk bojowy: Odkryj zakl\u0119cie.\nPrzywr\u00f3\u0107 twojemu bohaterowi zdrowie r\u00f3wne jego kosztowi.",
+            "health":"4",
+            "originalCode":"KAR_057",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Alex Horley Orlandelli",
+            "attack":"5",
+            "cardCode":"42059",
+            "cardName":"Opiekunka Mena\u017cerii",
+            "comment":"Prosz\u0119! Mog\u0119 go zatrzyma\u0107? Obiecuj\u0119, \u017ce b\u0119d\u0119 mu codziennie czy\u015bci\u0107 klatk\u0119!",
+            "cost":"6",
+            "desc":"Okrzyk bojowy: Wybierz_przyjazn\u0105 Besti\u0119. Przyzwij_jej kopi\u0119.",
+            "health":"5",
+            "originalCode":"KAR_065",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jerry Mascho",
+            "attack":"3",
+            "cardCode":"42063",
+            "cardName":"Czyhaj\u0105cy w fosie",
+            "comment":"Nie zapraszaj tego, kt\u00f3ry czai si\u0119 w fosie!",
+            "cost":"6",
+            "desc":"Okrzyk bojowy:\nZniszcz stronnika.\nAgonia: Przyzwij go ponownie.",
+            "health":"3",
+            "originalCode":"KAR_041",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Anton Zemskov",
+            "attack":"3",
+            "cardCode":"42041",
+            "cardName":"Zguba g\u0142upca",
+            "comment":"G\u0142upiec to i kl\u0105tw\u0119 zgubi.",
+            "cost":"5",
+            "desc":"Nielimitowane ataki w_ka\u017cdej turze. Nie mo\u017ce atakowa\u0107 bohater\u00f3w.",
+            "health":"4",
+            "originalCode":"KAR_028",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ubb34\uae30",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Nate Bowden",
+            "attack":"",
+            "cardCode":"42064",
+            "cardName":"Portal \u017belaznej Ku\u017ani",
+            "comment":"Przybywajcie do \u017belaznej Ku\u017ani! Gdzie kuje si\u0119 \u017celazo, a ku\u017anie s\u0105 \u017celazne!",
+            "cost":"5",
+            "desc":"Otrzymujesz 4 pkt. pancerza. Przyzwij losowego stronnika o_koszcie 4.",
+            "health":"",
+            "originalCode":"KAR_091",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jakub Kasper",
+            "attack":"",
+            "cardCode":"42033",
+            "cardName":"Abra kazham!",
+            "comment":"Tak to jest, jak ka\u017cesz Khadgarowi nakry\u0107 do sto\u0142u.",
+            "cost":"5",
+            "desc":"Przyzwij \u015awiec\u0119 1/1, Miot\u0142\u0119 2/2 oraz Imbryk 3/3.",
+            "health":"",
+            "originalCode":"KAR_025",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jim Nelson",
+            "attack":"3",
+            "cardCode":"42044",
+            "cardName":"Ptasi obserwator",
+            "comment":"Zwykle ogl\u0105da komedie romantyczne.",
+            "cost":"5",
+            "desc":"Okrzyk bojowy:\nOtrzymuje +1/+1 oraz_Prowokacj\u0119, je\u015bli kontrolujesz Sekret.",
+            "health":"6",
+            "originalCode":"KAR_037",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Alex Horley Orlandelli",
+            "attack":"5",
+            "cardCode":"42023",
+            "cardName":"Eteryczny handlarz",
+            "comment":"No pewnie, ten Ragnaros \u201espad\u0142 z wozu na Rubie\u017cach\u201d.",
+            "cost":"5",
+            "desc":"Okrzyk bojowy: Zmniejsz o_(2) koszt kart innych klas, kt\u00f3re masz w r\u0119ce.",
+            "health":"6",
+            "originalCode":"KAR_070",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Garrett Hanna",
+            "attack":"4",
+            "cardCode":"42055",
+            "cardName":"Magik z Mena\u017cerii",
+            "comment":"Tak mi\u0119dzy nami m\u00f3wi\u0105c, jak co\u015b si\u0119 skaszani, to pierwszy poleci Magik z Mena\u017cerii.",
+            "cost":"5",
+            "desc":"Okrzyk bojowy: Daj losowej przyjaznej Bestii, Smokowi i_Murlokowi +2/+2.",
+            "health":"4",
+            "originalCode":"KAR_702",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Arthur Gimaldinov",
+            "attack":"3",
+            "cardCode":"42058",
+            "cardName":"Onyksowy goniec",
+            "comment":"B4 to \u0142adne miejsce na wycieczk\u0119, ale nie chcia\u0142by tam mieszka\u0107.",
+            "cost":"5",
+            "desc":"Okrzyk bojowy: Przyzwij przyjaznego stronnika, kt\u00f3ry zgin\u0105\u0142 w tej grze.",
+            "health":"4",
+            "originalCode":"KAR_204",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Joe Madureira & Grace Liu",
+            "attack":"5",
+            "cardCode":"42031",
+            "cardName":"Ksi\u0105\u017c\u0119 Malkezar",
+            "comment":"Strasznie si\u0119 podjara\u0142, gdy uda\u0142o mu si\u0119 dorwa\u0107 Rzezimiota na wyprzeda\u017cy! Strasznie si\u0119 wkurzy\u0142, gdy wysz\u0142o, \u017ce jest to jedynie g\u0105bkowa replika.",
+            "cost":"5",
+            "desc":"Na pocz\u0105tku gry dodaj\n5 dodatkowych legendarnych\nstronnik\u00f3w do twojej talii.",
+            "health":"6",
+            "originalCode":"KAR_096",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jimmy Lo",
+            "attack":"",
+            "cardCode":"42054",
+            "cardName":"Portal Srebrnej Luny",
+            "comment":"Co Me\u0142ko Gromi\u0142\u0142o robi w Srebrnej Lunie?",
+            "cost":"4",
+            "desc":"Daj stronnikowi +2/+2. Przyzwij losowego stronnika o koszcie 2.",
+            "health":"",
+            "originalCode":"KAR_077",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Anton Zemskov",
+            "attack":"3",
+            "cardCode":"42062",
+            "cardName":"Tajemnistrz",
+            "comment":"Jest zwyk\u0142ym zbrojmistrzem, ale uzna\u0142, \u017ce podnios\u0142y tytu\u0142 przysporzy mu klient\u00f3w.",
+            "cost":"4",
+            "desc":"Okrzyk bojowy: Przyzwij stronnika 0/5 z_Prowokacj\u0105.",
+            "health":"2",
+            "originalCode":"KAR_710",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Garrett Hanna",
+            "attack":"3",
+            "cardCode":"42021",
+            "cardName":"Barnes",
+            "comment":"Zwyk\u0142 wyst\u0119powa\u0107 we wszystkich rolach, a\u017c Morios skonfiskowa\u0142 jego Kul\u0119 Zmieniul\u0119.",
+            "cost":"4",
+            "desc":"Okrzyk bojowy:\nPrzyzwij kopi\u0119 1/1 losowego stronnika\nz twojej talii.",
+            "health":"4",
+            "originalCode":"KAR_114",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Paul Mafayon",
+            "attack":"3",
+            "cardCode":"42056",
+            "cardName":"Kap\u0142an uczty",
+            "comment":"Dwunastokrotny mistrz Wichrogrodu w jedzeniu fawork\u00f3w na czas. I na ilo\u015b\u0107 te\u017c.",
+            "cost":"4",
+            "desc":"Za ka\u017cdym razem gdy rzucisz zakl\u0119cie, przywr\u00f3\u0107 3 pkt. zdrowia twojemu bohaterowi.",
+            "health":"6",
+            "originalCode":"KAR_035",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Rafael Zanchetin",
+            "attack":"3",
+            "cardCode":"42047",
+            "cardName":"Nikczemna znachorka",
+            "comment":"Mo\u017cna j\u0105 \u0142atwo pokona\u0107 \u2013 zadaj 4 punkty obra\u017ce\u0144 lub zrzu\u0107 jej na g\u0142ow\u0119 dom.",
+            "cost":"4",
+            "desc":"Za ka\u017cdym razem gdy rzucisz zakl\u0119cie, przyzwij losowy podstawowy Totem.",
+            "health":"4",
+            "originalCode":"KAR_021",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Jim Nelson",
+            "attack":"",
+            "cardCode":"42032",
+            "cardName":"Obrona kr\u00f3la",
+            "comment":"Formuj szereg! Klasyczna obrona kie\u0142zarska!",
+            "cost":"3",
+            "desc":"Przyzwij Pionka 1/1 z Prowokacj\u0105 za ka\u017cdego wrogiego stronnika.",
+            "health":"",
+            "originalCode":"KAR_026",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Arthur Bozonnet",
+            "attack":"3",
+            "cardCode":"42050",
+            "cardName":"Zamaskowana \u0142owczyni",
+            "comment":"Z ni\u0105 \u017bADEN sekret nie jest bezpieczny!",
+            "cost":"3",
+            "desc":"Twoje Sekrety kosztuj\u0105 (0).",
+            "health":"4",
+            "originalCode":"KAR_006",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Konstantin Turovec",
+            "attack":"3",
+            "cardCode":"42057",
+            "cardName":"Zab\u00f3jczy widelec",
+            "comment":"Aby nakrycie by\u0142o nienaganne, umie\u015b\u0107 zab\u00f3jczy widelec za widelczykiem do sa\u0142aty, ale przed widelcem obiadowym.",
+            "cost":"3",
+            "desc":"Agonia: Dodaj bro\u0144 3/2 do_twojej r\u0119ki.",
+            "health":"2",
+            "originalCode":"KAR_094",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Sean McNally",
+            "attack":"1",
+            "cardCode":"42030",
+            "cardName":"Morios",
+            "comment":"Morios zarz\u0105dza armi\u0105 s\u0142u\u017c\u0105cych, ale balony lubi dmucha\u0107 sam.",
+            "cost":"3",
+            "desc":"Ukrycie\nNa koniec twojej tury przyzwij Kelnera 1/1.",
+            "health":"1",
+            "originalCode":"KAR_044",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Luke Mancini",
+            "attack":"2",
+            "cardCode":"42052",
+            "cardName":"Templariusz Po\u017ceracza Nocy",
+            "comment":"Niewidzialna ona jest, a moc jej jest wielka niczym sanktuarium!",
+            "cost":"3",
+            "desc":"Okrzyk bojowy: Przyzwij dwa Piskl\u0119ta 1/1, je\u015bli masz w_r\u0119ce Smoka.",
+            "health":"3",
+            "originalCode":"KAR_010",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Dave Allsop",
+            "attack":"1",
+            "cardCode":"42053",
+            "cardName":"Spi\u017carniany paj\u0105k",
+            "comment":"Musicie przyzna\u0107 \u2013 \u0142adna z nich para.",
+            "cost":"3",
+            "desc":"Okrzyk bojowy: Przyzwij Paj\u0105ka 1/3.",
+            "health":"3",
+            "originalCode":"KAR_030a",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Daren Bader",
+            "attack":"3",
+            "cardCode":"42037",
+            "cardName":"Sztu\u0107cowy Golem",
+            "comment":"Prosto z tajnych laboratori\u00f3w badawczych armii gnom\u00f3w.",
+            "cost":"3",
+            "desc":"Je\u015bli odrzucisz tego stronnika, przyzwij go.",
+            "health":"3",
+            "originalCode":"KAR_205",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Eric Braddock",
+            "attack":"4",
+            "cardCode":"42060",
+            "cardName":"Iluzjonistka Purpurowych",
+            "comment":"\u201eO kurcz\u0119, chyba przebi\u0142am ci r\u0119k\u0119...\u201d \u2013 Iluzjonistka Purpurowych po jednym ze swoich wyst\u0119p\u00f3w.",
+            "cost":"3",
+            "desc":"Podczas twojej tury tw\u00f3j_bohater posiada Niewra\u017cliwo\u015b\u0107.",
+            "health":"3",
+            "originalCode":"KAR_712",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"3",
+            "cardCode":"42035",
+            "cardName":"Zoo-bot",
+            "comment":"Murlok robi zdj\u0119cie.",
+            "cost":"3",
+            "desc":"Okrzyk bojowy: Daj losowej przyjaznej Bestii, Smokowi i_Murlokowi +1/+1.",
+            "health":"3",
+            "originalCode":"KAR_095",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Mike Sass",
+            "attack":"",
+            "cardCode":"42051",
+            "cardName":"Kocia sztuczka",
+            "comment":"Znam kilka znakomitych sztuczek, zaraz je zademonstruj\u0119. Medivh na pewno nie mia\u0142by nic przeciwko.",
+            "cost":"2",
+            "desc":"Sekret: Po_rzuceniu zakl\u0119cia przez przeciwnika przyzwij Panter\u0119 4/2 z_Ukryciem.",
+            "health":"",
+            "originalCode":"KAR_004",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Daria Tuzova",
+            "attack":"",
+            "cardCode":"42045",
+            "cardName":"Portal Malstromu",
+            "comment":"Reklamuj\u0105 to miejsce jako popularny kurort, ale zawsze chc\u0105 pieni\u0105dze z g\u00f3ry.",
+            "cost":"2",
+            "desc":"Zadaj 1 pkt. obra\u017ce\u0144 wszystkim wrogim stronnikom. Przyzwij losowego stronnika o_koszcie 1.",
+            "health":"",
+            "originalCode":"KAR_073",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Rafael Zanchetin",
+            "attack":"",
+            "cardCode":"42061",
+            "cardName":"Oczyszczenie",
+            "comment":"Cisza \u0142agodzi obyczaje. Wypr\u00f3buj na Ragnarosie, a sam si\u0119 przekonasz...",
+            "cost":"2",
+            "desc":"Wycisz przyjaznego stronnika. Dobierz kart\u0119.",
+            "health":"",
+            "originalCode":"KAR_013",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"1",
+            "cardCode":"42020",
+            "cardName":"Mi\u0142a babunia",
+            "comment":"\u201eO rety! Ale\u017c... masz du\u017co \u015bliny!\u201d",
+            "cost":"2",
+            "desc":"Agonia: Przyzwij Wielkiego Z\u0142ego Wilka 3/2.",
+            "health":"1",
+            "originalCode":"KAR_005",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Sean McNally",
+            "attack":"2",
+            "cardCode":"42048",
+            "cardName":"Lokaj Medivha",
+            "comment":"\u201ePanie Medivhie, przynie\u015bli\u015bmy p\u0142on\u0105ce balony, wedle \u017cyczenia\u201d.",
+            "cost":"2",
+            "desc":"Okrzyk bojowy:\nZadaj 3 pkt. obra\u017ce\u0144, je\u015bli kontrolujesz Sekret.",
+            "health":"3",
+            "originalCode":"KAR_092",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Raplph Horsley",
+            "attack":"1",
+            "cardCode":"42039",
+            "cardName":"Historyczka Otch\u0142ariona",
+            "comment":"Mo\u017ce ci opowiedzie\u0107, co dzieje si\u0119 z lud\u017ami, kt\u00f3rzy NIE STOJ\u0104 W ZIELONYM PROMIENIU!",
+            "cost":"2",
+            "desc":"Okrzyk bojowy:\nOdkryj Smoka, je\u015bli\nmasz w r\u0119ce Smoka.",
+            "health":"3",
+            "originalCode":"KAR_062",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"3",
+            "cardCode":"42034",
+            "cardName":"Nad\u0119ty gwiazdor",
+            "comment":"Biedny Wkurzotron! Niewyczerpany w \u017cartach, o niezr\u00f3wnanej fantazji!",
+            "cost":"2",
+            "desc":"Prowokacja",
+            "health":"2",
+            "originalCode":"KAR_011",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Raplph Horsley",
+            "attack":"1",
+            "cardCode":"42042",
+            "cardName":"Widmowe pazury",
+            "comment":"B\u0119d\u0105 znacznie \u0142atwiejsze w u\u017cyciu po dodaniu widmowego kciuka.",
+            "cost":"1",
+            "desc":"Ma +2 do ataku, je\u015bli posiadasz Obra\u017cenia zakl\u0119\u0107.",
+            "health":"3",
+            "originalCode":"KAR_063",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ubb34\uae30",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Alex Aleksandrov",
+            "attack":"2",
+            "cardCode":"42043",
+            "cardName":"Tajemna anomalia",
+            "comment":"Kiedy\u015b pracowa\u0142 jako Anomalia Przestrzenna, ale wkurza\u0142a go nieustanna zmiana biegun\u00f3w.",
+            "cost":"1",
+            "desc":"Za ka\u017cdym razem\ngdy rzucisz zakl\u0119cie,\ndaj temu stronnikowi\n+1 do zdrowia.",
+            "health":"1",
+            "originalCode":"KAR_036",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"A.J. Nazzaro",
+            "attack":"1",
+            "cardCode":"42028",
+            "cardName":"Be\u0142kocz\u0105ca ksi\u0119ga",
+            "comment":"Jej idolem s\u0105 Zielone Wzg\u00f3rza Cierniod\u0142aw\u00f3w, i gada o nich bez ustanku.",
+            "cost":"1",
+            "desc":"Okrzyk bojowy: Dodaj losowe zakl\u0119cie maga do_twojej r\u0119ki.",
+            "health":"1",
+            "originalCode":"KAR_009",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Daria Tuzova",
+            "attack":"2",
+            "cardCode":"42024",
+            "cardName":"Zakl\u0119ty kruk",
+            "comment":"W g\u0142uch\u0105 p\u00f3\u0142noc, w sn\u00f3w tumanie, Medivh o przyj\u0119ciu zamarzy\u0142 niespodzianie!",
+            "cost":"1",
+            "desc":"",
+            "health":"2",
+            "originalCode":"KAR_300",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Peter Stapleton",
+            "attack":"1",
+            "cardCode":"42027",
+            "cardName":"Chochlik Malkezara",
+            "comment":"Malkezar mia\u0142 kiedy\u015b chochlika o imieniu Zgredek, ale dosz\u0142o do tragicznego w skutkach wypadku.",
+            "cost":"1",
+            "desc":"Dobierz kart\u0119 za ka\u017cdym razem, gdy odrzucasz kart\u0119.",
+            "health":"3",
+            "originalCode":"KAR_089",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"A.J. Nazzaro",
+            "attack":"0",
+            "cardCode":"42065",
+            "cardName":"Runiczne jajo",
+            "comment":"Podobno w wolnym czasie zajmuje si\u0119 jajcowaniem. Ma nawet do tego specjalne studio.",
+            "cost":"1",
+            "desc":"Agonia: Dobierz kart\u0119.",
+            "health":"2",
+            "originalCode":"KAR_029",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"0",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"1",
+            "cardCode":"42046",
+            "cardName":"\u0141omotrzyk",
+            "comment":"Nieomal zosta\u0142 ochrzczony \u201e\u0141ojejciutrzykiem\u201d.",
+            "cost":"1",
+            "desc":"Okrzyk bojowy: Dodaj losow\u0105 kart\u0119 klasow\u0105 do twojej r\u0119ki (z klasy przeciwnika).",
+            "health":"1",
+            "originalCode":"KAR_069",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"\uc911\ub9bd",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\ud55c\uc5ec\ub984\ubc24\uc758 \uce74\ub77c\uc794"
+        }
+    ]
+}

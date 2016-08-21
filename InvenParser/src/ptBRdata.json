@@ -1,0 +1,272 @@
+[
+    {
+        "comment":"Alega estar em Karazhan por causa das linhas de meridiano. Na verdade, adora a comida de Trist\u00e3o.",
+        "description":"Custa (1) a menos para\n cada feiti\u00e7o que voc\u00ea\n lan\u00e7ou nesta partida.",
+        "id":"KAR_711",
+        "name":"Gigante Arcano"
+    },
+    {
+        "comment":"Se voc\u00ea acha que a festa j\u00e1 est\u00e1 legal, espera s\u00f3 at\u00e9 ele convidar os orcs!",
+        "description":"Grito de Guerra: Equipe Atiesh, Grande Cajado do Guardi\u00e3o.",
+        "id":"KAR_097",
+        "name":"Medivh, o Guardi\u00e3o"
+    },
+    {
+        "comment":"Venha conhecer as belas Terras do Fogo! Aqui \u00e9 \"Bem melhor que o Oceano Abissal!\"",
+        "description":"Cause 5 de dano. Evoque um lacaio aleat\u00f3rio\ncom 5 de custo.",
+        "id":"KAR_076",
+        "name":"Portal das Terras do Fogo"
+    },
+    {
+        "comment":"O Curador guarda as criaturas mais letais de Azeroth, mas ele morre de medo de esquilos (e de que descubram).",
+        "description":"Provocar\nGrito de Guerra: Compre uma Fera, um Drag\u00e3o e um Murloc do seu deck.",
+        "id":"KAR_061",
+        "name":"O Curador"
+    },
+    {
+        "comment":"N\u00e3o existe festa como as da Clareira da Lua, porque nessas sempre tem urso.",
+        "description":"Restaure 6 de Vida. Evoque um lacaio aleat\u00f3rio com 6 de custo.",
+        "id":"KAR_075",
+        "name":"Portal da Clareira da Lua"
+    },
+    {
+        "comment":"Suas obras favoritas s\u00e3o trag\u00e9dias cl\u00e1ssicas como \"O Hobbit\" e \"Grendel\".",
+        "description":"Grito de Guerra: Se tiver um Drag\u00e3o na m\u00e3o, destrua um lacaio inimigo com 3 ou menos de Ataque.",
+        "id":"KAR_033",
+        "name":"Serpe Livresca"
+    },
+    {
+        "comment":"N\u00c3O o chame de \"cavalo\".",
+        "description":"Grito de Guerra: Descubra um feiti\u00e7o. Restaure Vida\ndo seu her\u00f3i equivalente ao custo do feiti\u00e7o.",
+        "id":"KAR_057",
+        "name":"Cavaleiro de Marfim"
+    },
+    {
+        "comment":"Por favor, posso ficar com ele? Eu prometo limpar a jaula dele todo dia.",
+        "description":"Grito de Guerra: Escolha uma Fera aliada. Evoque uma c\u00f3pia dela.",
+        "id":"KAR_065",
+        "name":"Carcereira do Viveiro"
+    },
+    {
+        "comment":"Ele gosta muito de espreitar, \u00e9 tipo orgulho profissional.",
+        "description":"Grito de Guerra: Destrua\num lacaio. \u00daltimo Suspiro:\nEvoque-o novamente.",
+        "id":"KAR_041",
+        "name":"Tocaieiro do Fosso"
+    },
+    {
+        "comment":"Um tolo e sua perdi\u00e7\u00e3o logo se separam.",
+        "description":"Ataques ilimitados a cada turno. N\u00e3o pode atacar Her\u00f3is.",
+        "id":"KAR_028",
+        "name":"Perdi\u00e7\u00e3o do Tolo"
+    },
+    {
+        "comment":"Visite a linda Altaforja, a capital dos an\u00f5es! Pera\u00ed, \"alta\" forja, an\u00f5es? Como assim ningu\u00e9m notou isso??",
+        "description":"Receba 4 de Armadura.\n Evoque um lacaio aleat\u00f3rio\ncom 4 de custo.",
+        "id":"KAR_091",
+        "name":"Portal de Altaforja"
+    },
+    {
+        "comment":"\u00c9 nisso que d\u00e1 pedir a Hadggar para p\u00f4r a mesa.",
+        "description":"Evoque uma Vela 1/1, uma Vassoura 2/2 e uma Chaleira 3/3.",
+        "id":"KAR_025",
+        "name":"Kara Kazham!"
+    },
+    {
+        "comment":"Ele prefere com\u00e9dias rom\u00e2nticas bobas.",
+        "description":"Grito de Guerra: Se voc\u00ea controlar um Segredo, receba +1/+1\ne Provocar.",
+        "id":"KAR_037",
+        "name":"Vigia Aviano"
+    },
+    {
+        "comment":"T\u00e1, claro. Aquele Ragnaros foi \"totalmente inesperado\".",
+        "description":"Grito de Guerra: Reduz o Custo dos cards de outras classes na sua m\u00e3o em (2).",
+        "id":"KAR_070",
+        "name":"Camel\u00f4 Et\u00e9reo"
+    },
+    {
+        "comment":"Aqui entre n\u00f3s, se a situa\u00e7\u00e3o apertar, o cargo de M\u00e1gico do Viveiro vai ser o primeiro a ser cortado.",
+        "description":"Grito de Guerra: Conceda +2/+2 a uma Fera, um Drag\u00e3o e um Murloc aliados aleat\u00f3rios.",
+        "id":"KAR_702",
+        "name":"M\u00e1gico do Viveiro"
+    },
+    {
+        "comment":"B4 \u00e9 um bom lugar para se visitar, mas ele n\u00e3o iria querer morar l\u00e1.",
+        "description":"Grito de Guerra: Evoque um lacaio aliado morto neste jogo.",
+        "id":"KAR_204",
+        "name":"Bispo de \u00d4nix"
+    },
+    {
+        "comment":"Ele tava todo animadinho porque achou Uivo Sangrento num brech\u00f3! A\u00ed ficou todo borocox\u00f4 quando viu que era uma c\u00f3pia de espuma.",
+        "description":"Quando a partida come\u00e7ar,\nadicione 5 lacaios Lend\u00e1rios\nao seu deck.",
+        "id":"KAR_096",
+        "name":"Pr\u00edncipe Malquezaar"
+    },
+    {
+        "comment":"O que Millhouse Manavento est\u00e1 fazendo em Luaprata?",
+        "description":"Conceda +2/+2 a um lacaio. Evoque um lacaio aleat\u00f3rio\ncom 2 de Custo.",
+        "id":"KAR_077",
+        "name":"Portal de Luaprata"
+    },
+    {
+        "comment":"Ele \u00e9 s\u00f3 um Ferreiro, mas achou que o t\u00edtulo invocado atrairia mais fregueses.",
+        "description":"Grito de Guerra: Evoque um lacaio 0/5 com Provocar.",
+        "id":"KAR_710",
+        "name":"Arcaneiro"
+    },
+    {
+        "comment":"Ele interpretava todos os pap\u00e9is, mas a\u00ed Trist\u00e3o confiscou o Orbe do Logro dele.",
+        "description":"Grito de Guerra: Evoque uma c\u00f3pia 1/1 de um lacaio aleat\u00f3rio do seu deck.",
+        "id":"KAR_114",
+        "name":"Barnes"
+    },
+    {
+        "comment":"Isso, sim, \u00e9 uma torta campe\u00e3 mundial!",
+        "description":"Sempre que voc\u00ea lan\u00e7ar\num feiti\u00e7o, restaure\n3 de Vida do seu her\u00f3i.",
+        "id":"KAR_035",
+        "name":"Sacerdote do Festim"
+    },
+    {
+        "comment":"\u00c9 f\u00e1cil derrot\u00e1-la, basta causar 4 de dano ou derrubar uma casa em cima dela.",
+        "description":"Sempre que lan\u00e7ar um feiti\u00e7o, evoque um Totem_b\u00e1sico_aleat\u00f3rio.",
+        "id":"KAR_021",
+        "name":"Mandingueira Maligna"
+    },
+    {
+        "comment":"Formar fileiras! Todo mundo na forma\u00e7\u00e3o Defesa do Rei Morsano!",
+        "description":"Para cada lacaio inimigo, evoque um Pe\u00e3o 1/1 com Provocar.",
+        "id":"KAR_026",
+        "name":"Proteja o Rei!"
+    },
+    {
+        "comment":"Ela est\u00e1 praticamente DANDO os seus segredos!",
+        "description":"Seus Segredos\ncustam (0).",
+        "id":"KAR_006",
+        "name":"Ca\u00e7adora Camuflada"
+    },
+    {
+        "comment":"Para n\u00e3o errar a etiqueta, o garfo letal fica depois do garfo de salada, mas antes do garfo de jantar.",
+        "description":"\u00daltimo Suspiro: Adicione uma arma 3/2 \u00e0 sua m\u00e3o.",
+        "id":"KAR_094",
+        "name":"Garfo Letal"
+    },
+    {
+        "comment":"Trist\u00e3o tem um ex\u00e9rcito de servidores, mas no fim \u00e9 ele quem tem que encher os bal\u00f5es.",
+        "description":"Furtividade\nNo final do seu turno, evoque um Administrador 1/1.",
+        "id":"KAR_044",
+        "name":"Trist\u00e3o"
+    },
+    {
+        "comment":"Ela entrou para ser o Templ\u00e1rio de Arcanagos, mas a verdade \u00e9 que agora ficou beeem mais f\u00e1cil pedir pizza.",
+        "description":"Grito de Guerra: Se tiver um Drag\u00e3o na m\u00e3o, evoque dois Dragonetes 1/1.",
+        "id":"KAR_010",
+        "name":"Templ\u00e1ria Nocturna"
+    },
+    {
+        "comment":"Admita, eles s\u00e3o um casal fofucho.",
+        "description":"Grito de Guerra: Evoque uma Aranha 1/3.",
+        "id":"KAR_030a",
+        "name":"Aranha da Despensa"
+    },
+    {
+        "comment":"Dos laborat\u00f3rios de pesquisa secretos do Ex\u00e9rcito Su\u00ed\u00e7o.",
+        "description":"Se voc\u00ea descartar esse lacaio, evoque-o.",
+        "id":"KAR_205",
+        "name":"Golem da Prataria"
+    },
+    {
+        "comment":"Ela ficou bem mais alegre depois da mudan\u00e7a de nome.",
+        "description":"Durante seu turno, seu her\u00f3i fica Imune.",
+        "id":"KAR_712",
+        "name":"Ilusionista Violeta"
+    },
+    {
+        "comment":"O Murloc t\u00e1 tirando a foto.",
+        "description":"Grito de Guerra: Conceda +1/+1 a uma Fera, um Drag\u00e3o e um Murloc aliados aleat\u00f3rios.",
+        "id":"KAR_095",
+        "name":"Zoob\u00f4"
+    },
+    {
+        "comment":"\"Eu conhe\u00e7o alguns truques novos, muitos truques \u00f3timos. Eu vou mostrar a voc\u00ea. Medivh n\u00e3o vai se importar nem um pouco.\"",
+        "description":"Segredo: Depois que o seu oponente lan\u00e7ar um feiti\u00e7o, evoque uma Pantera 4/2 com Furtividade.",
+        "id":"KAR_004",
+        "name":"Gataiada"
+    },
+    {
+        "comment":"Eles dizem que isso \u00e9 uma atra\u00e7\u00e3o tur\u00edstica popular, mas sempre tentam arrancar seu dinheiro adiantado.",
+        "description":"Cause 1 de dano a todos os lacaios inimigos. Evoque um lacaio aleat\u00f3rio de custo 1.",
+        "id":"KAR_073",
+        "name":"Portal da Voragem"
+    },
+    {
+        "comment":"Melhor at\u00e9 que uma chuveirada quente com bastante esfrega\u00e7\u00e3o!",
+        "description":"Silencie um lacaio aliado. Compre um card.",
+        "id":"KAR_013",
+        "name":"Purificar"
+    },
+    {
+        "comment":"\"Eita! Quanta... baba voc\u00ea tem.\"",
+        "description":"\u00daltimo Suspiro: Evoque um Lobo Mau 3/2.",
+        "id":"KAR_005",
+        "name":"Av\u00f3 Bondosa"
+    },
+    {
+        "comment":"\"Magus Medivh, senhor, eu trouxe os bal\u00f5es flamejantes como voc\u00ea pediu.\"",
+        "description":"Grito de Guerra: Se voc\u00ea controlar um Segredo, cause 3 de dano.",
+        "id":"KAR_092",
+        "name":"Pajem de Medivh"
+    },
+    {
+        "comment":"Ela pode contar a voc\u00ea toda a hist\u00f3ria do pessoal que N\u00c3O FICA NO RAIO VERDE!",
+        "description":"Grito de Guerra: Se tiver\num Drag\u00e3o na m\u00e3o,\nDescubra um Drag\u00e3o.",
+        "id":"KAR_062",
+        "name":"Historiadora Eter\u00f3dio"
+    },
+    {
+        "comment":"Ah, pobre Azucrinatron! Sujeitinho muito engra\u00e7ado, e t\u00e3o imaginativo!",
+        "description":"Provocar",
+        "id":"KAR_011",
+        "name":"Ator Pomposo"
+    },
+    {
+        "comment":"V\u00e3o ficar BEM mais f\u00e1ceis de usar quando acrescentarem um polegar espiritual.",
+        "description":"Ganha +2 de Ataque enquanto voc\u00ea tiver Dano M\u00e1gico.",
+        "id":"KAR_063",
+        "name":"Garras Espirituais"
+    },
+    {
+        "comment":"Ele trabalhava como Anomalia Espacial, mas acabou cansando de tanto que inverteram a polaridade dele.",
+        "description":"Sempre que voc\u00ea lan\u00e7ar um feiti\u00e7o, conceda\n+1 de Vida a este lacaio.",
+        "id":"KAR_036",
+        "name":"Anomalia Arcana"
+    },
+    {
+        "comment":"O \u00eddolo dele \u00e9 \"Grande Espinha\u00e7o: Veredas\", e ele n\u00e3o fala de outra coisa.",
+        "description":"Grito de Guerra: Adicione um feiti\u00e7o de Mago aleat\u00f3rio \u00e0 sua m\u00e3o.",
+        "id":"KAR_009",
+        "name":"Livro Murmurante"
+    },
+    {
+        "comment":"Era uma vez, meia-noite na floresta, Medivh pensando, querendo dar uma festa!",
+        "description":"",
+        "id":"KAR_300",
+        "name":"Corvo Encantado"
+    },
+    {
+        "comment":"Malquezaar tinha um diabrete chamado Dobby trabalhando pra ele, mas a\u00ed houve um acidente tr\u00e1gico.",
+        "description":"Sempre que voc\u00ea descartar um card, compre um card.",
+        "id":"KAR_089",
+        "name":"Diabrete de Malquezaar"
+    },
+    {
+        "comment":"Ah, puxa! Omeletes r\u00fanicas s\u00e3o muito boas!",
+        "description":"\u00daltimo Suspiro: Compre um card.",
+        "id":"KAR_029",
+        "name":"Ovo R\u00fanico"
+    },
+    {
+        "comment":"Quase foi batizado de \"RoubAAAAAARRH-dachim\"",
+        "description":"Grito de Guerra: Adicione um card de classe aleat\u00f3rio \u00e0 sua m\u00e3o (da classe do seu oponente).",
+        "id":"KAR_069",
+        "name":"Roubadachim"
+    }
+]

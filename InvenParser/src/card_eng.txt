@@ -1,0 +1,683 @@
+{
+	"cards" : [
+	{
+		"cardCode" : "33151",
+		"cardName" : "Mark of Y'Shaarj",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Efrem Palacios",
+		"직업제한" : "드루이드",
+		"소속" : "",
+		"효과" : "Give a minion +2/+2.If it's a Beast, drawa card.",
+		"comment" : "Y'Shaarj had three sons: Mark, Theodore, and Chris.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "33136",
+		"cardName" : "Renounce Darkness",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Dan Scott",
+		"직업제한" : "흑마법사",
+		"소속" : "",
+		"효과" : "Replace your Hero Power and Warlock cards with another class's. The cards cost (1) less.",
+		"comment" : "SEE YA DARKNESS!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35244",
+		"cardName" : "Shatter",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Trent Kaniuga",
+		"직업제한" : "마법사",
+		"소속" : "",
+		"효과" : "Destroy a Frozen minion.",
+		"comment" : "What's cooler than being cool?",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35227",
+		"cardName" : "Stormcrack",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Maurico Herrera",
+		"직업제한" : "주술사",
+		"소속" : "",
+		"효과" : "Deal 4 damage to a minion. Overload: (1)",
+		"comment" : "WARNING: DO NOT TOUCH THE PURPLE BALL OF LIGHTNING",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "31114",
+		"cardName" : "Beckoner of Evil",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "0","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "0","golden" : "50"
+			} ],
+		"일러스트" : "Eva Wilderman",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Give your C'Thun +2/+2 (wherever it is).",
+		"comment" : "Here, Evil!  C'mon boy!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35219",
+		"cardName" : "Bilefin Tidehunter",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "James Ryman",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Battlecry: Summon a 1/1 Ooze with Taunt.",
+		"comment" : "Bile actually makes for surprisingly sturdy fins.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35239",
+		"cardName" : "Cult Sorcerer",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "J. Meyers & T. Washington",
+		"직업제한" : "마법사",
+		"소속" : "",
+		"효과" : "[x]After you cast a spell,give your C'Thun +1/+1(wherever it is).",
+		"comment" : "No matter how many times we tell her not to, she keeps feeding C'Thun scraps under the table.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35221",
+		"cardName" : "Darkshire Librarian",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Rafael Zanchetin",
+		"직업제한" : "흑마법사",
+		"소속" : "",
+		"효과" : "Battlecry:Discard a random card. Deathrattle:Draw a card.",
+		"comment" : "Do NOT be late with your overdue fines.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35251",
+		"cardName" : "Duskboar",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Samwise",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Often excluded from dinner parties.  To be fair, he is very boaring.",
+		"comment" : "Often excluded from dinner parties.  To be fair, he is very boaring.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35231",
+		"cardName" : "Eternal Sentinel",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "J. Meyers & Nutchapol ",
+		"직업제한" : "주술사",
+		"소속" : "",
+		"효과" : "Battlecry: Unlock your Overloaded Mana Crystals.",
+		"comment" : "Just try to avoid eye contact.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35248",
+		"cardName" : "Nat, the Darkfisher",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Steve Prescott",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "At the start of your opponent's turn, they have a 50% chance to draw an extra card.",
+		"comment" : "You can take away his humanity, but you will never take away his fishing pole.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35202",
+		"cardName" : "Twilight Geomancer",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Eric Braddock",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "[x]TauntBattlecry: Give your C'ThunTaunt (wherever it is).",
+		"comment" : "'Ok C'Thun, repeat after me: 'Your mother was a hamster.''",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35223",
+		"cardName" : "Twisted Worgen",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Trent Kaniuga",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Stealth",
+		"comment" : "Sometimes the Old Gods' corruptions gives you power untold, sometimes you get +1 Attack. We can’t all be winners in the Eldritch lottery.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "33135",
+		"cardName" : "Undercity Huckster",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Jon Neimeister",
+		"직업제한" : "도적",
+		"소속" : "",
+		"효과" : "Deathrattle: Add a random class card to your hand (from your opponent's class).",
+		"comment" : "Psst! Wanna buy a random class card (from your opponent's class)?",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35209",
+		"cardName" : "Blood To Ichor",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Jim Nelson",
+		"직업제한" : "전사",
+		"소속" : "",
+		"효과" : "Deal 1 damage to a minion. If it survives, summon a 2/2 Slime.",
+		"comment" : "For his next trick, he turns the ichor back to blood and stuffs it back in you.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35252",
+		"cardName" : "Divine Strength",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Eva Wilderman",
+		"직업제한" : "성기사",
+		"소속" : "",
+		"효과" : "Give a minion +1/+2.",
+		"comment" : "Every year a few paladins get disqualified from the Westfall weight lifting championship for using Divine Strength.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35232",
+		"cardName" : "Evolve",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Luca Zontini",
+		"직업제한" : "주술사",
+		"소속" : "",
+		"효과" : "Transform your minions into random minions that cost (1) more.",
+		"comment" : "So you say you want an evolution. Well, you know. We all want to change the board.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35194",
+		"cardName" : "Journey Below",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Zoltan Boros",
+		"직업제한" : "도적",
+		"소속" : "",
+		"효과" : "Discover a Deathrattle card.",
+		"comment" : "Don't stop believing there's something below.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35220",
+		"cardName" : "On the Hunt",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Zoltan Boros",
+		"직업제한" : "사냥꾼",
+		"소속" : "",
+		"효과" : "Deal 1 damage.Summon a 1/1 Mastiff.",
+		"comment" : "The mastiff giggles if you don't hit any ducks.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35234",
+		"cardName" : "Primal Fusion",
+		"종류" : "주문",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Jimmy Lo",
+		"직업제한" : "주술사",
+		"소속" : "",
+		"효과" : "Give a minion +1/+1 for each of your Totems.",
+		"comment" : "Golce and Dabbana have a new line of Earth Totems available at vendors everywhere this holiday season.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35198",
+		"cardName" : "Bladed Cultist",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Jakub Kasber",
+		"직업제한" : "도적",
+		"소속" : "",
+		"효과" : "Combo: Gain +1/+1.",
+		"comment" : "He has a poor understanding of the law of diminishing returns.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35214",
+		"cardName" : "Fiery Bat",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Andrew Hou",
+		"직업제한" : "사냥꾼",
+		"소속" : "",
+		"효과" : "Deathrattle: Deal 1 damage to a random enemy.",
+		"comment" : "He'll always be our first.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35213",
+		"cardName" : "Forbidden Ancient",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Grace Liu",
+		"직업제한" : "드루이드",
+		"소속" : "",
+		"효과" : "Battlecry: Spend all your Mana. Gain +1/+1 for each mana spent.",
+		"comment" : "This Ancient was banned from the local tavern after tucking a 'Dr. Boom' up its sleeve.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "33132",
+		"cardName" : "N'Zoth's First Mate",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Paul Mafayon",
+		"직업제한" : "전사",
+		"소속" : "",
+		"효과" : "Battlecry: Equip a 1/3 Rusty Hook.",
+		"comment" : "Hates when N'Zoth yells 'Ahoy Matey!!', but there's not really much he can do about it. ",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "33171",
+		"cardName" : "Possessed Villager",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Matt Dixon",
+		"직업제한" : "흑마법사",
+		"소속" : "",
+		"효과" : "Deathrattle: Summon a 1/1 Shadowbeast.",
+		"comment" : "It's like a pinata! A lame disgusting horrific pinata.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35245",
+		"cardName" : "Selfless Hero",
+		"종류" : "하수인",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Rafael Zanchetin",
+		"직업제한" : "성기사",
+		"소속" : "",
+		"효과" : "Deathrattle: Give a random friendly minion Divine Shield.",
+		"comment" : "'Don't worry about me… I'll just be here... under these tentacles.'",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35190",
+		"cardName" : "Shifter Zerus",
+		"종류" : "하수인",
+		"등급" : "전설",
+		"제작가격" : [
+			{
+				 "normal" : "1600","golden" : "3200"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"일러스트" : "Daria Tuzova",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Each turn this is in your hand, transform it into a random minion.",
+		"comment" : "It's like being able to play with THREE angry chickens!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "33130",
+		"cardName" : "Tentacle of N'Zoth",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "J. Meyers & T. Washington",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Deathrattle: Deal 1 damage to all minions.",
+		"comment" : "Because EVERYDAY is the Day of the Tentacle of N'zoth.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "33158",
+		"cardName" : "Vilefin Inquisitor",
+		"종류" : "하수인",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Jerry Mascho",
+		"직업제한" : "성기사",
+		"소속" : "",
+		"효과" : "Battlecry: Your Hero Power becomes 'Summon a   1/1 Murloc.'",
+		"comment" : "Nobody expects the Vilefin Inquisition!",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35222",
+		"cardName" : "Zealous Initiate",
+		"종류" : "하수인",
+		"등급" : "일반",
+		"제작가격" : [
+			{
+				 "normal" : "40","golden" : "400"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "5","golden" : "50"
+			} ],
+		"일러스트" : "Cole Eastburn",
+		"직업제한" : "공통",
+		"소속" : "",
+		"효과" : "Deathrattle: Give a random friendly minion +1/+1.",
+		"comment" : "Ok, Initiate. You need to settle down and do your job. In this case, that means die so someone else can get a minor buff.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "33124",
+		"cardName" : "Forbidden Flame",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Hideaki Takamura",
+		"직업제한" : "마법사",
+		"소속" : "",
+		"효과" : "Spend all your Mana. Deal that much damage to a minion.",
+		"comment" : "WARNING: This flame is not to be used unless you are a licensed acolyte of the Old Gods.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "33126",
+		"cardName" : "Forbidden Healing",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "Mike Franchina",
+		"직업제한" : "성기사",
+		"소속" : "",
+		"효과" : "Spend all your Mana. Restore twice that much Health.",
+		"comment" : "No one's quite sure why it's forbidden. And yes, that should make you nervous.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "35217",
+		"cardName" : "Forbidden Ritual",
+		"종류" : "주문",
+		"등급" : "희귀",
+		"제작가격" : [
+			{
+				 "normal" : "100","golden" : "800"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "20","golden" : "100"
+			} ],
+		"일러스트" : "Evgeniy Zagumennyy",
+		"직업제한" : "흑마법사",
+		"소속" : "",
+		"효과" : "Spend all your Mana. Summon that many 1/1 Tentacles.",
+		"comment" : "Actually, C'Thun gives his full support for this ritual.",
+		"확장팩" : "한여름밤의 카라잔"
+	},
+	{
+		"cardCode" : "33125",
+		"cardName" : "Forbidden Shaping",
+		"종류" : "주문",
+		"등급" : "영웅",
+		"제작가격" : [
+			{
+				 "normal" : "400","golden" : "1600"
+			} ],
+		"추출가격" : [
+			{
+				 "normal" : "100","golden" : "400"
+			} ],
+		"일러스트" : "A.J. Nazzaro",
+		"직업제한" : "사제",
+		"소속" : "",
+		"효과" : "Spend all your Mana. Summon a random minion that costs that much.",
+		"comment" : "But the minion arrives covered in goo.",
+		"확장팩" : "한여름밤의 카라잔"
+	},	]
+}

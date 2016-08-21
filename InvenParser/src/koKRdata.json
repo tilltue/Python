@@ -1,0 +1,3890 @@
+{
+    "cards":[
+        {
+            "artist":"Raymond Swanland",
+            "attack":"",
+            "cardCode":"33129",
+            "cardName":"\ud30c\uba78!",
+            "comment":"\uc6d0\ub798\ub294 \"\ud30c\uba70\uc5b4\uc5b4\uc5b4\uc5b4\uc5bc!\"\uc774\ub77c\uace0 \uc774\ub984\uc744 \uc9c0\uc73c\ub824 \ud588\uc9c0\ub9cc \ubc00\ud558\uc6b0\uc2a4 \ub9c8\ub098\uc2a4\ud1b0\uc774 \uc800\uc791\uad8c\uc744 \ubb3c\uace0 \ub298\uc5b4\uc838\uc11c \ud3c9\uc774\ud558\uac8c \ubc14\ub00c\uc5c8\uc2b5\ub2c8\ub2e4.",
+            "cost":"10",
+            "desc":"\ubaa8\ub4e0 \ud558\uc218\uc778\uc744 \ucc98\uce58\ud569\ub2c8\ub2e4. \ucc98\uce58\ud55c\ub9cc\ud07c \uce74\ub4dc\ub97c \ubf51\uc2b5\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_239",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"James Ryman",
+            "attack":"6",
+            "cardCode":"31110",
+            "cardName":"\ud06c\ud230",
+            "comment":"\ud06c\ud230\uc774 \uac00\uc7a5 \uc2eb\uc5b4\ud558\ub294 \ud558\uc2a4\uc2a4\ud1a4 \uce74\ub4dc\ub294 \ubc14\ub85c '\ub208\uc5d0\ub294 \ub208'\uc785\ub2c8\ub2e4.",
+            "cost":"10",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ubaa8\ub4e0 \uc801\uc5d0\uac8c \uc774 \ud558\uc218\uc778\uc758 \uacf5\uaca9\ub825\ub9cc\ud07c\uc758 \ud53c\ud574\ub97c \ubb34\uc791\uc704\ub85c \ub098\ub204\uc5b4 \uc785\ud799\ub2c8\ub2e4.",
+            "health":"6",
+            "originalCode":"OG_280",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Alex Horley Orlandelli",
+            "attack":"12",
+            "cardCode":"33177",
+            "cardName":"\uc6a9\uc871\uc758 \uad70\uc8fc \ub370\uc2a4\uc719",
+            "comment":"\"\ub3d9\uc871\uacfc \uc0ac\uc774\uc88b\uac8c \uc9c0\ub0b4\ub77c\"\ub294 \ub9d0\uc744 \ub4e4\uc740 \ub370\uc2a4\uc719\uc774 \ubb34\uc5b8\uac00 \ubc30\uc6b0\uae34 \ud588\ub098\ubd05\ub2c8\ub2e4.",
+            "cost":"10",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n\ub0b4 \uc190\uc758 \ubaa8\ub4e0 \uc6a9\uc871\uc744 \uc804\uc7a5\uc5d0 \ub193\uc2b5\ub2c8\ub2e4.",
+            "health":"12",
+            "originalCode":"OG_317",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"10",
+            "cardCode":"35249",
+            "cardName":"\uc5bc\uad74 \uc5c6\ub294 \uad34\uc218",
+            "comment":"\uc774\ub984 \ud6c4\ubcf4: \uc9d1\ucc44\ub9cc\ud55c \uc5bc\uad74 \uc5c6\ub294 \uc790, \uc5bc\ud070\uc774, \ud14c\ub514.",
+            "cost":"10",
+            "desc":"",
+            "health":"10",
+            "originalCode":"OG_141",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Tyson Murphy",
+            "attack":"5",
+            "cardCode":"33134",
+            "cardName":"\ud0c0\ub77d\uc790 \ub290\uc870\uc2a4",
+            "comment":"\uc5b4\ub290 \uc774\uc0c1\ud55c \uac00\uc7ac\uac00 \ubd80\ub978 \ub178\ub798\uac00 5\ucc9c\ub144 \ub3d9\uc548 \uba38\ub9ac\uc5d0\uc11c \uac00\uc2dc\uc9c0 \uc54a\ub294\ub2e4\uace0 \ud569\ub2c8\ub2e4.",
+            "cost":"10",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \uc774\ubc88 \uac8c\uc784\uc5d0\uc11c \uc8fd\uc740 \uc8fd\uc74c\uc758 \uba54\uc544\ub9ac \ub2a5\ub825\uc774 \uc788\ub294 \ub0b4 \ud558\uc218\uc778\ub4e4\uc744 \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"7",
+            "originalCode":"OG_133",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Tooth",
+            "attack":"7",
+            "cardCode":"33168",
+            "cardName":"\ud76c\ub9dd\uc758 \ub05d \uc694\uadf8\uc0ac\ub860",
+            "comment":"\uc81c\ubc1c! ...\uc694\uadf8\uc0ac\ub860 \ub2d8, \ub9d9\uc18c\uc0ac!",
+            "cost":"10",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \uc774\ubc88 \uac8c\uc784\uc5d0\uc11c \ub0b4\uac00 \uc8fc\ubb38\uc744 \uc2dc\uc804\ud55c\ub9cc\ud07c \ubb34\uc791\uc704 \uc8fc\ubb38\uc744 \uc2dc\uc804\ud569\ub2c8\ub2e4. (\ub300\uc0c1\uc740 \ubb34\uc791\uc704\ub85c \uc120\ud0dd)",
+            "health":"5",
+            "originalCode":"OG_134",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Samwise",
+            "attack":"10",
+            "cardCode":"33156",
+            "cardName":"\ud574\ubc29\ub41c \ubd84\ub178 \uc774\uc0e4\ub77c\uc988",
+            "comment":"\ubd84\ub178\ub97c \ubc1b\uc544\ub4e4\uc774\ub77c\uace0 \ud558\uc9c0\ub9cc \uc815\uc791 \uc790\uc2e0\uc740 \ubd84\ub178\ub97c \ud574\ubc29\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4.",
+            "cost":"10",
+            "desc":"\ub0b4 \ud134\uc774 \ub05d\ub0a0 \ub54c,\n\ub0b4 \ub371\uc5d0\uc11c \ud558\uc218\uc778 \ud558\ub098\ub97c \ubf51\uc544 \uc804\uc7a5\uc5d0 \ub193\uc2b5\ub2c8\ub2e4.",
+            "health":"10",
+            "originalCode":"OG_042",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Steve Prescott",
+            "attack":"4",
+            "cardCode":"35197",
+            "cardName":"\ud06c\ud230\uc758 \uc790\uac1d",
+            "comment":"\ud06c\ud230 \ub2d8\uaed8\uc11c \uc81c\ubb3c\uc744 \uc6d0\ud558\uc2e0\ub2e4! \uc774\uc655\uc774\uba74 \ub370\uc2a4\uc719\uc73c\ub85c!",
+            "cost":"9",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ud558\uc218\uc778 \ud558\ub098\ub97c \ucc98\uce58\ud569\ub2c8\ub2e4. \uadf8 \ud558\uc218\uc778\uc758 \uacf5\uaca9\ub825\uacfc \uc0dd\uba85\ub825\uc744\n\ub0b4 \ud06c\ud230\uc5d0\uac8c \ubd80\uc5ec\ud569\ub2c8\ub2e4.\n(\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"4",
+            "originalCode":"OG_282",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"A. J. Nazzaro",
+            "attack":"9",
+            "cardCode":"33164",
+            "cardName":"\uace0\ub300\uc758 \uc874\uc7ac\uc758 \ud53c",
+            "comment":"\uace0\ub300\uc758 \uc874\uc7ac\uc758 \ud53c \ub450 \ucef5\uc774\ub791 \ub808\ubaac \uc96c\uc2a4 \ud55c \ucef5, \uadf8\ub9ac\uace0 \uc124\ud0d5\uc744 \uc57d\uac04 \ub123\uc5b4\uc11c \uc800\uc5b4\uc8fc\uba74 \uc138\uacc4\uc758 \uc885\ub9d0\uc774 \ub3c4\ub798\ud569\ub2c8\ub2e4. \ucc38 \uc27d\uc8e0?",
+            "cost":"9",
+            "desc":"\ub0b4 \ud134\uc774 \ub05d\ub0a0 \ub54c \ub0b4 \uc804\uc7a5\uc5d0 \uc774 \ud558\uc218\uc778\uc774 \ub458 \uc788\uc73c\uba74, \uace0\ub300\uc758 \uc874\uc7ac\ub85c \uc735\ud569\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"9",
+            "originalCode":"OG_173",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"James Ryman",
+            "attack":"5",
+            "cardCode":"33173",
+            "cardName":"\uc74c\ud5d8\ud55c \uc18c\uace0\uc2a4",
+            "comment":"\ud55c\ub54c \uace0\ub300 \uc2e0\uc758 \uac15\ub825\ud55c \uc218\ud558\uc600\uc9c0\ub9cc \uc9c0\uae08\uc740 \uc5b4\ub460\ud574\uc548\uc758 \uad00\uad11 \uba85\uc18c\uac00 \ub418\uc5b4\ubc84\ub838\uc2b5\ub2c8\ub2e4.",
+            "cost":"9",
+            "desc":"\ub3c4\ubc1c\n\uc774 \ud558\uc218\uc778\uc740 \uc8fc\ubb38\uc774\ub098 \uc601\uc6c5 \ub2a5\ub825\uc758 \ub300\uc0c1\uc73c\ub85c \uc9c0\uc815\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.",
+            "health":"9",
+            "originalCode":"OG_340",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Peter Stapleton",
+            "attack":"",
+            "cardCode":"33167",
+            "cardName":"\uc57c\uc0dd\uc758 \ubd80\ub984",
+            "comment":"\ub4e4\uc5b4 \ubd10, \ubbf8\uc0e4. \ub808\uc624\ud06c\ub791 \ud081\ud081\uc774\uac00 \uc57c\uc0dd\uc5d0 \ud480\ub9ac\ub294 \ub054\ucc0d\ud55c \uafc8\uc744 \uafb8\uc5c8\uc5b4...",
+            "cost":"8",
+            "desc":"\ub3d9\ub8cc \uc57c\uc218 3\ub9c8\ub9ac\ub97c\n\ubaa8\ub450 \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_211",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Kan Liu",
+            "attack":"8",
+            "cardCode":"35230",
+            "cardName":"\uc544\ub178\ub9d0\ub8e8\uc2a4",
+            "comment":"\uc6d0\ub798 \uc774\ub984\uc740 \"\uc544\uc544\ub178\uc624\ub9c8\uc54c\ub8e8\uc6b0\uc2a4\uc73c\"\uc785\ub2c8\ub2e4.",
+            "cost":"8",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n\ubaa8\ub4e0 \ud558\uc218\uc778\uc5d0\uac8c\n\ud53c\ud574\ub97c 8 \uc90d\ub2c8\ub2e4.",
+            "health":"6",
+            "originalCode":"OG_120",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Ben Zhang",
+            "attack":"7",
+            "cardCode":"35211",
+            "cardName":"\ud30c\uba78\uc758 \uc0ac\uc808",
+            "comment":"\ud30c\uba78\uc774 \ub04a\uc784\uc5c6\uc774 \ubb38\uc744 \ub450\ub4dc\ub9ac\ub294 \uc885\uad50 \uad8c\uc720\ub97c \ub0b4\ucad3\uc744 \ub54c \ubb38\ud328 \ub300\uc2e0 \uac78\uc5b4\ub450\ub294 \ud558\uc218\uc778\uc785\ub2c8\ub2e4.",
+            "cost":"8",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \ud06c\ud230\uc5d0\uac8c +2/+2\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4. (\uc5b4\ub514\uc5d0 \uc788\ub4e0)\n\ub0b4 \ud06c\ud230\uc774 \uc8fd\uc5c8\ub2e4\uba74, \ud06c\ud230\uc744 \ub0b4 \ub371\uc5d0 \uc11e\uc5b4 \ub123\uc2b5\ub2c8\ub2e4.",
+            "health":"9",
+            "originalCode":"OG_255",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Mike Sass",
+            "attack":"6",
+            "cardCode":"35253",
+            "cardName":"\uae30\uad34\ud55c \uacf5\ud3ec",
+            "comment":"'\uae30\uad34\ud55c \uacf5\ud3ec'\ub77c\ub294 \uc774\ub984\uc774 \ubd99\uc9c0 \uc54a\uc558\uc73c\uba74 \ub2e4\ub978 \uc0b6\uc744 \uc0b4\uc558\uc744\uc9c0 \uad81\uae08\ud558\uad70\uc694.",
+            "cost":"8",
+            "desc":"",
+            "health":"10",
+            "originalCode":"OG_142",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Slawomir Maniak",
+            "attack":"8",
+            "cardCode":"31118",
+            "cardName":"\uac70\ub300\ud55c \ubaa8\ub798 \ubc8c\ub808",
+            "comment":"\uc544\uc81c\ub85c\uc2a4\uc758 \ubaa8\ub4e0 \ubdd4\ud398\uc5d0\uc11c \uae08\uc9c0\ub41c \ud558\uc218\uc778\uc785\ub2c8\ub2e4.",
+            "cost":"8",
+            "desc":"\uc774 \ud558\uc218\uc778\uc740 \uacf5\uaca9\ud558\uc5ec\n\ub2e4\ub978 \ud558\uc218\uc778\uc744 \ucc98\uce58\ud560 \ub54c\ub9c8\ub2e4,\n\ub2e4\uc2dc \uacf5\uaca9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+            "health":"8",
+            "originalCode":"OG_308",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"James Ryman",
+            "attack":"8",
+            "cardCode":"33147",
+            "cardName":"\ube5b\uc758 \uad70\uc8fc \ub77c\uadf8\ub098\ub85c\uc2a4",
+            "comment":"\uc774\ubbf8 \ud0c0\ub77d\ud55c \ubd88\uc758 \uad70\uc8fc\ub97c \ub610 \ud0c0\ub77d\uc2dc\ud0a4\uba74 \uc5b4\ub5bb\uac8c \ub418\ub0d0\uace0\uc694? \"\uc815\ud654\ub41c\ub2e4, \ubc8c\ub808 \uac19\uc740 \ub188!\"",
+            "cost":"8",
+            "desc":"\ub0b4 \ud134\uc774 \ub05d\ub0a0 \ub54c,\n\ud53c\ud574\ub97c \uc785\uc740 \uc544\uad70 \uce90\ub9ad\ud130 \ud558\ub098\uc758 \uc0dd\uba85\ub825\uc744 8 \ud68c\ubcf5\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"8",
+            "originalCode":"OG_229",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Alex Horley Orlandelli",
+            "attack":"6",
+            "cardCode":"33138",
+            "cardName":"\uad34\ubb3c",
+            "comment":"\ubd88\uba78\uc790\ub3c4 \uac00\ub9ac\uc9c0 \uc54a\uace0 \uc798 \uba39\uc9c0\ub9cc, \uc18c\ud654 \ubd88\ub7c9\uc5d0 \uac78\ub9ac\ub294 \uacbd\uc6b0\uac00 \ub9ce\ub2e4\uace0 \ud558\ub124\uc694.",
+            "cost":"8",
+            "desc":"\uc774 \ud558\uc218\uc778\uc740 \uacf5\uaca9\ud558\uc5ec \ub2e4\ub978 \ud558\uc218\uc778\uc744 \ucc98\uce58\ud560 \ub54c\ub9c8\ub2e4, +2/+2\ub97c \uc5bb\uc2b5\ub2c8\ub2e4.",
+            "health":"7",
+            "originalCode":"OG_300",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Skan Srisuwan",
+            "attack":"",
+            "cardCode":"33172",
+            "cardName":"\uace0\ub300 \uc2e0\uc758 \uc704\uc2b5",
+            "comment":"\uc0ac\uc2e4 \ubcf4\ud1b5 \uc704\uc2b5\uc774\ub791 \ub2e4\ub97c \ubc14\uac00 \uc5c6\uc2b5\ub2c8\ub2e4. \"\uace0\ub300 \uc2e0\uc758\"\ub77c\ub294 \ud638\uce6d\uc774 \ubab8\uac12\uc744 \uc62c\ub824\uc918\uc11c \uc120\ud0dd\ud588\ub2e4\uace0 \ud558\ub294\uad70\uc694.",
+            "cost":"7",
+            "desc":"\uc120\ud0dd - 1/1 \uc704\uc2b5\uc744 7\ub9c8\ub9ac \uc18c\ud658\ud569\ub2c8\ub2e4.\n\ub610\ub294 \ub0b4 \ud558\uc218\uc778\ub4e4\uc5d0\uac8c +2/+2\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_195",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Alex Konstad",
+            "attack":"6",
+            "cardCode":"33122",
+            "cardName":"\uace0\ub300\uc758 \ubc29\ud328\ubcd1",
+            "comment":"\uace0\ub300\uc5d0\ub294 \uc9c0\uae08\ubcf4\ub2e4 \ud6e8\uc52c \ubb34\uac70\uc6b4 \ubc29\ud328\ub97c \uc591\uc190\uc5d0 4\uac1c\uc529 \ub4e4\uc5c8\ub2e4\uace0 \ud558\ub294\uad70\uc694.",
+            "cost":"7",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131:\n\ub0b4 \ud06c\ud230\uc758 \uacf5\uaca9\ub825\uc774 10 \uc774\uc0c1\uc774\uba74, \ubc29\uc5b4\ub3c4\ub97c +10 \uc5bb\uc2b5\ub2c8\ub2e4.",
+            "health":"6",
+            "originalCode":"OG_301",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"6",
+            "cardCode":"35240",
+            "cardName":"\ub2aa\uc9c0\uc774\ub07c\uad34\ubb3c",
+            "comment":"\ucc98\uc74c\uc5d0\ub294 \ub178\uc6c0\uc774 \uc704\ud5d8\ud558\ub2e4\uace0 \uc0dd\uac01\ud588\ub294\ub370 \uc54c\uace0\ubcf4\ub2c8 \uadf8 \ubc18\ub300\uc600\uad70\uc694.",
+            "cost":"7",
+            "desc":"\ub3c4\ubc1c",
+            "health":"8",
+            "originalCode":"OG_153",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"James Ryman",
+            "attack":"7",
+            "cardCode":"33170",
+            "cardName":"\ucd08\uac08",
+            "comment":"\uc544\uc9c1\uae4c\uc9c0\ub3c4 \uad74\ub2e8\uc740 \ucd08\uac08\uc5d0\uac8c \ucee4\ud53c \uc2ec\ubd80\ub984\uc744 \uc2dc\ud0b5\ub2c8\ub2e4. \ub9de\uc120\uc784\uc774 \uad1c\ud788 \uc584\ubbf8\uc6b4 \uac8c \uc544\ub2c8\uc8e0.",
+            "cost":"7",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \uc774\ubc88 \ud134\uc5d0 \ub0b4\uac00 \uc2dc\uc804\ud558\ub294 \ub2e4\uc74c \uc8fc\ubb38\uc740\n\ub9c8\ub098 \ub300\uc2e0 \uc0dd\uba85\ub825\uc744 \ube44\uc6a9\uc73c\ub85c \uc0ac\uc6a9\ud569\ub2c8\ub2e4.",
+            "health":"7",
+            "originalCode":"OG_121",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jim Nelson",
+            "attack":"5",
+            "cardCode":"35250",
+            "cardName":"\uae30\uad34\ud55c \uc6a9\ub9e4",
+            "comment":"\uc544\ub9c8 \ud0c0\ub77d\uc5d0 \uac00\uc7a5 \ub9ce\uc774 \uc601\ud5a5\uc744 \ubc1b\uc740 \uc0dd\ubb3c\uc774\uc9c0 \uc54a\ub098 \uc2f6\uc2b5\ub2c8\ub2e4.",
+            "cost":"7",
+            "desc":"\uc9c8\ud48d",
+            "health":"5",
+            "originalCode":"OG_152",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"6",
+            "cardCode":"31117",
+            "cardName":"\uc5d8\uc708\uc758 \ud30c\uba78 \ub4e4\ucc3d\ucf54",
+            "comment":"\ud06c\ud230\ub9c8\uc800\ub3c4 \uc790\uae30 \uc804\uc5d0 \uce68\ub300 \ubc11\uc5d0 \ub4e4\ucc3d\ucf54\uac00 \uc5c6\ub294\uc9c0 \ud655\uc778\ud55c\ub2f5\ub2c8\ub2e4.",
+            "cost":"7",
+            "desc":"\uc774 \ud558\uc218\uc778\uc740 \ud53c\ud574\ub97c \uc785\uc744 \ub54c\ub9c8\ub2e4 \ub3c4\ubc1c \ub2a5\ub825\uc774 \uc788\ub294 2/2 \ub180\uc744 1\ub9c8\ub9ac \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"6",
+            "originalCode":"OG_318",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"E. Guiton & Nutchapol ",
+            "attack":"6",
+            "cardCode":"35207",
+            "cardName":"\ub9d0\ucf54\ub85d",
+            "comment":"\uac00\ub85c\uc26c\uc758 \uc808\uce5c\uc785\ub2c8\ub2e4. \uc9c4\uc9dc\ub85c\uc694. \uac80\uc0c9\ud574\ubcf4\uc138\uc694.",
+            "cost":"7",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ubb34\uc791\uc704 \ubb34\uae30\ub97c \uc7a5\ucc29\ud569\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_220",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Mike Sass",
+            "attack":"4",
+            "cardCode":"35201",
+            "cardName":"\uc30d\ub465\uc774 \uc81c\uc655 \ubca0\ud074\ub85c\uc5b4",
+            "comment":"\"\ub0b4\uac00 2\ubd84 \uba3c\uc800 \ud0dc\uc5b4\ub0ac\uc73c\ub2c8 \ub0b4 \ub9d0\uc744 \ub4e4\uc5b4! \uc774 \ub9c8\uc744\uc740 \ubd88\ud0c0\ubc84\ub824\uc57c \ud574!\"",
+            "cost":"7",
+            "desc":"\ub3c4\ubc1c\n\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \ud06c\ud230\uc758 \uacf5\uaca9\ub825\uc774 10 \uc774\uc0c1\uc774\uba74, \ub2e4\ub978 \uc30d\ub465\uc774 \uc81c\uc655\uc744 \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"6",
+            "originalCode":"OG_131",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Matthew O'Connor",
+            "attack":"",
+            "cardCode":"33174",
+            "cardName":"\uc5c9\uac85\ud034 \ucc28",
+            "comment":"\uc5c9\uac85\ud034\ub294 \ub530\uac11\uc796\uc544\uc694? \uadf8\ub7f0\ub370 \uadf8\ub7f0 \uac78\ub85c \uc65c \ucc28\ub97c \ub2ec\uc774\ub294 \uac70\uc8e0? \ub3c4\uc801\ub4e4\uc740 \ub3c4\ubb34\uc9c0 \uc774\ud574\ud560 \uc218\uac00 \uc5c6\ub2e4\ub2c8\uae4c\uc694.",
+            "cost":"6",
+            "desc":"\uce74\ub4dc\ub97c 1\uc7a5 \ubf51\uc2b5\ub2c8\ub2e4. \uadf8 \uce74\ub4dc\ub97c 2\uc7a5 \ub354 \ubcf5\uc0ac\ud558\uc5ec \ub0b4 \uc190\uc73c\ub85c \uac00\uc838\uc635\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_073",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"4",
+            "cardCode":"33157",
+            "cardName":"\uace0\ub300\uc758 \uc120\uad6c\uc790",
+            "comment":"\"\uc5ec\ubcf4, \uc7a0\uae50 \uc0c1\uc810\uc5d0 \uac00\uc11c \ube44\uc6a9\uc774 10\uc778 \ud558\uc218\uc778 \ud558\ub098\ub9cc \uad6c\ud574\ub2e4\uc904\ub798? \uace0\ub9c8\uc6cc.\"",
+            "cost":"6",
+            "desc":"\ub0b4 \ud134\uc774 \uc2dc\uc791\ub420 \ub54c, \ub0b4 \ub371\uc5d0 \uc788\ub294 \ube44\uc6a9\uc774 10\uc778 \ud558\uc218\uc778 \ud558\ub098\ub97c \ub0b4 \uc190\uc73c\ub85c \uac00\uc838\uc635\ub2c8\ub2e4.",
+            "health":"6",
+            "originalCode":"OG_290",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Ryan Metcalf",
+            "attack":"2",
+            "cardCode":"35228",
+            "cardName":"\ud0c0\ub77d\ud55c \uc608\uc5b8\uc790",
+            "comment":"\uc5bc\uad74 \ubc14\ub85c \uc55e\uc5d0 \uc218\uc815\uad6c\uac00 \uc788\ub294 \uac8c \uc5bc\ub9c8\ub098 \ud3b8\ud55c\uc9c0 \ubaa8\ub974\uc2e4\uac78\uc694.",
+            "cost":"6",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \uba40\ub85d\uc744 \uc81c\uc678\ud55c \ubaa8\ub4e0 \ud558\uc218\uc778\uc5d0\uac8c \ud53c\ud574\ub97c 2 \uc90d\ub2c8\ub2e4.",
+            "health":"3",
+            "originalCode":"OG_161",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Nutchapol Thitinunthakorn",
+            "attack":"5",
+            "cardCode":"35189",
+            "cardName":"\uc5b4\ub460\uc5d0 \ubb3c\ub4e0 \uc544\ub77c\ucf54\uc544",
+            "comment":"\ub9c8\uc74c\uc5d0 \ub4dc\ub294 \uc0c9\ucc44\uc758 \uc544\ub77c\ucf54\uc544\ub97c \uc120\ud0dd\ud558\uc138\uc694! \uc598\ub294 \ube5b\uae54\uc774 \uc880 \uc5b4\ub461\uae34 \ud558\ub124\uc694.",
+            "cost":"6",
+            "desc":"\ub3c4\ubc1c\n\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \ud06c\ud230\uc5d0\uac8c +3/+3\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4. (\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"7",
+            "originalCode":"OG_293",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Mark Abadier",
+            "attack":"5",
+            "cardCode":"33178",
+            "cardName":"\uc5bc\uad74 \uc5c6\ub294 \uc18c\ud658\uc0ac",
+            "comment":"\uc0c8 \uce5c\uad6c\ub97c \ubb34\uc791\uc704\ub85c \uc18c\ud658\ud574\ubcf4\uc790!",
+            "cost":"6",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ube44\uc6a9\uc774 3\uc778 \ud558\uc218\uc778 \ud558\ub098\ub97c \ubb34\uc791\uc704\ub85c \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_207",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Luke Mancini",
+            "attack":"5",
+            "cardCode":"33127",
+            "cardName":"\uc0ac\uc790 \ubcfc\ub77c\uc988",
+            "comment":"\ub9e4\ubc88 \ud558\ub294 \uc77c\uc774 \"\uc694\uadf8\uc0ac\ub860 \ub2d8\uaed8\uc11c \uace7 \uc624\uc2e4 \uac83\uc774\ub2e4!\"\ub77c\uace0 \uc678\uce58\ub294 \uac83\uc785\ub2c8\ub2e4. \uadf8\ub798\uc11c \uadf8 '\uace7'\uc774 \uc5b8\uc81c\ub77c\ub294 \uac70\uc8e0?",
+            "cost":"6",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \ub2e4\ub978 \ud558\uc218\uc778\ub4e4\uc744 \ubcf5\uc0ac\ud558\uc5ec 1/1 \ud558\uc218\uc778\uc73c\ub85c \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_316",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Sam Nielson",
+            "attack":"5",
+            "cardCode":"33149",
+            "cardName":"\uace8\uc9dc\uae30\uc758 \ud3ed\uad70 \ubb34\ud074\ub77c",
+            "comment":"\uc544\ub2c8\uc694, \ubc14\ub098\ub098 \uc548 \uc8fc\uc154\ub3c4 \ub429\ub2c8\ub2e4.",
+            "cost":"6",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131:\n\ubc14\ub098\ub098 2\uac1c\ub97c \ub0b4\n\uc190\uc73c\ub85c \uac00\uc838\uc635\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_122",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Lars Grant-West",
+            "attack":"4",
+            "cardCode":"35233",
+            "cardName":"\ub124\ub8e8\ube44\uc548 \uc608\uc5b8\uc790",
+            "comment":"\uadf8\ubd84\uaed8\uc11c \ubcc4\ube5b\uc73c\ub85c \uc18d\uc0ad\uc774\uc168\ub2e4... \uadf8\ubd84\uc740 \ub0b4 \ube44\uc6a9\uc744 \uac10\uc18c\uc2dc\ud0a4\uaca0\ub2e4\uace0 \ud558\uc168\ub2e4...",
+            "cost":"6",
+            "desc":"\ub0b4 \ud134\uc774 \uc2dc\uc791\ub420 \ub54c,\n\uc774 \uce74\ub4dc\uc758 \ube44\uc6a9\uc774\n(1) \uac10\uc18c\ud569\ub2c8\ub2e4.",
+            "health":"4",
+            "originalCode":"OG_138",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Luke Mancini",
+            "attack":"2",
+            "cardCode":"33152",
+            "cardName":"\ube44\ub298 \ub36e\uc778 \uc545\ubabd",
+            "comment":"\uc6a9\uc871\ub9cc \uc544\ub2c8\uc5c8\ub2e4\uba74 \ube44\ub298 \ub36e\uc778 \uac00\uc988\ub9b4\ub77c\ub77c\uace0 \ud574\ub3c4 \ubbff\uc744 \uac83 \uac19\uad70\uc694.",
+            "cost":"6",
+            "desc":"\ub0b4 \ud134\uc774 \uc2dc\uc791\ub420 \ub54c,\n\uc774 \ud558\uc218\uc778\uc740 \uacf5\uaca9\ub825\uc774 2\ubc30\uac00 \ub429\ub2c8\ub2e4.",
+            "health":"8",
+            "originalCode":"OG_271",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jaemin Kim",
+            "attack":"7",
+            "cardCode":"33154",
+            "cardName":"\uc2a4\ucf00\ub78c \uc774\uad50\ub3c4",
+            "comment":"\ud034\ub77c\uc9c0\ub294 \ud06c\ud230\uc758 \ubaa8\uc2b5\uc744 \ubcf8\ub534 \uc0dd\ubb3c\uc774\ub77c\uace0 \ud569\ub2c8\ub2e4.",
+            "cost":"6",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \ud06c\ud230\uc5d0\uac8c +2/+2\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4. (\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"6",
+            "originalCode":"OG_339",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Slawomir Maniak",
+            "attack":"5",
+            "cardCode":"33159",
+            "cardName":"\uc2ec\uc5f0\uc758 \uad34\uc218",
+            "comment":"\uc2ec\uc5f0\uc5d0\uc11c \ud1a0\ud15c\ub4e4\uacfc \uc5b4\uc6b8\ub9ac\ub294 \uac78 \uc990\uae41\ub2c8\ub2e4.",
+            "cost":"6",
+            "desc":"\ub3c4\ubc1c\n\uc774\ubc88 \uac8c\uc784\uc5d0\uc11c \ub0b4\uac00 \uc18c\ud658\ud55c \ud1a0\ud15c \ud558\ub098\ub2f9 \ube44\uc6a9\uc774 (1)\uc529 \uac10\uc18c\ud569\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_028",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"James Ryman",
+            "attack":"4",
+            "cardCode":"33163",
+            "cardName":"\ud669\ud63c\uc758 \ub9dd\uce58",
+            "comment":"\ub0a8\uc790\uac00 \ub9dd\uce58\ub97c \ub4e4\uc5c8\uc73c\uba74 \ubb50\ub4e0 \ud6c4\ub824\uccd0\uc57c\uc8e0.",
+            "cost":"5",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n4/2 \uc815\ub839\uc744 \ud558\ub098 \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_031",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ubb34\uae30",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Alex Konstad",
+            "attack":"2",
+            "cardCode":"33140",
+            "cardName":"\ubed7\uc5b4\ub098\uc628 \ucd09\uc218",
+            "comment":"\ub124, \ub9de\uc2b5\ub2c8\ub2e4. \uac00\ub85c\uc26c\uac00 \ubc29\uae08 \ucd09\uc218\ub85c \ub2f9\uc2e0\uc744 \ud6c4\ub824\uce5c \uac81\ub2c8\ub2e4.",
+            "cost":"5",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac: \uc774\n\ubb34\uae30\ub97c \ub0b4 \uc190\uc73c\ub85c\n\ub2e4\uc2dc \uac00\uc838\uc635\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_033",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ubb34\uae30",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Milivoj Ceran",
+            "attack":"",
+            "cardCode":"33155",
+            "cardName":"\uc2e0\ube44\uc220\uc0ac\uc758 \uace0\uc11c",
+            "comment":"\uc5c6\ub294 \uac83 \ube7c\uace0 \ub2e4 \uc788\uc2b5\ub2c8\ub2e4. \ucfe0\ud0a4 \uc870\ub9ac\ubc95\uae4c\uc9c0\ub3c4\uc694!",
+            "cost":"5",
+            "desc":"\ubb34\uc791\uc704 \ub9c8\ubc95\uc0ac\n\uc8fc\ubb38 \uce74\ub4dc 3\uc7a5\uc744\n\ub0b4 \uc190\uc73c\ub85c \uac00\uc838\uc635\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_090",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jesper Ejsing",
+            "attack":"",
+            "cardCode":"35193",
+            "cardName":"\uc2e0\uc758 \uad8c\ub2a5: \ucd09\uc218",
+            "comment":"\ucd09\uc218\uc5d0 \ud718\uac10\uae38 \uac83\uc744 \uc54c\uae30\uc5d0... \ub2f9\uc2e0\uc758 \uc758\uc9c0\uac00 \ucda9\ub9cc\ud574\uc9c4\ub2e4.",
+            "cost":"5",
+            "desc":"\ud558\uc218\uc778 \ud558\ub098\uc5d0\uac8c\n+2/+6\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_094",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Ralph Horsley",
+            "attack":"",
+            "cardCode":"31116",
+            "cardName":"\uc5b4\ub460\uc5d0 \ub9de\uc11c\ub9ac\ub77c",
+            "comment":"\uc774\ucbe4\ub418\uba74 \uc740\ube5b \uc131\uae30\uc0ac\ub2e8\uc5d0\ub294 \uc2e0\ubcd1\ubc16\uc5d0 \uc5c6\ub294\uc9c0 \uc0dd\uac01\ud558\uac8c \ub418\ub294\uad70\uc694.",
+            "cost":"5",
+            "desc":"1/1 \uc740\ube5b \uc131\uae30\uc0ac\ub2e8 \uc2e0\ubcd1\uc744\n5\uba85 \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_273",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jesper Esjing",
+            "attack":"6",
+            "cardCode":"31109",
+            "cardName":"\uc624\uc791\ub3d9\ud558\ub294 \uce58\uc720\ub85c\ubd07",
+            "comment":"\uc0c1\ub300\ub97c \uce58\uc720\ud558\ub294 \uac78 \ubcf4\uba74 \"\ub35c\ub5a8\uc5b4\uc9c4 \uce58\uc720\ub85c\ubd07\"\uc5d0 \uac00\uae4c\uc6b4 \uac83 \uac19\uc2b5\ub2c8\ub2e4.",
+            "cost":"5",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n\uc801 \uc601\uc6c5\uc758 \uc0dd\uba85\ub825\uc744\n8 \ud68c\ubcf5\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"6",
+            "originalCode":"OG_147",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Gonzalo Ordonez",
+            "attack":"3",
+            "cardCode":"35212",
+            "cardName":"\uc2e4\uc131\ud55c \uc2e0\ubd09\uc790",
+            "comment":"\ub9e4\ub2ec\ub9c8\ub2e4 \uc804\ud600 \uc2e4\uc131\ud558\uc9c0 \uc54a\uc740 \uc2e0\ubd09\uc790\ub4e4\uacfc \ud568\uaed8 \uc544\uce68\uc744 \uba39\uc2b5\ub2c8\ub2e4.",
+            "cost":"5",
+            "desc":"\ub3c4\ubc1c\n\uc774 \ud558\uc218\uc778\uc774 \ud53c\ud574\ub97c\n\uc785\uc744 \ub54c\ub9c8\ub2e4 \ub0b4 \ud06c\ud230\uc5d0\uac8c\n+1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.\n(\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"6",
+            "originalCode":"OG_321",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Paul Mafayon",
+            "attack":"4",
+            "cardCode":"33148",
+            "cardName":"\uc774\uad50\ub3c4 \uc57d\uc81c\uc0ac",
+            "comment":"\uc774\uad50\ub3c4\ub4e4\ub3c4 \uac00\ub054 \ubcd1\uc5d0 \uac78\ub9b0\ub2f5\ub2c8\ub2e4. \uadf8\ub7f0\ub370 \uc57d\uc774 \ud574\ub85c\uc6b8 \uac83 \uac19\uc740 \ub290\ub08c\uc740 \uae30\ubd84 \ud0d3\uc774\uaca0\uc8e0?",
+            "cost":"5",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131:\n\uc801 \ud558\uc218\uc778 \ud558\ub098\ub2f9\n\ub0b4 \uc601\uc6c5\uc758 \uc0dd\uba85\ub825\uc744\n2 \ud68c\ubcf5\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"4",
+            "originalCode":"OG_295",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Chris Seaman",
+            "attack":"4",
+            "cardCode":"35199",
+            "cardName":"\uc5b4\ub460\uace8 \uc5f0\uae08\uc220\uc0ac",
+            "comment":"\ub048\uc801\ud55c \uc678\ud615\uc5d0 \ube44\ud574 \ud6a8\ub825\uc740 \uaf64 \uad1c\ucc2e\uc740 \ud3b8\uc785\ub2c8\ub2e4.",
+            "cost":"5",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \uc0dd\uba85\ub825\uc744\n5 \ud68c\ubcf5\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_234",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Phroi Gardner",
+            "attack":"3",
+            "cardCode":"35229",
+            "cardName":"\uc5b4\ub460\uc608\uc5b8\uc790",
+            "comment":"\uc5b4\ub460\uc5d0 \uad00\ud55c \ubaa8\ub4e0 \uac83\uc744 \uc608\uc5b8\ud569\ub2c8\ub2e4. \ud558\uc9c0\ub9cc \uc544\uc27d\uac8c\ub3c4 \uc785\uc774 \uc5c6\uc5b4\uc11c \uc544\ubb34\ub7f0 \ub9d0\ub3c4 \ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.",
+            "cost":"5",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131:\n\uc544\uad70 \ud558\uc218\uc778 \ud558\ub098\uc640 \ub2a5\ub825\uce58\ub97c \ubc14\uafc9\ub2c8\ub2e4.",
+            "health":"6",
+            "originalCode":"OG_102",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Wayne Reynolds",
+            "attack":"4",
+            "cardCode":"33131",
+            "cardName":"\uc2b9\ucc9c\ud55c \ud560\ub77c\uc9c8",
+            "comment":"\uc815\ub839\ub4e4\uc774 \uc790\ub124\ub97c \ud30c\uad34\ud558\uace0 \ub0a0 \uce58\uc720\ud560\uac78\uc138!",
+            "cost":"5",
+            "desc":"\ub0b4\uac00 \uc8fc\ubb38\uc73c\ub85c \ud53c\ud574\ub97c\n\uc904 \ub54c\ub9c8\ub2e4 \uadf8\ub9cc\ud07c \ub0b4 \uc601\uc6c5\uc758 \uc0dd\uba85\ub825\uc744 \ud68c\ubcf5\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"6",
+            "originalCode":"OG_209",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jaemin Kim",
+            "attack":"6",
+            "cardCode":"35188",
+            "cardName":"\uacf5\uc8fc \ud6c4\ud6c4\ub780",
+            "comment":"\uc5b8\uc820\uac00\ub294 \uc778\uc790\ud55c \uc655\uc790\uac00 \ub098\ud0c0\ub098 \ud568\uaed8 \uc218\ucc9c \uac1c\uc758 \uc54c\uc744 \ub0b3\uae30\ub97c \ubc14\ub77c\uba70 \uc624\ub298\ub3c4 \uc548\ud034\ub77c\uc988\ub97c \ub0a0\uc544\ub2e4\ub2c8\uace0 \uc788\uc2b5\ub2c8\ub2e4.",
+            "cost":"5",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \uc544\uad70 \ud558\uc218\uc778 \ud558\ub098\uc758 \uc8fd\uc74c\uc758 \uba54\uc544\ub9ac \ub2a5\ub825\uc744 \ubc1c\ub3d9\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_309",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"3",
+            "cardCode":"35216",
+            "cardName":"\uad11\uae30\ub85c\ubd07",
+            "comment":"\uc660\uc9c0 \ube68\uac04 \ub0b4\ubcf5\uc744 \uc785\uc73c\uba74 \uc5b4\uc6b8\ub9b4 \uac83 \uac19\uc740 \ub85c\ubd07\uc785\ub2c8\ub2e4.",
+            "cost":"5",
+            "desc":"\ub3c4\ubc1c\n\ucc9c\uc0c1\uc758 \ubcf4\ud638\ub9c9",
+            "health":"4",
+            "originalCode":"OG_145",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Slawomir Maniak",
+            "attack":"5",
+            "cardCode":"33179",
+            "cardName":"\uc694\uadf8\uc0ac\ub860\uc758 \uc885\ubcf5",
+            "comment":"\uc694\uadf8\uc0ac\ub860\uc740 \uc885\ubcf5\ub4e4\uc774 \ub108\ubb34 \ub9ce\uace0 \uba39\uc77c \uc785\uc774 \ub108\ubb34 \ub9ce\uc544\uc11c \ub298 \uace0\ubbfc\uc774\ub77c\uace0 \ud558\ub294\uad70\uc694.",
+            "cost":"5",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ube44\uc6a9\uc774 (5) \uc774\ud558\uc778 \ubb34\uc791\uc704 \uc8fc\ubb38\uc744 \uc2dc\uc804\ud569\ub2c8\ub2e4. (\ub300\uc0c1\uc740 \ubb34\uc791\uc704\ub85c \uc120\ud0dd)",
+            "health":"4",
+            "originalCode":"OG_087",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"J. Meyers & A. Bozonnet",
+            "attack":"4",
+            "cardCode":"33180",
+            "cardName":"\uadf8\ub9bc\uc790\uc220\uc0ac",
+            "comment":"\uadf8\ub9bc\uc790\ub97c \ud6d4\uccd0 \uc791\uc740 \ubaa8\uc870\ud488\uc73c\ub85c \ub9cc\ub4e0 \ub4a4\uc5d0 \uc120\ubc18\uc5d0 \uc9c4\uc5f4\ud574\ub450\ub824\uba74 \uc6b0\uc120 \uc0c1\ub300\uc758 \ud5c8\ub77d\uc744 \ubc1b\uc73c\uc138\uc694. \uadf8\ub7ec\uba74 \uc544\uc8fc \uc870\uae08\uc774\ub77c\ub3c4 \uc774\ud574\ud574\uc8fc\uc9c0 \uc54a\uc744\uae4c\uc694?",
+            "cost":"5",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \uc544\uad70 \ud558\uc218\uc778 \ud558\ub098\ub97c \uc120\ud0dd\ud569\ub2c8\ub2e4. \uadf8 \ud558\uc218\uc778\uc744 \ube44\uc6a9\uc774 (1)\uc778 1/1 \ud558\uc218\uc778\uc73c\ub85c \ubcf5\uc0ac\ud558\uc5ec \ub0b4 \uc190\uc73c\ub85c \uac00\uc838\uc635\ub2c8\ub2e4.",
+            "health":"4",
+            "originalCode":"OG_291",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Alex Garner",
+            "attack":"6",
+            "cardCode":"35191",
+            "cardName":"\ud669\ud63c\uc758 \uc554\ud751\uce58\uc720\uc0ac",
+            "comment":"\uc554\ud751\uc740 \ub9e4\uc6b0 \uc608\ubbfc\ud55c \ubb3c\uc9c8\uc785\ub2c8\ub2e4. \uadf8\ub7ec\ub2c8 \uc6b0\uc120 \ube5b\uc5d0\uc11c \ubd84\ub9ac\ud55c \ub2e4\uc74c\uc5d0 \ucc2c \ubb3c\ub85c \uc138\ud0c1\ud558\uace0 \uc790\uc5f0 \ubc14\ub78c\uc5d0 \ub9d0\ub9ac\uc138\uc694.",
+            "cost":"5",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \ud06c\ud230\uc758 \uacf5\uaca9\ub825\uc774 10 \uc774\uc0c1\uc774\uba74, \ub0b4 \uc601\uc6c5\uc758 \uc0dd\uba85\ub825\uc744 10 \ud68c\ubcf5\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_096",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Dave Allsop",
+            "attack":"5",
+            "cardCode":"35242",
+            "cardName":"\uc800\uc2b9\uc758 \uc548\ub0b4\uc778",
+            "comment":"\uae38 \uc783\uc740 \uc601\ud63c\ub4e4\uc744 \uce5c\uc808\ud788 \uc548\ub0b4\ud558\uc5ec \ud06c\ud230\uc5d0\uac8c \uc81c\ubb3c\ub85c \ubc14\uce69\ub2c8\ub2e4.",
+            "cost":"5",
+            "desc":"\uc544\uad70 \ud558\uc218\uc778\uc774 \uc8fd\uc744 \ub54c\ub9c8\ub2e4 \ub0b4 \ud06c\ud230\uc5d0\uac8c +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.\n(\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"6",
+            "originalCode":"OG_302",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Dan Orizio",
+            "attack":"0",
+            "cardCode":"31115",
+            "cardName":"\uc0b4\uc544\ub0a8\uc740 \ud30c\uba78\uc758 \uc608\uc5b8\uc790",
+            "comment":"\uc790\uc2e0\uc758 \uc608\uc5b8\uc774 \ub9de\uc558\ub2e4\ub294 \uac83\uc5d0 \uc544\uc8fc \ub9cc\uc871\ud569\ub2c8\ub2e4. \ud558\uc9c0\ub9cc \ubc8c\ubaa9\uae30\uc5d0\uc11c \ub4f1\uc7a5\ud558\uba74\uc11c \ubaa8\ub4e0 \uc774\ub4e4\uc758 \uc8fc\ubaa9\uc744 \ubc1b\ub358 \uadf8\ub54c\uac00 \uadf8\ub9bd\ub2e4\uace0\ub294 \ud558\ub294\uad70\uc694.",
+            "cost":"5",
+            "desc":"\ub0b4 \ud134\uc774 \uc2dc\uc791\ub420 \ub54c,\n\uc774 \ud558\uc218\uc778\uc758 \uacf5\uaca9\ub825\uc744 7\ub85c \ub9cc\ub4ed\ub2c8\ub2e4.",
+            "health":"7",
+            "originalCode":"OG_200",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Andrew Hou",
+            "attack":"",
+            "cardCode":"33150",
+            "cardName":"\uc5b4\ub460\uc758 \uad8c\ub2a5: \uacf5\ud3ec",
+            "comment":"\"\uc5b4\ub460\uc758 \uad8c\ub2a5: \uc18c\uc6a9\ub3cc\uc774\uc5d0 \ubaa8\ub450 \ube68\ub824\ub4e4\uc5b4\uac00\uae30\"\ubcf4\ub2e4\ub294 \ud6e8\uc52c \uac04\uacb0\ud558\uc9c0 \uc54a\ub098\uc694?",
+            "cost":"4",
+            "desc":"\uacf5\uaca9\ub825\uc774 2 \uc774\ud558\uc778\n\ubaa8\ub4e0 \ud558\uc218\uc778\uc744\n\ucc98\uce58\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_100",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jim Nelson",
+            "attack":"3",
+            "cardCode":"35236",
+            "cardName":"\ubcc0\uc885 \uad11\uc804\uc0ac",
+            "comment":"\ub098\ub294 \uaca9\ub178\ud55c\ub2e4. \uace0\ub85c, \ub098\ub294 \uc874\uc7ac\ud55c\ub2e4.",
+            "cost":"4",
+            "desc":"\uaca9\ub178: \uacf5\uaca9\ub825 +2",
+            "health":"5",
+            "originalCode":"OG_150",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Max Grecke",
+            "attack":"2",
+            "cardCode":"35203",
+            "cardName":"\uac80\uc740\ubc14\ub2e4 \ud574\uc801",
+            "comment":"\"\ub9d0\ud588\uc796\uc544, \ubc30 \ub4a4\uc5d0\uc11c \ub5a8\uc5b4\uc9c4 \uac70\ub77c\uace0. \uc0b4 \uac70\uc57c, \ub9d0 \uac70\uc57c? \ub098 \uc774\ub798 \ubd2c\ub3c4 \ubc14\uc05c \uc0ac\ub78c\uc774\uc57c! 10\ubd84 \ub4a4\uc5d0 \uc774\uc0e4\ub77c\uc988 \ub2d8 \ub9cc\ub098\ub7ec \uac00\uc57c \ub3fc.\"",
+            "cost":"4",
+            "desc":"\ub0b4 \ubb34\uae30\uc758 \ube44\uc6a9\uc774\n(2) \uac10\uc18c\ud569\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_322",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Paul Mafayon",
+            "attack":"2",
+            "cardCode":"35205",
+            "cardName":"\ube14\ub7ec\ub4dc\ud6c4\ud504 \uc6a9\uc0ac",
+            "comment":"10\uc810 \ub9cc\uc810\uc5d0 12\uc810\uc778 \uc9c4\uc9dc \uc6a9\uc0ac\uc785\ub2c8\ub2e4.",
+            "cost":"4",
+            "desc":"\ub3c4\ubc1c\n\uaca9\ub178: \uacf5\uaca9\ub825 +3",
+            "health":"6",
+            "originalCode":"OG_218",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jesper Esjing",
+            "attack":"4",
+            "cardCode":"33123",
+            "cardName":"\ud06c\ud230\uc758 \ucd94\uc885\uc790",
+            "comment":"\"\uc6b0\ub9ac \ud06c\ud230 \ub2d8\uc740 \ub371\uc5d0 \uc788\uc5b4! \uace7 \ub098\uc624\uc2e4 \uac70\ub77c\uace0!\"",
+            "cost":"4",
+            "desc":"\ucc9c\uc0c1\uc758 \ubcf4\ud638\ub9c9\n\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \ud06c\ud230\uc5d0\uac8c +2/+2\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4. (\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"2",
+            "originalCode":"OG_283",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Garrett Hanna",
+            "attack":"3",
+            "cardCode":"35225",
+            "cardName":"\uacf5\ud3ec\uc758 \uc548\uac1c\ub3c4\uae68\ube44",
+            "comment":"\uc548\uac1c\ub3c4\uae68\ube44\uac00 \ub418\ub824\uba74 \uc5b4\ub5bb\uac8c \ud574\uc57c \ud558\ub0d0\uace0\uc694? \uc6b0\uc120 \ub208\uc774 \ud558\ub098\uc5ec\uc57c \ud569\ub2c8\ub2e4.",
+            "cost":"4",
+            "desc":"\ub3c4\ubc1c\n\uc804\ud22c\uc758 \ud568\uc131: \uc801 \ud558\uc218\uc778 \ud558\ub098\ub2f9 \uc0dd\uba85\ub825\uc744 +1 \uc5bb\uc2b5\ub2c8\ub2e4.",
+            "health":"3",
+            "originalCode":"OG_337",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Arthur Gimaldinov",
+            "attack":"2",
+            "cardCode":"35184",
+            "cardName":"\uc815\uc2e0 \ub098\uac04 \uc11c\ub9ac\uc220\uc0ac",
+            "comment":"'\uc11c\ub9ac\uaf2c\ub9ac \uc804\uc0ac'\ub77c\ub294 \ubcc4\uba85\uc744 \ub354 \uc88b\uc544\ud55c\ub2e4\ub294\uad70\uc694.",
+            "cost":"4",
+            "desc":"\ub0b4 \uc8fc\ubb38\uc774 \uc2dc\uc804\ub41c \ud6c4\uc5d0, \ubb34\uc791\uc704 \uc801 \ud558\ub098\ub97c \ube59\uacb0 \uc0c1\ud0dc\ub85c \ub9cc\ub4ed\ub2c8\ub2e4.",
+            "health":"4",
+            "originalCode":"OG_085",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Dan Scott",
+            "attack":"2",
+            "cardCode":"31121",
+            "cardName":"\ube44\ubc00\uc744 \uc0bc\ud0a4\ub294 \uc790",
+            "comment":"\ub9d0\ub9b0 \uba38\ub9ac \ub9d0\ub054\ud558\uac8c \ud3b4\ub4dc\ub9bd\ub2c8\ub2e4.",
+            "cost":"4",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \uc801\uc758 \ubaa8\ub4e0 \ube44\ubc00\uc744 \uc5c6\uc571\ub2c8\ub2e4. \uc5c6\uc564 \ube44\ubc00 \ud558\ub098\ub2f9 +1/+1\uc744 \uc5bb\uc2b5\ub2c8\ub2e4.",
+            "health":"4",
+            "originalCode":"OG_254",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Genevieve Tsai & Nutchapol ",
+            "attack":"2",
+            "cardCode":"35254",
+            "cardName":"\uc9c4\ud654\ud55c \ucf54\ubcfc\ud2b8",
+            "comment":"\ub108, \ucd09\uc218 \ubabb \uac00\uc838\uac04\ub2e4!",
+            "cost":"4",
+            "desc":"\uc8fc\ubb38 \uacf5\uaca9\ub825 +2",
+            "health":"2",
+            "originalCode":"OG_082",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Alex Alexandrov",
+            "attack":"1",
+            "cardCode":"33133",
+            "cardName":"\uc5bc\uad74 \uc5c6\ub294 \ubd88\uac00\uc0ac\uc758",
+            "comment":"\"\uc800\uac74 \ub3c4\ub300\uccb4 \uc815\uccb4\uac00 \ubb50\uc9c0?!\" \"\uae00\uc384, \ubb54\uac00 \uc774\uc138\ub77c\ub97c \ub2ee\uc73c\ub824\uace0 \uc560\ub97c \uc4f0\ub294 \uac83 \uac19\uc740\ub370.\"",
+            "cost":"4",
+            "desc":"\ub3c4\ubc1c\n\uc804\ud22c\uc758 \ud568\uc131: \uc544\uad70 \ud558\uc218\uc778 \ud558\ub098\uc758 \uacf5\uaca9\ub825\uacfc \uc0dd\uba85\ub825\uc744 \ubcf5\uc0ac\ud569\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_174",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Anton Zemskov",
+            "attack":"3",
+            "cardCode":"35208",
+            "cardName":"\ud310\ub4dc\ub784 \uc2a4\ud0dc\uadf8\ud5ec\ub984",
+            "comment":"\ub9e4\ubc88 \"\ub0b4\uac00 \uc138\uacc4\uc218\ub97c \ub9cc\ub4e4\uc5c8\uc744 \uc2dc\uc808\uc5d0\ub294 \ub9d0\uc774\uc57c...\"\ub77c\ub294 \ub9d0\uc744 \ub4e4\uba39\uc785\ub2c8\ub2e4. \uc5b4\ud734, \uc9c0\uaca8\uc6cc\uc11c \uc6d0.",
+            "cost":"4",
+            "desc":"\ub0b4 \uc120\ud0dd \uce74\ub4dc\ub4e4\uc758\n\ub450 \ub2a5\ub825\uc774 \ubaa8\ub450 \ubc1c\ub3d9\ud569\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_044",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"E. M. Gist",
+            "attack":"7",
+            "cardCode":"35226",
+            "cardName":"\uc5bc\uad74 \uc5c6\ub294 \ud654\uc5fc\ud22c\uc0ac",
+            "comment":"\ubd90\uc0e4\uce7c\ub77c\uce74! \ubd88\ubd99\uc5c8\uc2b5\ub2c8\ub2e4!",
+            "cost":"4",
+            "desc":"\uacfc\ubd80\ud558: (2)",
+            "health":"7",
+            "originalCode":"OG_024",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Adam Byrne",
+            "attack":"3",
+            "cardCode":"35192",
+            "cardName":"\ub450\uac74 \uc4f4 \uc218\ud589\uc0ac\uc81c",
+            "comment":"\ub124? \ub450\uac74\uc744 \uc4f0\uc9c0 \uc54a\ub294 \uc218\ud589\uc0ac\uc81c\ub3c4 \uc788\ub2e4\uace0\uc694?",
+            "cost":"4",
+            "desc":"\uce90\ub9ad\ud130\uac00 \uce58\uc720\ub420 \ub54c\ub9c8\ub2e4 \ub0b4 \ud06c\ud230\uc5d0\uac8c +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.\n(\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"6",
+            "originalCode":"OG_334",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Paul Mafayon",
+            "attack":"2",
+            "cardCode":"33128",
+            "cardName":"\uac10\uc5fc\ub41c \ud0c0\uc6b0\ub80c",
+            "comment":"\uace0\ub300 \uc2e0 \uc911\uc5d0 \ucd08\uc6d4\uccb4\uac00 \uc788\ub294 \uc904 \uc54c\uace0 \ub4f1\uc7a5\ud588\ub2e4\ub294\uad70\uc694.",
+            "cost":"4",
+            "desc":"\ub3c4\ubc1c\n\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n2/2 \uc218\uc561\uad34\ubb3c\uc744\n\ud558\ub098 \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"3",
+            "originalCode":"OG_249",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"E. Guiton & A. Bozonnet",
+            "attack":"3",
+            "cardCode":"35215",
+            "cardName":"\uac10\uc5fc\ub41c \ub291\ub300",
+            "comment":"\uc218\uc758\uc0ac\uc5d0\uac8c \ub370\ub9ac\uace0 \uac04\ub2e4\uace0 \ud574\uacb0\ub420 \ubb38\uc81c\uac00 \uc544\ub2cc \uac83 \uac19\uad70\uc694.",
+            "cost":"4",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n1/1 \uac70\ubbf8\ub97c 2\ub9c8\ub9ac \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"3",
+            "originalCode":"OG_216",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Cole Eastburn",
+            "attack":"4",
+            "cardCode":"33121",
+            "cardName":"\ud074\ub77d\uc2dc \ud638\ubc15\uc220\uc0ac",
+            "comment":"\uc778\uadfc \uc9c1\uc5c5\ud559\uad50\uc5d0\uc11c \ud638\ubc15\uc220\uc0ac\uac00 \ub418\ub294 \ubc95 \ud2b9\uac15\uc744 \ub4e4\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+            "cost":"4",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \ud06c\ud230\uc758 \uacf5\uaca9\ub825\uc774 10 \uc774\uc0c1\uc774\uba74, \uc0dd\uba85\ub825\uc744 +5 \uc5bb\uc2b5\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_188",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Dan Scott",
+            "attack":"4",
+            "cardCode":"33160",
+            "cardName":"\uc9c4\ud654\uc758 \ub300\uac00",
+            "comment":"\ud6c4\uc18d\uc791\uc778 \"\ud558\ucf13\ubaac\"\uc5d0\ub3c4 \ub4f1\uc7a5\ud560 \uc608\uc815\uc785\ub2c8\ub2e4.",
+            "cost":"4",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \uc544\uad70 \ud558\uc218\uc778 \ud558\ub098\ub97c \ube44\uc6a9\uc774 (1) \ub192\uc740 \ubb34\uc791\uc704 \ud558\uc218\uc778\uc73c\ub85c \ubcc0\uc2e0\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_328",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Todd Lockwood",
+            "attack":"1",
+            "cardCode":"35247",
+            "cardName":"\ud55c\ubc24\uc758 \ube44\ub8e1",
+            "comment":"\ub300\ub0ae\uc5d0\ub3c4 \uc5ec\uc804\ud788 \ubb34\uc11c\uc6b4 \uc6a9\uc871\uc785\ub2c8\ub2e4.",
+            "cost":"4",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131:\n\ub0b4 \uc190\uc5d0 \uc788\ub294 \uce74\ub4dc 1\uc7a5\ub2f9\n\uacf5\uaca9\ub825\uc744 +1 \uc5bb\uc2b5\ub2c8\ub2e4.",
+            "health":"4",
+            "originalCode":"OG_320",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"3",
+            "cardCode":"33162",
+            "cardName":"\uc218\ub801\uc758 \uc218\ud638\uc790",
+            "comment":"\"\ub098\ub97c \ud558\ud5a5\uc2dc\ud0a4\ub2e4\ub2c8, \ube44\ub6a4\uc5b4\uc9c8\ud14c\ub2e4!\"",
+            "cost":"4",
+            "desc":"\uc120\ud0dd - 2/2 \uc218\uc561\uad34\ubb3c\uc744 \ud558\ub098 \uc18c\ud658\ud569\ub2c8\ub2e4. \ub610\ub294 \ube48 \ub9c8\ub098 \uc218\uc815\uc744 1\uac1c \ud68d\ub4dd\ud569\ub2c8\ub2e4.",
+            "health":"3",
+            "originalCode":"OG_202",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"4",
+            "cardCode":"31111",
+            "cardName":"\uc624\uc5fc\ub41c \uc218\uc9d1\uac00",
+            "comment":"\uc785\ucc30\ud588\ub2e4\uac04 \ub2f9\uc2e0\ub9c8\uc800 \uc804\ub9ac\ud488\uc774 \ub420 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+            "cost":"4",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n\uce74\ub4dc\ub97c 1\uc7a5 \ubf51\uc2b5\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_323",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Tyler Walpole",
+            "attack":"4",
+            "cardCode":"35186",
+            "cardName":"\ubcc0\ud654\ubb34\uc30d\ud55c \ub9dd\ub839",
+            "comment":"\uadf8\ub298\uc5d0 \uc788\uc73c\uba74 \uc2dc\uc6d0\ud558\uae34 \ud558\uc9c0\ub9cc, \uc950\ub3c4 \uc0c8\ub3c4 \ubaa8\ub974\uac8c \uc0ac\ub77c\uc9c8 \uc218\ub3c4 \uc788\ub2e4\ub294 \uac78 \uba85\uc2ec\ud558\uc138\uc694.",
+            "cost":"4",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac: \uc0c1\ub300\ud3b8\uc758 \ub371\uc5d0\uc11c \uce74\ub4dc\ub97c 1\uc7a5 \ubcf5\uc0ac\ud558\uc5ec \ub0b4 \uc190\uc73c\ub85c \uac00\uc838\uc635\ub2c8\ub2e4.",
+            "health":"3",
+            "originalCode":"OG_335",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Mike Sass",
+            "attack":"4",
+            "cardCode":"35241",
+            "cardName":"\ub0a8\ucabd\ubc14\ub2e4 \ucd09\uc218\uc5bc\uad74",
+            "comment":"\"\ube68\ub9ac! \ub0b4\uac00 \uc8fd\uae30 \uc804\uc5d0 \ub124 \ubb34\uae30\uc5d0 \uacf5\uaca9\ub825\uc744 \ubd80\uc5ec\ud560 \uc218 \uc788\uac8c \ud574\uc918!\"",
+            "cost":"4",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n\ub0b4 \ubb34\uae30\uc5d0 \uacf5\uaca9\ub825\uc744\n+2 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"4",
+            "originalCode":"OG_267",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jim Nelson",
+            "attack":"1",
+            "cardCode":"33175",
+            "cardName":"\ud669\ud63c\uc758 \uc18c\ud658\uc0ac",
+            "comment":"\uadf8\ub97c \uc4f0\ub7ec\ub728\ub9ac\uba74 \uadf8\ub294 \ub2f9\uc2e0\uc774 \uc0c1\uc0c1\ud560 \uc218\ub3c4 \uc5c6\uc744 \ub9cc\ud07c \uac15\ud574\uc9d1\ub2c8\ub2e4.",
+            "cost":"4",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n5/5 \uc5bc\uad74 \uc5c6\ub294 \ud30c\uad34\uc790\ub97c \ud558\ub098 \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_272",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jaemin Kim",
+            "attack":"3",
+            "cardCode":"33139",
+            "cardName":"\ub3c5\ud55c \ub9c8\uc74c\uc758 \uc790\ub9b4",
+            "comment":"\uc9d5\uadf8\ub7ec\uc6b4 \uc0ac\ub9c8\uadc0\uac00 \ub300\ub193\uace0 \ub3c5\uadf9\ubb3c\uc774\ub77c\uace0 \uc4f0\uc778 \uc6a9\uc561\uc744 \uc8fc\uba74 \ucc38 \uc0ac\uc6a9\ud558\uace0 \uc2f6\uaca0\uad70\uc694... \uc5b4\ub77c?",
+            "cost":"4",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131\uacfc \uc8fd\uc74c\uc758 \uba54\uc544\ub9ac: \ubb34\uc791\uc704 \ub3c5\uadf9\ubb3c \uce74\ub4dc 1\uc7a5\uc744 \ub0b4 \uc190\uc73c\ub85c \uac00\uc838\uc635\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_080",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"J. Curtis Cranford",
+            "attack":"3",
+            "cardCode":"35246",
+            "cardName":"\uc9d1\uacb0\uc758 \uac80",
+            "comment":"\"\ucc9c\uc0c1\uc758 \ubcf4\ud638\ub9c9\uc774 \uc788\ub294 \ud558\uc218\uc778\ub4e4\uc774\uc5ec, \uc9d1\uacb0\ud558\ub77c!\"",
+            "cost":"3",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131:\n\ucc9c\uc0c1\uc758 \ubcf4\ud638\ub9c9\uc774 \uc788\ub294\n\ub0b4 \ud558\uc218\uc778\ub4e4\uc5d0\uac8c +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_222",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ubb34\uae30",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"A.J. Nazzaro",
+            "attack":"",
+            "cardCode":"33166",
+            "cardName":"\ud53c\uc758 \uc804\uc0ac\ub4e4",
+            "comment":"\ud608\uae30\uc0ac\ub4e4\uacfc\ub294 \ud5d8\uc545\ud55c \uad00\uacc4\ub97c \uc720\uc9c0\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4.",
+            "cost":"3",
+            "desc":"\ud53c\ud574\ub97c \uc785\uc740 \uc544\uad70 \ud558\uc218\uc778\ub4e4\uc744 \ubcf5\uc0ac\ud558\uc5ec \ub0b4 \uc190\uc73c\ub85c \uac00\uc838\uc635\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_276",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Alex Alexandrov",
+            "attack":"",
+            "cardCode":"35210",
+            "cardName":"\uc57c\uc0dd\uc758 \ubd84\ub178",
+            "comment":"\uc194\uc9c1\ud788 \ub9d0\ud574, \ubd84\ub178\ud558\ub294 \uc120\ud0dd\uc740 \ud558\ub098\ubfd0\uc785\ub2c8\ub2e4.",
+            "cost":"3",
+            "desc":"\uc120\ud0dd -\uc774\ubc88 \ud134\uc5d0 \ub0b4 \uc601\uc6c5\uc5d0\uac8c\n\uacf5\uaca9\ub825\uc744 +4 \ubd80\uc5ec\ud569\ub2c8\ub2e4.\n\ub610\ub294 \ubc29\uc5b4\ub3c4\ub97c +8 \uc5bb\uc2b5\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_047",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Anton Zemskov",
+            "attack":"",
+            "cardCode":"33146",
+            "cardName":"\uac10\uc5fc",
+            "comment":"\uac00\ub054\uc740 \uc655 \ud06c\ub8e8\uc26c\ucc98\ub7fc \uc790\uc2e0\uc758 \ubab8\uc9d1\ubcf4\ub2e4 \ud070 \uc57c\uc218\uac00 \ub098\uc62c \ub54c\ub3c4 \uc788\uc2b5\ub2c8\ub2e4.",
+            "cost":"3",
+            "desc":"\ub0b4 \ud558\uc218\uc778\ub4e4\uc5d0\uac8c \"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac: \ubb34\uc791\uc704 \uc57c\uc218 \uce74\ub4dc 1\uc7a5\uc744 \ub0b4 \uc190\uc73c\ub85c \uac00\uc838\uc634\" \ub2a5\ub825\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_045",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Dave Allsop",
+            "attack":"",
+            "cardCode":"35195",
+            "cardName":"\uadf8\ub9bc\uc790 \uc77c\uaca9",
+            "comment":"\uae30\uc2b5\uacfc \uc720\uc0ac\ud569\ub2c8\ub2e4. \ub300\uc2e0 \uc55e\uc5d0\uc11c \ucc0c\ub974\uace0, \ub450 \ubc88 \ub354 \ucc0c\ub978\ub2e4\ub294 \uac8c \ucc28\uc774\uc810\uc785\ub2c8\ub2e4.",
+            "cost":"3",
+            "desc":"\ud53c\ud574\ub97c \uc785\uc9c0 \uc54a\uc740\n\uce90\ub9ad\ud130 \ud558\ub098\uc5d0\uac8c\n\ud53c\ud574\ub97c 5 \uc90d\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_176",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Mauricio Herrera",
+            "attack":"",
+            "cardCode":"33169",
+            "cardName":"\ud37c\uc838\uac00\ub294 \uad11\uae30",
+            "comment":"\uad11\uae30\uac00 \ud37c\uc9c0\ub294 \uac83\uc744 \ub9c9\uae30 \uc704\ud574 \uc5b4\ub460\uace8\uc758 \uc8fc\ubbfc\ub4e4\uc740 \uc218\uc220\uc6a9 \ub9c8\uc2a4\ud06c\ub97c \ucc29\uc6a9\ud558\uace0 \ub2e4\ub2cc\ub2f5\ub2c8\ub2e4.",
+            "cost":"3",
+            "desc":"\ubaa8\ub4e0 \uce90\ub9ad\ud130\uc5d0\uac8c 9\uc758 \ud53c\ud574\ub97c \ubb34\uc791\uc704\ub85c \ub098\ub204\uc5b4 \uc785\ud799\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_116",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Andrew Hou",
+            "attack":"2",
+            "cardCode":"35235",
+            "cardName":"\ud63c\ub780\uc2a4\ub7ec\uc6b4 \ub4dc\ub8e8\uc774\ub4dc",
+            "comment":"\uacf0\uc73c\ub85c \ubcc0\uc2e0\ud55c \ucc44\ub85c \ub108\ubb34 \uc624\ub798 \uc788\uc73c\uba74 \uace0\ub300 \uc2e0\uc758 \uc18d\uc0ad\uc784\uc5d0 \ub354 \uc27d\uac8c \ud640\ub9b0\ub2e4\uace0 \ud569\ub2c8\ub2e4.",
+            "cost":"3",
+            "desc":"\ub0b4 \ud558\uc218\uc778\uc774 \uc18c\ud658\ub41c \ud6c4\uc5d0, \uadf8 \ud558\uc218\uc778\uc5d0\uac8c +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_313",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Matt Gaser",
+            "attack":"1",
+            "cardCode":"35238",
+            "cardName":"\uc554\uc6a9 \uad11\uc804\uc0ac",
+            "comment":"\ud658\ud638 \uc704\uc0c1",
+            "cost":"3",
+            "desc":"",
+            "health":"5",
+            "originalCode":"OG_248",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"3",
+            "cardCode":"35204",
+            "cardName":"\ubd89\uc740\ud574\uc801\ub2e8 \uc774\uad50\ub3c4",
+            "comment":"\uc0ac\uc2e4 \ubd89\uc740\uc575\ubb34\ub97c \uc5bb\uae30 \uc704\ud574 \ud574\uc801\ub2e8\uc5d0 \ub4e0 \uac83 \ubfd0\uc785\ub2c8\ub2e4.",
+            "cost":"3",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \uc804\uc7a5\uc5d0 \ub2e4\ub978 \ud574\uc801\uc774 \uc788\uc73c\uba74, \ub0b4 \ubb34\uae30\uc5d0 +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"4",
+            "originalCode":"OG_315",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Kan Liu",
+            "attack":"2",
+            "cardCode":"35218",
+            "cardName":"\uccad\uc18c\ubd80\uad6c\ub354\uae30",
+            "comment":"\uc758\uc678\ub85c \uae54\ub054\ud558\uace0 \uc644\ubcbd\ud55c \uad6c\uc11d\uc774 \uc788\uc5b4\uc11c \uccad\uc18c\uac00 \ub05d\ub098\uace0 \ub098\uba74 \uc790\uc2e0\uc758 \ud754\uc801\ub9c8\uc800 \ub9d0\ub054\ud788 \uc5c6\uc564 \ub4a4\uc5d0 \uc0ac\ub77c\uc9c4\ub2f5\ub2c8\ub2e4.",
+            "cost":"3",
+            "desc":"",
+            "health":"5",
+            "originalCode":"OG_325",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Garrett Hanna",
+            "attack":"1",
+            "cardCode":"35224",
+            "cardName":"\uc5b4\ub460\uace8 \uc6d0\ub85c\uc6d0",
+            "comment":"\uc2dc\ubbfc\ub4e4\uc544! \ub0b4\uac8c \ud798\uc744 \uc918!",
+            "cost":"3",
+            "desc":"\ub0b4 \ud558\uc218\uc778\uc774 \uc18c\ud658\ub41c \ud6c4\uc5d0, \uacf5\uaca9\ub825\uc744 +1 \uc5bb\uc2b5\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_113",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Dan Scott",
+            "attack":"2",
+            "cardCode":"35196",
+            "cardName":"\ud06c\ud230\uc758 \uc0ac\ub3c4",
+            "comment":"\ud06c\ud230\uc740 \uc790\uc2e0\uc744 \ub530\ub974\ub294 \uc2e0\ub3c4\ub4e4\uc5d0\uac8c \ucfe0\ud0a4\ub97c \uc90d\ub2c8\ub2e4. \uadf8\uac78\ub85c \ub418\ub0d0\uace0\uc694? \uc885\uad50 \ud589\uc0ac\ub97c \uac00\ubcf4\uc2e0 \uc801\uc774 \uc5c6\uc73c\uc2e0\uac00\ubcf4\uad70\uc694.",
+            "cost":"3",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ud53c\ud574\ub97c 2 \uc90d\ub2c8\ub2e4. \ub0b4 \ud06c\ud230\uc5d0\uac8c +2/+2\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4. (\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"1",
+            "originalCode":"OG_162",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Peter Stapleton",
+            "attack":"4",
+            "cardCode":"33181",
+            "cardName":"\ubc30\uc2e0\ub2f9\ud55c \uc0ac\uc721\uc0ac",
+            "comment":"\uc548 \uadf8\ub798\ub3c4 \uc120\uc7a5\uc758 \uc575\ubb34\uc0c8\uac00 \ub098\uc62c \ub54c\ub9c8\ub2e4 \ubc30\uc2e0\ub2f9\ud55c \ub290\ub08c\uc774\uc5c8\ub294\ub370 \ub3c4\ub300\uccb4 \uc5bc\ub9c8\ub098 \ub354 \ucda9\uaca9\uc801\uc778 \ubc30\uc2e0\uc744 \ub2f9\ud55c \uac78\uae4c\uc694?",
+            "cost":"3",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \uc190\uc5d0 \uc788\ub294 \ubaa8\ub4e0 \uc8fd\uc74c\uc758 \uba54\uc544\ub9ac \ud558\uc218\uc778\uc5d0\uac8c +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_292",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Dany Orizio",
+            "attack":"3",
+            "cardCode":"33161",
+            "cardName":"\ub0a0\ub6f0\ub294 \uad6c\uc6b8",
+            "comment":"\uc124\ub0a0\uc5d0\ub294 \"\ub110\ub6f0\ub294 \uad6c\uc6b8\"\uc774 \ub429\ub2c8\ub2e4.",
+            "cost":"3",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131:\n\ub2e4\ub978 \ubaa8\ub4e0 \ud558\uc218\uc778\uc5d0\uac8c\n\ud53c\ud574\ub97c 1 \uc90d\ub2c8\ub2e4.",
+            "health":"3",
+            "originalCode":"OG_149",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jakub Kasber",
+            "attack":"3",
+            "cardCode":"35200",
+            "cardName":"\uc6b0\ub450\uba38\ub9ac \uc2e4\ub9ac\uc2dc\ub4dc",
+            "comment":"\uc601\uc6c5\uc774 \uacf5\uaca9\ud558\uc9c0 \uc54a\ub294\ub2e4\uba74 \"\uc2dc\ubb34\ub8e9\ud55c \uc6b0\ub450\uba38\ub9ac \uc2e4\ub9ac\uc2dc\ub4dc\"\uac00 \ub429\ub2c8\ub2e4.",
+            "cost":"3",
+            "desc":"\uc774 \ud558\uc218\uc778\uc740 \uc801\uc744 \uacf5\uaca9\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. \uc774\ubc88 \ud134\uc5d0 \ub0b4 \uc601\uc6c5\uc774 \uacf5\uaca9\ud588\ub2e4\uba74, \uacf5\uaca9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+            "health":"5",
+            "originalCode":"OG_034",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Peter Stapleton",
+            "attack":"2",
+            "cardCode":"33137",
+            "cardName":"\ub290\uc870\uc2a4\uc758 \ud53c\uc870\ubb3c",
+            "comment":"\uace0\ub300 \uc2e0\uc758 \ud53c\uc870\ubb3c\uc774 \uc5b4\ub5bb\uac8c \uadc0\uc5ec\uc6b8 \uc218 \uc788\ub0d0\uace0\uc694? \uba40\ub85d\ub3c4 \uadc0\uc5ec\uc6b8 \uc218 \uc788\ub294 \ub9c8\ub2f9\uc5d0 \uadf8\uac8c \ubb34\uc2a8 \ubb38\uc81c\uc785\ub2c8\uae4c.",
+            "cost":"3",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n\ub0b4 \ud558\uc218\uc778\ub4e4\uc5d0\uac8c +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_256",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"L. Lullabi & Nutchapol ",
+            "attack":"2",
+            "cardCode":"35243",
+            "cardName":"\uc2a4\uba40\uac70\ub9ac\ub294 \ucd09\uc218",
+            "comment":"\ub124, \uc6b0\uc120 \uc800 \ucd09\uc218\ubd80\ud130 \ucc98\uce58\ud558\ub294 \uac8c \uc88b\uc744 \uac83 \uac19\uad70\uc694.",
+            "cost":"3",
+            "desc":"\ub3c4\ubc1c",
+            "health":"4",
+            "originalCode":"OG_327",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Phroi Gardner",
+            "attack":"3",
+            "cardCode":"33153",
+            "cardName":"\uc5b4\ub460\uace8 \uac10\uc2dc\ub300\uc6d0",
+            "comment":"\ucc9c\uc0c1\uc758 \ubcf4\ud638\ub9c9\ub3c4 \ub300\ub7c9 \uad6c\ub9e4\ub97c \ud558\uba74 \ud560\uc778\ud574\uc8fc\ub294 \ubaa8\uc591\uc774\uad70\uc694.",
+            "cost":"3",
+            "desc":"\ub0b4\uac00 \uc0dd\uba85\ub825\uc774 1\uc778 \ud558\uc218\uc778\uc744 \uc18c\ud658\ud560 \ub54c\ub9c8\ub2e4 \uadf8 \ud558\uc218\uc778\uc5d0\uac8c \ucc9c\uc0c1\uc758 \ubcf4\ud638\ub9c9\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"3",
+            "originalCode":"OG_310",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Tooth",
+            "attack":"3",
+            "cardCode":"31112",
+            "cardName":"\ud669\ud63c\uc758 \uc7a5\ub85c",
+            "comment":"\uc694\uc998 \ud669\ud63c\uc758 \uc80a\uc740\uc774\ub4e4\uc740 \uc774\ud574\ud560 \uc218\uac00 \uc5c6\ub2e4\ub2c8\uae4c\uc694. \ub9cc\ud654\ucc45\uc774\ub2c8, \ub85d \uc74c\uc545\uc774\ub2c8...",
+            "cost":"3",
+            "desc":"\ub0b4 \ud134\uc774 \ub05d\ub0a0 \ub54c,\n\ub0b4 \ud06c\ud230\uc5d0\uac8c +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.\n(\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"4",
+            "originalCode":"OG_286",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Anton Zemskov",
+            "attack":"2",
+            "cardCode":"35187",
+            "cardName":"\ud669\ud63c\uc758 \ubd88\uaf43\uc18c\ud658\uc0ac",
+            "comment":"\ud669\ud63c\uc758 \uace0\uae30\uc18c\ud658\uc0ac\ub3c4 \ud568\uaed8 \ubd80\ub974\uba74 \ub354\uc6b1 \uc88b\uaca0\uad70\uc694!",
+            "cost":"3",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131:\n\ubaa8\ub4e0 \uc801 \ud558\uc218\uc778\uc5d0\uac8c\n\ud53c\ud574\ub97c 1 \uc90d\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_083",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"",
+            "cardCode":"35237",
+            "cardName":"\uc5b4\ub460 \uc18d\uc758 \ube5b",
+            "comment":"\uc7a0\uae50\ub9cc\uc694. \uc5b4\ub460 \uc18d\uc5d0 \uc5b4\ub5bb\uac8c \ube5b\uc774 \uc788\uc8e0? \uadf8\ub7ec\uba74 \uc774\ubbf8 \uc5b4\ub460\uc774 \uc5c6\ub294 \uac83 \uc544\ub2cc\uac00\uc694?",
+            "cost":"2",
+            "desc":"\ud558\uc218\uc778\uc744 \ud558\ub098 \ubc1c\uacac\ud569\ub2c8\ub2e4.\n\uadf8 \ud558\uc218\uc778\uc5d0\uac8c +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_311",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Rafael Zanchetin",
+            "attack":"",
+            "cardCode":"33176",
+            "cardName":"\uc5b4\ub460\uc744 \ubc1b\uc544\ub4e4\uc5ec\ub77c",
+            "comment":"\uc544\ud0a4\ub098\uc774 \uc601\ud63c\uc0ac\uc81c\uac00 \ud734\uac00\ub97c \ub0c8\uc744 \ub54c \ud544\uc694\ud55c \uce74\ub4dc\uc785\ub2c8\ub2e4.",
+            "cost":"2",
+            "desc":"\uc774\ubc88 \ud134\uc5d0, \uc0dd\uba85\ub825\uc744\n\ud68c\ubcf5\uc2dc\ud0a4\ub294 \ub0b4 \uce74\ub4dc\uc640\n\ub2a5\ub825\ub4e4\uc774 \uadf8\ub9cc\ud07c\uc758\n\ud53c\ud574\ub97c \uc90d\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_104",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Efrem Palacios",
+            "attack":"",
+            "cardCode":"33151",
+            "cardName":"\uc774\uc0e4\ub77c\uc988\uc758 \uc9d5\ud45c",
+            "comment":"\uc0ac\uc2e4 \ucd09\uc218\ub85c\ub9cc \ubd10\uc11c\ub294 \uc5b4\ub290 \uace0\ub300 \uc2e0\uc774 \ub0b4\ub9b0 \uc9d5\ud45c\uc778\uc9c0 \uad6c\ubd84\ud558\uae30\uac00 \uc5b4\ub835\uc2b5\ub2c8\ub2e4.",
+            "cost":"2",
+            "desc":"\ud558\uc218\uc778 \ud558\ub098\uc5d0\uac8c +2/+2\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4. \ub300\uc0c1\uc774 \uc57c\uc218\uba74, \uce74\ub4dc\ub97c 1\uc7a5 \ubf51\uc2b5\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_048",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Dan Scott",
+            "attack":"",
+            "cardCode":"33136",
+            "cardName":"\uc5b4\ub460\uc744 \ub4f1\uc9c0\ub2e4",
+            "comment":"\uc5b4\ub450\uc6b4 \ub0a0\ub4e4\uc774\uc5ec, \ubaa8\ub450 \ub2e4 \uc548\ub155!",
+            "cost":"2",
+            "desc":"\ub0b4 \uc601\uc6c5 \ub2a5\ub825\uacfc \ud751\ub9c8\ubc95\uc0ac \uce74\ub4dc\ub97c \ub2e4\ub978 \uc9c1\uc5c5\uc758 \uac83\uc73c\ub85c \uad50\uccb4\ud569\ub2c8\ub2e4. \uad50\uccb4\ub41c \uce74\ub4dc\uc758 \ube44\uc6a9\uc774 (1) \uac10\uc18c\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_118",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Trent Kaniuga",
+            "attack":"",
+            "cardCode":"35244",
+            "cardName":"\uc0b0\uc0b0\uc870\uac01",
+            "comment":"\uc81c \ub9c8\ubc95\uc774 \ub2f9\uc2e0\uc744 \uc0b0\uc0b0\uc870\uac01\ub0bc \uac70\uc608\uc694!",
+            "cost":"2",
+            "desc":"\ube59\uacb0 \uc0c1\ud0dc\uc778 \ud558\uc218\uc778\uc744\n\ud558\ub098 \ucc98\uce58\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_081",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Maurico Herrera",
+            "attack":"",
+            "cardCode":"35227",
+            "cardName":"\ubcbc\ub77d",
+            "comment":"\uacbd\uace0: \uc804\uae30\uac00 \ud750\ub974\ub294 \ubcf4\ub78f\ube5b \uad6c\uccb4\uc5d0 \uc190\ub300\uc9c0 \ub9c8\uc138\uc694!",
+            "cost":"2",
+            "desc":"\ud558\uc218\uc778 \ud558\ub098\uc5d0\uac8c \ud53c\ud574\ub97c 4 \uc90d\ub2c8\ub2e4. \uacfc\ubd80\ud558: (1)",
+            "health":"",
+            "originalCode":"OG_206",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Eva Wilderman",
+            "attack":"2",
+            "cardCode":"31114",
+            "cardName":"\uc545\uc758 \uc2e0\ub3c4",
+            "comment":"\ubcf4\uae30\uc640 \ub2e4\ub974\uac8c \uc2dd\uc695\uc774 \uc5c4\uccad\ub0a0 \uac83 \uac19\uc2b5\ub2c8\ub2e4.",
+            "cost":"2",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \ud06c\ud230\uc5d0\uac8c +2/+2\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4. (\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"3",
+            "originalCode":"OG_281",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"0"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"0"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"James Ryman",
+            "attack":"2",
+            "cardCode":"35219",
+            "cardName":"\ub9f9\ub3c5\ube44\ub298 \ubc14\ub2e4\uc0ac\ub0e5\uafbc",
+            "comment":"\ub9f9\ub3c5\ube44\ub298\uc740 \uc0dd\uac01\ubcf4\ub2e4 \ub0b4\uad6c\ub825\uc774 \uac15\ud558\ub2f5\ub2c8\ub2e4.",
+            "cost":"2",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub3c4\ubc1c \ub2a5\ub825\uc774 \uc788\ub294 1/1 \uc218\uc561\uc744 \ud558\ub098 \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_156",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"J. Meyers & T. Washington",
+            "attack":"3",
+            "cardCode":"35239",
+            "cardName":"\uc774\uad50\ub3c4 \ub9c8\ubc95\uc0ac",
+            "comment":"\uc8fc\ubb38\uc744 \uc2dc\uc804\ud558\uace0 \ub0a8\uc740 \ub9c8\ub825\uc744 \ub0a8\ubab0\ub798 \ud06c\ud230\uc5d0\uac8c \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "cost":"2",
+            "desc":"\uc8fc\ubb38 \uacf5\uaca9\ub825 +1\n\ub0b4 \uc8fc\ubb38\uc774 \uc2dc\uc804\ub41c \ud6c4\uc5d0, \ub0b4 \ud06c\ud230\uc5d0\uac8c +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4. (\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"2",
+            "originalCode":"OG_303",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Rafael Zanchetin",
+            "attack":"3",
+            "cardCode":"35221",
+            "cardName":"\uc5b4\ub460\uace8 \uc0ac\uc11c",
+            "comment":"\ucc45\uc744 \ub2a6\uac8c \uac00\uc838\ub2e4\uc8fc\uba74 \uc5f0\uccb4\ub8cc \ub300\uc2e0\uc5d0 \ubb34\uc5c7\uc744 \uac00\uc838\uac08\uc9c0 \ubaa8\ub985\ub2c8\ub2e4.",
+            "cost":"2",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ubb34\uc791\uc704\ub85c\n\uce74\ub4dc\ub97c 1\uc7a5 \ubc84\ub9bd\ub2c8\ub2e4.\n\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac: \uce74\ub4dc\ub97c 1\uc7a5 \ubf51\uc2b5\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_109",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Samwise",
+            "attack":"4",
+            "cardCode":"35251",
+            "cardName":"\ud669\ud63c\uba67\ub3fc\uc9c0",
+            "comment":"\uace0\ub300 \uc2e0\uc758 \uc601\ud5a5\uc744 \ubc1b\ub4e0 \uc548 \ubc1b\ub4e0 \ud3ec\uc545\ud55c \uac74 \ub9c8\ucc2c\uac00\uc9c0\uad70\uc694.",
+            "cost":"2",
+            "desc":"",
+            "health":"1",
+            "originalCode":"OG_326",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"J. Meyers & Nutchapol ",
+            "attack":"3",
+            "cardCode":"35231",
+            "cardName":"\uc601\uc6d0\ud55c \uac10\uc2dc\uc790",
+            "comment":"\uc808\ub300\ub85c \ub208\uc744 \ub9c8\uc8fc\uce58\uc9c0 \ub9c8\uc138\uc694.",
+            "cost":"2",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \uacfc\ubd80\ud558\ub41c\n\ub0b4 \ub9c8\ub098 \uc218\uc815\uc774 \ubaa8\ub450\n\uc7a0\uae08 \ud574\uc81c\ub429\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_026",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Steve Prescott",
+            "attack":"2",
+            "cardCode":"35248",
+            "cardName":"\uc5b4\ub460\uc758 \ub09a\uc2dc\uafbc \ub0b4\ud2b8",
+            "comment":"\uc774\uc81c\ubd80\ud130 \ub108\ub294 \uc0ac\ub78c\uc744 \ub09a\ub294 \uc5b4\ubd80\uac00 \ub420 \uac83\uc774\ub2e4.",
+            "cost":"2",
+            "desc":"\uc0c1\ub300\ud3b8\uc758 \ud134\uc774\n\uc2dc\uc791\ub420 \ub54c, \uc0c1\ub300\ud3b8\uc774\n50%\uc758 \ud655\ub960\ub85c \uce74\ub4dc\ub97c\n1\uc7a5 \ub354 \ubf51\uc2b5\ub2c8\ub2e4.",
+            "health":"4",
+            "originalCode":"OG_338",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Eric Braddock",
+            "attack":"1",
+            "cardCode":"35202",
+            "cardName":"\ud669\ud63c\uc758 \ud48d\uc218\uc0ac",
+            "comment":"\"\uc790, \ud06c\ud230 \ub2d8. \uc800\ub97c \ub530\ub77c\ud574\ubcf4\uc138\uc694. '\uc624\uc5fc\ub41c \ub178\uc6c0\ub9cc\ud07c \ub0c4\uc0c8\ub098\ub294 \ud544\uba78\uc790\uc5ec!'\"",
+            "cost":"2",
+            "desc":"\ub3c4\ubc1c\n\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \ud06c\ud230\uc5d0\uac8c \ub3c4\ubc1c\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4. (\uc5b4\ub514\uc5d0 \uc788\ub4e0)",
+            "health":"4",
+            "originalCode":"OG_284",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Trent Kaniuga",
+            "attack":"3",
+            "cardCode":"35223",
+            "cardName":"\ub4a4\ud2c0\ub9b0 \ub291\ub300\uc778\uac04",
+            "comment":"\uace0\ub300 \uc2e0\uc758 \ud0c0\ub77d\uc740 \uc628\uac16 \uacb0\uacfc\ub97c \ucd08\ub798\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \ubb3c\ub860 \uacf5\uaca9\ub825\uc774 +1\ub9cc \uc624\ub974\ub294 \uacbd\uc6b0\ub3c4 \uc788\uc2b5\ub2c8\ub2e4. \ubcf5\uad8c\uc774 \ubaa8\ub450 \ub300\ubc15\ub9cc \ub098\ub294 \uac74 \uc544\ub2c8\uc796\uc544\uc694.",
+            "cost":"2",
+            "desc":"\uc740\uc2e0",
+            "health":"1",
+            "originalCode":"OG_247",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jon Neimeister",
+            "attack":"2",
+            "cardCode":"33135",
+            "cardName":"\uc5b8\ub354\uc2dc\ud2f0 \uc0c1\uc778",
+            "comment":"\uc5b8\ub354\uc2dc\ud2f0\uc5d0\uc11c \uc0c1\uc778\uacfc \ub3c4\uc801\uc774 \ub2e4\ub978 \uc810\uc740 \ub2e8 \ud558\ub098\uc785\ub2c8\ub2e4. \ub3c4\uc801\uc740 \ubab0\ub798\ud558\ub294 \uac78 \uc0c1\uc778\uc740 \ucf54\uc55e\uc5d0\uc11c \ud55c\ub2e4\ub294 \uac70\uc8e0.",
+            "cost":"2",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac: \uc0c1\ub300\ud3b8 \uc9c1\uc5c5\uc758 \uce74\ub4dc 1\uc7a5\uc744 \ubb34\uc791\uc704\ub85c \ub0b4 \uc190\uc5d0 \uac00\uc838\uc635\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_330",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jim Nelson",
+            "attack":"",
+            "cardCode":"35209",
+            "cardName":"\ud53c\uc5d0\uc11c \uc218\uc561\uc744",
+            "comment":"\uc815\ub9d0 \ub180\ub78d\uc8e0? \uc774\uc81c \uc218\uc561\uc744 \ub2e4\uc2dc \ud53c\ub85c \ubc14\uafd4\uc11c \ub2f9\uc2e0\uc758 \ubab8\uc5d0 \ub123\uc5b4\ubcf4\uaca0\uc2b5\ub2c8\ub2e4!",
+            "cost":"1",
+            "desc":"\ud558\uc218\uc778 \ud558\ub098\uc5d0\uac8c \ud53c\ud574\ub97c 1 \uc90d\ub2c8\ub2e4. \uadf8 \ud558\uc218\uc778\uc774 \uc0dd\uc874\ud558\uba74, 2/2 \uc218\uc561\uad34\ubb3c\uc744 \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_314",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Eva Wilderman",
+            "attack":"",
+            "cardCode":"35252",
+            "cardName":"\ucc9c\uc0c1\uc758 \ud798",
+            "comment":"\ub9e4\ub144 \uc5f4\ub9ac\ub294 \uc11c\ubd80 \ubab0\ub77d\uc9c0\ub300 \uc5ed\ub3c4 \ub300\ud68c\uc5d0\uc11c\ub294 \ucc9c\uc0c1\uc758 \ud798 \uc8fc\ubb38\uc744 \ubab0\ub798 \uc0ac\uc6a9\ud558\ub2e4 \uc801\ubc1c\ub418\ub294 \uc131\uae30\uc0ac\ub4e4\uc774 \uc885\uc885 \uc788\uc2b5\ub2c8\ub2e4.",
+            "cost":"1",
+            "desc":"\ud558\uc218\uc778 \ud558\ub098\uc5d0\uac8c\n+1/+2\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_223",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Luca Zontini",
+            "attack":"",
+            "cardCode":"35232",
+            "cardName":"\uc9c4\ud654",
+            "comment":"\uc9c4\ud654\ud560 \uc218\ubc16\uc5d0 \uc5c6\uc744 \uac83 \uac19\uc544!",
+            "cost":"1",
+            "desc":"\ub0b4 \ud558\uc218\uc778\ub4e4\uc744\n\ube44\uc6a9\uc774 (1) \ub192\uc740 \n\ubb34\uc791\uc704 \ud558\uc218\uc778\uc73c\ub85c \ubcc0\uc2e0\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_027",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"",
+            "cardCode":"35194",
+            "cardName":"\uc2ec\uc5f0 \uc18d\uc73c\ub85c",
+            "comment":"\uc2ec\uc5f0\uc5d0\ub294 \uc815\ub9d0 \ub9ce\uc740 \uac83\uc774 \ub3c4\uc0ac\ub9ac\uace0 \uc788\uad70\uc694.",
+            "cost":"1",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac \uce74\ub4dc\ub97c\n1\uc7a5 \ubc1c\uacac\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_072",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Zoltan Boros",
+            "attack":"",
+            "cardCode":"35220",
+            "cardName":"\uc0ac\ub0e5 \uc2dc\uc791",
+            "comment":"\uc624\ub9ac\ub97c \ub9de\ud788\uc9c0 \ubabb\ud558\uba74 \uc0ac\ub0e5\uac1c\uac00 \ub098\ud0c0\ub098\uc11c \uc6c3\uc2b5\ub2c8\ub2e4.",
+            "cost":"1",
+            "desc":"\ud53c\ud574\ub97c 1 \uc90d\ub2c8\ub2e4.\n1/1 \uc0ac\ub0e5\uac1c\ub97c 1\ub9c8\ub9ac \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_061",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jimmy Lo",
+            "attack":"",
+            "cardCode":"35234",
+            "cardName":"\uc6d0\uc2dc\uc758 \ud798",
+            "comment":"\uace8\uccb4\uc640 \ub2e4\ubc14\ub098\uac00 \uc774\ubc88 \uc5f0\ud734\uc5d0 \uc2e0\uc0c1 \ub300\uc9c0\uc758 \ud1a0\ud15c\uc744 \uc120\ubcf4\uc785\ub2c8\ub2e4.",
+            "cost":"1",
+            "desc":"\ud558\uc218\uc778 \ud558\ub098\uc5d0\uac8c \ub0b4 \uc804\uc7a5\uc5d0 \uc788\ub294 \ud1a0\ud15c \ud558\ub098\ub2f9 +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_023",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc8fc\uc220\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jakub Kasber",
+            "attack":"1",
+            "cardCode":"35198",
+            "cardName":"\uc774\uad50\ub3c4 \uce7c\uc7a1\uc774",
+            "comment":"\ubb34\ub518 \uac83\uc744 \ub3c4\ubb34\uc9c0 \ucc38\uc9c0 \ubabb\ud569\ub2c8\ub2e4. \uadf8\ub798\uc11c \ud56d\uc0c1 \uc5ec\ubd84\uc758 \uce7c\uc744 \uac00\uc9c0\uace0 \ub2e4\ub2d9\ub2c8\ub2e4.",
+            "cost":"1",
+            "desc":"\uc5f0\uacc4: +1/+1\uc744 \uc5bb\uc2b5\ub2c8\ub2e4.",
+            "health":"2",
+            "originalCode":"OG_070",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub3c4\uc801",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Andrew Hou",
+            "attack":"2",
+            "cardCode":"35214",
+            "cardName":"\uc774\uae00\uac70\ub9ac\ub294 \ubc15\uc950",
+            "comment":"\uadf8\ub294 \uc5b8\uc81c\ub098 \uc6b0\ub9ac \ub9c8\uc74c \uc18d\uc758 1\uc704\uc77c \uac83\uc785\ub2c8\ub2e4.",
+            "cost":"1",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n\ubb34\uc791\uc704 \uc801 \ud558\ub098\uc5d0\uac8c\n\ud53c\ud574\ub97c 1 \uc90d\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_179",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\ub0e5\uafbc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Grace Liu",
+            "attack":"1",
+            "cardCode":"35213",
+            "cardName":"\uae08\ub2e8\uc758 \uace0\ub300\uc815\ub839",
+            "comment":"\uc774 \uace0\ub300\uc815\ub839\uc740 \uc8fc\ubcc0 \uc120\uc220\uc9d1\uc5d0\uc11c '\ubc15\uc0ac \ubd90' \uce74\ub4dc\ub97c \uc18c\ub9e4\uc5d0 \uc228\uae30\uace0 \uc788\ub2e4\uac00 \ubc1c\uac01\ub418\uc5b4 \ucad3\uaca8\ub0ac\uc2b5\ub2c8\ub2e4.",
+            "cost":"1",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub9c8\ub098\ub97c \ubaa8\ub450 \uc18c\ubaa8\ud569\ub2c8\ub2e4. \uc18c\ubaa8\ud55c\ub9cc\ud07c +1/+1\uc744 \uc5bb\uc2b5\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_051",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub4dc\ub8e8\uc774\ub4dc",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Paul Mafayon",
+            "attack":"1",
+            "cardCode":"33132",
+            "cardName":"\ub290\uc870\uc2a4\uc758 \uc77c\ub4f1\ud56d\ud574\uc0ac",
+            "comment":"\uadf8\ub807\ub2e4\uace0 \ub290\uc870\uc2a4\uac00 \ud574\uc801\uc778 \uac83\uc740 \uc544\ub2d9\ub2c8\ub2e4.",
+            "cost":"1",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: 1/3 \ub179\uc2a8 \uac08\uace0\ub9ac\ub97c \uc7a5\ucc29\ud569\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_312",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc804\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Matt Dixon",
+            "attack":"1",
+            "cardCode":"33171",
+            "cardName":"\uc9c0\ubc30\ub2f9\ud55c \uc8fc\ubbfc",
+            "comment":"\ub9d0 \uadf8\ub300\ub85c \ud63c\uc774 \ube60\uc838\ub098\uac00\ub294 \ub290\ub08c\uc744 \ubc1b\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+            "cost":"1",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n1/1 \uc5b4\ub460\uc758 \uc57c\uc218\ub97c\n1\ub9c8\ub9ac \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_241",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Rafael Zanchetin",
+            "attack":"2",
+            "cardCode":"35245",
+            "cardName":"\ud5cc\uc2e0\uc801\uc778 \uc601\uc6c5",
+            "comment":"\"\ub0b4 \uac71\uc815\uc740 \ub9d0\uac70\ub77c... \uc774 \ucd09\uc218 \ubc11\uc5d0 \uc228\uc5b4\uc788\uc744\ud14c\ub2c8.\"",
+            "cost":"1",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac: \ubb34\uc791\uc704 \uc544\uad70 \ud558\uc218\uc778 \ud558\ub098\uc5d0\uac8c \ucc9c\uc0c1\uc758 \ubcf4\ud638\ub9c9\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_221",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Daria Tuzova",
+            "attack":"1",
+            "cardCode":"35190",
+            "cardName":"\ubcc0\uc2e0\uc218 \uc81c\ub8e8\uc2a4",
+            "comment":"\ub0b4 \ud134\uc774 \uc2dc\uc791\ub420 \ub54c\ub9c8\ub2e4 \uc704\uc2b5, \uc544\uae30 \uba40\ub85d, \ud639\uc740 \ud654\ub09c \ub2ed\uc73c\ub85c \ubcc0\uc2e0\ud569\ub2c8\ub2e4. \uc548 \uadf8\ub7f4 \uac83 \uac19\uc8e0?",
+            "cost":"1",
+            "desc":"\uc774 \ud558\uc218\uc778\uc740 \ub0b4 \uc190\uc5d0 \uc788\uc73c\uba74 \ub0b4 \ud134\uc774 \uc2dc\uc791\ub420 \ub54c\ub9c8\ub2e4 \ubb34\uc791\uc704 \ud558\uc218\uc778\uc73c\ub85c \ubcc0\uc2e0\ud569\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_123",
+            "\ub4f1\uae09":"\uc804\uc124",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"3200",
+                    "normal":"1600"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"J. Meyers & T. Washington",
+            "attack":"1",
+            "cardCode":"33130",
+            "cardName":"\ub290\uc870\uc2a4\uc758 \ucd09\uc218",
+            "comment":"\ub290\uc870\uc2a4\ub294 \uc774\ub7f0 \ucd09\uc218\ub97c \ub3c4\ub300\uccb4 \uc5bc\ub9c8\ub098 \uac00\uc9c0\uace0 \uc788\ub294 \uac78\uae4c\uc694?",
+            "cost":"1",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac:\n\ubaa8\ub4e0 \ud558\uc218\uc778\uc5d0\uac8c\n\ud53c\ud574\ub97c 1 \uc90d\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_151",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Jerry Mascho",
+            "attack":"1",
+            "cardCode":"33158",
+            "cardName":"\uc369\uc740\uc9c0\ub290\ub7ec\ubbf8 \uc2ec\ubb38\uad00",
+            "comment":"\uc784\ubb34\ub97c \ub0b4\ub824\uc8fc\uc2ed\uc2dc\uc633!",
+            "cost":"1",
+            "desc":"\uc804\ud22c\uc758 \ud568\uc131: \ub0b4 \uc601\uc6c5 \ub2a5\ub825\uc774 '1/1 \uc740\ube5b \uc131\uae30\uc0ac\ub2e8 \uba40\ub85d\uc744 1\ub9c8\ub9ac \uc18c\ud658\ud569\ub2c8\ub2e4.'\ub85c \ubc14\ub01d\ub2c8\ub2e4.",
+            "health":"3",
+            "originalCode":"OG_006",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Cole Eastburn",
+            "attack":"1",
+            "cardCode":"35222",
+            "cardName":"\uc5f4\uc131\uc801\uc778 \uc218\uc2b5\uc0dd",
+            "comment":"\uc774\uc81c\ubd80\ud130 \ub124 \uc784\ubb34\ub97c \uc54c\ub824\uc904\ud14c\ub2c8 \uc798 \ub4e4\uc5b4\ub77c. \ub108\ub294 \uadf8\ub0e5 \ub098\uac00\uc11c \uc8fd\uc740 \ub2e4\uc74c \ub2e4\ub978 \ud558\uc218\uc778\uc5d0\uac8c \uacf5\uaca9\ub825\uacfc \uc0dd\uba85\ub825\uc744 \ubd80\uc5ec\ud558\uba74 \ub41c\ub2e4.",
+            "cost":"1",
+            "desc":"\uc8fd\uc74c\uc758 \uba54\uc544\ub9ac: \ubb34\uc791\uc704 \uc544\uad70 \ud558\uc218\uc778 \ud558\ub098\uc5d0\uac8c +1/+1\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.",
+            "health":"1",
+            "originalCode":"OG_158",
+            "\ub4f1\uae09":"\uc77c\ubc18",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"40"
+                }
+            ],
+            "\uc885\ub958":"\ud558\uc218\uc778",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uacf5\ud1b5",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"50",
+                    "normal":"5"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Hideaki Takamura",
+            "attack":"",
+            "cardCode":"33124",
+            "cardName":"\uae08\ub2e8\uc758 \ubd88\uaf43",
+            "comment":"\uacbd\uace0: \uace0\ub300 \uc2e0\ud559 \ubc15\uc0ac \ud559\uc704\uac00 \uc5c6\ub294 \uc790\ub294 \uc0ac\uc6a9\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.",
+            "cost":"0",
+            "desc":"\ub9c8\ub098\ub97c \ubaa8\ub450 \uc18c\ubaa8\ud569\ub2c8\ub2e4. \uc18c\ubaa8\ud55c\ub9cc\ud07c \ud558\uc218\uc778 \ud558\ub098\uc5d0\uac8c \ud53c\ud574\ub97c \uc90d\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_086",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Mike Franchina",
+            "attack":"",
+            "cardCode":"33126",
+            "cardName":"\uae08\ub2e8\uc758 \uce58\uc720\uc220",
+            "comment":"\uce58\uc720\ud558\ub294 \uc8fc\ubb38\uc774 \uc65c \uae08\uc9c0\ub418\uc5c8\ub294\uc9c0\ub294 \uc544\ubb34\ub3c4 \ubaa8\ub985\ub2c8\ub2e4. \uadf8\ub798\uc11c \ub354\ub354\uc6b1 \ubd88\uc548\ud558\uad70\uc694.",
+            "cost":"0",
+            "desc":"\ub9c8\ub098\ub97c \ubaa8\ub450 \uc18c\ubaa8\ud569\ub2c8\ub2e4.\n\uc18c\ubaa8\ud55c \ub9c8\ub098\uc758 \ub450 \ubc30\ub9cc\ud07c\n\uc0dd\uba85\ub825\uc744 \ud68c\ubcf5\uc2dc\ud0b5\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_198",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc131\uae30\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"Evgeniy Zagumennyy",
+            "attack":"",
+            "cardCode":"35217",
+            "cardName":"\uae08\ub2e8\uc758 \uc758\uc2dd",
+            "comment":"\uae08\ub2e8\uc774\ub77c\uace0\ub294 \ud558\uc9c0\ub9cc \ud06c\ud230\uc740 \uc774 \uc758\uc2dd\uc744 \ub9e4\uc6b0 \uc9c0\uc9c0\ud569\ub2c8\ub2e4.",
+            "cost":"0",
+            "desc":"\ub9c8\ub098\ub97c \ubaa8\ub450 \uc18c\ubaa8\ud569\ub2c8\ub2e4.\n\uc18c\ubaa8\ud55c\ub9cc\ud07c 1/1 \ucd09\uc218\ub97c\n\uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_114",
+            "\ub4f1\uae09":"\ud76c\uadc0",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"800",
+                    "normal":"100"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\ud751\ub9c8\ubc95\uc0ac",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"100",
+                    "normal":"20"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        },
+        {
+            "artist":"A.J. Nazzaro",
+            "attack":"",
+            "cardCode":"33125",
+            "cardName":"\uae08\ub2e8\uc758 \ucc3d\uc870\uc220",
+            "comment":"\uc124\uba85\uc774 \ub35c \uc801\ud600\uc788\ub124\uc694. \"\uc18c\ud658\ub41c \ud558\uc218\uc778\uc740 \ud55c\ub3d9\uc548 \ub048\uc801\uac70\ub9bd\ub2c8\ub2e4.\"",
+            "cost":"0",
+            "desc":"\ub9c8\ub098\ub97c \ubaa8\ub450 \uc18c\ubaa8\ud569\ub2c8\ub2e4.\n\uc18c\ubaa8\ud55c\ub9cc\ud07c\uc758 \ube44\uc6a9\uc744\n\uac00\uc9c4 \ubb34\uc791\uc704 \ud558\uc218\uc778\uc744\n\ud558\ub098 \uc18c\ud658\ud569\ub2c8\ub2e4.",
+            "health":"",
+            "originalCode":"OG_101",
+            "\ub4f1\uae09":"\uc601\uc6c5",
+            "\uc138\ud2b8":"-",
+            "\uc18c\uc18d":"",
+            "\uc81c\uc791\uac00\uaca9":[
+                {
+                    "golden":"1600",
+                    "normal":"400"
+                }
+            ],
+            "\uc885\ub958":"\uc8fc\ubb38",
+            "\uc9c1\uc5c5\uc81c\ud55c":"\uc0ac\uc81c",
+            "\ucd94\ucd9c\uac00\uaca9":[
+                {
+                    "golden":"400",
+                    "normal":"100"
+                }
+            ],
+            "\ud655\uc7a5\ud329":"\uace0\ub300\uc2e0\uc758 \uc18d\uc0ad\uc784"
+        }
+    ]
+}
