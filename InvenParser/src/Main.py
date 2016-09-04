@@ -717,11 +717,11 @@ def hearthdb():
     f.write('\t"cards" : [')
     #urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=103&filter-unreleased=1&page=2'
     #크툰
-    urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=105&filter-unreleased=1&page=2'
+    #urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=105&filter-unreleased=1&page=2'
     #카라잔
     #urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=106&filter-unreleased=1&page=1'
     #클래식
-    #urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=3&filter-unreleased=1&page=2'
+    urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=3&filter-unreleased=1&page=2'
     cardEngParser(f,urlString)
     """
     for i in range(1,3):

@@ -35,7 +35,7 @@ def new_checkHearthPwn():
 		card['attack'] = removeTag(result[4])
 		card['health'] = removeTag(result[5])
 		card['cost'] = removeTag(result[6])
-	with open('new_data.json', 'w') as outfile:
+	with open('newClassic.json', 'w') as outfile:
 		json.dump(data, outfile, indent=4, sort_keys=True, separators=(',', ':'))
 
 def checkHearthPwn(root):

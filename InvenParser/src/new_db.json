@@ -1,0 +1,233 @@
+{
+    "karazhan":[
+        {
+            "cardCode":"42049",
+            "cardName":"Arcane Giant",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42036",
+            "cardName":"Medivh, the Guardian",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42025",
+            "cardName":"Firelands Portal",
+            "type":"spell"
+        },
+        {
+            "cardCode":"42022",
+            "cardName":"The Curator",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42040",
+            "cardName":"Moonglade Portal",
+            "type":"spell"
+        },
+        {
+            "cardCode":"42029",
+            "cardName":"Book Wyrm",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42019",
+            "cardName":"Ivory Knight",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42059",
+            "cardName":"Menagerie Warden",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42063",
+            "cardName":"Moat Lurker",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42041",
+            "cardName":"Fool's Bane",
+            "type":"weapon"
+        },
+        {
+            "cardCode":"42064",
+            "cardName":"Ironforge Portal",
+            "type":"spell"
+        },
+        {
+            "cardCode":"42033",
+            "cardName":"Kara Kazham!",
+            "type":"spell"
+        },
+        {
+            "cardCode":"42044",
+            "cardName":"Avian Watcher",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42023",
+            "cardName":"Ethereal Peddler",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42055",
+            "cardName":"Menagerie Magician",
+            "faction":"Neutral",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42058",
+            "cardName":"Onyx Bishop",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42031",
+            "cardName":"Prince Malchezaar",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42054",
+            "cardName":"Silvermoon Portal",
+            "type":"spell"
+        },
+        {
+            "cardCode":"42062",
+            "cardName":"Arcanosmith",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42021",
+            "cardName":"Barnes",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42056",
+            "cardName":"Priest of the Feast",
+            "faction":"Neutral",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42047",
+            "cardName":"Wicked Witchdoctor",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42032",
+            "cardName":"Protect the King!",
+            "type":"spell"
+        },
+        {
+            "cardCode":"42050",
+            "cardName":"Cloaked Huntress",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42057",
+            "cardName":"Deadly Fork",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42030",
+            "cardName":"Moroes",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42052",
+            "cardName":"Nightbane Templar",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42053",
+            "cardName":"Pantry Spider",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42037",
+            "cardName":"Silverware Golem",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42060",
+            "cardName":"Violet Illusionist",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42035",
+            "cardName":"Zoobot",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42051",
+            "cardName":"Cat Trick",
+            "type":"spell"
+        },
+        {
+            "cardCode":"42045",
+            "cardName":"Maelstrom Portal",
+            "type":"spell"
+        },
+        {
+            "cardCode":"42061",
+            "cardName":"Purify",
+            "type":"spell"
+        },
+        {
+            "cardCode":"42020",
+            "cardName":"Kindly Grandmother",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42048",
+            "cardName":"Medivh's Valet",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42039",
+            "cardName":"Netherspite Historian",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42034",
+            "cardName":"Pompous Thespian",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42042",
+            "cardName":"Spirit Claws",
+            "type":"weapon"
+        },
+        {
+            "cardCode":"42043",
+            "cardName":"Arcane Anomaly",
+            "faction":"Neutral",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42028",
+            "cardName":"Babbling Book",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42024",
+            "cardName":"Enchanted Raven",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42027",
+            "cardName":"Malchezaar's Imp",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42065",
+            "cardName":"Runic Egg",
+            "type":"minion"
+        },
+        {
+            "cardCode":"42046",
+            "cardName":"Swashburglar",
+            "faction":"Neutral",
+            "type":"minion"
+        }
+    ]
+}
