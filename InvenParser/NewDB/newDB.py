@@ -100,7 +100,6 @@ def findOriginalCode(eng_name,infoJson,cardJson):
 		entity = findEntityName(root,eng_name,entity)
 		if entity != None :
 			originalCode = entity.attrib['CardID']
-			infoJson['originalCode'] = originalCode
 			infoJson['cost'] = getTagValue(entity,48)
 			infoJson['attack'] = getTagValue(entity,47)
 			health = getTagValue(entity,45)
@@ -116,25 +115,15 @@ def findOriginalCode(eng_name,infoJson,cardJson):
 				langPack(lang,originalCode,langJson)
 			cardJson['lang'] = langJson
 			cardJson['info'] = infoJson
+			cardJson['originalCode'] = originalCode
 			return
 
-def cardEngParser(result_cards,urlString):
+def cardEngParser(result_cards,urlString,type):
 	print urlString
 	#visual-details-cell
 	data = urllib.urlopen(urlString)
 	soup = BeautifulSoup(data.read(),from_encoding="en-us")
 	images = soup.find_all('td','visual-image-cell')
-	'''
-	for image in images :
-		a = image.find('a')
-		href = a['href']
-		cardCode = href[7:href.find('-')]
-		print cardCode
-		img = image.find('img')
-		src = img['src']
-		print src
-		engImageSave(src,cardCode)
-	'''
 	cards = soup.find_all('td','visual-details-cell')
 	for card in cards :
 		infoJson = {}
@@ -158,44 +147,27 @@ def cardEngParser(result_cards,urlString):
 				else :
 					saveCard = False
 				infoJson['type'] = stringReplace(cardType)
-			#if li.contents[0].string == 'Class: ':
-			#	result_card['class'] = li.find('a').contents[1].string
-			#if li.contents[0].string == 'Rarity: ':
-			#	result_card['rarity'] = li.find('a').string
-			#if li.contents[0].string == 'Race: ':
-			#	result_card['race'] = li.find('a').string
 			if li.contents[0].string == 'Faction: ':
 				if li.find('span') != None :
 					infoJson['faction'] = li.find('span').contents[0].string
-		"""
-			if li.contents[0].string.find('Artist: ') == 0 :
-				result_card['artist'] = li.contents[0].string[8:]
-		desc = card.find('p')
-		if desc != None :
-			cardDesc = ''
-			for i in range(0,len(desc.contents)) :
-				if desc.contents[i].string != None :
-					cardDesc += desc.contents[i].string
-			result_card['desc'] = stringReplace(cardDesc)
-		"""
 		if saveCard == True :
 			cardJson = {}
 			findOriginalCode(cardName,infoJson,cardJson)
+			cardJson['setType'] = type
 			result_cards.append(cardJson)
 	print len(result_cards)
 	return
 
 def setTypeDB(filterSet,result_cards,type,pageCount):
-	cards = []
+	beforeCount = len(result_cards)
 	url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2' % filterSet
 	if pageCount > 0 :
 		for i in range(1,pageCount):
 			urlString = url + ( '&page=%d' % i )
-			cardEngParser(cards,urlString)
+			cardEngParser(result_cards,urlString,type)
 	else :
-		cardEngParser(cards,url)
-	result_cards[type] = cards
-	print '%s count: %d' % (type , len(cards))
+		cardEngParser(result_cards,url,type)
+	print '%s count: %d' % (type , len(result_cards)-beforeCount)
 
 def original(resultCards):
 	setTypeDB(2,resultCards,'basic',3)
@@ -203,40 +175,89 @@ def original(resultCards):
 	setTypeDB(4,resultCards,'reward',0)
 	setTypeDB(11,resultCards,'promo',0)
 
-def hearthdb():
-	resultCards = {}
-	#original(resultCards)
-	#setTypeDB(100,resultCards,'naxx',0)
-	#setTypeDB(101,resultCards,'gvsg',3)
-	#setTypeDB(102,resultCards,'blackrock',0)
-	#setTypeDB(103,resultCards,'tgt',3)
-	#setTypeDB(104,resultCards,'loe',0)
-	#setTypeDB(105,resultCards,'oldgod',3)
+def hearthpwnDB():
+	getPack()
+	resultCards = []
+	original(resultCards)
+	setTypeDB(100,resultCards,'naxx',0)
+	setTypeDB(101,resultCards,'gvsg',3)
+	setTypeDB(102,resultCards,'blackrock',0)
+	setTypeDB(103,resultCards,'tgt',3)
+	setTypeDB(104,resultCards,'loe',0)
+	setTypeDB(105,resultCards,'oldgod',3)
 	setTypeDB(106,resultCards,'karazhan',0)
+	writeJson = {}
+	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
-		json.dump(resultCards, outfile, indent=4, sort_keys=True, separators=(',', ':'),ensure_ascii=False).encode('utf8')
+		json.dump(writeJson, outfile, indent=4, sort_keys=True, separators=(',', ':'),ensure_ascii=False)
 		#ensure_ascii=False).encode('utf8') 유니코드로 저장하려면 주석.
-	"""
-	크툰
-	urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=105&filter-unreleased=1&page=2'
-	카라잔
-	urlString = 'http://www.hearthpwn.com/cards?display=2&filter-premium=1&filter-set=106&filter-unreleased=1&page=1'
-	클래식
-	http://www.hearthpwn.com/cards?filter-premium=1&filter-set=3&display=2&filter-unreleased=1&page=1    
-	for i in range(1,3):
-		#urlString = 'http://www.hearthpwn.com/cards?page=%d' % i
-		urlString = 'http://www.hearthpwn.com/cards?display=2&filter-set=102&filter-unreleased=1&page=%d' % i
-		cardEngParser(f,urlString)
-	#urlString = 'http://www.hearthpwn.com/cards?filter-set=100'
-		#urlString = 'file:///Users/tilltue/Git/Python/InvenParser/src/test.html'
-	"""
+
+def loadPwnJson():
+	f = open('newDB_backup.json','r')
+	pwnJson = json.loads(f.read())
+	f.close()
+	return pwnJson
+
+def saveRelated(cardJson,originalCode,relatedJson):
+	for key in cardJson:
+		for card in cardJson[key]:
+			infoJson = card.get('info')
+			if infoJson != None :
+				original = infoJson.get('originalCode')
+				print original
+				infoJson['test'] = 'a'
+				print infoJson
+	#관계 카드를 json 데이터에 삽입하려함. info table 에 넣도록 하자.
 	
+def relatedDB(cardID,originalCode):
+	url = 'http://www.hearthhead.com/card=%d' % cardID
+	data = urllib.urlopen(url)
+	soup = BeautifulSoup(data.read(),from_encoding="en-us")
+	scripts = soup.find_all("script")
+	pattern = re.compile('var lv_relatedcards = ')
+	for script in scripts:
+		lv_relatedcards = script.find_all(text=pattern)
+		if len(lv_relatedcards) > 0 :
+			startIndex = str(script).index('var lv_relatedcards = ') + len('var lv_relatedcards = ')
+			endIndex = str(script).index('var lv_emotes = ')
+			string = str(script)[startIndex:endIndex]
+			string = string.replace(',];',']')
+			string = string.replace('];',']')
+			print string
+			cards = json.loads(string)
+			if len(cards) > 0 :
+				print card['name']
+			#print string
+	#cardCdata = soup.find_all(text=re.compile("lv_relatedcards"))
+
+def hearthheadDB():
+	#basic
+	#getPack()
+	pwnJson = loadPwnJson()
+	saveRelated(pwnJson,3,3)
+	with open('newDB.json', 'w') as outfile:
+		json.dump(pwnJson, outfile, indent=4, sort_keys=True, separators=(',', ':'),ensure_ascii=False)
+	return
+	url = 'http://www.hearthhead.com/cards=?filter=cs=2#text'
+	data = urllib.urlopen(url)
+	soup = BeautifulSoup(data.read(),from_encoding="en-us")
+	cardCdata = soup.find_all(text=re.compile("CDATA"))[2]
+	startIndex = cardCdata.index('hearthstoneCards = ') + len('hearthstoneCards = ')
+	endIndex = cardCdata.index(';new Listview({')
+	cardJson = cardCdata[startIndex:endIndex]
+	cardJson = cardJson.replace("popularity","\"popularity\"")
+	cards = json.loads(cardJson)
+	for card in cards:
+		cardID = card['id']
+		originalCode = card['image']
+		relatedDB(cardID,originalCode)
+
 def main():
 	reload(sys)
 	sys.setdefaultencoding('utf-8')
-	getPack()
-	hearthdb()
-	#popularRank()
+	#hearthpwnDB()
+	#hearthheadDB()
+	#relatedDB(437)
 		
 if __name__ == '__main__':
 	main()
