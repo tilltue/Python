@@ -1,0 +1,71 @@
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=2&display=2&page=1
+/Library/Python/2.7/site-packages/beautifulsoup4-4.5.1-py2.7.egg/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("html.parser"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 281 of the file /Users/wade.hawk/Project/PersonalGit/InvenParser/InvenParser/NewDB/newDB.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup([your markup])
+
+to this:
+
+ BeautifulSoup([your markup], "html.parser")
+
+100
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=2&display=2&page=2
+133
+basic count: 133
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=3&display=2&page=1
+233
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=3&display=2&page=2
+333
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=3&display=2&page=3
+378
+classic count: 245
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=4&display=2
+380
+reward count: 2
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=11&display=2
+382
+promo count: 2
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=100&display=2
+412
+naxx count: 30
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=101&display=2&page=1
+512
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=101&display=2&page=2
+535
+gvsg count: 123
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=102&display=2
+566
+blackrock count: 31
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=103&display=2&page=1
+666
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=103&display=2&page=2
+698
+tgt count: 132
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=104&display=2
+743
+loe count: 45
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=105&display=2&page=1
+843
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=105&display=2&page=2
+877
+oldgod count: 134
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=106&display=2
+922
+karazhan count: 45
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=107&display=2&page=1
+Don Han'Cho grimy_goons
+Aya Blackpaw jade_lotus
+Lotus Agents jade_lotus
+Jade Spirit jade_lotus
+Kabal Chemist kabal
+Kazakus kabal
+Grimestreet Smuggler grimy_goons
+Kabal Courier kabal
+1022
+http://www.hearthpwn.com/cards?filter-premium=1&filter-set=107&display=2&page=2
+Grimestreet Informant grimy_goons
+1054
+gadgetzan count: 132
+/bin/bash: shell_session_update: command not found
+[Finished in 130.3s]

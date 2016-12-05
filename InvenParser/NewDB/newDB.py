@@ -79,7 +79,10 @@ def findEntityName(root,name,entity,cardJson):
 	tag = entity.findall(enumString)
 	if len(tag) > 0 :
 		if tag[0].getiterator("enUS")[0].text == name :
-			if len(entity.findall("Tag[@enumID='351']")) > 0 :
+			collectible = getTagValue(entity,321)
+			#if cardSet in ['2','3','4','11','12','13','14','15','20','21','23','25'] :
+			#if len(entity.findall("Tag[@enumID='351']")) > 0 :
+			if collectible == '1' :
 				saveLangText(entity,cardJson,185,'name')
 				saveLangText(entity,cardJson,184,'desc')
 				saveLangText(entity,cardJson,351,'comment')
@@ -129,12 +132,8 @@ def findOriginalCode(eng_name,infoJson,cardJson):
 		 		infoJson['multiClass'] = 'kabal'
 		 		print eng_name , 'kabal'
 		 	getRace(entity,infoJson)
-			# for lang in langRoots.keys() :
-			# 	langPack(lang,originalCode,langJson)
-			#cardJson['lang'] = langJson
 			cardJson['info'] = infoJson
-			cardJson['originalCode'] = originalCode
-			return
+			return originalCode
 
 def cardEngParser(result_cards,urlString,type):
 	print urlString
@@ -170,9 +169,12 @@ def cardEngParser(result_cards,urlString,type):
 					infoJson['faction'] = li.find('span').contents[0].string
 		if saveCard == True :
 			cardJson = {}
-			findOriginalCode(cardName,infoJson,cardJson)
-			cardJson['setType'] = type
-			result_cards.append(cardJson)
+			originalCode = findOriginalCode(cardName,infoJson,cardJson)
+			if originalCode != None :
+				cardJson['setType'] = type
+				result_cards[originalCode] = cardJson
+			else :
+				print cardName
 	print len(result_cards)
 	return
 
@@ -194,7 +196,7 @@ def original(resultCards):
 	setTypeDB(11,resultCards,'promo',0)
 
 def hearthpwnDB():
-	resultCards = []
+	resultCards = {}
 	original(resultCards)
 	setTypeDB(100,resultCards,'naxx',0)
 	setTypeDB(101,resultCards,'gvsg',3)
