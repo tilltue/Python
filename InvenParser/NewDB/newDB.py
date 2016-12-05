@@ -15,13 +15,8 @@ import sys
 #rarity enum
 #COMMON = 1 FREE = 2 RARE = 3 EPIC = 4 LEGENDARY = 5
 
-langRoots = {}
-def getPack():
-	lang_pack = ['enUS','deDE','esES','esMX','frFR','koKR','itIT','jaJP','plPL','ptBR','ruRU','zhCN','zhTW','thTH']	
-	for lang in lang_pack :
-		tree = parse("./locale/"+lang+".xml")
-		root = tree.getroot()
-		langRoots[lang] = root
+tree = parse("./hearthsym/CardDefs.xml")
+cardDefRoot = tree.getroot()
 
 def stringReplace(string):
 	if string != None:
@@ -69,16 +64,31 @@ def getTagValue(entity,enumID):
 		return text
 	return ''
 
-def findEntityName(root,name,entity):
-	nameAttr = getTagText(entity,185)
-	if nameAttr == name :
-		if len(entity.findall("Tag[@enumID='351']")) > 0 :
-			return entity
+def saveLangText(entity,cardJson,enumID,saveTag):
+	enumString = getEnumTagString(enumID)
+	tag = entity.findall(enumString)
+	result = {}
+	if len(tag) > 0 :
+		for childTag in tag[0].getchildren() :
+			result[childTag.tag] = removeTag(childTag.text)
+		if len(result) > 0 :
+			cardJson[saveTag] = result
+
+def findEntityName(root,name,entity,cardJson):
+	enumString = getEnumTagString(185)
+	tag = entity.findall(enumString)
+	if len(tag) > 0 :
+		if tag[0].getiterator("enUS")[0].text == name :
+			if len(entity.findall("Tag[@enumID='351']")) > 0 :
+				saveLangText(entity,cardJson,185,'name')
+				saveLangText(entity,cardJson,184,'desc')
+				saveLangText(entity,cardJson,351,'comment')
+				return entity
 	return None
 
 def getCardEntity(root,CardID):
 	return root.findall(".//Entity[@CardID='"+CardID+"']")[0]
-
+'''
 def langPack(lang,CardID,langJson):
 	root = langRoots[lang]
 	entity = getCardEntity(root,CardID)
@@ -93,11 +103,11 @@ def langPack(lang,CardID,langJson):
 		cardJson['text'] = textJson
 		#print cardJson
 		langJson.append(cardJson)
+'''
 
 def findOriginalCode(eng_name,infoJson,cardJson):
-	root = langRoots['enUS']
-	for entity in root.findall(".//Entity") :
-		entity = findEntityName(root,eng_name,entity)
+	for entity in cardDefRoot.findall(".//Entity") :
+		entity = findEntityName(cardDefRoot,eng_name,entity,cardJson)
 		if entity != None :
 			originalCode = entity.attrib['CardID']
 			infoJson['cost'] = getTagValue(entity,48)
@@ -109,11 +119,19 @@ def findOriginalCode(eng_name,infoJson,cardJson):
 			infoJson['rarity'] = getTagValue(entity,203)
 			infoJson['cardClass'] = getTagValue(entity,199)
 			infoJson['artist'] = getTagText(entity,342)
-			getRace(entity,infoJson)
-			langJson = []
-			for lang in langRoots.keys() :
-				langPack(lang,originalCode,langJson)
-			cardJson['lang'] = langJson
+		 	if getTagValue(entity,482) == '1' :
+		 		infoJson['multiClass'] = 'grimy_goons'
+		 		print eng_name , 'grimy_goons'
+		 	elif getTagValue(entity,483) == '1' :
+		 		infoJson['multiClass'] = 'jade_lotus'
+		 		print eng_name , 'jade_lotus'
+		 	elif getTagValue(entity,484) == '1' :
+		 		infoJson['multiClass'] = 'kabal'
+		 		print eng_name , 'kabal'
+		 	getRace(entity,infoJson)
+			# for lang in langRoots.keys() :
+			# 	langPack(lang,originalCode,langJson)
+			#cardJson['lang'] = langJson
 			cardJson['info'] = infoJson
 			cardJson['originalCode'] = originalCode
 			return
@@ -176,7 +194,6 @@ def original(resultCards):
 	setTypeDB(11,resultCards,'promo',0)
 
 def hearthpwnDB():
-	getPack()
 	resultCards = []
 	original(resultCards)
 	setTypeDB(100,resultCards,'naxx',0)
@@ -186,6 +203,7 @@ def hearthpwnDB():
 	setTypeDB(104,resultCards,'loe',0)
 	setTypeDB(105,resultCards,'oldgod',3)
 	setTypeDB(106,resultCards,'karazhan',0)
+	setTypeDB(107,resultCards,'gadgetzan',3)
 	writeJson = {}
 	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
@@ -255,7 +273,7 @@ def hearthheadDB():
 def main():
 	reload(sys)
 	sys.setdefaultencoding('utf-8')
-	#hearthpwnDB()
+	hearthpwnDB()
 	#hearthheadDB()
 	#relatedDB(437)
 		
