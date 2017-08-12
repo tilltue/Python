@@ -178,6 +178,7 @@ def findOriginalCode(eng_name,infoJson,cardJson,cardType):
 		 		heroPowerCardID = getElementValue(entity,380,'cardID')
 		 		powerEntity = getCardEntity(cardDefRoot,heroPowerCardID)
 		 		infoJson['health'] = getTagValue(entity,292)
+		 		infoJson['cardID'] = heroPowerCardID
 		 		getHeroPower(powerEntity,infoJson)
 		 	getRace(entity,infoJson)
 			cardJson['info'] = infoJson
