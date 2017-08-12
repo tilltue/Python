@@ -11,7 +11,7 @@ import sys
 #class enum
 #DRUID = 2 HUNTER = 3 MAGE = 4 PALADIN = 5 PRIEST = 6 ROGUE = 7 SHAMAN = 8 WARLOCK = 9 WARRIOR = 10 NEUTRAL = 12
 #race enum
-#MURLOC = 14 DEMON = 15 MECHANICAL = 17 BEAST = 20 TOTEM = 21 DRAGON = 24 PIRATE = 23
+#MURLOC = 14 DEMON = 15 MECHANICAL = 17 BEAST = 20 TOTEM = 21 DRAGON = 24 PIRATE = 23  ELEMENTAL 18
 #rarity enum
 #COMMON = 1 FREE = 2 RARE = 3 EPIC = 4 LEGENDARY = 5
 
@@ -34,10 +34,18 @@ def removeTag(string):
 	return string
 
 def getRace(entity,cardJson):
-	raceSet = { '14':'MURLOC', '15':'DEMON', '17':'MECHANICAL', '20':'BEAST', '21':'TOTEM', '24':'DRAGON', '23':'PIRATE' } 
+	raceSet = { '14':'MURLOC', '15':'DEMON', '17':'MECHANICAL', '20':'BEAST', '21':'TOTEM', '24':'DRAGON', '23':'PIRATE','18':'ELEMENTAL' } 
 	raceCode = getTagValue(entity,200)
 	if raceCode in raceSet :
 		cardJson['raceCode'] = raceCode
+
+def getHeroPower(entity,cardJson):
+	powerJson = {}
+	saveLangText(entity,powerJson,185,'name')
+	saveLangText(entity,powerJson,184,'desc')
+	powerJson['cost'] = getTagValue(entity,48)
+	powerJson['cardClass'] = getTagValue(entity,199)
+	cardJson["heroPower"] = powerJson
 
 def getHowToEarn(entity,cardJson):
 	howtoEarn = getTagText(entity,364)
@@ -64,6 +72,13 @@ def getTagValue(entity,enumID):
 		return text
 	return ''
 
+def getElementValue(entity,enumID,element):
+	enumString = getEnumTagString(enumID)
+	if entity.findall(enumString) :
+		text = entity.findall(enumString)[0].attrib['cardID']
+		return text
+	return ''
+
 def saveLangText(entity,cardJson,enumID,saveTag):
 	enumString = getEnumTagString(enumID)
 	tag = entity.findall(enumString)
@@ -71,12 +86,32 @@ def saveLangText(entity,cardJson,enumID,saveTag):
 	if len(tag) > 0 :
 		for childTag in tag[0].getchildren() :
 			result[childTag.tag] = removeTag(childTag.text)
+			# if childTag.tag == 'koKR' and saveTag == 'name' :
+			# 	print removeTag(childTag.text)
 		if len(result) > 0 :
 			cardJson[saveTag] = result
 
-def findEntityName(root,name,entity,cardJson):
+def findEntityName(root,name,entity,cardJson,infoJson):
 	enumString = getEnumTagString(185)
 	tag = entity.findall(enumString)
+	cardID = entity.attrib['CardID']
+	# if cardID[:3] != 'UNG' :
+	# 	return None
+	# cardCode = infoJson["cardCode"]
+	# if cardCode == '55677' and cardID != 'UNG_101t2' :
+	# 	return None
+	# if cardCode == '55676' and cardID != 'UNG_101t' :
+	# 	return None
+	# if cardCode == '55678' and cardID != 'UNG_101t3' :
+	# 	return None
+	# if cardCode == '52585' and cardID != 'UNG_027t2' :
+	# 	return None
+	# if cardCode == '52586' and cardID != 'UNG_027t4' :
+	# 	return None
+	# if cardCode == '55448' and cardID != 'UNG_829t1' :
+	# 	return None
+	# if cardCode == '55460' and cardID != 'UNG_829t2' :
+	# 	return None
 	if len(tag) > 0 :
 		if tag[0].getiterator("enUS")[0].text == name :
 			collectible = getTagValue(entity,321)
@@ -87,6 +122,12 @@ def findEntityName(root,name,entity,cardJson):
 				saveLangText(entity,cardJson,184,'desc')
 				saveLangText(entity,cardJson,351,'comment')
 				return entity
+			# else :
+			# 	print "token"
+			# 	saveLangText(entity,cardJson,185,'name')
+			# 	saveLangText(entity,cardJson,184,'desc')
+			# 	saveLangText(entity,cardJson,351,'comment')
+			# 	return entity
 	return None
 
 def getCardEntity(root,CardID):
@@ -108,11 +149,13 @@ def langPack(lang,CardID,langJson):
 		langJson.append(cardJson)
 '''
 
-def findOriginalCode(eng_name,infoJson,cardJson):
+def findOriginalCode(eng_name,infoJson,cardJson,cardType):
 	for entity in cardDefRoot.findall(".//Entity") :
-		entity = findEntityName(cardDefRoot,eng_name,entity,cardJson)
+		entity = findEntityName(cardDefRoot,eng_name,entity,cardJson,infoJson)
 		if entity != None :
 			originalCode = entity.attrib['CardID']
+			originalID = entity.attrib['ID']
+			infoJson['originalID'] = originalID
 			infoJson['cost'] = getTagValue(entity,48)
 			infoJson['attack'] = getTagValue(entity,47)
 			health = getTagValue(entity,45)
@@ -131,6 +174,11 @@ def findOriginalCode(eng_name,infoJson,cardJson):
 		 	elif getTagValue(entity,484) == '1' :
 		 		infoJson['multiClass'] = 'kabal'
 		 		print eng_name , 'kabal'
+		 	if cardType == 'playableHero' :
+		 		heroPowerCardID = getElementValue(entity,380,'cardID')
+		 		powerEntity = getCardEntity(cardDefRoot,heroPowerCardID)
+		 		infoJson['health'] = getTagValue(entity,292)
+		 		getHeroPower(powerEntity,infoJson)
 		 	getRace(entity,infoJson)
 			cardJson['info'] = infoJson
 			return originalCode
@@ -151,6 +199,7 @@ def cardEngParser(result_cards,urlString,type):
 			cardCode = href[7:href.find('-')]
 			infoJson['cardCode'] = stringReplace(cardCode)
 			cardName = h3.find('a').string
+			# print cardCode + ' ' + cardName
 			#result_card['cardName'] = stringReplace(cardName)
 		lis = card.find_all('li')
 		for li in lis :
@@ -161,6 +210,8 @@ def cardEngParser(result_cards,urlString,type):
 					cardType = 'spell'
 				elif li.contents[1].string == 'Weapon':
 					cardType = 'weapon'
+				elif li.contents[1].string == 'Playable Hero':
+					cardType = 'playableHero'
 				else :
 					saveCard = False
 				infoJson['type'] = stringReplace(cardType)
@@ -169,7 +220,7 @@ def cardEngParser(result_cards,urlString,type):
 					infoJson['faction'] = li.find('span').contents[0].string
 		if saveCard == True :
 			cardJson = {}
-			originalCode = findOriginalCode(cardName,infoJson,cardJson)
+			originalCode = findOriginalCode(cardName,infoJson,cardJson,cardType)
 			if originalCode != None :
 				cardJson['setType'] = type
 				result_cards[originalCode] = cardJson
@@ -180,7 +231,11 @@ def cardEngParser(result_cards,urlString,type):
 
 def setTypeDB(filterSet,result_cards,type,pageCount):
 	beforeCount = len(result_cards)
-	url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2' % filterSet
+	#정규
+	# url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2&filter-unreleased=1' % filterSet
+	#토큰
+	url = 'http://www.hearthpwn.com/cards?filter-premium=0&filter-set=%d&display=2&filter-unreleased=0&filter-token=1' % filterSet
+	# url = 'http://www.hearthpwn.com/cards?filter-name=Stegodon&display=2'
 	if pageCount > 0 :
 		for i in range(1,pageCount):
 			urlString = url + ( '&page=%d' % i )
@@ -197,15 +252,17 @@ def original(resultCards):
 
 def hearthpwnDB():
 	resultCards = {}
-	original(resultCards)
-	setTypeDB(100,resultCards,'naxx',0)
-	setTypeDB(101,resultCards,'gvsg',3)
-	setTypeDB(102,resultCards,'blackrock',0)
-	setTypeDB(103,resultCards,'tgt',3)
-	setTypeDB(104,resultCards,'loe',0)
-	setTypeDB(105,resultCards,'oldgod',3)
-	setTypeDB(106,resultCards,'karazhan',0)
-	setTypeDB(107,resultCards,'gadgetzan',3)
+	# original(resultCards)
+	# setTypeDB(100,resultCards,'naxx',0)
+	# setTypeDB(101,resultCards,'gvsg',3)
+	# setTypeDB(102,resultCards,'blackrock',0)
+	# setTypeDB(103,resultCards,'tgt',3)
+	# setTypeDB(104,resultCards,'loe',0)
+	# setTypeDB(105,resultCards,'oldgod',3)
+	# setTypeDB(106,resultCards,'karazhan',0)
+	# setTypeDB(107,resultCards,'gadgetzan',3)
+	# setTypeDB(108,resultCards,'ungoro',3)
+	setTypeDB(109,resultCards,'frozen',3)
 	writeJson = {}
 	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
