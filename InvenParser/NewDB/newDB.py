@@ -95,23 +95,13 @@ def findEntityName(root,name,entity,cardJson,infoJson):
 	enumString = getEnumTagString(185)
 	tag = entity.findall(enumString)
 	cardID = entity.attrib['CardID']
-	# if cardID[:3] != 'UNG' :
-	# 	return None
+	if cardID[:3] != 'ICC' or 't' not in cardID :
+		return None
 	# cardCode = infoJson["cardCode"]
-	# if cardCode == '55677' and cardID != 'UNG_101t2' :
-	# 	return None
-	# if cardCode == '55676' and cardID != 'UNG_101t' :
-	# 	return None
-	# if cardCode == '55678' and cardID != 'UNG_101t3' :
-	# 	return None
-	# if cardCode == '52585' and cardID != 'UNG_027t2' :
-	# 	return None
-	# if cardCode == '52586' and cardID != 'UNG_027t4' :
-	# 	return None
-	# if cardCode == '55448' and cardID != 'UNG_829t1' :
-	# 	return None
-	# if cardCode == '55460' and cardID != 'UNG_829t2' :
-	# 	return None
+	if cardID == 'ICC_051t':
+		return None
+	if cardID == 'ICC_047t':
+		return None
 	if len(tag) > 0 :
 		if tag[0].getiterator("enUS")[0].text == name :
 			collectible = getTagValue(entity,321)
@@ -121,13 +111,13 @@ def findEntityName(root,name,entity,cardJson,infoJson):
 				saveLangText(entity,cardJson,185,'name')
 				saveLangText(entity,cardJson,184,'desc')
 				saveLangText(entity,cardJson,351,'comment')
+				return None
+			else :
+				print "token"
+				saveLangText(entity,cardJson,185,'name')
+				saveLangText(entity,cardJson,184,'desc')
+				saveLangText(entity,cardJson,351,'comment')
 				return entity
-			# else :
-			# 	print "token"
-			# 	saveLangText(entity,cardJson,185,'name')
-			# 	saveLangText(entity,cardJson,184,'desc')
-			# 	saveLangText(entity,cardJson,351,'comment')
-			# 	return entity
 	return None
 
 def getCardEntity(root,CardID):
@@ -263,7 +253,7 @@ def hearthpwnDB():
 	# setTypeDB(106,resultCards,'karazhan',0)
 	# setTypeDB(107,resultCards,'gadgetzan',3)
 	# setTypeDB(108,resultCards,'ungoro',3)
-	setTypeDB(109,resultCards,'frozen',3)
+	setTypeDB(109,resultCards,'frozen',0)
 	writeJson = {}
 	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
