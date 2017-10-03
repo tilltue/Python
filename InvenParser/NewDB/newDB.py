@@ -39,12 +39,13 @@ def getRace(entity,cardJson):
 	if raceCode in raceSet :
 		cardJson['raceCode'] = raceCode
 
-def getHeroPower(entity,cardJson):
+def getHeroPower(entity,cardJson,heroPowerCardID):
 	powerJson = {}
 	saveLangText(entity,powerJson,185,'name')
 	saveLangText(entity,powerJson,184,'desc')
 	powerJson['cost'] = getTagValue(entity,48)
 	powerJson['cardClass'] = getTagValue(entity,199)
+	powerJson['cardCode'] = entity.attrib['ID']
 	cardJson["heroPower"] = powerJson
 
 def getHowToEarn(entity,cardJson):
@@ -178,8 +179,7 @@ def findOriginalCode(eng_name,infoJson,cardJson,cardType):
 		 		heroPowerCardID = getElementValue(entity,380,'cardID')
 		 		powerEntity = getCardEntity(cardDefRoot,heroPowerCardID)
 		 		infoJson['health'] = getTagValue(entity,292)
-		 		infoJson['cardID'] = heroPowerCardID
-		 		getHeroPower(powerEntity,infoJson)
+		 		getHeroPower(powerEntity,infoJson,heroPowerCardID)
 		 	getRace(entity,infoJson)
 			cardJson['info'] = infoJson
 			return originalCode
@@ -233,9 +233,9 @@ def cardEngParser(result_cards,urlString,type):
 def setTypeDB(filterSet,result_cards,type,pageCount):
 	beforeCount = len(result_cards)
 	#정규
-	# url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2&filter-unreleased=1' % filterSet
+	url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2&filter-unreleased=1' % filterSet
 	#토큰
-	url = 'http://www.hearthpwn.com/cards?filter-premium=0&filter-set=%d&display=2&filter-unreleased=0&filter-token=1' % filterSet
+	# url = 'http://www.hearthpwn.com/cards?filter-premium=0&filter-set=%d&display=2&filter-unreleased=0&filter-token=1' % filterSet
 	# url = 'http://www.hearthpwn.com/cards?filter-name=Stegodon&display=2'
 	if pageCount > 0 :
 		for i in range(1,pageCount):
@@ -253,16 +253,16 @@ def original(resultCards):
 
 def hearthpwnDB():
 	resultCards = {}
-	# original(resultCards)
-	# setTypeDB(100,resultCards,'naxx',0)
-	# setTypeDB(101,resultCards,'gvsg',3)
-	# setTypeDB(102,resultCards,'blackrock',0)
-	# setTypeDB(103,resultCards,'tgt',3)
-	# setTypeDB(104,resultCards,'loe',0)
-	# setTypeDB(105,resultCards,'oldgod',3)
-	# setTypeDB(106,resultCards,'karazhan',0)
-	# setTypeDB(107,resultCards,'gadgetzan',3)
-	# setTypeDB(108,resultCards,'ungoro',3)
+	original(resultCards)
+	setTypeDB(100,resultCards,'naxx',0)
+	setTypeDB(101,resultCards,'gvsg',3)
+	setTypeDB(102,resultCards,'blackrock',0)
+	setTypeDB(103,resultCards,'tgt',3)
+	setTypeDB(104,resultCards,'loe',0)
+	setTypeDB(105,resultCards,'oldgod',3)
+	setTypeDB(106,resultCards,'karazhan',0)
+	setTypeDB(107,resultCards,'gadgetzan',3)
+	setTypeDB(108,resultCards,'ungoro',3)
 	setTypeDB(109,resultCards,'frozen',3)
 	writeJson = {}
 	writeJson['cards'] = resultCards
