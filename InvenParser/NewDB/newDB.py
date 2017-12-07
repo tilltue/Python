@@ -264,6 +264,7 @@ def hearthpwnDB():
 	setTypeDB(107,resultCards,'gadgetzan',3)
 	setTypeDB(108,resultCards,'ungoro',3)
 	setTypeDB(109,resultCards,'frozen',3)
+	setTypeDB(110,resultCards,'kobolds',3)
 	writeJson = {}
 	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
