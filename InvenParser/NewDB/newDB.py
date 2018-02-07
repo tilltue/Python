@@ -95,13 +95,13 @@ def findEntityName(root,name,entity,cardJson,infoJson):
 	enumString = getEnumTagString(185)
 	tag = entity.findall(enumString)
 	cardID = entity.attrib['CardID']
-	if cardID[:3] != 'ICC' or 't' not in cardID :
+	if cardID[:4] != 'LOOT' or 'k' not in cardID :
 		return None
 	# cardCode = infoJson["cardCode"]
-	if cardID == 'ICC_051t':
-		return None
-	if cardID == 'ICC_047t':
-		return None
+	# if cardID == 'ICC_051t':
+	# 	return None
+	# if cardID == 'ICC_047t':
+	# 	return None
 	if len(tag) > 0 :
 		if tag[0].getiterator("enUS")[0].text == name :
 			collectible = getTagValue(entity,321)
@@ -253,7 +253,8 @@ def hearthpwnDB():
 	# setTypeDB(106,resultCards,'karazhan',0)
 	# setTypeDB(107,resultCards,'gadgetzan',3)
 	# setTypeDB(108,resultCards,'ungoro',3)
-	setTypeDB(109,resultCards,'frozen',0)
+	# setTypeDB(109,resultCards,'frozen',0)
+	setTypeDB(110,resultCards,'kobolds',0)
 	writeJson = {}
 	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
