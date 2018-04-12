@@ -39,12 +39,13 @@ def getRace(entity,cardJson):
 	if raceCode in raceSet :
 		cardJson['raceCode'] = raceCode
 
-def getHeroPower(entity,cardJson):
+def getHeroPower(entity,cardJson,heroPowerCardID):
 	powerJson = {}
 	saveLangText(entity,powerJson,185,'name')
 	saveLangText(entity,powerJson,184,'desc')
 	powerJson['cost'] = getTagValue(entity,48)
 	powerJson['cardClass'] = getTagValue(entity,199)
+	powerJson['cardCode'] = entity.attrib['ID']
 	cardJson["heroPower"] = powerJson
 
 def getHowToEarn(entity,cardJson):
@@ -168,8 +169,7 @@ def findOriginalCode(eng_name,infoJson,cardJson,cardType):
 		 		heroPowerCardID = getElementValue(entity,380,'cardID')
 		 		powerEntity = getCardEntity(cardDefRoot,heroPowerCardID)
 		 		infoJson['health'] = getTagValue(entity,292)
-		 		infoJson['cardID'] = heroPowerCardID
-		 		getHeroPower(powerEntity,infoJson)
+		 		getHeroPower(powerEntity,infoJson,heroPowerCardID)
 		 	getRace(entity,infoJson)
 			cardJson['info'] = infoJson
 			return originalCode
@@ -223,9 +223,9 @@ def cardEngParser(result_cards,urlString,type):
 def setTypeDB(filterSet,result_cards,type,pageCount):
 	beforeCount = len(result_cards)
 	#정규
-	# url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2&filter-unreleased=1' % filterSet
+	url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2&filter-unreleased=1' % filterSet
 	#토큰
-	url = 'http://www.hearthpwn.com/cards?filter-premium=0&filter-set=%d&display=2&filter-unreleased=0&filter-token=1' % filterSet
+	# url = 'http://www.hearthpwn.com/cards?filter-premium=0&filter-set=%d&display=2&filter-unreleased=0&filter-token=1' % filterSet
 	# url = 'http://www.hearthpwn.com/cards?filter-name=Stegodon&display=2'
 	if pageCount > 0 :
 		for i in range(1,pageCount):
@@ -253,8 +253,9 @@ def hearthpwnDB():
 	# setTypeDB(106,resultCards,'karazhan',0)
 	# setTypeDB(107,resultCards,'gadgetzan',3)
 	# setTypeDB(108,resultCards,'ungoro',3)
-	# setTypeDB(109,resultCards,'frozen',0)
-	setTypeDB(110,resultCards,'kobolds',0)
+	# setTypeDB(109,resultCards,'frozen',3)
+	# setTypeDB(110,resultCards,'kobolds',3)
+	setTypeDB(111,resultCards,'witchwood',3)
 	writeJson = {}
 	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
