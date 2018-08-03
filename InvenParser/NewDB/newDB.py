@@ -253,19 +253,20 @@ def original(resultCards):
 
 def hearthpwnDB():
 	resultCards = {}
-	# original(resultCards)
-	# setTypeDB(100,resultCards,'naxx',0)
-	# setTypeDB(101,resultCards,'gvsg',3)
-	# setTypeDB(102,resultCards,'blackrock',0)
-	# setTypeDB(103,resultCards,'tgt',3)
-	# setTypeDB(104,resultCards,'loe',0)
-	# setTypeDB(105,resultCards,'oldgod',3)
-	# setTypeDB(106,resultCards,'karazhan',0)
-	# setTypeDB(107,resultCards,'gadgetzan',3)
-	# setTypeDB(108,resultCards,'ungoro',3)
-	# setTypeDB(109,resultCards,'frozen',3)
-	# setTypeDB(110,resultCards,'kobolds',3)
+	original(resultCards)
+	setTypeDB(100,resultCards,'naxx',0)
+	setTypeDB(101,resultCards,'gvsg',3)
+	setTypeDB(102,resultCards,'blackrock',0)
+	setTypeDB(103,resultCards,'tgt',3)
+	setTypeDB(104,resultCards,'loe',0)
+	setTypeDB(105,resultCards,'oldgod',3)
+	setTypeDB(106,resultCards,'karazhan',0)
+	setTypeDB(107,resultCards,'gadgetzan',3)
+	setTypeDB(108,resultCards,'ungoro',3)
+	setTypeDB(109,resultCards,'frozen',3)
+	setTypeDB(110,resultCards,'kobolds',3)
 	setTypeDB(111,resultCards,'witchwood',3)
+	setTypeDB(113,resultCards,'boomsday',3)
 	writeJson = {}
 	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
