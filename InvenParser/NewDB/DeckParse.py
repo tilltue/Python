@@ -3,6 +3,7 @@ from xml.etree.ElementTree import parse
 import re, cgi
 import urllib
 import json
+from time import sleep
 from datetime import date
 from bs4 import BeautifulSoup
 import sys
@@ -49,8 +50,8 @@ def popularDecks():
 	soup = BeautifulSoup(data.read(),from_encoding="en-us")
 	hotDecks = soup.find_all('div','page-block p-base p-base-a t-hot-decks')[0].find_all('script')[1].contents[0].replace('\n','')
 	start = hotDecks.find('Hearth.HotDecksWidget.initialData = ') + len('Hearth.HotDecksWidget.initialData = ')
-	stop = hotDecks.find('Hearth.HotDecksWidget.initialData.Adventure')
-	jsonString = hotDecks[start:stop-6]
+	end = hotDecks.find('Hearth.HotDecksWidget.initialData.Adventure')
+	jsonString = hotDecks[start:end-6]
 	#print jsonString
 	data = json.loads(jsonString)
 	ids = []
@@ -58,14 +59,37 @@ def popularDecks():
 		ids.append(int(deck['ID']))
 	return ids
 
+def hotDecks():
+	#Hot
+	#file = 'hotDeckDB.json'
+	#url = "https://www.hearthpwn.com/decks?filter-show-standard=1&filter-show-constructed-only=y&filter-deck-tag=1"
+	#Week
+	file = 'hotDeckWeakDB.json'
+	url = "https://www.hearthpwn.com/decks?filter-show-standard=1&filter-show-constructed-only=y&filter-deck-tag=3"
+	data = urllib.urlopen(url)
+	soup = BeautifulSoup(data.read(),from_encoding="en-us")
+	trs = soup.find_all('table','listing listing-decks b-table b-table-a')[0].find('tbody').find_all('tr')
+	ids = []
+	for tr in trs :
+		href = tr.find('td').find('a')['href']
+		print href
+		start = href.find('decks/') + 6
+		end = href[start:].find('-') + start
+		ids.append(int(href[start:end]))
+	resultDecks = {}
+	for deck_id in ids[:20] :
+		print deck_id
+		resultDecks[deck_id] = parseDeck(deck_id)
+		sleep(5)
+	with open(file, 'w') as outfile:
+		json.dump(resultDecks, outfile, indent=4, sort_keys=True, separators=(',', ':'),ensure_ascii=False)
+
 def hearthpwnDB():
 	resultDecks = {}
 	ids = popularDecks()
 	for deck_id in ids :
 		print deck_id
 		resultDecks[deck_id] = parseDeck(deck_id)
-	
-
 	with open('deckDB.json', 'w') as outfile:
 		json.dump(resultDecks, outfile, indent=4, sort_keys=True, separators=(',', ':'),ensure_ascii=False)
 
@@ -73,9 +97,8 @@ def hearthpwnDB():
 def main():
 	reload(sys)
 	sys.setdefaultencoding('utf-8')
-	# parseDeck(1144345)
-	hearthpwnDB()
 	#hearthpwnDB()
+	hotDecks()
 
 if __name__ == '__main__':
 	main()
