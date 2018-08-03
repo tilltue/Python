@@ -96,22 +96,12 @@ def findEntityName(root,name,entity,cardJson,infoJson):
 	enumString = getEnumTagString(185)
 	tag = entity.findall(enumString)
 	cardID = entity.attrib['CardID']
-	# if cardID[:3] != 'UNG' :
-	# 	return None
+	if cardID[:3] != 'BOT' or 't' not in cardID :
+		return None
 	# cardCode = infoJson["cardCode"]
-	# if cardCode == '55677' and cardID != 'UNG_101t2' :
+	# if cardID == 'ICC_051t':
 	# 	return None
-	# if cardCode == '55676' and cardID != 'UNG_101t' :
-	# 	return None
-	# if cardCode == '55678' and cardID != 'UNG_101t3' :
-	# 	return None
-	# if cardCode == '52585' and cardID != 'UNG_027t2' :
-	# 	return None
-	# if cardCode == '52586' and cardID != 'UNG_027t4' :
-	# 	return None
-	# if cardCode == '55448' and cardID != 'UNG_829t1' :
-	# 	return None
-	# if cardCode == '55460' and cardID != 'UNG_829t2' :
+	# if cardID == 'ICC_047t':
 	# 	return None
 	if len(tag) > 0 :
 		if tag[0].getiterator("enUS")[0].text == name :
@@ -122,13 +112,13 @@ def findEntityName(root,name,entity,cardJson,infoJson):
 				saveLangText(entity,cardJson,185,'name')
 				saveLangText(entity,cardJson,184,'desc')
 				saveLangText(entity,cardJson,351,'comment')
+				return None
+			else :
+				print "token"
+				saveLangText(entity,cardJson,185,'name')
+				saveLangText(entity,cardJson,184,'desc')
+				saveLangText(entity,cardJson,351,'comment')
 				return entity
-			# else :
-			# 	print "token"
-			# 	saveLangText(entity,cardJson,185,'name')
-			# 	saveLangText(entity,cardJson,184,'desc')
-			# 	saveLangText(entity,cardJson,351,'comment')
-			# 	return entity
 	return None
 
 def getCardEntity(root,CardID):
@@ -184,6 +174,19 @@ def findOriginalCode(eng_name,infoJson,cardJson,cardType):
 			cardJson['info'] = infoJson
 			return originalCode
 
+def makeHeroPower(power_ids):
+	pwnJson = {}
+	for power_id in power_ids :
+		infoJson = {}
+		powerEntity = getCardEntity(cardDefRoot,power_id)
+		getHeroPower(powerEntity,infoJson,power_id)
+		print infoJson
+		info = {}
+		info["info"] = infoJson
+		pwnJson[power_id] = info
+	with open('newDB.json', 'w') as outfile:
+		json.dump(pwnJson, outfile, indent=4, sort_keys=True, separators=(',', ':'),ensure_ascii=False)
+
 def cardEngParser(result_cards,urlString,type):
 	print urlString
 	#visual-details-cell
@@ -233,9 +236,9 @@ def cardEngParser(result_cards,urlString,type):
 def setTypeDB(filterSet,result_cards,type,pageCount):
 	beforeCount = len(result_cards)
 	#정규
-	url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2&filter-unreleased=1' % filterSet
+	# url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2&filter-unreleased=1' % filterSet
 	#토큰
-	# url = 'http://www.hearthpwn.com/cards?filter-premium=0&filter-set=%d&display=2&filter-unreleased=0&filter-token=1' % filterSet
+	url = 'http://www.hearthpwn.com/cards?filter-premium=0&filter-set=%d&display=2&filter-unreleased=0&filter-token=1' % filterSet
 	# url = 'http://www.hearthpwn.com/cards?filter-name=Stegodon&display=2'
 	if pageCount > 0 :
 		for i in range(1,pageCount):
@@ -253,20 +256,20 @@ def original(resultCards):
 
 def hearthpwnDB():
 	resultCards = {}
-	original(resultCards)
-	setTypeDB(100,resultCards,'naxx',0)
-	setTypeDB(101,resultCards,'gvsg',3)
-	setTypeDB(102,resultCards,'blackrock',0)
-	setTypeDB(103,resultCards,'tgt',3)
-	setTypeDB(104,resultCards,'loe',0)
-	setTypeDB(105,resultCards,'oldgod',3)
-	setTypeDB(106,resultCards,'karazhan',0)
-	setTypeDB(107,resultCards,'gadgetzan',3)
-	setTypeDB(108,resultCards,'ungoro',3)
-	setTypeDB(109,resultCards,'frozen',3)
-	setTypeDB(110,resultCards,'kobolds',3)
-	setTypeDB(111,resultCards,'witchwood',3)
-	setTypeDB(113,resultCards,'boomsday',3)
+	# original(resultCards)
+	# setTypeDB(100,resultCards,'naxx',0)
+	# setTypeDB(101,resultCards,'gvsg',3)
+	# setTypeDB(102,resultCards,'blackrock',0)
+	# setTypeDB(103,resultCards,'tgt',3)
+	# setTypeDB(104,resultCards,'loe',0)
+	# setTypeDB(105,resultCards,'oldgod',3)
+	# setTypeDB(106,resultCards,'karazhan',0)
+	# setTypeDB(107,resultCards,'gadgetzan',3)
+	# setTypeDB(108,resultCards,'ungoro',3)
+	# setTypeDB(109,resultCards,'frozen',3)
+	# setTypeDB(110,resultCards,'kobolds',3)
+	#setTypeDB(111,resultCards,'witchwood',3)
+	setTypeDB(113,resultCards,'boomsday',0)
 	writeJson = {}
 	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
@@ -336,7 +339,9 @@ def hearthheadDB():
 def main():
 	reload(sys)
 	sys.setdefaultencoding('utf-8')
-	hearthpwnDB()
+	# hearthpwnDB()
+	power_ids = ["BOT_238p1","BOT_238p2","BOT_238p3","BOT_238p4","BOT_238p6"]
+	makeHeroPower(power_ids)
 	#hearthheadDB()
 	#relatedDB(437)
 		
