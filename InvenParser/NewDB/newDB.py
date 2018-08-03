@@ -96,7 +96,7 @@ def findEntityName(root,name,entity,cardJson,infoJson):
 	enumString = getEnumTagString(185)
 	tag = entity.findall(enumString)
 	cardID = entity.attrib['CardID']
-	if cardID[:4] != 'LOOT' or 'k' not in cardID :
+	if cardID[:3] != 'BOT' or 't' not in cardID :
 		return None
 	# cardCode = infoJson["cardCode"]
 	# if cardID == 'ICC_051t':
@@ -223,9 +223,9 @@ def cardEngParser(result_cards,urlString,type):
 def setTypeDB(filterSet,result_cards,type,pageCount):
 	beforeCount = len(result_cards)
 	#정규
-	url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2&filter-unreleased=1' % filterSet
+	# url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2&filter-unreleased=1' % filterSet
 	#토큰
-	# url = 'http://www.hearthpwn.com/cards?filter-premium=0&filter-set=%d&display=2&filter-unreleased=0&filter-token=1' % filterSet
+	url = 'http://www.hearthpwn.com/cards?filter-premium=0&filter-set=%d&display=2&filter-unreleased=0&filter-token=1' % filterSet
 	# url = 'http://www.hearthpwn.com/cards?filter-name=Stegodon&display=2'
 	if pageCount > 0 :
 		for i in range(1,pageCount):
@@ -255,7 +255,8 @@ def hearthpwnDB():
 	# setTypeDB(108,resultCards,'ungoro',3)
 	# setTypeDB(109,resultCards,'frozen',3)
 	# setTypeDB(110,resultCards,'kobolds',3)
-	setTypeDB(111,resultCards,'witchwood',3)
+	#setTypeDB(111,resultCards,'witchwood',3)
+	setTypeDB(113,resultCards,'boomsday',0)
 	writeJson = {}
 	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
