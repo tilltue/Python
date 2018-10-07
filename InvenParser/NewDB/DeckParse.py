@@ -11,13 +11,17 @@ import html2text
 
 def sectionParse(soup,sectionTag):
 	codes = ""
-	section = soup.find_all('section',sectionTag)[0]
-	trs = section.find('tbody').find_all('tr')
-	for tr in trs:
-		count =  2 if tr['class'][0] == 'even' else 1
-		cardID = tr.find('a')['data-id']
-		codes += '@' + `int(cardID)` + ':' + `count`
-	return codes
+	sections = soup.find_all('section',sectionTag)
+	if len(sections) > 2 :
+		section = sections[0]
+		trs = section.find('tbody').find_all('tr')
+		for tr in trs:
+			count =  2 if tr['class'][0] == 'even' else 1
+			cardID = tr.find('a')['data-id']
+			codes += '@' + `int(cardID)` + ':' + `count`
+		return codes
+	else:
+		return ""
 		
 
 def parseDeck(deck_id):
@@ -77,6 +81,7 @@ def hotDecks():
 		end = href[start:].find('-') + start
 		ids.append(int(href[start:end]))
 	resultDecks = {}
+	print len(ids)
 	for deck_id in ids[:20] :
 		print deck_id
 		resultDecks[deck_id] = parseDeck(deck_id)
@@ -98,7 +103,8 @@ def main():
 	reload(sys)
 	sys.setdefaultencoding('utf-8')
 	#hearthpwnDB()
-	hotDecks()
+	#hotDecks()
+	metaSnapshot()
 
 if __name__ == '__main__':
 	main()
