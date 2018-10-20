@@ -21,9 +21,14 @@ def syndicate():
 	#url = "https://www.hearthpwn.com/decks?filter-show-standard=1&filter-show-constructed-only=y&filter-deck-tag=1"
 	#Week
 	file = 'syndicate.json'
-	source = extract_source("https://www.vicioussyndicate.com/deck-library/druid-decks/")
+	source = extract_source("https://www.vicioussyndicate.com/deck-library")
 	soup = BeautifulSoup(source.text,from_encoding="en-us")
-	print soup
+	hrefs = []
+	for atags in soup.find_all('a',href = True):
+		href = atags['href']
+		if 'https://www.vicioussyndicate.com/deck-library/' in href:
+			hrefs.append(href)
+	print hrefs
 
 def main():
 	reload(sys)
