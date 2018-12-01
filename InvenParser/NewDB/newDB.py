@@ -249,8 +249,8 @@ def setTypeDB(filterSet,type,pageCount):
 	else :
 		cardEngParser(result_cards,url,type)
 	writeJson = {}
-	writeJson['cards'] = resultCards
-	file_name = '%s.json' % type
+	writeJson['cards'] = result_cards
+	file_name = 'cards_json/%s.json' % type
 	with open(file_name, 'w') as outfile:
 		json.dump(writeJson, outfile, indent=4, sort_keys=True, separators=(',', ':'),ensure_ascii=False)
 		#ensure_ascii=False).encode('utf8') 유니코드로 저장하려면 주석.
