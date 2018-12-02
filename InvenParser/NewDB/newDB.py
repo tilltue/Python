@@ -96,7 +96,9 @@ def findEntityName(root,name,entity,cardJson,infoJson):
 	enumString = getEnumTagString(185)
 	tag = entity.findall(enumString)
 	cardID = entity.attrib['CardID']
-	if cardID[:3] != 'BOT' or 't' not in cardID :
+	if cardID[:3] != 'TRL' or 't' not in cardID :
+		return None
+	if 'TRLA' in cardID :
 		return None
 	# cardCode = infoJson["cardCode"]
 	# if cardID == 'ICC_051t':
@@ -263,7 +265,7 @@ def original():
 	setTypeDB(11,'promo',0)
 
 def hearthpwnDB():
-	original()
+	#original()
 	# setTypeDB(100,'naxx',0)
 	# setTypeDB(101,'gvsg',3)
 	# setTypeDB(102,'blackrock',0)
@@ -277,7 +279,7 @@ def hearthpwnDB():
 	# setTypeDB(110,'kobolds',3)
 	# setTypeDB(111,'witchwood',3)
 	# setTypeDB(113,'boomsday',3)
-	setTypeDB(114,'rastakhan',3)	
+	setTypeDB(114,'rastakhan',4)	
 
 def loadPwnJson():
 	f = open('newDB_backup.json','r')
