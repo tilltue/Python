@@ -226,6 +226,8 @@ def cardEngParser(result_cards,urlString,type):
 			cardJson = {}
 			if cardName == 'Weaponized Pinata' :
 				cardName = 'Weaponized Piñata'
+			if cardName == "Mosh'ogg Enforcer" :
+				cardName = "Mosh'Ogg Enforcer"
 			originalCode = findOriginalCode(cardName,infoJson,cardJson,cardType)
 			if originalCode != None :
 				cardJson['setType'] = type
@@ -235,8 +237,8 @@ def cardEngParser(result_cards,urlString,type):
 	print len(result_cards)
 	return
 
-def setTypeDB(filterSet,type,pageCount):
-	result_cards = {}
+def setTypeDB(filterSet,result_cards,type,pageCount):
+	beforeCount = len(result_cards)
 	#정규
 	url = 'http://www.hearthpwn.com/cards?filter-premium=1&filter-set=%d&display=2&filter-unreleased=1' % filterSet
 	#토큰
@@ -248,36 +250,36 @@ def setTypeDB(filterSet,type,pageCount):
 			cardEngParser(result_cards,urlString,type)
 	else :
 		cardEngParser(result_cards,url,type)
-	writeJson = {}
-	writeJson['cards'] = result_cards
-	file_name = 'cards_json/%s.json' % type
-	with open(file_name, 'w') as outfile:
-		json.dump(writeJson, outfile, indent=4, sort_keys=True, separators=(',', ':'),ensure_ascii=False)
-		#ensure_ascii=False).encode('utf8') 유니코드로 저장하려면 주석.
-	print '%s count: %d' % (type , len(result_cards))
+	print '%s count: %d' % (type , len(result_cards)-beforeCount)
 
-def original():
-	setTypeDB(2,'basic',3)
-	setTypeDB(3,'classic',4)
-	setTypeDB(4,'hallOfFame',0)
-	setTypeDB(11,'promo',0)
+def original(resultCards):
+	setTypeDB(2,resultCards,'basic',3)
+	setTypeDB(3,resultCards,'classic',4)
+	setTypeDB(4,resultCards,'reward',0)
+	setTypeDB(11,resultCards,'promo',0)
 
 def hearthpwnDB():
-	original()
-	setTypeDB(100,'naxx',0)
-	setTypeDB(101,'gvsg',3)
-	setTypeDB(102,'blackrock',0)
-	setTypeDB(103,'tgt',3)
-	setTypeDB(104,'loe',0)
-	setTypeDB(105,'oldgod',3)
-	setTypeDB(106,'karazhan',0)
-	setTypeDB(107,'gadgetzan',3)
-	setTypeDB(108,'ungoro',3)
-	setTypeDB(109,'frozen',3)
-	setTypeDB(110,'kobolds',3)
-	setTypeDB(111,'witchwood',3)
-	setTypeDB(113,'boomsday',3)
-	setTypeDB(114,'rastakhan',3)	
+	resultCards = {}
+	original(resultCards)
+	setTypeDB(100,resultCards,'naxx',0)
+	setTypeDB(101,resultCards,'gvsg',3)
+	setTypeDB(102,resultCards,'blackrock',0)
+	setTypeDB(103,resultCards,'tgt',3)
+	setTypeDB(104,resultCards,'loe',0)
+	setTypeDB(105,resultCards,'oldgod',3)
+	setTypeDB(106,resultCards,'karazhan',0)
+	setTypeDB(107,resultCards,'gadgetzan',3)
+	setTypeDB(108,resultCards,'ungoro',3)
+	setTypeDB(109,resultCards,'frozen',3)
+	setTypeDB(110,resultCards,'kobolds',3)
+	setTypeDB(111,resultCards,'witchwood',3)
+	setTypeDB(113,resultCards,'boomsday',3)
+	setTypeDB(114,resultCards,'rastakhan',3)
+	writeJson = {}
+	writeJson['cards'] = resultCards
+	with open('newDB.json', 'w') as outfile:
+		json.dump(writeJson, outfile, indent=4, sort_keys=True, separators=(',', ':'),ensure_ascii=False)
+		#ensure_ascii=False).encode('utf8') 유니코드로 저장하려면 주석.
 
 def loadPwnJson():
 	f = open('newDB_backup.json','r')
