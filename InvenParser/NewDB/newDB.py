@@ -255,7 +255,7 @@ def setTypeDB(filterSet,result_cards,type,pageCount):
 def original(resultCards):
 	setTypeDB(2,resultCards,'basic',3)
 	setTypeDB(3,resultCards,'classic',4)
-	setTypeDB(4,resultCards,'reward',0)
+	setTypeDB(4,resultCards,'reward',0)# hall of frame
 	setTypeDB(11,resultCards,'promo',0)
 
 def hearthpwnDB():
@@ -275,6 +275,7 @@ def hearthpwnDB():
 	setTypeDB(111,resultCards,'witchwood',3)
 	setTypeDB(113,resultCards,'boomsday',3)
 	setTypeDB(114,resultCards,'rastakhan',3)
+	setTypeDB(115,resultCards,'riseofshadows',3)
 	writeJson = {}
 	writeJson['cards'] = resultCards
 	with open('newDB.json', 'w') as outfile:
